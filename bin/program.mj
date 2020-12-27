@@ -1,0 +1,25 @@
+program MJProgram
+	int x; int y;
+{
+	
+	int k () int c; {
+		c = 1;
+		c = c++;
+		c++;
+		--c;
+		boolean d = true;
+		if (d == false){
+		
+		}
+		return c+2;
+	}
+	
+	int main() {
+		y = 2;
+		x = y + 2;
+		y = k() + 3;
+		print(y);
+		print('A');
+		return 0;
+	}
+}
