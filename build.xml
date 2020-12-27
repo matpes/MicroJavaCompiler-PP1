@@ -6,6 +6,7 @@
 		<delete>
 			<fileset dir="src/rs/ac/bg/etf/pp1">
 				<exclude name="sym_old.java"/>
+				<exclude name="sym.java"/>
 				<exclude name="util/Log4JUtils.java"/>
 				<exclude name="Yylex.java"/>
 				<exclude name="RuleVisitor.java"/>
@@ -13,7 +14,7 @@
 		</delete>
 		<delete>
 			<fileset dir="spec">
-				<exclude name="mjlexer.lex"/>
+				<exclude name="mjlexer.flex"/>
 				<exclude name="mjparser.cup"/>
 			</fileset>
 		</delete>
