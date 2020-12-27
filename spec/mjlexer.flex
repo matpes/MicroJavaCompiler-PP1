@@ -36,7 +36,7 @@ import java_cup.runtime.Symbol;
 "\r\n" 	{ }
 "\f" 	{ }
 
-"program"   { return new_symbol(sym.PROGRAM, yytext()); 	}
+"program"   { return new_symbol(sym.PROG, yytext()); 	}
 "break"   	{ return new_symbol(sym.BREAK, yytext()); 		}
 "print" 	{ return new_symbol(sym.PRINT, yytext()); 		}
 "return" 	{ return new_symbol(sym.RETURN, yytext());		}
@@ -79,7 +79,7 @@ import java_cup.runtime.Symbol;
 "["			{ return new_symbol(sym.LBOX, yytext());		}
 "]"			{ return new_symbol(sym.RBOX, yytext());		}
 "{" 		{ return new_symbol(sym.LBRACE, yytext()); 		}
-"}"			{ return new_symbol(sym.RBACE, yytext());		}
+"}"			{ return new_symbol(sym.RBRACE, yytext());		}
 "?" 		{ return new_symbol(sym.QUESTION, yytext()); 		}
 ":"			{ return new_symbol(sym.COLON, yytext());		}
 
