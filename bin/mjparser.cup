@@ -54,22 +54,25 @@ scan with {:
 :}
 
 
-terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, LBOX, RBOX, PRINT, READ, RETURN, EQUAL, VOID;
+terminal PROG, LBRACE, RBRACE, SEMI, FULL, LPAREN, RPAREN, COMMA, LBOX, RBOX, PRINT, READ, RETURN, EQUAL, VOID;
 terminal String IDENT ;
 terminal Boolean BOOL_CONST ;
 terminal Character CHAR_CONST;
 terminal Integer NUMBER_CONST;
-terminal IF, ELSE, DO, WHILE, SWTICH, COLON, CASE, CONTINUE, BREAK, PLUSPLUS, MINUSMINUS;
-terminal PLUS, MINUS, MUL, DIV, MOD, QUESTION, EQ, NEQ, GR, GRE, LO, LOE;
+terminal IF, ELSE, DO, WHILE, SWITCH, COLON, CASE, CONTINUE, BREAK, PLUSPLUS, MINUSMINUS;
+terminal PLUS, MINUS, MUL, DIV, MOD, QUESTION, EQ, NEQ, GR, GRE, LO, LOE, ENUM;
+terminal CLASS, EXTENDS, CONST, OR, AND, NEW;
 
-nonterminal MethodDeclList, VarDecl, DecList, VarDecList, VarDeclAddition, ConstDeclList, ClassDeclList, ClassDecl, ConstDecl, ConstVar, ConstDeclAddition;
+nonterminal MethodDeclList, VarDecl, DeclList, VarDecList, VarDeclAddition, ConstDeclList, ClassDeclList, ClassDecl, ConstDecl, ConstVar, ConstDeclAddition;
 nonterminal FormalParamList, FormalParamDecl, FormPars, ActualPars, ActualParamList; 
 nonterminal StatementList, Statement, Addop, Mulop, Relop, Assignop;
 nonterminal Unmatched, Matched, OptBox, CaseList, DesignatorStatement;
-nonterminal Condition, CondTerm, CondFact;
+nonterminal Condition, CondTerm, CondFact, OptExpr, TypeDecl, PrintStatement, IfStatement;
 
 nonterminal Program, ProgName, Designator, MethodDecl, MethodTypeName; 
-nonterminal Type, Term, Expr, Factor; 
+nonterminal Type, Term, Expr, Expr1, Factor, Statement2; 
+
+precedence left ELSE;
 
 Program ::= (Program) PROG ProgName:p DeclList LBRACE MethodDeclList RBRACE 
 ;
@@ -77,63 +80,59 @@ Program ::= (Program) PROG ProgName:p DeclList LBRACE MethodDeclList RBRACE
 ProgName ::= (ProgName) IDENT:pName 
 ;
 
-DecList ::= (VarDecList) DecList VarDecList
-			|
-			(ConstDeclList) DecList ConstDeclList
+DeclList ::= (DeclarationList) DeclList TypeDecl
 			|	
-			(ClassDeclList) DecList ClassDeclList
-			|	
-			(NoDeclList) /* epsilon */
+			(NoDeclarationList) /* epsilon */
 			; 
+			
+			
+TypeDecl ::= (VarTypeDeclaration) VarDecl
+			|
+			(ConstTypeDeclaration) ConstDecl
+			|
+			(ClassTypeDeclaration) ClassDecl
+			;
 
 VarDecList ::= (VarDeclarations) VarDecList VarDecl  
 				|
-				(NoVarDecl)/* epsilon */ 
+				(SingleVarDecl) VarDecl
 				;
 				
 VarDecl ::= (VarDecl) Type:varType IDENT:varName OptBox VarDeclAddition SEMI ;
 		
-VarDeclAddition ::= (VarDeclAddition) VarDeclAddition COMMA Type:varType IDENT:varName OptBox
+VarDeclAddition ::= (VarDeclAdd) VarDeclAddition COMMA IDENT:varName OptBox
 					|	
-					(NoVarDeclAdition) /* epsilon */ 
+					(NoVarDeclAdd) /* epsilon */ 
 					;
 
-Type ::= (Type) IDENT:typeName 
-;
+Type ::= (Type) IDENT:typeName ;
+
 
 MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
 					|
-					(NoMethodDecl)/* epsilon */
+					(NoMethodDecl) /* epsilon */
 					;
 
-MethodDecl ::= (MethodDecl) MethodTypeName LPAREN FormPars RPAREN VarDecList LBRACE StatementList RBRACE 
+MethodDecl ::= (MethodDeclaration) MethodTypeName LPAREN FormPars RPAREN VarDecList LBRACE StatementList RBRACE
 			   ;
 
-MethodTypeName ::= (MethodTypeName) Type:retType IDENT:methName
+MethodTypeName ::= (MetTypeName) Type:retType IDENT:methName
 					| 
-					(MethodVoidName) VOID IDENT:methName
+					(MetVoidName) VOID IDENT:methName
 					;
 
-ClassDeclList ::= (ClassDeclarations) ClassDeclList ClassDecl
-				| 
-				(NoClassDeclList) /* epsilon */
-				;
 
-ClassDecl ::= (ClassDecl) CLASS IDENT:className LBRACE VarDecList  RBRACE
+ClassDecl ::= (ClassDeclSimple) CLASS IDENT:className LBRACE VarDecList RBRACE
 			| 
 			(ClassDeclMethods) CLASS IDENT:className LBRACE VarDecList LBRACE MethodDeclList RBRACE RBRACE
 			| 
-			(ClassDeclExtends) CLASS IDENT:className EXTENDS Type:parentClass LBRACE VarDecList  RBRACE
+			(ClassDeclExtends) CLASS IDENT:className EXTENDS Type:parentClass LBRACE VarDecList RBRACE
 			| 
 			(ClassDeclExtendsMethods) CLASS IDENT:className EXTENDS Type:parentClass LBRACE VarDecList LBRACE MethodDeclList RBRACE RBRACE
 			;
 
-ConstDeclList ::= (ConstDeclarations) ConstDeclList ConstDecl
-				| 
-				(NoConstDeclList) /* epsilon */
-				;
 				
-ConstDecl ::= (ConstDecl) CONST Type IDENT EQUAL ConstVar ConstDeclAdditonal SEMI
+ConstDecl ::= (ConstDecl) CONST Type IDENT EQUAL ConstVar ConstDeclAddition SEMI
 			;
 
 ConstDeclAddition ::= (ConstDeclAdd) ConstDeclAddition COMMA IDENT EQUAL ConstVar
@@ -164,52 +163,47 @@ FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
 					(SingleFormalParamDecl) FormalParamDecl
 					;
 					
-FormalParamDecl ::= (FormalParamDecl) Type IDENT OptBox;
+FormalParamDecl ::= (FormalParamDecl) Type:pt IDENT:pi OptBox;
 
 StatementList ::= (Statements) StatementList Statement 
 				|
 				(NoStmt) /* epsilon */
 				;
 
-Statement ::= (MatchedStmt) Matched 
-			  | 
-			  (UnmachedStmt) Unmatched 
-			  ;
-
-Unmatched ::= (UnmatchedIf) IF Condition Statement 
-			| (UnmatchedIfElse) IF Condition Matched ELSE Unmatched
-			;
-	
 				  
-Matched ::= (Assignment) DesignatorStatement:dest SEMI 
-			  |
-			  (ErrAssignment) Designator EQUAL error SEMI
-			  {: parser.log.debug("Uspesan oporavak od greske pri dodeli vrednosti."); :}
-			  |
-			  (PrintStmt) PRINT LPAREN Expr RPAREN SEMI 
-			  |
-			  (PrintStmtAndNumber) PRINT LPAREN Expr COMMA NUMBER_CONST RPAREN SEMI 
-			  |
-			  (PrintStmt) READ LPAREN Designator RPAREN SEMI 
-			  |
-			  (ReturnExpr) RETURN Expr:t SEMI
-			  |
-			  (ReturnNoExpr) RETURN SEMI
-			  | 
-			  (MatchedIf) IF Condition Matched ELSE Matched
-			  |
-			  (ProcCall) Designator:func LPAREN ActualPars RPAREN SEMI
-			  |
-			  (Break) BREAK SEMI
+Statement ::= (Break) BREAK SEMI
 			  |
 			  (Continue) CONTINUE SEMI
 			  |
-			  (DoWhile) DO Statement WHILE LPAREN Condition RPAREN SEMI
+			  (ReturnNoExpr) RETURN SEMI
+			  |
+			  (ReturnExpr) RETURN Expr:t SEMI
 			  |
 			  (BracedStatement) LBRACE StatementList RBRACE
 			  |
+			  (PrintStmt) PrintStatement SEMI
+			  |
+			  (ReadStmt) READ LPAREN Designator RPAREN SEMI 
+			  |
 			  (Switch) SWITCH LPAREN Expr RPAREN LBRACE CaseList RBRACE
+			  |
+			  (Assignment) DesignatorStatement:dest SEMI 
+			  |
+			  (IfStmt) IfStatement
+			  |
+			  (DoWhile) DO Statement WHILE LPAREN Condition RPAREN SEMI
 			  ;
+			  
+			  
+PrintStatement ::= PRINT LPAREN Expr RPAREN SEMI 
+			  |
+			  (PrintStmtAndNumber) PRINT LPAREN Expr COMMA NUMBER_CONST RPAREN SEMI 
+			  ;
+			  
+IfStatement ::= (IfWithoutElseStatementExpression) IF LPAREN Condition RPAREN Statement   
+				|
+				(IfWithElseStatementExpression) IF LPAREN Condition RPAREN Statement ELSE Statement
+				;
 			  
 CaseList ::= (Case) CaseList CASE NUMBER_CONST COLON StatementList
 			|
@@ -236,23 +230,22 @@ CondTerm ::= (ConditionFact) CondFact
 			(ConditionAnd) CondTerm AND CondFact
 			;
 			
-CondFact ::= (CondFact) Expr
+CondFact ::= (CondFactExpr) Expr:expr
 			|
-			(CondFactRelop)Expr Relop Expr
+			(CondFactRelop)Expr:expr1 Relop Expr:expr2
 			;
 
-Expr ::= (AddExpr) Expr:te Addop Term:t
+Expr1 ::= (AddExpr) Expr1:te Addop Term:t
 		 |
 		 (TermExpr) Term:t
 		 |
-		 (NegAddExpr) MINUS Expr:te Addopt Term:t
-		 |
 		 (NegTermExpr) MINUS Term:t
-		 |
-		 (ConditionExpr) Condition QUESTION Expr COLON Expr
-		 |
-		 (CondFactExpt) CondFact QUESTION Expr COLON Expr
 		 ;
+		 
+Expr ::= (ConditionExpr) Expr1:cond QUESTION Expr1:expr1 COLON Expr1:expr2
+		|
+		(Expresion) Expr1
+		;
 
 Term ::= (FactorTerm) Factor:t 
 		|
@@ -266,12 +259,15 @@ Factor ::= (Const) ConstVar
 		   	|
 		   	(FuncCall) Designator:func LPAREN ActualPars RPAREN
 		   	|
-		   	(NewVar) NEW Type
-		   	|
-		   	(NewArray) NEW Type LBOX Expr RBOX
+		   	(NewVar) NEW Type OptExpr
 		   	|
 		   	(FactorExpr) LPAREN Expr RPAREN
 		   ;
+		   
+OptExpr ::= (YesOptExpr) LBOX Expr RBOX
+		|
+		(NoOptExpr) /* epsilon */
+		;
 
 ActualPars ::= (Actuals) ActualParamList 
 				| 
@@ -283,26 +279,26 @@ ActualParamList ::= (ActualParams) ActualParamList COMMA Expr
 					(ActualParam) Expr
 					;
 
-Designator ::= (Designator) IDENT:name
+Designator ::= (DesignatorIdent) IDENT:name
 			| 
 			(DesignatorIdentList) Designator FULL IDENT
 			|
 			(DesignatorExprList) Designator LBOX Expr RBOX
 			;
 
-Assignop ::= EQUAL;
+Assignop ::= (Assign) EQUAL;
 
-Relop ::= EQ
+Relop ::= (Equal) EQ
 		|
-		NEQ
+		(NotEqual) NEQ
 		|
-		GR
+		(Greater) GR
 		|
-		GRE
+		(GreaterOrEqual) GRE
 		|
-		LO
+		(Lower) LO
 		|
-		LOE
+		(LowerOrEqual) LOE
 		;
 
 Addop ::= (Addop) PLUS 
