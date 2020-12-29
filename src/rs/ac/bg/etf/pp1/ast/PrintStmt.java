@@ -1,25 +1,25 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2020 15:55:1
+// 29/11/2020 21:9:32
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class PrintStmt extends Statement {
 
-    private PrintStatement PrintStatement;
+    private Expr Expr;
 
-    public PrintStmt (PrintStatement PrintStatement) {
-        this.PrintStatement=PrintStatement;
-        if(PrintStatement!=null) PrintStatement.setParent(this);
+    public PrintStmt (Expr Expr) {
+        this.Expr=Expr;
+        if(Expr!=null) Expr.setParent(this);
     }
 
-    public PrintStatement getPrintStatement() {
-        return PrintStatement;
+    public Expr getExpr() {
+        return Expr;
     }
 
-    public void setPrintStatement(PrintStatement PrintStatement) {
-        this.PrintStatement=PrintStatement;
+    public void setExpr(Expr Expr) {
+        this.Expr=Expr;
     }
 
     public void accept(Visitor visitor) {
@@ -27,16 +27,16 @@ public class PrintStmt extends Statement {
     }
 
     public void childrenAccept(Visitor visitor) {
-        if(PrintStatement!=null) PrintStatement.accept(visitor);
+        if(Expr!=null) Expr.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
-        if(PrintStatement!=null) PrintStatement.traverseTopDown(visitor);
+        if(Expr!=null) Expr.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
-        if(PrintStatement!=null) PrintStatement.traverseBottomUp(visitor);
+        if(Expr!=null) Expr.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -45,8 +45,8 @@ public class PrintStmt extends Statement {
         buffer.append(tab);
         buffer.append("PrintStmt(\n");
 
-        if(PrintStatement!=null)
-            buffer.append(PrintStatement.toString("  "+tab));
+        if(Expr!=null)
+            buffer.append(Expr.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

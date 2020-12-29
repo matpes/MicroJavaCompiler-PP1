@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2020 15:55:1
+// 29/11/2020 21:9:32
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -13,6 +13,7 @@ public interface Visitor {
     public void visit(Matched Matched);
     public void visit(Relop Relop);
     public void visit(Assignop Assignop);
+    public void visit(FormalParamDecl FormalParamDecl);
     public void visit(Statement2 Statement2);
     public void visit(StatementList StatementList);
     public void visit(Factor Factor);
@@ -92,13 +93,12 @@ public interface Visitor {
     public void visit(Case Case);
     public void visit(IfWithElseStatementExpression IfWithElseStatementExpression);
     public void visit(IfWithoutElseStatementExpression IfWithoutElseStatementExpression);
-    public void visit(PrintStmtAndNumber PrintStmtAndNumber);
-    public void visit(PrintStatementDerived1 PrintStatementDerived1);
     public void visit(DoWhile DoWhile);
     public void visit(IfStmt IfStmt);
     public void visit(Assignment Assignment);
     public void visit(Switch Switch);
     public void visit(ReadStmt ReadStmt);
+    public void visit(PrintStmtAndNumber PrintStmtAndNumber);
     public void visit(PrintStmt PrintStmt);
     public void visit(BracedStatement BracedStatement);
     public void visit(ReturnExpr ReturnExpr);
@@ -107,7 +107,9 @@ public interface Visitor {
     public void visit(Break Break);
     public void visit(NoStmt NoStmt);
     public void visit(Statements Statements);
-    public void visit(FormalParamDecl FormalParamDecl);
+    public void visit(ErrorFPClass ErrorFPClass);
+    public void visit(FormalParamDeclaration FormalParamDeclaration);
+    public void visit(ErrorFPCommaClass ErrorFPCommaClass);
     public void visit(SingleFormalParamDecl SingleFormalParamDecl);
     public void visit(FormalParamDecls FormalParamDecls);
     public void visit(BoxNo BoxNo);
@@ -126,6 +128,7 @@ public interface Visitor {
     public void visit(ClassDeclSimple ClassDeclSimple);
     public void visit(MetVoidName MetVoidName);
     public void visit(MetTypeName MetTypeName);
+    public void visit(ErrorMethodClass ErrorMethodClass);
     public void visit(MethodDeclaration MethodDeclaration);
     public void visit(NoMethodDecl NoMethodDecl);
     public void visit(MethodDeclarations MethodDeclarations);
@@ -133,7 +136,7 @@ public interface Visitor {
     public void visit(NoVarDeclAdd NoVarDeclAdd);
     public void visit(VarDeclAdd VarDeclAdd);
     public void visit(VarDecl VarDecl);
-    public void visit(SingleVarDecl SingleVarDecl);
+    public void visit(NoVarDecl NoVarDecl);
     public void visit(VarDeclarations VarDeclarations);
     public void visit(ClassTypeDeclaration ClassTypeDeclaration);
     public void visit(ConstTypeDeclaration ConstTypeDeclaration);

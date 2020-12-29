@@ -15,7 +15,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 import rs.ac.bg.etf.pp1.ast.Program;
 import rs.ac.bg.etf.pp1.util.Log4JUtils;
 
-public class MJParserTest {
+public class MJParserTest2 {
 
 	static {
 		DOMConfigurator.configure(Log4JUtils.instance().findLoggerConfigFile());
@@ -24,7 +24,7 @@ public class MJParserTest {
 	
 	public static void main(String[] args) throws Exception {
 		
-		Logger log = Logger.getLogger(MJParserTest.class);
+		Logger log = Logger.getLogger(MJParserTest2.class);
 		
 		Reader br = null;
 		try {

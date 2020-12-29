@@ -22,7 +22,7 @@ parser code {:
     }
   
     public void syntax_error(Symbol cur_token) {
-        report_error("\nSintaksna greska", cur_token);
+        report_error("Sintaksna greska", cur_token);
     }
   
     public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
@@ -95,7 +95,7 @@ TypeDecl ::= (VarTypeDeclaration) VarDecl
 
 VarDecList ::= (VarDeclarations) VarDecList VarDecl  
 				|
-				(SingleVarDecl) VarDecl
+				(NoVarDecl) /* epsilon */
 				;
 				
 VarDecl ::= (VarDecl) Type:varType IDENT:varName OptBox VarDeclAddition SEMI ;
@@ -114,6 +114,9 @@ MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
 					;
 
 MethodDecl ::= (MethodDeclaration) MethodTypeName LPAREN FormPars RPAREN VarDecList LBRACE StatementList RBRACE
+				|
+				(ErrorMethodClass) error RPAREN:l
+				{: parser.report_error("Greska kod formalnih parametara. Oporavljeno do ). Greska na liniji: " + lleft, null); :}
 			   ;
 
 MethodTypeName ::= (MetTypeName) Type:retType IDENT:methName
@@ -161,9 +164,16 @@ OptBox ::= (BoxYes) LBOX RBOX
 FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
 					|
 					(SingleFormalParamDecl) FormalParamDecl
+					|
+					(ErrorFPCommaClass) error COMMA:l
+					{: parser.report_error("Greska kod formalnih parametara, oporavljena do , na liniji: " + lleft, null); :}
 					;
 					
-FormalParamDecl ::= (FormalParamDecl) Type:pt IDENT:pi OptBox;
+FormalParamDecl ::= (FormalParamDeclaration) Type:pt IDENT:pi OptBox
+				|
+				(ErrorFPClass) error RPAREN:l
+				{: parser.report_error("Greska kod formalnih parametara. Oporavljeno do ). Greska na liniji: " + lleft, null); :}
+				;
 
 StatementList ::= (Statements) StatementList Statement 
 				|
@@ -181,7 +191,9 @@ Statement ::= (Break) BREAK SEMI
 			  |
 			  (BracedStatement) LBRACE StatementList RBRACE
 			  |
-			  (PrintStmt) PrintStatement SEMI
+			  (PrintStmt)PRINT LPAREN Expr RPAREN SEMI 
+			  |
+			  (PrintStmtAndNumber) PRINT LPAREN Expr COMMA NUMBER_CONST RPAREN SEMI 
 			  |
 			  (ReadStmt) READ LPAREN Designator RPAREN SEMI 
 			  |
@@ -194,11 +206,6 @@ Statement ::= (Break) BREAK SEMI
 			  (DoWhile) DO Statement WHILE LPAREN Condition RPAREN SEMI
 			  ;
 			  
-			  
-PrintStatement ::= PRINT LPAREN Expr RPAREN SEMI 
-			  |
-			  (PrintStmtAndNumber) PRINT LPAREN Expr COMMA NUMBER_CONST RPAREN SEMI 
-			  ;
 			  
 IfStatement ::= (IfWithoutElseStatementExpression) IF LPAREN Condition RPAREN Statement   
 				|

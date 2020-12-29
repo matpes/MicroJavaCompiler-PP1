@@ -1,0 +1,222 @@
+INFO  17:24:05,543 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:24:05,593 - #2 program
+INFO  17:24:05,593 - #17 MJProgram
+INFO  17:24:05,593 - #17 int
+INFO  17:24:05,596 - #17 x
+INFO  17:24:05,596 - #5 ;
+INFO  17:24:05,599 - #17 int
+INFO  17:24:05,600 - #17 y
+INFO  17:24:05,600 - #5 ;
+INFO  17:24:05,600 - #3 {
+INFO  17:24:05,600 - #17 int
+INFO  17:24:05,601 - #17 main
+INFO  17:24:05,601 - #7 (
+INFO  17:24:05,601 - #8 )
+INFO  17:24:05,602 - #3 {
+INFO  17:24:05,602 - #17 y
+INFO  17:24:05,603 - #15 =
+INFO  17:24:05,603 - #20 2
+INFO  17:24:05,603 - #5 ;
+INFO  17:24:05,604 - #17 x
+INFO  17:24:05,604 - #15 =
+INFO  17:24:05,604 - #17 y
+INFO  17:24:05,604 - #32 +
+INFO  17:24:05,606 - #20 2
+INFO  17:24:05,607 - #5 ;
+INFO  17:24:05,607 - #17 y
+INFO  17:24:05,607 - #15 =
+INFO  17:24:05,607 - #17 k
+INFO  17:24:05,607 - #7 (
+INFO  17:24:05,607 - #8 )
+INFO  17:24:05,607 - #32 +
+INFO  17:24:05,608 - #20 3
+INFO  17:24:05,608 - #5 ;
+INFO  17:24:05,608 - #29 break
+INFO  17:24:05,608 - #5 ;
+INFO  17:24:05,608 - #28 continue
+INFO  17:24:05,608 - #5 ;
+INFO  17:24:05,608 - #13 read
+INFO  17:24:05,609 - #7 (
+INFO  17:24:05,609 - #17 y
+INFO  17:24:05,609 - #8 )
+INFO  17:24:05,609 - #5 ;
+INFO  17:24:05,609 - #14 return
+INFO  17:24:05,609 - #20 0
+INFO  17:24:05,609 - #5 ;
+INFO  17:24:05,609 - #4 }
+INFO  17:24:05,610 - #4 }
+INFO  17:24:05,611 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          BoxNo(
+          ) [BoxNo]
+          NoVarDeclAdd(
+          ) [NoVarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       y
+        BoxNo(
+        ) [BoxNo]
+        NoVarDeclAdd(
+        ) [NoVarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MetTypeName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MetTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    Assignment(
+                      DesignatorAssign(
+                        DesignatorIdent(
+                         y
+                        ) [DesignatorIdent]
+                        Assign(
+                        ) [Assign]
+                        Expresion(
+                          TermExpr(
+                            FactorTerm(
+                              Const(
+                                NumberConst(
+                                 2
+                                ) [NumberConst]
+                              ) [Const]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [Expresion]
+                      ) [DesignatorAssign]
+                    ) [Assignment]
+                  ) [Statements]
+                  Assignment(
+                    DesignatorAssign(
+                      DesignatorIdent(
+                       x
+                      ) [DesignatorIdent]
+                      Assign(
+                      ) [Assign]
+                      Expresion(
+                        AddExpr(
+                          TermExpr(
+                            FactorTerm(
+                              Var(
+                                DesignatorIdent(
+                                 y
+                                ) [DesignatorIdent]
+                              ) [Var]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                          Addop(
+                          ) [Addop]
+                          FactorTerm(
+                            Const(
+                              NumberConst(
+                               2
+                              ) [NumberConst]
+                            ) [Const]
+                          ) [FactorTerm]
+                        ) [AddExpr]
+                      ) [Expresion]
+                    ) [DesignatorAssign]
+                  ) [Assignment]
+                ) [Statements]
+                Assignment(
+                  DesignatorAssign(
+                    DesignatorIdent(
+                     y
+                    ) [DesignatorIdent]
+                    Assign(
+                    ) [Assign]
+                    Expresion(
+                      AddExpr(
+                        TermExpr(
+                          FactorTerm(
+                            FuncCall(
+                              DesignatorIdent(
+                               k
+                              ) [DesignatorIdent]
+                              NoActuals(
+                              ) [NoActuals]
+                            ) [FuncCall]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        Addop(
+                        ) [Addop]
+                        FactorTerm(
+                          Const(
+                            NumberConst(
+                             3
+                            ) [NumberConst]
+                          ) [Const]
+                        ) [FactorTerm]
+                      ) [AddExpr]
+                    ) [Expresion]
+                  ) [DesignatorAssign]
+                ) [Assignment]
+              ) [Statements]
+              Break(
+              ) [Break]
+            ) [Statements]
+            Continue(
+            ) [Continue]
+          ) [Statements]
+          ReadStmt(
+            DesignatorIdent(
+             y
+            ) [DesignatorIdent]
+          ) [ReadStmt]
+        ) [Statements]
+        ReturnExpr(
+          Expresion(
+            TermExpr(
+              FactorTerm(
+                Const(
+                  NumberConst(
+                   0
+                  ) [NumberConst]
+                ) [Const]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [Expresion]
+        ) [ReturnExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:24:05,612 - ===================================
+INFO  17:24:05,614 -  Print count calls = 0

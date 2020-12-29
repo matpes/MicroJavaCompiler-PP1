@@ -1,0 +1,210 @@
+INFO  17:15:04,471 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:15:04,531 - #2 program
+INFO  17:15:04,531 - #17 MJProgram
+INFO  17:15:04,531 - #17 int
+INFO  17:15:04,533 - #17 x
+INFO  17:15:04,534 - #5 ;
+INFO  17:15:04,536 - #17 int
+INFO  17:15:04,537 - #17 y
+INFO  17:15:04,538 - #5 ;
+INFO  17:15:04,538 - #3 {
+INFO  17:15:04,538 - #17 int
+INFO  17:15:04,539 - #17 main
+INFO  17:15:04,539 - #7 (
+INFO  17:15:04,539 - #8 )
+INFO  17:15:04,540 - #3 {
+INFO  17:15:04,541 - #17 y
+INFO  17:15:04,542 - #15 =
+INFO  17:15:04,542 - #20 2
+INFO  17:15:04,545 - #5 ;
+INFO  17:15:04,546 - #17 x
+INFO  17:15:04,547 - #15 =
+INFO  17:15:04,547 - #17 y
+INFO  17:15:04,547 - #32 +
+INFO  17:15:04,549 - #20 2
+INFO  17:15:04,550 - #5 ;
+INFO  17:15:04,550 - #17 y
+INFO  17:15:04,550 - #15 =
+INFO  17:15:04,551 - #17 k
+INFO  17:15:04,551 - #7 (
+INFO  17:15:04,551 - #8 )
+INFO  17:15:04,551 - #32 +
+INFO  17:15:04,553 - #20 3
+INFO  17:15:04,553 - #5 ;
+INFO  17:15:04,553 - #29 break
+INFO  17:15:04,553 - #5 ;
+INFO  17:15:04,553 - #28 continue
+INFO  17:15:04,554 - #5 ;
+INFO  17:15:04,554 - #14 return
+INFO  17:15:04,555 - #20 0
+INFO  17:15:04,555 - #5 ;
+INFO  17:15:04,555 - #4 }
+INFO  17:15:04,555 - #4 }
+INFO  17:15:04,557 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          BoxNo(
+          ) [BoxNo]
+          NoVarDeclAdd(
+          ) [NoVarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       y
+        BoxNo(
+        ) [BoxNo]
+        NoVarDeclAdd(
+        ) [NoVarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MetTypeName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MetTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  NoStmt(
+                  ) [NoStmt]
+                  Assignment(
+                    DesignatorAssign(
+                      DesignatorIdent(
+                       y
+                      ) [DesignatorIdent]
+                      Assign(
+                      ) [Assign]
+                      Expresion(
+                        TermExpr(
+                          FactorTerm(
+                            Const(
+                              NumberConst(
+                               2
+                              ) [NumberConst]
+                            ) [Const]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [Expresion]
+                    ) [DesignatorAssign]
+                  ) [Assignment]
+                ) [Statements]
+                Assignment(
+                  DesignatorAssign(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                    Assign(
+                    ) [Assign]
+                    Expresion(
+                      AddExpr(
+                        TermExpr(
+                          FactorTerm(
+                            Var(
+                              DesignatorIdent(
+                               y
+                              ) [DesignatorIdent]
+                            ) [Var]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                        Addop(
+                        ) [Addop]
+                        FactorTerm(
+                          Const(
+                            NumberConst(
+                             2
+                            ) [NumberConst]
+                          ) [Const]
+                        ) [FactorTerm]
+                      ) [AddExpr]
+                    ) [Expresion]
+                  ) [DesignatorAssign]
+                ) [Assignment]
+              ) [Statements]
+              Assignment(
+                DesignatorAssign(
+                  DesignatorIdent(
+                   y
+                  ) [DesignatorIdent]
+                  Assign(
+                  ) [Assign]
+                  Expresion(
+                    AddExpr(
+                      TermExpr(
+                        FactorTerm(
+                          FuncCall(
+                            DesignatorIdent(
+                             k
+                            ) [DesignatorIdent]
+                            NoActuals(
+                            ) [NoActuals]
+                          ) [FuncCall]
+                        ) [FactorTerm]
+                      ) [TermExpr]
+                      Addop(
+                      ) [Addop]
+                      FactorTerm(
+                        Const(
+                          NumberConst(
+                           3
+                          ) [NumberConst]
+                        ) [Const]
+                      ) [FactorTerm]
+                    ) [AddExpr]
+                  ) [Expresion]
+                ) [DesignatorAssign]
+              ) [Assignment]
+            ) [Statements]
+            Break(
+            ) [Break]
+          ) [Statements]
+          Continue(
+          ) [Continue]
+        ) [Statements]
+        ReturnExpr(
+          Expresion(
+            TermExpr(
+              FactorTerm(
+                Const(
+                  NumberConst(
+                   0
+                  ) [NumberConst]
+                ) [Const]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [Expresion]
+        ) [ReturnExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:15:04,558 - ===================================
+INFO  17:15:04,562 -  Print count calls = 0

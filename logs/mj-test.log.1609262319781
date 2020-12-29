@@ -1,0 +1,372 @@
+INFO  18:03:53,314 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:03:53,362 - #2 program
+INFO  18:03:53,362 - #17 MJProgram
+INFO  18:03:53,362 - #17 int
+INFO  18:03:53,363 - #17 x
+INFO  18:03:53,364 - #5 ;
+INFO  18:03:53,365 - #17 int
+INFO  18:03:53,366 - #17 y
+INFO  18:03:53,367 - #5 ;
+INFO  18:03:53,367 - #3 {
+INFO  18:03:53,367 - #17 int
+INFO  18:03:53,368 - #17 main
+INFO  18:03:53,368 - #7 (
+INFO  18:03:53,368 - #8 )
+INFO  18:03:53,369 - #3 {
+INFO  18:03:53,369 - #17 y
+INFO  18:03:53,370 - #15 =
+INFO  18:03:53,370 - #20 2
+INFO  18:03:53,371 - #5 ;
+INFO  18:03:53,371 - #17 x
+INFO  18:03:53,371 - #15 =
+INFO  18:03:53,371 - #17 y
+INFO  18:03:53,371 - #32 +
+INFO  18:03:53,372 - #20 2
+INFO  18:03:53,372 - #5 ;
+INFO  18:03:53,373 - #17 y
+INFO  18:03:53,373 - #15 =
+INFO  18:03:53,373 - #17 k
+INFO  18:03:53,373 - #7 (
+INFO  18:03:53,373 - #8 )
+INFO  18:03:53,373 - #32 +
+INFO  18:03:53,373 - #20 3
+INFO  18:03:53,373 - #5 ;
+INFO  18:03:53,374 - #29 break
+INFO  18:03:53,374 - #5 ;
+INFO  18:03:53,374 - #28 continue
+INFO  18:03:53,374 - #5 ;
+INFO  18:03:53,374 - #13 read
+INFO  18:03:53,375 - #7 (
+INFO  18:03:53,375 - #17 y
+INFO  18:03:53,375 - #8 )
+INFO  18:03:53,375 - #5 ;
+INFO  18:03:53,375 - #13 read
+INFO  18:03:53,375 - #7 (
+INFO  18:03:53,375 - #17 x
+INFO  18:03:53,375 - #8 )
+INFO  18:03:53,375 - #5 ;
+INFO  18:03:53,375 - #12 print
+INFO  18:03:53,375 - #7 (
+INFO  18:03:53,376 - #17 y
+INFO  18:03:53,376 - #9 ,
+INFO  18:03:53,376 - #20 5
+INFO  18:03:53,376 - #8 )
+INFO  18:03:53,376 - #5 ;
+INFO  18:03:53,376 - #12 print
+INFO  18:03:53,376 - #7 (
+INFO  18:03:53,376 - #19 A
+INFO  18:03:53,376 - #8 )
+INFO  18:03:53,377 - #5 ;
+INFO  18:03:53,377 - #21 if
+INFO  18:03:53,377 - #7 (
+INFO  18:03:53,377 - #18 true
+INFO  18:03:53,378 - #8 )
+INFO  18:03:53,378 - #3 {
+INFO  18:03:53,378 - #13 read
+INFO  18:03:53,378 - #7 (
+INFO  18:03:53,378 - #17 y
+INFO  18:03:53,378 - #8 )
+INFO  18:03:53,378 - #5 ;
+INFO  18:03:53,378 - #4 }
+INFO  18:03:53,379 - #23 do
+INFO  18:03:53,379 - #3 {
+INFO  18:03:53,379 - #13 read
+INFO  18:03:53,379 - #7 (
+INFO  18:03:53,379 - #17 x
+INFO  18:03:53,379 - #8 )
+INFO  18:03:53,379 - #5 ;
+INFO  18:03:53,379 - #4 }
+INFO  18:03:53,379 - #24 while
+INFO  18:03:53,379 - #7 (
+INFO  18:03:53,379 - #18 true
+INFO  18:03:53,379 - #8 )
+INFO  18:03:53,379 - #5 ;
+INFO  18:03:53,379 - #14 return
+INFO  18:03:53,380 - #20 0
+INFO  18:03:53,380 - #5 ;
+INFO  18:03:53,380 - #4 }
+INFO  18:03:53,380 - #4 }
+INFO  18:03:53,381 - Program(
+  ProgName(
+   MJProgram
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      NoDeclarationList(
+      ) [NoDeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+         x
+          BoxNo(
+          ) [BoxNo]
+          NoVarDeclAdd(
+          ) [NoVarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+       y
+        BoxNo(
+        ) [BoxNo]
+        NoVarDeclAdd(
+        ) [NoVarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclaration(
+      MetTypeName(
+        Type(
+         int
+        ) [Type]
+       main
+      ) [MetTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              NoStmt(
+                              ) [NoStmt]
+                              Assignment(
+                                DesignatorAssign(
+                                  DesignatorIdent(
+                                   y
+                                  ) [DesignatorIdent]
+                                  Assign(
+                                  ) [Assign]
+                                  Expresion(
+                                    TermExpr(
+                                      FactorTerm(
+                                        Const(
+                                          NumberConst(
+                                           2
+                                          ) [NumberConst]
+                                        ) [Const]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [Expresion]
+                                ) [DesignatorAssign]
+                              ) [Assignment]
+                            ) [Statements]
+                            Assignment(
+                              DesignatorAssign(
+                                DesignatorIdent(
+                                 x
+                                ) [DesignatorIdent]
+                                Assign(
+                                ) [Assign]
+                                Expresion(
+                                  AddExpr(
+                                    TermExpr(
+                                      FactorTerm(
+                                        Var(
+                                          DesignatorIdent(
+                                           y
+                                          ) [DesignatorIdent]
+                                        ) [Var]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                    Addop(
+                                    ) [Addop]
+                                    FactorTerm(
+                                      Const(
+                                        NumberConst(
+                                         2
+                                        ) [NumberConst]
+                                      ) [Const]
+                                    ) [FactorTerm]
+                                  ) [AddExpr]
+                                ) [Expresion]
+                              ) [DesignatorAssign]
+                            ) [Assignment]
+                          ) [Statements]
+                          Assignment(
+                            DesignatorAssign(
+                              DesignatorIdent(
+                               y
+                              ) [DesignatorIdent]
+                              Assign(
+                              ) [Assign]
+                              Expresion(
+                                AddExpr(
+                                  TermExpr(
+                                    FactorTerm(
+                                      FuncCall(
+                                        DesignatorIdent(
+                                         k
+                                        ) [DesignatorIdent]
+                                        NoActuals(
+                                        ) [NoActuals]
+                                      ) [FuncCall]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                  Addop(
+                                  ) [Addop]
+                                  FactorTerm(
+                                    Const(
+                                      NumberConst(
+                                       3
+                                      ) [NumberConst]
+                                    ) [Const]
+                                  ) [FactorTerm]
+                                ) [AddExpr]
+                              ) [Expresion]
+                            ) [DesignatorAssign]
+                          ) [Assignment]
+                        ) [Statements]
+                        Break(
+                        ) [Break]
+                      ) [Statements]
+                      Continue(
+                      ) [Continue]
+                    ) [Statements]
+                    ReadStmt(
+                      DesignatorIdent(
+                       y
+                      ) [DesignatorIdent]
+                    ) [ReadStmt]
+                  ) [Statements]
+                  ReadStmt(
+                    DesignatorIdent(
+                     x
+                    ) [DesignatorIdent]
+                  ) [ReadStmt]
+                ) [Statements]
+                PrintStmtAndNumber(
+                  Expresion(
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          DesignatorIdent(
+                           y
+                          ) [DesignatorIdent]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [Expresion]
+                 5
+                ) [PrintStmtAndNumber]
+              ) [Statements]
+              PrintStmt(
+                Expresion(
+                  TermExpr(
+                    FactorTerm(
+                      Const(
+                        CharConst(
+                         A
+                        ) [CharConst]
+                      ) [Const]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [Expresion]
+              ) [PrintStmt]
+            ) [Statements]
+            IfStmt(
+              IfWithoutElseStatementExpression(
+                ConditionTerm(
+                  ConditionFact(
+                    CondFactExpr(
+                      Expresion(
+                        TermExpr(
+                          FactorTerm(
+                            Const(
+                              BoolConst(
+                               true
+                              ) [BoolConst]
+                            ) [Const]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [Expresion]
+                    ) [CondFactExpr]
+                  ) [ConditionFact]
+                ) [ConditionTerm]
+                BracedStatement(
+                  Statements(
+                    NoStmt(
+                    ) [NoStmt]
+                    ReadStmt(
+                      DesignatorIdent(
+                       y
+                      ) [DesignatorIdent]
+                    ) [ReadStmt]
+                  ) [Statements]
+                ) [BracedStatement]
+              ) [IfWithoutElseStatementExpression]
+            ) [IfStmt]
+          ) [Statements]
+          DoWhile(
+            BracedStatement(
+              Statements(
+                NoStmt(
+                ) [NoStmt]
+                ReadStmt(
+                  DesignatorIdent(
+                   x
+                  ) [DesignatorIdent]
+                ) [ReadStmt]
+              ) [Statements]
+            ) [BracedStatement]
+            ConditionTerm(
+              ConditionFact(
+                CondFactExpr(
+                  Expresion(
+                    TermExpr(
+                      FactorTerm(
+                        Const(
+                          BoolConst(
+                           true
+                          ) [BoolConst]
+                        ) [Const]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [Expresion]
+                ) [CondFactExpr]
+              ) [ConditionFact]
+            ) [ConditionTerm]
+          ) [DoWhile]
+        ) [Statements]
+        ReturnExpr(
+          Expresion(
+            TermExpr(
+              FactorTerm(
+                Const(
+                  NumberConst(
+                   0
+                  ) [NumberConst]
+                ) [Const]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [Expresion]
+        ) [ReturnExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:03:53,382 - ===================================
+INFO  18:03:53,386 - Prepoznata promenljiva!
+INFO  18:03:53,386 - Prepoznata promenljiva!
+INFO  18:03:53,386 - Prepoznata prosirena naredba print!
+INFO  18:03:53,386 - Prepoznata naredba print!
+INFO  18:03:53,387 -  Print count calls = 2
+INFO  18:03:53,387 -  Deklarisanih promenljivih ima = 2

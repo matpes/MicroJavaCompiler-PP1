@@ -1,26 +1,47 @@
 program MJProgram
 	int x; 
 	int y;
+	const int c = 0;
+	int d;
+	
+	class A{
+		int d, b;
+		int a;
+	}
 {
 	
-	int k () int c; {
-		c = 1;
-		c = c++;
-		c++;
-		--c;
-		boolean d = true;
-		if (d == false){
-		
-		}
-		return c+2;
-	}
+
 	
-	int main() {
+	int main(int +x, int y)
+	int haha;
+	int OMojBoze;
+	char wtf;
+	{
 		y = 2;
 		x = y + 2;
 		y = k() + 3;
-		print(y);
+		break;
+		continue;
+		read(y);
+		read(x);
+		switch(x){
+			case 1: continue;
+				break;
+			case 2:
+				d = 0;
+				break;
+		}
+		print(y, 5);
 		print('A');
+		if(true){
+			read(y);
+		}
+		if(true){
+		
+		}
+		do{
+			read(x);
+		}while(true);
 		return 0;
 	}
 }

@@ -1,0 +1,40 @@
+INFO  20:01:27,462 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:01:27,513 - #2 program
+INFO  20:01:27,513 - #17 MJProgram
+INFO  20:01:27,513 - #17 int
+INFO  20:01:27,515 - #17 x
+INFO  20:01:27,517 - #5 ;
+INFO  20:01:27,518 - #17 int
+INFO  20:01:27,519 - #17 y
+INFO  20:01:27,519 - #5 ;
+INFO  20:01:27,520 - #47 const
+INFO  20:01:27,520 - #17 int
+INFO  20:01:27,520 - #17 c
+INFO  20:01:27,520 - #15 =
+INFO  20:01:27,520 - #20 0
+INFO  20:01:27,520 - #5 ;
+INFO  20:01:27,521 - #17 int
+INFO  20:01:27,521 - #17 d
+INFO  20:01:27,521 - #5 ;
+INFO  20:01:27,521 - #45 class
+INFO  20:01:27,522 - #17 A
+INFO  20:01:27,522 - #3 {
+INFO  20:01:27,522 - #17 int
+INFO  20:01:27,522 - #17 d
+INFO  20:01:27,524 - #9 ,
+INFO  20:01:27,524 - #17 b
+INFO  20:01:27,524 - #5 ;
+INFO  20:01:27,524 - #17 int
+INFO  20:01:27,524 - #17 a
+INFO  20:01:27,524 - #5 ;
+INFO  20:01:27,524 - #4 }
+INFO  20:01:27,524 - #3 {
+INFO  20:01:27,525 - #17 int
+INFO  20:01:27,525 - #17 main
+INFO  20:01:27,525 - #7 (
+INFO  20:01:27,525 - #17 int
+INFO  20:01:27,525 - #17 x
+INFO  20:01:27,525 - #32 +
+ERROR 20:01:27,525 - 
+Sintaksna greska na liniji 15
+ERROR 20:01:27,525 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 15
