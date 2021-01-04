@@ -10,7 +10,7 @@ import rs.ac.bg.etf.pp1.ast.*;
 parser code {:
 	
 	boolean errorDetected = false;
-	
+	int lastLine = 0;
 	Logger log = Logger.getLogger(getClass());
    
    
@@ -22,6 +22,7 @@ parser code {:
     }
   
     public void syntax_error(Symbol cur_token) {
+    	lastLine = cur_token.left;
         report_error("Sintaksna greska", cur_token);
     }
   
@@ -33,16 +34,16 @@ parser code {:
     	errorDetected = true;
     	StringBuilder msg = new StringBuilder(message); 
     	if (info instanceof Symbol)
-            msg.append (" na liniji ").append(((Symbol)info).left);
+            msg.append (" na liniji ").append(lastLine);
         log.error(msg.toString());
     }
     
-    public void report_info(String message, Object info) {
+    /*public void report_info(String message, Object info) {
     	StringBuilder msg = new StringBuilder(message); 
     	if (info instanceof Symbol)
             msg.append (" na liniji ").append(((Symbol)info).left);
         log.info(msg.toString());
-    }
+    }*/
     
 :}
 
@@ -97,6 +98,7 @@ nonterminal OptExpr OptExpr;
 nonterminal TypeDecl TypeDecl;
 nonterminal PrintStatement PrintStatement;
 nonterminal IfStatement IfStatement;
+nonterminal IfCondition IfCondition;
 
 nonterminal Program Program;
 nonterminal ProgName ProgName;
@@ -108,7 +110,10 @@ nonterminal Term Term;
 nonterminal Expr Expr;
 nonterminal Expr1 Expr1;
 nonterminal Factor Factor;
-nonterminal Statement2 Statement2; 
+nonterminal Statement2 Statement2;
+nonterminal VariableIdent VariableIdent;
+nonterminal ExpressionStatement ExpressionStatement;
+nonterminal OtherDesignatorStatement OtherDesignatorStatement; 
 
 precedence left ELSE;
 
@@ -136,12 +141,19 @@ VarDecList ::= (VarDeclarations) VarDecList:V1 VarDecl:V2 {: RESULT=new VarDecla
 				(NoVarDecl) {: RESULT=new NoVarDecl(); :} /* epsilon */
 				;
 				
-VarDecl ::= (VarDecl) Type:varType IDENT:varName OptBox:O1 VarDeclAddition:V2 SEMI {: RESULT=new VarDecl(varType, varName, O1, V2); RESULT.setLine(varTypeleft); :} ;
+VarDecl ::= (VarDecl) Type:varType VariableIdent:V1 OptBox:O2 VarDeclAddition:V3 SEMI {: RESULT=new VarDecl(varType, V1, O2, V3); RESULT.setLine(varTypeleft); :} ;
 		
-VarDeclAddition ::= (VarDeclAdd) VarDeclAddition:V1 COMMA IDENT:varName OptBox:O2 {: RESULT=new VarDeclAdd(V1, varName, O2); RESULT.setLine(V1left); :}
+VarDeclAddition ::= (VarDeclAdd) VarDeclAddition:V1 COMMA VariableIdent:V2 OptBox:O3 {: RESULT=new VarDeclAdd(V1, V2, O3); RESULT.setLine(V1left); :}
+					
 					|	
 					(NoVarDeclAdd) {: RESULT=new NoVarDeclAdd(); :} /* epsilon */ 
 					;
+					
+VariableIdent ::= (VariableName) IDENT:varName {: RESULT=new VariableName(varName); RESULT.setLine(varNameleft); :}
+				|
+				(VaraibleNameError) error:e
+				{: parser.report_error("Oporavak od greske pri definiciji globalne promenljive na liniji " + eleft, null);:} {: RESULT=new VaraibleNameError(); :}
+				;
 
 Type ::= (Type) IDENT:typeName {: RESULT=new Type(typeName); RESULT.setLine(typeNameleft); :} ;
 
@@ -152,10 +164,7 @@ MethodDeclList ::= (MethodDeclarations) MethodDeclList:M1 MethodDecl:M2 {: RESUL
 					;
 
 MethodDecl ::= (MethodDeclaration) MethodTypeName:M1 LPAREN FormPars:F2 RPAREN VarDecList:V3 LBRACE StatementList:S4 RBRACE {: RESULT=new MethodDeclaration(M1, F2, V3, S4); RESULT.setLine(M1left); :}
-				|
-				(ErrorMethodClass) error RPAREN:l
-				{: parser.report_error("Greska kod formalnih parametara. Oporavljeno do ). Greska na liniji: " + lleft, null); :} {: RESULT=new ErrorMethodClass(); :}
-			   ;
+				;
 
 MethodTypeName ::= (MetTypeName) Type:retType IDENT:methName {: RESULT=new MetTypeName(retType, methName); RESULT.setLine(retTypeleft); :}
 					| 
@@ -202,15 +211,12 @@ OptBox ::= (BoxYes) LBOX RBOX {: RESULT=new BoxYes(); :}
 FormalParamList ::= (FormalParamDecls) FormalParamList:F1 COMMA FormalParamDecl:F2 {: RESULT=new FormalParamDecls(F1, F2); RESULT.setLine(F1left); :}
 					|
 					(SingleFormalParamDecl) FormalParamDecl:F1 {: RESULT=new SingleFormalParamDecl(F1); RESULT.setLine(F1left); :}
-					|
-					(ErrorFPCommaClass) error COMMA:l
-					{: parser.report_error("Greska kod formalnih parametara, oporavljena do , na liniji: " + lleft, null); :} {: RESULT=new ErrorFPCommaClass(); :}
 					;
 					
 FormalParamDecl ::= (FormalParamDeclaration) Type:pt IDENT:pi OptBox:O1 {: RESULT=new FormalParamDeclaration(pt, pi, O1); RESULT.setLine(ptleft); :}
 				|
-				(ErrorFPClass) error RPAREN:l
-				{: parser.report_error("Greska kod formalnih parametara. Oporavljeno do ). Greska na liniji: " + lleft, null); :} {: RESULT=new ErrorFPClass(); :}
+				(ErrorFPClass) error:l
+				{: parser.report_error("Oporavak greske kod formalnih parametara. Greska na liniji: " + lleft, null); :} {: RESULT=new ErrorFPClass(); :}
 				;
 
 StatementList ::= (Statements) StatementList:S1 Statement:S2 {: RESULT=new Statements(S1, S2); RESULT.setLine(S1left); :} 
@@ -237,7 +243,7 @@ Statement ::= (Break) BREAK SEMI {: RESULT=new Break(); :}
 			  |
 			  (Switch) SWITCH LPAREN Expr:E1 RPAREN LBRACE CaseList:C2 RBRACE {: RESULT=new Switch(E1, C2); RESULT.setLine(E1left); :}
 			  |
-			  (Assignment) DesignatorStatement:dest SEMI {: RESULT=new Assignment(dest); RESULT.setLine(destleft); :} 
+			  (Assignment) DesignatorStatement:dest {: RESULT=new Assignment(dest); RESULT.setLine(destleft); :} 
 			  |
 			  (IfStmt) IfStatement:I1 {: RESULT=new IfStmt(I1); RESULT.setLine(I1left); :}
 			  |
@@ -245,24 +251,39 @@ Statement ::= (Break) BREAK SEMI {: RESULT=new Break(); :}
 			  ;
 			  
 			  
-IfStatement ::= (IfWithoutElseStatementExpression) IF LPAREN Condition:C1 RPAREN Statement:S2 {: RESULT=new IfWithoutElseStatementExpression(C1, S2); RESULT.setLine(C1left); :}   
+IfStatement ::= (IfWithoutElseStatementExpression) IF LPAREN IfCondition:I1 RPAREN Statement:S2 {: RESULT=new IfWithoutElseStatementExpression(I1, S2); RESULT.setLine(I1left); :}   
 				|
-				(IfWithElseStatementExpression) IF LPAREN Condition:C1 RPAREN Statement:S2 ELSE Statement:S3 {: RESULT=new IfWithElseStatementExpression(C1, S2, S3); RESULT.setLine(C1left); :}
+				(IfWithElseStatementExpression) IF LPAREN IfCondition:I1 RPAREN Statement:S2 ELSE Statement:S3 {: RESULT=new IfWithElseStatementExpression(I1, S2, S3); RESULT.setLine(I1left); :}
 				;
+				
+IfCondition ::= (IfGoodConditions) Condition:C1 {: RESULT=new IfGoodConditions(C1); RESULT.setLine(C1left); :}
+			|
+			(IfErrorCondition) error:l
+			{: parser.report_error("Greska pri parsiranju uslova if naredbe, oporavak od greske na liniji " + lleft, null); :} {: RESULT=new IfErrorCondition(); :}
+			;
 			  
 CaseList ::= (Case) CaseList:C1 CASE NUMBER_CONST:N2 COLON StatementList:S3 {: RESULT=new Case(C1, N2, S3); RESULT.setLine(C1left); :}
 			|
 			(EmptyCase) {: RESULT=new EmptyCase(); :} /* epsilon */
 			;
 			  
-DesignatorStatement ::= (DesignatorAssign) Designator:D1 Assignop:A2 Expr:E3 {: RESULT=new DesignatorAssign(D1, A2, E3); RESULT.setLine(D1left); :}
+DesignatorStatement ::= (DesignatorExpression) ExpressionStatement:E1 {: RESULT=new DesignatorExpression(E1); RESULT.setLine(E1left); :} 
 						|
-						(DesignatorArray) Designator:D1 LPAREN ActualPars:A2 RPAREN {: RESULT=new DesignatorArray(D1, A2); RESULT.setLine(D1left); :}
-						|
-						(DesignatorIncrement) Designator:D1 PLUSPLUS {: RESULT=new DesignatorIncrement(D1); RESULT.setLine(D1left); :}
-						|
-						(DesignatorDecrement) Designator:D1 MINUSMINUS {: RESULT=new DesignatorDecrement(D1); RESULT.setLine(D1left); :}
+						(DesignatorOther) OtherDesignatorStatement:O1 SEMI {: RESULT=new DesignatorOther(O1); RESULT.setLine(O1left); :}
 						;
+						
+OtherDesignatorStatement ::= (DesignatorArray) Designator:D1 LPAREN ActualPars:A2 RPAREN {: RESULT=new DesignatorArray(D1, A2); RESULT.setLine(D1left); :}
+							|
+							(DesignatorIncrement) Designator:D1 PLUSPLUS {: RESULT=new DesignatorIncrement(D1); RESULT.setLine(D1left); :}
+							|
+							(DesignatorDecrement) Designator:D1 MINUSMINUS {: RESULT=new DesignatorDecrement(D1); RESULT.setLine(D1left); :}
+							;
+						
+ExpressionStatement ::= (DesignatorAssignExpression) Designator:D1 Assignop:A2 Expr:E3 SEMI {: RESULT=new DesignatorAssignExpression(D1, A2, E3); RESULT.setLine(D1left); :}
+					|
+					(DesignatorError) error:err SEMI
+					{: parser.report_error("Oporavak od greske kod iskaza dodele na liniji " + errleft, null); :} {: RESULT=new DesignatorError(); :}
+					;
 			  
 			  
 Condition ::= (ConditionTerm) CondTerm:C1 {: RESULT=new ConditionTerm(C1); RESULT.setLine(C1left); :}
@@ -357,29 +378,4 @@ Mulop ::= (Mul) MUL {: RESULT=new Mul(); :}
 		|
 		(Mod) MOD {: RESULT=new Mod(); :}
 		;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		

@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2020 21:9:32
+// 4/0/2021 0:48:14
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -15,7 +15,9 @@ public interface Visitor {
     public void visit(Assignop Assignop);
     public void visit(FormalParamDecl FormalParamDecl);
     public void visit(Statement2 Statement2);
+    public void visit(ExpressionStatement ExpressionStatement);
     public void visit(StatementList StatementList);
+    public void visit(OtherDesignatorStatement OtherDesignatorStatement);
     public void visit(Factor Factor);
     public void visit(CondTerm CondTerm);
     public void visit(DeclList DeclList);
@@ -24,6 +26,7 @@ public interface Visitor {
     public void visit(Condition Condition);
     public void visit(CaseList CaseList);
     public void visit(ConstDeclList ConstDeclList);
+    public void visit(IfCondition IfCondition);
     public void visit(ConstDeclAddition ConstDeclAddition);
     public void visit(ActualParamList ActualParamList);
     public void visit(VarDecList VarDecList);
@@ -35,6 +38,7 @@ public interface Visitor {
     public void visit(MethodTypeName MethodTypeName);
     public void visit(DesignatorStatement DesignatorStatement);
     public void visit(ActualPars ActualPars);
+    public void visit(VariableIdent VariableIdent);
     public void visit(ClassDeclList ClassDeclList);
     public void visit(TypeDecl TypeDecl);
     public void visit(PrintStatement PrintStatement);
@@ -85,12 +89,17 @@ public interface Visitor {
     public void visit(ConditionFact ConditionFact);
     public void visit(ConditionOr ConditionOr);
     public void visit(ConditionTerm ConditionTerm);
+    public void visit(DesignatorError DesignatorError);
+    public void visit(DesignatorAssignExpression DesignatorAssignExpression);
     public void visit(DesignatorDecrement DesignatorDecrement);
     public void visit(DesignatorIncrement DesignatorIncrement);
     public void visit(DesignatorArray DesignatorArray);
-    public void visit(DesignatorAssign DesignatorAssign);
+    public void visit(DesignatorOther DesignatorOther);
+    public void visit(DesignatorExpression DesignatorExpression);
     public void visit(EmptyCase EmptyCase);
     public void visit(Case Case);
+    public void visit(IfErrorCondition IfErrorCondition);
+    public void visit(IfGoodConditions IfGoodConditions);
     public void visit(IfWithElseStatementExpression IfWithElseStatementExpression);
     public void visit(IfWithoutElseStatementExpression IfWithoutElseStatementExpression);
     public void visit(DoWhile DoWhile);
@@ -109,7 +118,6 @@ public interface Visitor {
     public void visit(Statements Statements);
     public void visit(ErrorFPClass ErrorFPClass);
     public void visit(FormalParamDeclaration FormalParamDeclaration);
-    public void visit(ErrorFPCommaClass ErrorFPCommaClass);
     public void visit(SingleFormalParamDecl SingleFormalParamDecl);
     public void visit(FormalParamDecls FormalParamDecls);
     public void visit(BoxNo BoxNo);
@@ -128,11 +136,12 @@ public interface Visitor {
     public void visit(ClassDeclSimple ClassDeclSimple);
     public void visit(MetVoidName MetVoidName);
     public void visit(MetTypeName MetTypeName);
-    public void visit(ErrorMethodClass ErrorMethodClass);
     public void visit(MethodDeclaration MethodDeclaration);
     public void visit(NoMethodDecl NoMethodDecl);
     public void visit(MethodDeclarations MethodDeclarations);
     public void visit(Type Type);
+    public void visit(VaraibleNameError VaraibleNameError);
+    public void visit(VariableName VariableName);
     public void visit(NoVarDeclAdd NoVarDeclAdd);
     public void visit(VarDeclAdd VarDeclAdd);
     public void visit(VarDecl VarDecl);

@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2020 21:9:32
+// 4/0/2021 0:48:14
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -15,7 +15,9 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(Assignop Assignop) { }
     public void visit(FormalParamDecl FormalParamDecl) { }
     public void visit(Statement2 Statement2) { }
+    public void visit(ExpressionStatement ExpressionStatement) { }
     public void visit(StatementList StatementList) { }
+    public void visit(OtherDesignatorStatement OtherDesignatorStatement) { }
     public void visit(Factor Factor) { }
     public void visit(CondTerm CondTerm) { }
     public void visit(DeclList DeclList) { }
@@ -24,6 +26,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(Condition Condition) { }
     public void visit(CaseList CaseList) { }
     public void visit(ConstDeclList ConstDeclList) { }
+    public void visit(IfCondition IfCondition) { }
     public void visit(ConstDeclAddition ConstDeclAddition) { }
     public void visit(ActualParamList ActualParamList) { }
     public void visit(VarDecList VarDecList) { }
@@ -35,6 +38,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(MethodTypeName MethodTypeName) { }
     public void visit(DesignatorStatement DesignatorStatement) { }
     public void visit(ActualPars ActualPars) { }
+    public void visit(VariableIdent VariableIdent) { }
     public void visit(ClassDeclList ClassDeclList) { }
     public void visit(TypeDecl TypeDecl) { }
     public void visit(PrintStatement PrintStatement) { }
@@ -85,12 +89,17 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(ConditionFact ConditionFact) { visit(); }
     public void visit(ConditionOr ConditionOr) { visit(); }
     public void visit(ConditionTerm ConditionTerm) { visit(); }
+    public void visit(DesignatorError DesignatorError) { visit(); }
+    public void visit(DesignatorAssignExpression DesignatorAssignExpression) { visit(); }
     public void visit(DesignatorDecrement DesignatorDecrement) { visit(); }
     public void visit(DesignatorIncrement DesignatorIncrement) { visit(); }
     public void visit(DesignatorArray DesignatorArray) { visit(); }
-    public void visit(DesignatorAssign DesignatorAssign) { visit(); }
+    public void visit(DesignatorOther DesignatorOther) { visit(); }
+    public void visit(DesignatorExpression DesignatorExpression) { visit(); }
     public void visit(EmptyCase EmptyCase) { visit(); }
     public void visit(Case Case) { visit(); }
+    public void visit(IfErrorCondition IfErrorCondition) { visit(); }
+    public void visit(IfGoodConditions IfGoodConditions) { visit(); }
     public void visit(IfWithElseStatementExpression IfWithElseStatementExpression) { visit(); }
     public void visit(IfWithoutElseStatementExpression IfWithoutElseStatementExpression) { visit(); }
     public void visit(DoWhile DoWhile) { visit(); }
@@ -109,7 +118,6 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(Statements Statements) { visit(); }
     public void visit(ErrorFPClass ErrorFPClass) { visit(); }
     public void visit(FormalParamDeclaration FormalParamDeclaration) { visit(); }
-    public void visit(ErrorFPCommaClass ErrorFPCommaClass) { visit(); }
     public void visit(SingleFormalParamDecl SingleFormalParamDecl) { visit(); }
     public void visit(FormalParamDecls FormalParamDecls) { visit(); }
     public void visit(BoxNo BoxNo) { visit(); }
@@ -128,11 +136,12 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(ClassDeclSimple ClassDeclSimple) { visit(); }
     public void visit(MetVoidName MetVoidName) { visit(); }
     public void visit(MetTypeName MetTypeName) { visit(); }
-    public void visit(ErrorMethodClass ErrorMethodClass) { visit(); }
     public void visit(MethodDeclaration MethodDeclaration) { visit(); }
     public void visit(NoMethodDecl NoMethodDecl) { visit(); }
     public void visit(MethodDeclarations MethodDeclarations) { visit(); }
     public void visit(Type Type) { visit(); }
+    public void visit(VaraibleNameError VaraibleNameError) { visit(); }
+    public void visit(VariableName VariableName) { visit(); }
     public void visit(NoVarDeclAdd NoVarDeclAdd) { visit(); }
     public void visit(VarDeclAdd VarDeclAdd) { visit(); }
     public void visit(VarDecl VarDecl) { visit(); }

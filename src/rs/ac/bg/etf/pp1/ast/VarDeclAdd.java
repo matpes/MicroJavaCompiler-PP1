@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2020 21:9:32
+// 4/0/2021 0:48:14
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,14 @@ package rs.ac.bg.etf.pp1.ast;
 public class VarDeclAdd extends VarDeclAddition {
 
     private VarDeclAddition VarDeclAddition;
-    private String varName;
+    private VariableIdent VariableIdent;
     private OptBox OptBox;
 
-    public VarDeclAdd (VarDeclAddition VarDeclAddition, String varName, OptBox OptBox) {
+    public VarDeclAdd (VarDeclAddition VarDeclAddition, VariableIdent VariableIdent, OptBox OptBox) {
         this.VarDeclAddition=VarDeclAddition;
         if(VarDeclAddition!=null) VarDeclAddition.setParent(this);
-        this.varName=varName;
+        this.VariableIdent=VariableIdent;
+        if(VariableIdent!=null) VariableIdent.setParent(this);
         this.OptBox=OptBox;
         if(OptBox!=null) OptBox.setParent(this);
     }
@@ -27,12 +28,12 @@ public class VarDeclAdd extends VarDeclAddition {
         this.VarDeclAddition=VarDeclAddition;
     }
 
-    public String getVarName() {
-        return varName;
+    public VariableIdent getVariableIdent() {
+        return VariableIdent;
     }
 
-    public void setVarName(String varName) {
-        this.varName=varName;
+    public void setVariableIdent(VariableIdent VariableIdent) {
+        this.VariableIdent=VariableIdent;
     }
 
     public OptBox getOptBox() {
@@ -49,17 +50,20 @@ public class VarDeclAdd extends VarDeclAddition {
 
     public void childrenAccept(Visitor visitor) {
         if(VarDeclAddition!=null) VarDeclAddition.accept(visitor);
+        if(VariableIdent!=null) VariableIdent.accept(visitor);
         if(OptBox!=null) OptBox.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(VarDeclAddition!=null) VarDeclAddition.traverseTopDown(visitor);
+        if(VariableIdent!=null) VariableIdent.traverseTopDown(visitor);
         if(OptBox!=null) OptBox.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(VarDeclAddition!=null) VarDeclAddition.traverseBottomUp(visitor);
+        if(VariableIdent!=null) VariableIdent.traverseBottomUp(visitor);
         if(OptBox!=null) OptBox.traverseBottomUp(visitor);
         accept(visitor);
     }
@@ -75,7 +79,10 @@ public class VarDeclAdd extends VarDeclAddition {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        buffer.append(" "+tab+varName);
+        if(VariableIdent!=null)
+            buffer.append(VariableIdent.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
         buffer.append("\n");
 
         if(OptBox!=null)

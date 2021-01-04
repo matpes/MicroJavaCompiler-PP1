@@ -1,0 +1,21 @@
+INFO  21:48:33,813 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  21:48:48,095 - #2 program
+INFO  21:48:48,096 - #17 MJProgram
+INFO  21:48:48,096 - #17 int
+INFO  21:48:48,098 - #17 x
+INFO  21:48:48,098 - #9 ,
+INFO  21:48:48,100 - #17 y
+INFO  21:48:48,101 - #32 +
+ERROR 21:48:50,741 - Sintaksna greska na liniji 2
+INFO  21:48:50,741 - #9 ,
+INFO  21:48:50,741 - #17 b
+INFO  21:48:50,741 - #5 ;
+INFO  21:48:50,742 - #17 int
+ERROR 21:48:52,743 - Oporavak od greske pri definiciji globalne promenljive 2
+INFO  21:48:52,745 - #17 y
+INFO  21:48:52,745 - #9 ,
+INFO  21:48:52,745 - #17 u
+INFO  21:48:52,745 - #9 ,
+INFO  21:48:52,745 - #17 d
+INFO  21:48:52,745 - #5 ;
+INFO  21:48:52,746 - #5 ;

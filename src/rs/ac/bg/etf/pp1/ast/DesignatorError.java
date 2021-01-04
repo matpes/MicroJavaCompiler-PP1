@@ -1,13 +1,13 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2020 21:9:32
+// 4/0/2021 0:48:14
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class ErrorFPCommaClass extends FormalParamList {
+public class DesignatorError extends ExpressionStatement {
 
-    public ErrorFPCommaClass () {
+    public DesignatorError () {
     }
 
     public void accept(Visitor visitor) {
@@ -28,10 +28,10 @@ public class ErrorFPCommaClass extends FormalParamList {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("ErrorFPCommaClass(\n");
+        buffer.append("DesignatorError(\n");
 
         buffer.append(tab);
-        buffer.append(") [ErrorFPCommaClass]");
+        buffer.append(") [DesignatorError]");
         return buffer.toString();
     }
 }

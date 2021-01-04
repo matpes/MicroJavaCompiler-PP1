@@ -1,11 +1,11 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2020 21:9:32
+// 4/0/2021 0:48:14
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class DesignatorArray extends DesignatorStatement {
+public class DesignatorArray extends OtherDesignatorStatement {
 
     private Designator Designator;
     private ActualPars ActualPars;

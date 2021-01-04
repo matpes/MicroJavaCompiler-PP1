@@ -10,7 +10,7 @@ import rs.ac.bg.etf.pp1.ast.*;
 parser code {:
 	
 	boolean errorDetected = false;
-	
+	int lastLine = 0;
 	Logger log = Logger.getLogger(getClass());
    
    
@@ -22,6 +22,7 @@ parser code {:
     }
   
     public void syntax_error(Symbol cur_token) {
+    	lastLine = cur_token.left;
         report_error("Sintaksna greska", cur_token);
     }
   
@@ -33,16 +34,16 @@ parser code {:
     	errorDetected = true;
     	StringBuilder msg = new StringBuilder(message); 
     	if (info instanceof Symbol)
-            msg.append (" na liniji ").append(((Symbol)info).left);
+            msg.append (" na liniji ").append(lastLine);
         log.error(msg.toString());
     }
     
-    public void report_info(String message, Object info) {
+    /*public void report_info(String message, Object info) {
     	StringBuilder msg = new StringBuilder(message); 
     	if (info instanceof Symbol)
             msg.append (" na liniji ").append(((Symbol)info).left);
         log.info(msg.toString());
-    }
+    }*/
     
 :}
 
@@ -67,10 +68,10 @@ nonterminal MethodDeclList, VarDecl, DeclList, VarDecList, VarDeclAddition, Cons
 nonterminal FormalParamList, FormalParamDecl, FormPars, ActualPars, ActualParamList; 
 nonterminal StatementList, Statement, Addop, Mulop, Relop, Assignop;
 nonterminal Unmatched, Matched, OptBox, CaseList, DesignatorStatement;
-nonterminal Condition, CondTerm, CondFact, OptExpr, TypeDecl, PrintStatement, IfStatement;
+nonterminal Condition, CondTerm, CondFact, OptExpr, TypeDecl, PrintStatement, IfStatement, IfCondition;
 
 nonterminal Program, ProgName, Designator, MethodDecl, MethodTypeName; 
-nonterminal Type, Term, Expr, Expr1, Factor, Statement2; 
+nonterminal Type, Term, Expr, Expr1, Factor, Statement2, VariableIdent, ExpressionStatement, OtherDesignatorStatement; 
 
 precedence left ELSE;
 
@@ -98,12 +99,19 @@ VarDecList ::= (VarDeclarations) VarDecList VarDecl
 				(NoVarDecl) /* epsilon */
 				;
 				
-VarDecl ::= (VarDecl) Type:varType IDENT:varName OptBox VarDeclAddition SEMI ;
+VarDecl ::= (VarDecl) Type:varType VariableIdent OptBox VarDeclAddition SEMI ;
 		
-VarDeclAddition ::= (VarDeclAdd) VarDeclAddition COMMA IDENT:varName OptBox
+VarDeclAddition ::= (VarDeclAdd) VarDeclAddition COMMA VariableIdent OptBox
+					
 					|	
 					(NoVarDeclAdd) /* epsilon */ 
 					;
+					
+VariableIdent ::= (VariableName) IDENT:varName
+				|
+				(VaraibleNameError) error:e
+				{: parser.report_error("Oporavak od greske pri definiciji globalne promenljive na liniji " + eleft, null);:}
+				;
 
 Type ::= (Type) IDENT:typeName ;
 
@@ -114,10 +122,7 @@ MethodDeclList ::= (MethodDeclarations) MethodDeclList MethodDecl
 					;
 
 MethodDecl ::= (MethodDeclaration) MethodTypeName LPAREN FormPars RPAREN VarDecList LBRACE StatementList RBRACE
-				|
-				(ErrorMethodClass) error RPAREN:l
-				{: parser.report_error("Greska kod formalnih parametara. Oporavljeno do ). Greska na liniji: " + lleft, null); :}
-			   ;
+				;
 
 MethodTypeName ::= (MetTypeName) Type:retType IDENT:methName
 					| 
@@ -164,15 +169,12 @@ OptBox ::= (BoxYes) LBOX RBOX
 FormalParamList ::= (FormalParamDecls) FormalParamList COMMA FormalParamDecl
 					|
 					(SingleFormalParamDecl) FormalParamDecl
-					|
-					(ErrorFPCommaClass) error COMMA:l
-					{: parser.report_error("Greska kod formalnih parametara, oporavljena do , na liniji: " + lleft, null); :}
 					;
 					
 FormalParamDecl ::= (FormalParamDeclaration) Type:pt IDENT:pi OptBox
 				|
-				(ErrorFPClass) error RPAREN:l
-				{: parser.report_error("Greska kod formalnih parametara. Oporavljeno do ). Greska na liniji: " + lleft, null); :}
+				(ErrorFPClass) error:l
+				{: parser.report_error("Oporavak greske kod formalnih parametara. Greska na liniji: " + lleft, null); :}
 				;
 
 StatementList ::= (Statements) StatementList Statement 
@@ -199,7 +201,7 @@ Statement ::= (Break) BREAK SEMI
 			  |
 			  (Switch) SWITCH LPAREN Expr RPAREN LBRACE CaseList RBRACE
 			  |
-			  (Assignment) DesignatorStatement:dest SEMI 
+			  (Assignment) DesignatorStatement:dest 
 			  |
 			  (IfStmt) IfStatement
 			  |
@@ -207,24 +209,39 @@ Statement ::= (Break) BREAK SEMI
 			  ;
 			  
 			  
-IfStatement ::= (IfWithoutElseStatementExpression) IF LPAREN Condition RPAREN Statement   
+IfStatement ::= (IfWithoutElseStatementExpression) IF LPAREN IfCondition RPAREN Statement   
 				|
-				(IfWithElseStatementExpression) IF LPAREN Condition RPAREN Statement ELSE Statement
+				(IfWithElseStatementExpression) IF LPAREN IfCondition RPAREN Statement ELSE Statement
 				;
+				
+IfCondition ::= (IfGoodConditions) Condition
+			|
+			(IfErrorCondition) error:l
+			{: parser.report_error("Greska pri parsiranju uslova if naredbe, oporavak od greske na liniji " + lleft, null); :}
+			;
 			  
 CaseList ::= (Case) CaseList CASE NUMBER_CONST COLON StatementList
 			|
 			(EmptyCase) /* epsilon */
 			;
 			  
-DesignatorStatement ::= (DesignatorAssign) Designator Assignop Expr
+DesignatorStatement ::= (DesignatorExpression) ExpressionStatement 
 						|
-						(DesignatorArray) Designator LPAREN ActualPars RPAREN
-						|
-						(DesignatorIncrement) Designator PLUSPLUS
-						|
-						(DesignatorDecrement) Designator MINUSMINUS
+						(DesignatorOther) OtherDesignatorStatement SEMI
 						;
+						
+OtherDesignatorStatement ::= (DesignatorArray) Designator LPAREN ActualPars RPAREN
+							|
+							(DesignatorIncrement) Designator PLUSPLUS
+							|
+							(DesignatorDecrement) Designator MINUSMINUS
+							;
+						
+ExpressionStatement ::= (DesignatorAssignExpression) Designator Assignop Expr SEMI
+					|
+					(DesignatorError) error:err SEMI
+					{: parser.report_error("Oporavak od greske kod iskaza dodele na liniji " + errleft, null); :}
+					;
 			  
 			  
 Condition ::= (ConditionTerm) CondTerm
@@ -319,29 +336,4 @@ Mulop ::= (Mul) MUL
 		|
 		(Mod) MOD
 		;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+		

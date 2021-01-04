@@ -1,13 +1,13 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2020 21:9:32
+// 4/0/2021 0:48:14
 
 
 package rs.ac.bg.etf.pp1.ast;
 
-public class ErrorMethodClass extends MethodDecl {
+public class IfErrorCondition extends IfCondition {
 
-    public ErrorMethodClass () {
+    public IfErrorCondition () {
     }
 
     public void accept(Visitor visitor) {
@@ -28,10 +28,10 @@ public class ErrorMethodClass extends MethodDecl {
     public String toString(String tab) {
         StringBuffer buffer=new StringBuffer();
         buffer.append(tab);
-        buffer.append("ErrorMethodClass(\n");
+        buffer.append("IfErrorCondition(\n");
 
         buffer.append(tab);
-        buffer.append(") [ErrorMethodClass]");
+        buffer.append(") [IfErrorCondition]");
         return buffer.toString();
     }
 }

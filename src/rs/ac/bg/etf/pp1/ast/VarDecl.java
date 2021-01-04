@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 29/11/2020 21:9:32
+// 4/0/2021 0:48:14
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -10,14 +10,15 @@ public class VarDecl implements SyntaxNode {
     private SyntaxNode parent;
     private int line;
     private Type Type;
-    private String varName;
+    private VariableIdent VariableIdent;
     private OptBox OptBox;
     private VarDeclAddition VarDeclAddition;
 
-    public VarDecl (Type Type, String varName, OptBox OptBox, VarDeclAddition VarDeclAddition) {
+    public VarDecl (Type Type, VariableIdent VariableIdent, OptBox OptBox, VarDeclAddition VarDeclAddition) {
         this.Type=Type;
         if(Type!=null) Type.setParent(this);
-        this.varName=varName;
+        this.VariableIdent=VariableIdent;
+        if(VariableIdent!=null) VariableIdent.setParent(this);
         this.OptBox=OptBox;
         if(OptBox!=null) OptBox.setParent(this);
         this.VarDeclAddition=VarDeclAddition;
@@ -32,12 +33,12 @@ public class VarDecl implements SyntaxNode {
         this.Type=Type;
     }
 
-    public String getVarName() {
-        return varName;
+    public VariableIdent getVariableIdent() {
+        return VariableIdent;
     }
 
-    public void setVarName(String varName) {
-        this.varName=varName;
+    public void setVariableIdent(VariableIdent VariableIdent) {
+        this.VariableIdent=VariableIdent;
     }
 
     public OptBox getOptBox() {
@@ -78,6 +79,7 @@ public class VarDecl implements SyntaxNode {
 
     public void childrenAccept(Visitor visitor) {
         if(Type!=null) Type.accept(visitor);
+        if(VariableIdent!=null) VariableIdent.accept(visitor);
         if(OptBox!=null) OptBox.accept(visitor);
         if(VarDeclAddition!=null) VarDeclAddition.accept(visitor);
     }
@@ -85,12 +87,14 @@ public class VarDecl implements SyntaxNode {
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(Type!=null) Type.traverseTopDown(visitor);
+        if(VariableIdent!=null) VariableIdent.traverseTopDown(visitor);
         if(OptBox!=null) OptBox.traverseTopDown(visitor);
         if(VarDeclAddition!=null) VarDeclAddition.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(Type!=null) Type.traverseBottomUp(visitor);
+        if(VariableIdent!=null) VariableIdent.traverseBottomUp(visitor);
         if(OptBox!=null) OptBox.traverseBottomUp(visitor);
         if(VarDeclAddition!=null) VarDeclAddition.traverseBottomUp(visitor);
         accept(visitor);
@@ -107,7 +111,10 @@ public class VarDecl implements SyntaxNode {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        buffer.append(" "+tab+varName);
+        if(VariableIdent!=null)
+            buffer.append(VariableIdent.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
         buffer.append("\n");
 
         if(OptBox!=null)

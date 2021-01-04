@@ -1,0 +1,38 @@
+INFO  20:11:40,254 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:11:40,306 - #2 program
+INFO  20:11:40,306 - #17 MJProgram
+INFO  20:11:40,307 - #17 int
+INFO  20:11:40,308 - #17 x
+INFO  20:11:40,308 - #9 ,
+INFO  20:11:40,310 - #17 y
+INFO  20:11:40,310 - #9 ,
+INFO  20:11:40,310 - #17 b
+INFO  20:11:40,310 - #5 ;
+INFO  20:11:40,310 - #17 int
+INFO  20:11:40,311 - #17 y
+INFO  20:11:40,311 - #9 ,
+INFO  20:11:40,311 - #32 +
+ERROR 20:11:40,311 - Sintaksna greska na liniji 3
+INFO  20:11:40,311 - #9 ,
+INFO  20:11:40,311 - #17 d
+INFO  20:11:40,311 - #5 ;
+INFO  20:11:40,312 - #47 const
+ERROR 20:11:40,312 - Oporavak od greske na liniji 3
+INFO  20:11:40,312 - #17 int
+INFO  20:11:40,314 - #17 c
+INFO  20:11:40,314 - #15 =
+INFO  20:11:40,315 - #20 0
+INFO  20:11:40,315 - #5 ;
+INFO  20:11:40,315 - #17 int
+INFO  20:11:40,316 - #17 d
+INFO  20:11:40,316 - #5 ;
+INFO  20:11:40,316 - #17 int
+INFO  20:11:40,316 - #17 d
+INFO  20:11:40,316 - #5 ;
+INFO  20:11:40,316 - #17 int
+INFO  20:11:40,316 - #17 d
+INFO  20:11:40,316 - #5 ;
+INFO  20:11:40,316 - #17 int
+INFO  20:11:40,316 - #32 +
+ERROR 20:11:40,316 - Sintaksna greska na liniji 8
+ERROR 20:11:40,317 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 8
