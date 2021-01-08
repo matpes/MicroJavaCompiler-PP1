@@ -82,7 +82,7 @@ program test301
 		//	bodovi = sum2;
 		//	bodovi = jedan();
 		
-		bodovi = sum2(1, sum2(sum2(sum(),sum2(niz[1], sum(), niz[2]),sum()),sum(),sum()), sum());
+		bodovi = sum2(1, sum2(sum2(sum(),sum2(niz[3], sum(), niz[2]),sum()),sum(),sum()), sum());
 		
 		//	bodovi = sum2(1,'a',2);
 		//	bodovi = sum2(1,1,1,1);			// ovo kada je lose projavi: Pogresna dodela vrednosti za bodovi, na liniji 68

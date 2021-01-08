@@ -24,7 +24,7 @@ public class SemanticPass extends VisitorAdaptor {
 	LinkedList<String> varName = new LinkedList<>();
 	Stack<Object> constVars = new Stack<>();
 	Stack<Boolean> isArray = new Stack<>();
-	LinkedList<Expr> actualParams = new LinkedList<>();
+	LinkedList<LinkedList<Expr>> actualParams = new LinkedList<>();
 	Stack<Integer> relops = new Stack<>();
 	// String className;
 
@@ -357,6 +357,7 @@ public class SemanticPass extends VisitorAdaptor {
 		arrayLevel = 0;
 		if (obj.getKind() == Obj.Meth) {
 			calledMethod.push(obj);
+			actualParams.push(new LinkedList<>());
 			currParam = 0;
 		}
 	}
@@ -398,37 +399,7 @@ public class SemanticPass extends VisitorAdaptor {
 
 	}
 
-	public void visit(DesignatorFuncCall designatorFuncCall) {
-		Obj func = designatorFuncCall.getDesignator().obj;
-		if (Obj.Meth == func.getKind()) {
-			report_info("Pronadjen poziv funkcije " + func.getName() + " na liniji " + designatorFuncCall.getLine(),
-					null);
-			designatorFuncCall.struct = func.getType();
-			Obj calledmethod = calledMethod.pop();
-			if (actualParams.size() == calledmethod.getLevel()) {
-				int i = 0;
-				for (Obj o : calledmethod.getLocalSymbols()) {
-					if (i == calledmethod.getLevel()) {
-						break;
-					}
-					Expr e = actualParams.remove();
-					if (!o.getType().compatibleWith(e.struct)) {
-						report_error("Argumenti na poziciji " + i + " moraju biti podudarajucih tipova ",
-								designatorFuncCall);
-					}
-					i++;
-				}
-			} else {
-				actualParams.clear();
-				report_error("Nedovoljan broj parametara", designatorFuncCall);
-			}
-		} else {
-			report_error(
-					"Greska na liniji " + designatorFuncCall.getLine() + " : ime " + func.getName() + " nije funkcija!",
-					null);
-			designatorFuncCall.struct = Tab.noType;
-		}
-	}
+
 
 	// NEPOTREBNO, JER JE ZA C NIVO
 	/*
@@ -497,18 +468,50 @@ public class SemanticPass extends VisitorAdaptor {
 			newVar.struct = boolArrayType;
 		}
 	}
+	
+	public void visit(DesignatorFuncCall designatorFuncCall) {
+		Obj func = designatorFuncCall.getDesignator().obj;
+		if (Obj.Meth == func.getKind()) {
+			report_info("Pronadjen poziv funkcije " + func.getName() + " na liniji " + designatorFuncCall.getLine(),
+					null);
+			designatorFuncCall.struct = func.getType();
+			Obj calledmethod = calledMethod.pop();
+			if (actualParams.size() == calledmethod.getLevel()) {
+				int i = 0;
+				for (Obj o : calledmethod.getLocalSymbols()) {
+					if (i == calledmethod.getLevel()) {
+						break;
+					}
+					//Expr e = actualParams.remove();
+					/*if (!o.getType().compatibleWith(e.struct)) {
+						report_error("Argumenti na poziciji " + i + " moraju biti podudarajucih tipova ",
+								designatorFuncCall);
+					}*/
+					i++;
+				}
+			} else {
+				actualParams.clear();
+				report_error("Nedovoljan broj parametara", designatorFuncCall);
+			}
+		} else {
+			report_error(
+					"Greska na liniji " + designatorFuncCall.getLine() + " : ime " + func.getName() + " nije funkcija!",
+					null);
+			designatorFuncCall.struct = Tab.noType;
+		}
+	}
 
 	public void visit(FuncCall funcCall) {
 		if (calledMethod.peek() != null) {
 
 			Obj calledMethodObj = calledMethod.pop();
-			if (actualParams.size() == calledMethodObj.getLevel()) {
+			if (actualParams.peek().size() == calledMethodObj.getLevel()) {
 				int i = 0;
 				for (Obj o : calledMethodObj.getLocalSymbols()) {
 					if (i == calledMethodObj.getLevel()) {
 						break;
 					}
-					Struct e = actualParams.remove().struct;
+					Struct e = actualParams.peek().remove().struct;
 					if(e.getKind() == Struct.Array && arrayLevel == 1) {
 						e = e.getElemType();
 					}
@@ -518,13 +521,12 @@ public class SemanticPass extends VisitorAdaptor {
 					i++;
 				}
 			} else {
-				actualParams.clear();
 				report_error("Nedovoljan broj parametara ", funcCall);
 			}
 		} else {
-			actualParams.clear();
 			report_error("Promenljiva nije funkcija ", funcCall);
 		}
+		actualParams.remove();
 		//calledMethod = null;
 		funcCall.struct = funcCall.getDesignator().obj.getType();
 	}
@@ -541,11 +543,11 @@ public class SemanticPass extends VisitorAdaptor {
 	}
 
 	public void visit(ActualParam param) {
-		actualParams.add(param.getExpr());
+		actualParams.getFirst().add(param.getExpr());
 	}
 
 	public void visit(ActualParams param) {
-		actualParams.add(param.getExpr());
+		actualParams.getFirst().add(param.getExpr());
 	}
 
 	public void visit(Expresion expresion) {
