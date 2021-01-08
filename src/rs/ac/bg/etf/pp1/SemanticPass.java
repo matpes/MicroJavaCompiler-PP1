@@ -26,6 +26,7 @@ public class SemanticPass extends VisitorAdaptor {
 	Stack<Boolean> isArray = new Stack<>();
 	LinkedList<LinkedList<Expr>> actualParams = new LinkedList<>();
 	Stack<Integer> relops = new Stack<>();
+	LinkedList<Integer> arrayFirst = new LinkedList<>();
 	// String className;
 
 	Logger log = Logger.getLogger(getClass());
@@ -353,8 +354,10 @@ public class SemanticPass extends VisitorAdaptor {
 					+ " nije deklarisano! ", null);
 		}
 		designator.obj = obj;
-		isFirstLevelArray = true;
-		arrayLevel = 0;
+		if(obj.getType().getKind() == Struct.Array) {
+			isFirstLevelArray = true;
+			arrayFirst.push(0);
+		}
 		if (obj.getKind() == Obj.Meth) {
 			calledMethod.push(obj);
 			actualParams.push(new LinkedList<>());
@@ -363,30 +366,35 @@ public class SemanticPass extends VisitorAdaptor {
 	}
 
 	boolean isFirstLevelArray = true;
-	int arrayLevel = 0;
 
 	public void visit(DesignatorExprList designatorExprList) {
 		if (designatorExprList.getDesignator() == null) {
 			report_error("Greska na liniji " + designatorExprList.getDesignator().getLine() + " : ime "
 					+ designatorExprList.getDesignator().obj.getName() + " nije deklarisan! ", null);
+			designatorExprList.obj = Tab.noObj;
 			return;
 		}
 		if (designatorExprList.getDesignator().obj.getType().getKind() != Struct.Array) {
 			report_error("Greska na liniji " + designatorExprList.getDesignator().getLine() + " : ime "
 					+ designatorExprList.getDesignator().obj.getName() + " nije niz! ", null);
+			designatorExprList.obj = Tab.noObj;
 			return;
 		}
 
 		if (designatorExprList.getExpr().struct != Tab.intType && designatorExprList.getExpr().struct != intArrayType ) {
 			report_error("Greska na liniji " + designatorExprList.getDesignator().getLine()
 					+ " : vrednost izmedju [] mora biti tipa int ", null);
+			designatorExprList.obj = Tab.noObj;
 			return;
 		}
 
 		if (isFirstLevelArray) {
-			++arrayLevel;
+			//++arrayLevel;
+			//arrayLevel = 1;
+			arrayFirst.push(arrayFirst.pop() + 1);
 			//isFirstLevelArray = false;
 		} else {
+			arrayFirst.pop();
 			report_error("Greska na liniji " + designatorExprList.getDesignator().getLine()
 					+ " : Dozvoljeni su samo nizovi!", null);
 			designatorExprList.obj = Tab.noObj;
@@ -476,21 +484,20 @@ public class SemanticPass extends VisitorAdaptor {
 					null);
 			designatorFuncCall.struct = func.getType();
 			Obj calledmethod = calledMethod.pop();
-			if (actualParams.size() == calledmethod.getLevel()) {
+			if (actualParams.peek().size() == calledmethod.getLevel()) {
 				int i = 0;
 				for (Obj o : calledmethod.getLocalSymbols()) {
 					if (i == calledmethod.getLevel()) {
 						break;
 					}
-					//Expr e = actualParams.remove();
-					/*if (!o.getType().compatibleWith(e.struct)) {
+					Expr e = actualParams.peek().remove();
+					if (!e.struct.assignableTo(o.getType())) {
 						report_error("Argumenti na poziciji " + i + " moraju biti podudarajucih tipova ",
 								designatorFuncCall);
-					}*/
+					}
 					i++;
 				}
 			} else {
-				actualParams.clear();
 				report_error("Nedovoljan broj parametara", designatorFuncCall);
 			}
 		} else {
@@ -499,6 +506,7 @@ public class SemanticPass extends VisitorAdaptor {
 					null);
 			designatorFuncCall.struct = Tab.noType;
 		}
+		actualParams.remove();
 	}
 
 	public void visit(FuncCall funcCall) {
@@ -512,7 +520,7 @@ public class SemanticPass extends VisitorAdaptor {
 						break;
 					}
 					Struct e = actualParams.peek().remove().struct;
-					if(e.getKind() == Struct.Array && arrayLevel == 1) {
+					if(e.getKind() == Struct.Array && arrayFirst.pop() == 1) {
 						e = e.getElemType();
 					}
 					if (!o.getType().compatibleWith(e)) {
@@ -636,7 +644,7 @@ public class SemanticPass extends VisitorAdaptor {
 
 	public void visit(DesignatorIncrement designatorIncrement) {
 		Struct des = designatorIncrement.getDesignator().obj.getType();
-		if (arrayLevel == 1) {
+		if (des.getKind() == Struct.Array && arrayFirst.pop() == 1) {
 			des = des.getElemType();
 		}
 		if (!(des.equals(Tab.intType))) {
@@ -647,7 +655,7 @@ public class SemanticPass extends VisitorAdaptor {
 
 	public void visit(DesignatorDecrement designatorDecrement) {
 		Struct des = designatorDecrement.getDesignator().obj.getType();
-		if (arrayLevel == 1) {
+		if (des.getKind() == Struct.Array && arrayFirst.pop() == 1) {
 			des = des.getElemType();
 		}
 		if (!(des.equals(Tab.intType))) {
@@ -659,7 +667,9 @@ public class SemanticPass extends VisitorAdaptor {
 	public void visit(ConditionExpr conditionExpr) {
 		Expr1 e2 = conditionExpr.getExpr11();
 		Expr1 e3 = conditionExpr.getExpr12();
-		if (e2.struct.equals(e3.struct)) {
+		if (e2.struct.equals(e3.struct) 
+				|| (e2.struct.getKind()==Struct.Array && e2.struct.getElemType().equals(e3.struct)) 
+				|| (e3.struct.getKind()==Struct.Array && e3.struct.getElemType().equals(e2.struct))) {
 			conditionExpr.struct = e2.struct;
 		} else {
 			conditionExpr.struct = Tab.noType;
@@ -719,12 +729,12 @@ public class SemanticPass extends VisitorAdaptor {
 		condFactRelop.struct = boolType;
 		Expr1 ex1 = condFactRelop.getExpr1();
 		Struct s1 = ex1.struct;
-		if (ex1.struct.getKind() == Struct.Array && arrayLevel == 1) {
+		if (ex1.struct.getKind() == Struct.Array && arrayFirst.pop() == 1) {
 			s1 = ex1.struct.getElemType();
 		}
 		Expr1 ex2 = condFactRelop.getExpr11();
 		Struct s2 = ex2.struct;
-		if (ex2.struct.getKind() == Struct.Array && arrayLevel == 1) {
+		if (ex2.struct.getKind() == Struct.Array && arrayFirst.pop() == 1) {
 			s2 = ex2.struct.getElemType();
 		}
 		if (relops.pop() > 0) {
@@ -733,7 +743,7 @@ public class SemanticPass extends VisitorAdaptor {
 				report_error("Tipovi promenljivih koje se uporedjuju nisu kompatibilni ", condFactRelop);
 			}
 		} else {
-			if ((ex1.struct.isRefType() || ex2.struct.isRefType()) && arrayLevel == 0) {
+			if (s1.isRefType() || s2.isRefType()) {
 				condFactRelop.struct = Tab.noType;
 				report_error("Nizovi i klase se mogu porediti samo operatorima == i != ", condFactRelop);
 			} else {
@@ -777,7 +787,7 @@ public class SemanticPass extends VisitorAdaptor {
 		if (des.obj.getKind() == Obj.Var) {
 			Struct s = des.obj.getType();
 
-			if (des.obj.getType().getKind() == Struct.Array && arrayLevel == 1) {
+			if (des.obj.getType().getKind() == Struct.Array && arrayFirst.pop() == 1) {
 				s = des.obj.getType().getElemType();
 			}
 			if (s == Tab.intType || s == Tab.charType || s == boolType) {
@@ -794,7 +804,7 @@ public class SemanticPass extends VisitorAdaptor {
 	//PRINT STMT
 	public void visit(PrintStmt printStmt) {
 		Struct s1 = printStmt.getExpr().struct;
-		if (s1.getKind() == Struct.Array && arrayLevel == 1) {
+		if (s1.getKind() == Struct.Array && arrayFirst.pop() == 1) {
 			s1 = s1.getElemType();
 		}
 		if (s1 == Tab.intType || s1 == Tab.charType || s1 == boolType) {
@@ -807,7 +817,7 @@ public class SemanticPass extends VisitorAdaptor {
 
 	public void visit(PrintStmtAndNumber printStmt) {
 		Struct s1 = printStmt.getExpr().struct;
-		if (s1.getKind() == Struct.Array && arrayLevel == 1) {
+		if (s1.getKind() == Struct.Array && arrayFirst.pop() == 1) {
 			s1 = s1.getElemType();
 		}
 		if (s1 == Tab.intType || s1 == Tab.charType || s1 == boolType) {
