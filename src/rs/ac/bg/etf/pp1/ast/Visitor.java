@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 4/0/2021 0:48:14
+// 8/0/2021 19:52:44
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -93,7 +93,7 @@ public interface Visitor {
     public void visit(DesignatorAssignExpression DesignatorAssignExpression);
     public void visit(DesignatorDecrement DesignatorDecrement);
     public void visit(DesignatorIncrement DesignatorIncrement);
-    public void visit(DesignatorArray DesignatorArray);
+    public void visit(DesignatorFuncCall DesignatorFuncCall);
     public void visit(DesignatorOther DesignatorOther);
     public void visit(DesignatorExpression DesignatorExpression);
     public void visit(EmptyCase EmptyCase);
@@ -102,6 +102,7 @@ public interface Visitor {
     public void visit(IfGoodConditions IfGoodConditions);
     public void visit(IfWithElseStatementExpression IfWithElseStatementExpression);
     public void visit(IfWithoutElseStatementExpression IfWithoutElseStatementExpression);
+    public void visit(DoWhileStart DoWhileStart);
     public void visit(DoWhile DoWhile);
     public void visit(IfStmt IfStmt);
     public void visit(Assignment Assignment);
@@ -130,6 +131,7 @@ public interface Visitor {
     public void visit(NoConstDeclAddition NoConstDeclAddition);
     public void visit(ConstDeclAdd ConstDeclAdd);
     public void visit(ConstDecl ConstDecl);
+    public void visit(ClassName ClassName);
     public void visit(ClassDeclExtendsMethods ClassDeclExtendsMethods);
     public void visit(ClassDeclExtends ClassDeclExtends);
     public void visit(ClassDeclMethods ClassDeclMethods);
@@ -140,10 +142,10 @@ public interface Visitor {
     public void visit(NoMethodDecl NoMethodDecl);
     public void visit(MethodDeclarations MethodDeclarations);
     public void visit(Type Type);
-    public void visit(VaraibleNameError VaraibleNameError);
-    public void visit(VariableName VariableName);
     public void visit(NoVarDeclAdd NoVarDeclAdd);
     public void visit(VarDeclAdd VarDeclAdd);
+    public void visit(VaraibleNameError VaraibleNameError);
+    public void visit(VariableName VariableName);
     public void visit(VarDecl VarDecl);
     public void visit(NoVarDecl NoVarDecl);
     public void visit(VarDeclarations VarDeclarations);

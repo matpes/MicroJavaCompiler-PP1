@@ -1,30 +1,31 @@
 // generated with ast extension for cup
 // version 0.8
-// 4/0/2021 0:48:14
+// 8/0/2021 19:52:44
 
 
 package rs.ac.bg.etf.pp1.ast;
 
 public class ClassDeclMethods extends ClassDecl {
 
-    private String className;
+    private ClassName ClassName;
     private VarDecList VarDecList;
     private MethodDeclList MethodDeclList;
 
-    public ClassDeclMethods (String className, VarDecList VarDecList, MethodDeclList MethodDeclList) {
-        this.className=className;
+    public ClassDeclMethods (ClassName ClassName, VarDecList VarDecList, MethodDeclList MethodDeclList) {
+        this.ClassName=ClassName;
+        if(ClassName!=null) ClassName.setParent(this);
         this.VarDecList=VarDecList;
         if(VarDecList!=null) VarDecList.setParent(this);
         this.MethodDeclList=MethodDeclList;
         if(MethodDeclList!=null) MethodDeclList.setParent(this);
     }
 
-    public String getClassName() {
-        return className;
+    public ClassName getClassName() {
+        return ClassName;
     }
 
-    public void setClassName(String className) {
-        this.className=className;
+    public void setClassName(ClassName ClassName) {
+        this.ClassName=ClassName;
     }
 
     public VarDecList getVarDecList() {
@@ -48,17 +49,20 @@ public class ClassDeclMethods extends ClassDecl {
     }
 
     public void childrenAccept(Visitor visitor) {
+        if(ClassName!=null) ClassName.accept(visitor);
         if(VarDecList!=null) VarDecList.accept(visitor);
         if(MethodDeclList!=null) MethodDeclList.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
+        if(ClassName!=null) ClassName.traverseTopDown(visitor);
         if(VarDecList!=null) VarDecList.traverseTopDown(visitor);
         if(MethodDeclList!=null) MethodDeclList.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
+        if(ClassName!=null) ClassName.traverseBottomUp(visitor);
         if(VarDecList!=null) VarDecList.traverseBottomUp(visitor);
         if(MethodDeclList!=null) MethodDeclList.traverseBottomUp(visitor);
         accept(visitor);
@@ -69,7 +73,10 @@ public class ClassDeclMethods extends ClassDecl {
         buffer.append(tab);
         buffer.append("ClassDeclMethods(\n");
 
-        buffer.append(" "+tab+className);
+        if(ClassName!=null)
+            buffer.append(ClassName.toString("  "+tab));
+        else
+            buffer.append(tab+"  null");
         buffer.append("\n");
 
         if(VarDecList!=null)

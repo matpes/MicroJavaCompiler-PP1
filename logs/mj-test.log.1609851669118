@@ -1,0 +1,133 @@
+INFO  14:00:43,933 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\semantikaTest.mj
+INFO  14:00:43,983 - #2 program
+INFO  14:00:43,983 - #17 SemantikaMJ
+INFO  14:00:43,983 - #17 int
+INFO  14:00:43,984 - #17 x
+INFO  14:00:43,984 - #5 ;
+INFO  14:00:43,986 - #17 int
+INFO  14:00:43,986 - #17 y
+INFO  14:00:43,986 - #9 ,
+INFO  14:00:43,986 - #17 z
+INFO  14:00:43,987 - #5 ;
+INFO  14:00:43,987 - #17 int
+INFO  14:00:43,987 - #17 a
+INFO  14:00:43,987 - #10 [
+INFO  14:00:43,987 - #11 ]
+INFO  14:00:43,987 - #5 ;
+INFO  14:00:43,988 - #17 char
+INFO  14:00:43,988 - #17 b
+INFO  14:00:43,988 - #10 [
+INFO  14:00:43,988 - #11 ]
+INFO  14:00:43,988 - #9 ,
+INFO  14:00:43,988 - #17 c
+INFO  14:00:43,988 - #10 [
+INFO  14:00:43,990 - #11 ]
+INFO  14:00:43,990 - #9 ,
+INFO  14:00:43,990 - #17 d
+INFO  14:00:43,990 - #5 ;
+INFO  14:00:43,990 - #3 {
+INFO  14:00:43,990 - #4 }
+INFO  14:00:43,991 - Program(
+  ProgName(
+   SemantikaMJ
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          VarTypeDeclaration(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VariableName(
+               x
+              ) [VariableName]
+              BoxNo(
+              ) [BoxNo]
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+            ) [VarDecl]
+          ) [VarTypeDeclaration]
+        ) [DeclarationList]
+        VarTypeDeclaration(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VariableName(
+             y
+            ) [VariableName]
+            BoxNo(
+            ) [BoxNo]
+            VarDeclAdd(
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+              VariableName(
+               z
+              ) [VariableName]
+              BoxNo(
+              ) [BoxNo]
+            ) [VarDeclAdd]
+          ) [VarDecl]
+        ) [VarTypeDeclaration]
+      ) [DeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VariableName(
+           a
+          ) [VariableName]
+          BoxYes(
+          ) [BoxYes]
+          NoVarDeclAdd(
+          ) [NoVarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         char
+        ) [Type]
+        VariableName(
+         b
+        ) [VariableName]
+        BoxYes(
+        ) [BoxYes]
+        VarDeclAdd(
+          VarDeclAdd(
+            NoVarDeclAdd(
+            ) [NoVarDeclAdd]
+            VariableName(
+             c
+            ) [VariableName]
+            BoxYes(
+            ) [BoxYes]
+          ) [VarDeclAdd]
+          VariableName(
+           d
+          ) [VariableName]
+          BoxNo(
+          ) [BoxNo]
+        ) [VarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  14:00:43,992 - ===================================
+INFO  14:00:43,996 - Deklarisana promenljiva x na liniji 3
+INFO  14:00:43,997 - Deklarisana promenljiva z na liniji 4
+INFO  14:00:43,997 - Deklarisana promenljiva z na liniji 4
+INFO  14:00:43,997 - Deklarisana promenljiva a na liniji 5
+INFO  14:00:43,997 - Deklarisana promenljiva c na liniji 7
+INFO  14:00:43,997 - Deklarisana promenljiva d na liniji 7
+INFO  14:00:43,997 - Deklarisana promenljiva d na liniji 6
+INFO  14:00:43,997 -  Print count calls = 0
+INFO  14:00:43,997 -  Deklarisanih promenljivih ima = 7

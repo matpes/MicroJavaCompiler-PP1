@@ -1,0 +1,154 @@
+INFO  14:16:30,165 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\semantikaTest.mj
+INFO  14:16:30,216 - #2 program
+INFO  14:16:30,217 - #17 SemantikaMJ
+INFO  14:16:30,217 - #17 boolean
+INFO  14:16:30,218 - #17 x
+INFO  14:16:30,219 - #5 ;
+INFO  14:16:30,221 - #17 int
+INFO  14:16:30,221 - #17 y
+INFO  14:16:30,221 - #9 ,
+INFO  14:16:30,222 - #17 z
+INFO  14:16:30,222 - #5 ;
+INFO  14:16:30,222 - #17 int
+INFO  14:16:30,222 - #17 a
+INFO  14:16:30,222 - #10 [
+INFO  14:16:30,222 - #11 ]
+INFO  14:16:30,222 - #5 ;
+INFO  14:16:30,222 - #17 boolean
+INFO  14:16:30,223 - #17 b
+INFO  14:16:30,223 - #10 [
+INFO  14:16:30,223 - #11 ]
+INFO  14:16:30,223 - #9 ,
+INFO  14:16:30,223 - #17 c
+INFO  14:16:30,225 - #10 [
+INFO  14:16:30,226 - #11 ]
+INFO  14:16:30,226 - #9 ,
+INFO  14:16:30,226 - #17 d
+INFO  14:16:30,226 - #5 ;
+INFO  14:16:30,226 - #17 sad
+INFO  14:16:30,226 - #17 wtf
+INFO  14:16:30,226 - #5 ;
+INFO  14:16:30,227 - #3 {
+INFO  14:16:30,227 - #4 }
+INFO  14:16:30,229 - Program(
+  ProgName(
+   SemantikaMJ
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            NoDeclarationList(
+            ) [NoDeclarationList]
+            VarTypeDeclaration(
+              VarDecl(
+                Type(
+                 boolean
+                ) [Type]
+                VariableName(
+                 x
+                ) [VariableName]
+                BoxNo(
+                ) [BoxNo]
+                NoVarDeclAdd(
+                ) [NoVarDeclAdd]
+              ) [VarDecl]
+            ) [VarTypeDeclaration]
+          ) [DeclarationList]
+          VarTypeDeclaration(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VariableName(
+               y
+              ) [VariableName]
+              BoxNo(
+              ) [BoxNo]
+              VarDeclAdd(
+                NoVarDeclAdd(
+                ) [NoVarDeclAdd]
+                VariableName(
+                 z
+                ) [VariableName]
+                BoxNo(
+                ) [BoxNo]
+              ) [VarDeclAdd]
+            ) [VarDecl]
+          ) [VarTypeDeclaration]
+        ) [DeclarationList]
+        VarTypeDeclaration(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VariableName(
+             a
+            ) [VariableName]
+            BoxYes(
+            ) [BoxYes]
+            NoVarDeclAdd(
+            ) [NoVarDeclAdd]
+          ) [VarDecl]
+        ) [VarTypeDeclaration]
+      ) [DeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           boolean
+          ) [Type]
+          VariableName(
+           b
+          ) [VariableName]
+          BoxYes(
+          ) [BoxYes]
+          VarDeclAdd(
+            VarDeclAdd(
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+              VariableName(
+               c
+              ) [VariableName]
+              BoxYes(
+              ) [BoxYes]
+            ) [VarDeclAdd]
+            VariableName(
+             d
+            ) [VariableName]
+            BoxNo(
+            ) [BoxNo]
+          ) [VarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         sad
+        ) [Type]
+        VariableName(
+         wtf
+        ) [VariableName]
+        BoxNo(
+        ) [BoxNo]
+        NoVarDeclAdd(
+        ) [NoVarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  14:16:30,230 - ===================================
+INFO  14:16:30,240 - Deklarisana promenljiva x na liniji 3
+INFO  14:16:30,240 - Deklarisana promenljiva z na liniji 4
+INFO  14:16:30,241 - Deklarisana promenljiva z na liniji 4
+INFO  14:16:30,241 - Deklarisana promenljiva a na liniji 5
+INFO  14:16:30,241 - Deklarisana promenljiva c na liniji 10
+INFO  14:16:30,241 - Deklarisana promenljiva d na liniji 10
+INFO  14:16:30,241 - Deklarisana promenljiva d na liniji 6
+ERROR 14:16:30,241 - Nije pronadjen tip sad u tabeli simbola! 
+ERROR 14:16:30,241 - Greska pri deklarisanju promenljive  na liniji 7
+INFO  14:16:30,241 -  Print count calls = 0
+INFO  14:16:30,241 -  Deklarisanih promenljivih ima = 7

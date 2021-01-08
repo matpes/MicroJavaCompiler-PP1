@@ -1,0 +1,316 @@
+INFO  17:18:42,966 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\semantikaTest.mj
+INFO  17:18:43,016 - #2 program
+INFO  17:18:43,017 - #17 SemantikaMJ
+INFO  17:18:43,017 - #17 boolean
+INFO  17:18:43,018 - #17 x
+INFO  17:18:43,019 - #5 ;
+INFO  17:18:43,020 - #47 const
+INFO  17:18:43,021 - #17 int
+INFO  17:18:43,021 - #17 ci
+INFO  17:18:43,021 - #15 =
+INFO  17:18:43,022 - #19 g
+INFO  17:18:43,022 - #5 ;
+INFO  17:18:43,022 - #47 const
+INFO  17:18:43,024 - #17 char
+INFO  17:18:43,024 - #17 ch
+INFO  17:18:43,024 - #15 =
+INFO  17:18:43,024 - #19 b
+INFO  17:18:43,024 - #5 ;
+INFO  17:18:43,024 - #47 const
+INFO  17:18:43,024 - #17 boolean
+INFO  17:18:43,024 - #17 ct
+INFO  17:18:43,024 - #15 =
+INFO  17:18:43,027 - #18 true
+INFO  17:18:43,027 - #5 ;
+INFO  17:18:43,027 - #47 const
+INFO  17:18:43,027 - #17 boolean
+INFO  17:18:43,027 - #17 cf
+INFO  17:18:43,027 - #15 =
+INFO  17:18:43,027 - #18 false
+INFO  17:18:43,027 - #5 ;
+INFO  17:18:43,027 - #47 const
+INFO  17:18:43,027 - #17 boolean
+INFO  17:18:43,027 - #17 csf
+INFO  17:18:43,027 - #15 =
+INFO  17:18:43,027 - #18 false
+INFO  17:18:43,027 - #5 ;
+INFO  17:18:43,027 - #17 int
+INFO  17:18:43,027 - #17 y
+INFO  17:18:43,027 - #5 ;
+INFO  17:18:43,027 - #17 char
+INFO  17:18:43,027 - #17 z
+INFO  17:18:43,027 - #5 ;
+INFO  17:18:43,027 - #17 int
+INFO  17:18:43,027 - #17 a
+INFO  17:18:43,027 - #5 ;
+INFO  17:18:43,028 - #17 int
+INFO  17:18:43,028 - #17 b
+INFO  17:18:43,028 - #10 [
+INFO  17:18:43,028 - #11 ]
+INFO  17:18:43,028 - #9 ,
+INFO  17:18:43,029 - #17 c
+INFO  17:18:43,029 - #10 [
+INFO  17:18:43,029 - #11 ]
+INFO  17:18:43,029 - #9 ,
+INFO  17:18:43,029 - #17 d
+INFO  17:18:43,029 - #5 ;
+INFO  17:18:43,029 - #17 char
+INFO  17:18:43,029 - #17 charArray
+INFO  17:18:43,029 - #10 [
+INFO  17:18:43,029 - #11 ]
+INFO  17:18:43,029 - #5 ;
+INFO  17:18:43,029 - #17 boolean
+INFO  17:18:43,029 - #17 boolArray
+INFO  17:18:43,029 - #10 [
+INFO  17:18:43,030 - #11 ]
+INFO  17:18:43,030 - #5 ;
+INFO  17:18:43,030 - #17 sad
+INFO  17:18:43,030 - #17 wtf
+INFO  17:18:43,030 - #5 ;
+INFO  17:18:43,030 - #3 {
+INFO  17:18:43,030 - #4 }
+INFO  17:18:43,032 - Program(
+  ProgName(
+   SemantikaMJ
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                DeclarationList(
+                  DeclarationList(
+                    DeclarationList(
+                      DeclarationList(
+                        DeclarationList(
+                          DeclarationList(
+                            NoDeclarationList(
+                            ) [NoDeclarationList]
+                            VarTypeDeclaration(
+                              VarDecl(
+                                Type(
+                                 boolean
+                                ) [Type]
+                                VariableName(
+                                 x
+                                ) [VariableName]
+                                BoxNo(
+                                ) [BoxNo]
+                                NoVarDeclAdd(
+                                ) [NoVarDeclAdd]
+                              ) [VarDecl]
+                            ) [VarTypeDeclaration]
+                          ) [DeclarationList]
+                          ConstTypeDeclaration(
+                            ConstDecl(
+                              Type(
+                               int
+                              ) [Type]
+                             ci
+                              CharConst(
+                               g
+                              ) [CharConst]
+                              NoConstDeclAddition(
+                              ) [NoConstDeclAddition]
+                            ) [ConstDecl]
+                          ) [ConstTypeDeclaration]
+                        ) [DeclarationList]
+                        ConstTypeDeclaration(
+                          ConstDecl(
+                            Type(
+                             char
+                            ) [Type]
+                           ch
+                            CharConst(
+                             b
+                            ) [CharConst]
+                            NoConstDeclAddition(
+                            ) [NoConstDeclAddition]
+                          ) [ConstDecl]
+                        ) [ConstTypeDeclaration]
+                      ) [DeclarationList]
+                      ConstTypeDeclaration(
+                        ConstDecl(
+                          Type(
+                           boolean
+                          ) [Type]
+                         ct
+                          BoolConst(
+                           true
+                          ) [BoolConst]
+                          NoConstDeclAddition(
+                          ) [NoConstDeclAddition]
+                        ) [ConstDecl]
+                      ) [ConstTypeDeclaration]
+                    ) [DeclarationList]
+                    ConstTypeDeclaration(
+                      ConstDecl(
+                        Type(
+                         boolean
+                        ) [Type]
+                       cf
+                        BoolConst(
+                         false
+                        ) [BoolConst]
+                        NoConstDeclAddition(
+                        ) [NoConstDeclAddition]
+                      ) [ConstDecl]
+                    ) [ConstTypeDeclaration]
+                  ) [DeclarationList]
+                  ConstTypeDeclaration(
+                    ConstDecl(
+                      Type(
+                       boolean
+                      ) [Type]
+                     csf
+                      BoolConst(
+                       false
+                      ) [BoolConst]
+                      NoConstDeclAddition(
+                      ) [NoConstDeclAddition]
+                    ) [ConstDecl]
+                  ) [ConstTypeDeclaration]
+                ) [DeclarationList]
+                VarTypeDeclaration(
+                  VarDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    VariableName(
+                     y
+                    ) [VariableName]
+                    BoxNo(
+                    ) [BoxNo]
+                    NoVarDeclAdd(
+                    ) [NoVarDeclAdd]
+                  ) [VarDecl]
+                ) [VarTypeDeclaration]
+              ) [DeclarationList]
+              VarTypeDeclaration(
+                VarDecl(
+                  Type(
+                   char
+                  ) [Type]
+                  VariableName(
+                   z
+                  ) [VariableName]
+                  BoxNo(
+                  ) [BoxNo]
+                  NoVarDeclAdd(
+                  ) [NoVarDeclAdd]
+                ) [VarDecl]
+              ) [VarTypeDeclaration]
+            ) [DeclarationList]
+            VarTypeDeclaration(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VariableName(
+                 a
+                ) [VariableName]
+                BoxNo(
+                ) [BoxNo]
+                NoVarDeclAdd(
+                ) [NoVarDeclAdd]
+              ) [VarDecl]
+            ) [VarTypeDeclaration]
+          ) [DeclarationList]
+          VarTypeDeclaration(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VariableName(
+               b
+              ) [VariableName]
+              BoxYes(
+              ) [BoxYes]
+              VarDeclAdd(
+                VarDeclAdd(
+                  NoVarDeclAdd(
+                  ) [NoVarDeclAdd]
+                  VariableName(
+                   c
+                  ) [VariableName]
+                  BoxYes(
+                  ) [BoxYes]
+                ) [VarDeclAdd]
+                VariableName(
+                 d
+                ) [VariableName]
+                BoxNo(
+                ) [BoxNo]
+              ) [VarDeclAdd]
+            ) [VarDecl]
+          ) [VarTypeDeclaration]
+        ) [DeclarationList]
+        VarTypeDeclaration(
+          VarDecl(
+            Type(
+             char
+            ) [Type]
+            VariableName(
+             charArray
+            ) [VariableName]
+            BoxYes(
+            ) [BoxYes]
+            NoVarDeclAdd(
+            ) [NoVarDeclAdd]
+          ) [VarDecl]
+        ) [VarTypeDeclaration]
+      ) [DeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           boolean
+          ) [Type]
+          VariableName(
+           boolArray
+          ) [VariableName]
+          BoxYes(
+          ) [BoxYes]
+          NoVarDeclAdd(
+          ) [NoVarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         sad
+        ) [Type]
+        VariableName(
+         wtf
+        ) [VariableName]
+        BoxNo(
+        ) [BoxNo]
+        NoVarDeclAdd(
+        ) [NoVarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:18:43,032 - ===================================
+INFO  17:18:43,037 - Deklarisana promenljiva x na liniji 3
+ERROR 17:18:43,037 - Greska pri deklarisanju konstantne. Razliciti su tipovi  na liniji 4
+INFO  17:18:43,037 - Deklarisana char konstantna ch na liniji 5
+INFO  17:18:43,037 - Deklarisana boolean konstantna ct na liniji 6
+INFO  17:18:43,037 - Deklarisana boolean konstantna cf na liniji 7
+INFO  17:18:43,037 - Deklarisana boolean konstantna csf na liniji 8
+INFO  17:18:43,037 - Deklarisana promenljiva y na liniji 9
+INFO  17:18:43,038 - Deklarisana promenljiva z na liniji 10
+INFO  17:18:43,038 - Deklarisana promenljiva a na liniji 11
+INFO  17:18:43,038 - Deklarisana promenljiva c na liniji 12
+INFO  17:18:43,038 - Deklarisana promenljiva d na liniji 12
+INFO  17:18:43,038 - Deklarisana promenljiva b na liniji 12
+INFO  17:18:43,038 - Deklarisana promenljiva charArray na liniji 13
+INFO  17:18:43,038 - Deklarisana promenljiva boolArray na liniji 14
+ERROR 17:18:43,038 - Nije pronadjen tip sad u tabeli simbola! 
+ERROR 17:18:43,038 - Greska pri deklarisanju promenljive  na liniji 15
+INFO  17:18:43,038 -  Print count calls = 0
+INFO  17:18:43,038 -  Deklarisanih promenljivih ima = 9

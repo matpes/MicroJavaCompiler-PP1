@@ -1,0 +1,505 @@
+INFO  20:18:37,092 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\semantikaTest.mj
+INFO  20:18:37,141 - #2 program
+INFO  20:18:37,142 - #17 SemantikaMJ
+INFO  20:18:37,142 - #17 boolean
+INFO  20:18:37,143 - #17 x
+INFO  20:18:37,144 - #5 ;
+INFO  20:18:37,145 - #47 const
+INFO  20:18:37,147 - #17 int
+INFO  20:18:37,147 - #17 ci
+INFO  20:18:37,147 - #15 =
+INFO  20:18:37,147 - #20 5
+INFO  20:18:37,147 - #9 ,
+INFO  20:18:37,148 - #17 ci2
+INFO  20:18:37,148 - #15 =
+INFO  20:18:37,149 - #20 6
+INFO  20:18:37,149 - #9 ,
+INFO  20:18:37,149 - #17 ci3
+INFO  20:18:37,149 - #15 =
+INFO  20:18:37,149 - #20 6
+INFO  20:18:37,149 - #5 ;
+INFO  20:18:37,149 - #47 const
+INFO  20:18:37,151 - #17 boolean
+INFO  20:18:37,151 - #17 cd
+INFO  20:18:37,151 - #15 =
+INFO  20:18:37,151 - #18 true
+INFO  20:18:37,152 - #5 ;
+INFO  20:18:37,152 - #47 const
+INFO  20:18:37,152 - #17 char
+INFO  20:18:37,152 - #17 ch
+INFO  20:18:37,152 - #15 =
+INFO  20:18:37,152 - #19 b
+INFO  20:18:37,152 - #5 ;
+INFO  20:18:37,153 - #47 const
+INFO  20:18:37,153 - #17 boolean
+INFO  20:18:37,153 - #17 ct
+INFO  20:18:37,153 - #15 =
+INFO  20:18:37,153 - #18 true
+INFO  20:18:37,153 - #5 ;
+INFO  20:18:37,153 - #47 const
+INFO  20:18:37,153 - #17 boolean
+INFO  20:18:37,153 - #17 cf
+INFO  20:18:37,153 - #15 =
+INFO  20:18:37,153 - #18 false
+INFO  20:18:37,154 - #5 ;
+INFO  20:18:37,154 - #47 const
+INFO  20:18:37,154 - #17 boolean
+INFO  20:18:37,154 - #17 csf
+INFO  20:18:37,154 - #15 =
+INFO  20:18:37,154 - #18 false
+INFO  20:18:37,155 - #5 ;
+INFO  20:18:37,155 - #17 int
+INFO  20:18:37,155 - #17 y
+INFO  20:18:37,155 - #5 ;
+INFO  20:18:37,155 - #17 char
+INFO  20:18:37,155 - #17 z
+INFO  20:18:37,155 - #5 ;
+INFO  20:18:37,155 - #17 int
+INFO  20:18:37,155 - #17 a
+INFO  20:18:37,156 - #5 ;
+INFO  20:18:37,156 - #17 int
+INFO  20:18:37,156 - #17 b
+INFO  20:18:37,156 - #10 [
+INFO  20:18:37,156 - #11 ]
+INFO  20:18:37,156 - #9 ,
+INFO  20:18:37,157 - #17 c
+INFO  20:18:37,157 - #10 [
+INFO  20:18:37,157 - #11 ]
+INFO  20:18:37,157 - #9 ,
+INFO  20:18:37,158 - #17 d
+INFO  20:18:37,158 - #5 ;
+INFO  20:18:37,158 - #17 char
+INFO  20:18:37,158 - #17 charArray
+INFO  20:18:37,158 - #10 [
+INFO  20:18:37,158 - #11 ]
+INFO  20:18:37,158 - #5 ;
+INFO  20:18:37,158 - #17 boolean
+INFO  20:18:37,158 - #17 boolArray
+INFO  20:18:37,158 - #10 [
+INFO  20:18:37,158 - #11 ]
+INFO  20:18:37,159 - #5 ;
+INFO  20:18:37,159 - #3 {
+INFO  20:18:37,159 - #16 void
+INFO  20:18:37,160 - #17 k
+INFO  20:18:37,160 - #7 (
+INFO  20:18:37,160 - #8 )
+INFO  20:18:37,161 - #17 int
+INFO  20:18:37,162 - #17 i
+INFO  20:18:37,162 - #5 ;
+INFO  20:18:37,162 - #17 int
+INFO  20:18:37,162 - #17 a
+INFO  20:18:37,162 - #5 ;
+INFO  20:18:37,162 - #3 {
+INFO  20:18:37,163 - #12 print
+INFO  20:18:37,164 - #7 (
+INFO  20:18:37,164 - #19 A
+INFO  20:18:37,164 - #8 )
+INFO  20:18:37,165 - #5 ;
+INFO  20:18:37,165 - #14 return
+INFO  20:18:37,165 - #17 a
+INFO  20:18:37,165 - #5 ;
+INFO  20:18:37,165 - #4 }
+INFO  20:18:37,165 - #17 int
+INFO  20:18:37,165 - #17 cha
+INFO  20:18:37,165 - #7 (
+INFO  20:18:37,166 - #8 )
+INFO  20:18:37,166 - #3 {
+INFO  20:18:37,166 - #17 qwe
+INFO  20:18:37,166 - #15 =
+INFO  20:18:37,166 - #20 5
+INFO  20:18:37,167 - #5 ;
+INFO  20:18:37,167 - #14 return
+INFO  20:18:37,168 - #17 a
+INFO  20:18:37,168 - #5 ;
+INFO  20:18:37,168 - #4 }
+INFO  20:18:37,168 - #4 }
+INFO  20:18:37,170 - Program(
+  ProgName(
+   SemantikaMJ
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                DeclarationList(
+                  DeclarationList(
+                    DeclarationList(
+                      DeclarationList(
+                        DeclarationList(
+                          DeclarationList(
+                            NoDeclarationList(
+                            ) [NoDeclarationList]
+                            VarTypeDeclaration(
+                              VarDecl(
+                                Type(
+                                 boolean
+                                ) [Type]
+                                VariableName(
+                                 x
+                                ) [VariableName]
+                                BoxNo(
+                                ) [BoxNo]
+                                NoVarDeclAdd(
+                                ) [NoVarDeclAdd]
+                              ) [VarDecl]
+                            ) [VarTypeDeclaration]
+                          ) [DeclarationList]
+                          ConstTypeDeclaration(
+                            ConstDecl(
+                              Type(
+                               int
+                              ) [Type]
+                             ci
+                              NumberConst(
+                               5
+                              ) [NumberConst]
+                              ConstDeclAdd(
+                                ConstDeclAdd(
+                                  NoConstDeclAddition(
+                                  ) [NoConstDeclAddition]
+                                 ci2
+                                  NumberConst(
+                                   6
+                                  ) [NumberConst]
+                                ) [ConstDeclAdd]
+                               ci3
+                                NumberConst(
+                                 6
+                                ) [NumberConst]
+                              ) [ConstDeclAdd]
+                            ) [ConstDecl]
+                          ) [ConstTypeDeclaration]
+                        ) [DeclarationList]
+                        ConstTypeDeclaration(
+                          ConstDecl(
+                            Type(
+                             boolean
+                            ) [Type]
+                           cd
+                            BoolConst(
+                             true
+                            ) [BoolConst]
+                            NoConstDeclAddition(
+                            ) [NoConstDeclAddition]
+                          ) [ConstDecl]
+                        ) [ConstTypeDeclaration]
+                      ) [DeclarationList]
+                      ConstTypeDeclaration(
+                        ConstDecl(
+                          Type(
+                           char
+                          ) [Type]
+                         ch
+                          CharConst(
+                           b
+                          ) [CharConst]
+                          NoConstDeclAddition(
+                          ) [NoConstDeclAddition]
+                        ) [ConstDecl]
+                      ) [ConstTypeDeclaration]
+                    ) [DeclarationList]
+                    ConstTypeDeclaration(
+                      ConstDecl(
+                        Type(
+                         boolean
+                        ) [Type]
+                       ct
+                        BoolConst(
+                         true
+                        ) [BoolConst]
+                        NoConstDeclAddition(
+                        ) [NoConstDeclAddition]
+                      ) [ConstDecl]
+                    ) [ConstTypeDeclaration]
+                  ) [DeclarationList]
+                  ConstTypeDeclaration(
+                    ConstDecl(
+                      Type(
+                       boolean
+                      ) [Type]
+                     cf
+                      BoolConst(
+                       false
+                      ) [BoolConst]
+                      NoConstDeclAddition(
+                      ) [NoConstDeclAddition]
+                    ) [ConstDecl]
+                  ) [ConstTypeDeclaration]
+                ) [DeclarationList]
+                ConstTypeDeclaration(
+                  ConstDecl(
+                    Type(
+                     boolean
+                    ) [Type]
+                   csf
+                    BoolConst(
+                     false
+                    ) [BoolConst]
+                    NoConstDeclAddition(
+                    ) [NoConstDeclAddition]
+                  ) [ConstDecl]
+                ) [ConstTypeDeclaration]
+              ) [DeclarationList]
+              VarTypeDeclaration(
+                VarDecl(
+                  Type(
+                   int
+                  ) [Type]
+                  VariableName(
+                   y
+                  ) [VariableName]
+                  BoxNo(
+                  ) [BoxNo]
+                  NoVarDeclAdd(
+                  ) [NoVarDeclAdd]
+                ) [VarDecl]
+              ) [VarTypeDeclaration]
+            ) [DeclarationList]
+            VarTypeDeclaration(
+              VarDecl(
+                Type(
+                 char
+                ) [Type]
+                VariableName(
+                 z
+                ) [VariableName]
+                BoxNo(
+                ) [BoxNo]
+                NoVarDeclAdd(
+                ) [NoVarDeclAdd]
+              ) [VarDecl]
+            ) [VarTypeDeclaration]
+          ) [DeclarationList]
+          VarTypeDeclaration(
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VariableName(
+               a
+              ) [VariableName]
+              BoxNo(
+              ) [BoxNo]
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+            ) [VarDecl]
+          ) [VarTypeDeclaration]
+        ) [DeclarationList]
+        VarTypeDeclaration(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VariableName(
+             b
+            ) [VariableName]
+            BoxYes(
+            ) [BoxYes]
+            VarDeclAdd(
+              VarDeclAdd(
+                NoVarDeclAdd(
+                ) [NoVarDeclAdd]
+                VariableName(
+                 c
+                ) [VariableName]
+                BoxYes(
+                ) [BoxYes]
+              ) [VarDeclAdd]
+              VariableName(
+               d
+              ) [VariableName]
+              BoxNo(
+              ) [BoxNo]
+            ) [VarDeclAdd]
+          ) [VarDecl]
+        ) [VarTypeDeclaration]
+      ) [DeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           char
+          ) [Type]
+          VariableName(
+           charArray
+          ) [VariableName]
+          BoxYes(
+          ) [BoxYes]
+          NoVarDeclAdd(
+          ) [NoVarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         boolean
+        ) [Type]
+        VariableName(
+         boolArray
+        ) [VariableName]
+        BoxYes(
+        ) [BoxYes]
+        NoVarDeclAdd(
+        ) [NoVarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclaration(
+        MetVoidName(
+         k
+        ) [MetVoidName]
+        NoFormParam(
+        ) [NoFormParam]
+        VarDeclarations(
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VariableName(
+               i
+              ) [VariableName]
+              BoxNo(
+              ) [BoxNo]
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VariableName(
+             a
+            ) [VariableName]
+            BoxNo(
+            ) [BoxNo]
+            NoVarDeclAdd(
+            ) [NoVarDeclAdd]
+          ) [VarDecl]
+        ) [VarDeclarations]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            PrintStmt(
+              Expresion(
+                TermExpr(
+                  FactorTerm(
+                    Const(
+                      CharConst(
+                       A
+                      ) [CharConst]
+                    ) [Const]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [Expresion]
+            ) [PrintStmt]
+          ) [Statements]
+          ReturnExpr(
+            Expresion(
+              TermExpr(
+                FactorTerm(
+                  Var(
+                    DesignatorIdent(
+                     a
+                    ) [DesignatorIdent]
+                  ) [Var]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [Expresion]
+          ) [ReturnExpr]
+        ) [Statements]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MetTypeName(
+        Type(
+         int
+        ) [Type]
+       cha
+      ) [MetTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesignatorExpression(
+              DesignatorAssignExpression(
+                DesignatorIdent(
+                 qwe
+                ) [DesignatorIdent]
+                Assign(
+                ) [Assign]
+                Expresion(
+                  TermExpr(
+                    FactorTerm(
+                      Const(
+                        NumberConst(
+                         5
+                        ) [NumberConst]
+                      ) [Const]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [Expresion]
+              ) [DesignatorAssignExpression]
+            ) [DesignatorExpression]
+          ) [Assignment]
+        ) [Statements]
+        ReturnExpr(
+          Expresion(
+            TermExpr(
+              FactorTerm(
+                Var(
+                  DesignatorIdent(
+                   a
+                  ) [DesignatorIdent]
+                ) [Var]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [Expresion]
+        ) [ReturnExpr]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  20:18:37,170 - ===================================
+INFO  20:18:37,175 - Deklarisana promenljiva x na liniji 3
+INFO  20:18:37,175 - Deklarisana int konstantna ci2 na liniji 4
+INFO  20:18:37,175 - Deklarisana int konstantna ci3 na liniji 4
+INFO  20:18:37,175 - Deklarisana int konstantna ci na liniji 4
+INFO  20:18:37,175 - Deklarisana boolean konstantna cd na liniji 5
+INFO  20:18:37,175 - Deklarisana char konstantna ch na liniji 6
+INFO  20:18:37,175 - Deklarisana boolean konstantna ct na liniji 7
+INFO  20:18:37,175 - Deklarisana boolean konstantna cf na liniji 8
+INFO  20:18:37,176 - Deklarisana boolean konstantna csf na liniji 9
+INFO  20:18:37,177 - Deklarisana promenljiva y na liniji 10
+INFO  20:18:37,177 - Deklarisana promenljiva z na liniji 11
+INFO  20:18:37,177 - Deklarisana promenljiva a na liniji 12
+INFO  20:18:37,177 - Deklarisana promenljiva c na liniji 13
+INFO  20:18:37,177 - Deklarisana promenljiva d na liniji 13
+INFO  20:18:37,177 - Deklarisana promenljiva b na liniji 13
+INFO  20:18:37,177 - Deklarisana promenljiva charArray na liniji 14
+INFO  20:18:37,177 - Deklarisana promenljiva boolArray na liniji 15
+INFO  20:18:37,177 - Obradjuje se funkcija k na liniji 17
+INFO  20:18:37,177 - Deklarisana promenljiva i na liniji 18
+INFO  20:18:37,177 - Deklarisana promenljiva a na liniji 19
+ERROR 20:18:37,177 - Greska na liniji 22 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije k
+INFO  20:18:37,178 - Obradjuje se funkcija cha na liniji 25
+ERROR 20:18:37,178 - Greska na liniji 26 : ime qwe nije deklarisano! 
+ERROR 20:18:37,178 - Greska na liniji 27 : tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije cha
+INFO  20:18:37,178 -  Print count calls = 1
+INFO  20:18:37,178 -  Deklarisanih promenljivih ima = 11

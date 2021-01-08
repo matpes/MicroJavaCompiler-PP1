@@ -1,0 +1,2061 @@
+INFO  21:27:17,965 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\test302.mj
+INFO  21:27:18,044 - #2 program
+INFO  21:27:18,045 - #17 test302
+INFO  21:27:18,045 - #47 const
+INFO  21:27:18,046 - #17 int
+INFO  21:27:18,047 - #17 jedan
+INFO  21:27:18,048 - #15 =
+INFO  21:27:18,049 - #20 1
+INFO  21:27:18,049 - #5 ;
+INFO  21:27:18,050 - #17 int
+INFO  21:27:18,052 - #17 i
+INFO  21:27:18,052 - #5 ;
+INFO  21:27:18,054 - #17 bool
+INFO  21:27:18,055 - #17 ibool
+INFO  21:27:18,055 - #5 ;
+INFO  21:27:18,056 - #17 int
+INFO  21:27:18,056 - #17 niz
+INFO  21:27:18,056 - #10 [
+INFO  21:27:18,056 - #11 ]
+INFO  21:27:18,056 - #5 ;
+INFO  21:27:18,057 - #3 {
+INFO  21:27:18,057 - #17 int
+INFO  21:27:18,057 - #17 sum
+INFO  21:27:18,059 - #7 (
+INFO  21:27:18,060 - #17 int
+INFO  21:27:18,060 - #17 z
+INFO  21:27:18,060 - #9 ,
+INFO  21:27:18,060 - #17 int
+INFO  21:27:18,060 - #17 d
+INFO  21:27:18,060 - #8 )
+INFO  21:27:18,060 - #3 {
+INFO  21:27:18,061 - #14 return
+INFO  21:27:18,062 - #17 z
+INFO  21:27:18,062 - #32 +
+INFO  21:27:18,062 - #17 d
+INFO  21:27:18,063 - #5 ;
+INFO  21:27:18,063 - #4 }
+INFO  21:27:18,063 - #17 int
+INFO  21:27:18,064 - #17 inkrement
+INFO  21:27:18,064 - #7 (
+INFO  21:27:18,064 - #17 int
+INFO  21:27:18,064 - #17 a
+INFO  21:27:18,064 - #9 ,
+INFO  21:27:18,064 - #17 int
+INFO  21:27:18,064 - #17 inc
+INFO  21:27:18,064 - #8 )
+INFO  21:27:18,064 - #17 int
+INFO  21:27:18,064 - #17 pom
+INFO  21:27:18,064 - #5 ;
+INFO  21:27:18,065 - #3 {
+INFO  21:27:18,065 - #21 if
+INFO  21:27:18,065 - #7 (
+INFO  21:27:18,065 - #17 inc
+INFO  21:27:18,065 - #38 ==
+INFO  21:27:18,065 - #17 jedan
+INFO  21:27:18,067 - #8 )
+INFO  21:27:18,067 - #17 pom
+INFO  21:27:18,067 - #15 =
+INFO  21:27:18,067 - #20 1
+INFO  21:27:18,068 - #5 ;
+INFO  21:27:18,068 - #22 else
+INFO  21:27:18,068 - #21 if
+INFO  21:27:18,069 - #7 (
+INFO  21:27:18,069 - #17 inc
+INFO  21:27:18,069 - #38 ==
+INFO  21:27:18,069 - #20 2
+INFO  21:27:18,069 - #8 )
+INFO  21:27:18,069 - #17 pom
+INFO  21:27:18,069 - #15 =
+INFO  21:27:18,069 - #17 a
+INFO  21:27:18,069 - #5 ;
+INFO  21:27:18,069 - #14 return
+INFO  21:27:18,070 - #17 sum
+INFO  21:27:18,070 - #7 (
+INFO  21:27:18,070 - #17 a
+INFO  21:27:18,070 - #9 ,
+INFO  21:27:18,070 - #17 pom
+INFO  21:27:18,070 - #8 )
+INFO  21:27:18,070 - #5 ;
+INFO  21:27:18,070 - #4 }
+INFO  21:27:18,070 - #17 bool
+INFO  21:27:18,070 - #17 verify
+INFO  21:27:18,070 - #7 (
+INFO  21:27:18,070 - #8 )
+INFO  21:27:18,071 - #3 {
+INFO  21:27:18,071 - #12 print
+INFO  21:27:18,071 - #7 (
+INFO  21:27:18,071 - #19 v
+INFO  21:27:18,071 - #8 )
+INFO  21:27:18,072 - #5 ;
+INFO  21:27:18,072 - #14 return
+INFO  21:27:18,072 - #18 false
+INFO  21:27:18,072 - #5 ;
+INFO  21:27:18,072 - #4 }
+INFO  21:27:18,072 - #16 void
+INFO  21:27:18,072 - #17 main
+INFO  21:27:18,072 - #7 (
+INFO  21:27:18,072 - #8 )
+INFO  21:27:18,072 - #3 {
+INFO  21:27:18,073 - #21 if
+INFO  21:27:18,073 - #7 (
+INFO  21:27:18,073 - #20 1
+INFO  21:27:18,073 - #39 !=
+INFO  21:27:18,073 - #20 1
+INFO  21:27:18,074 - #8 )
+INFO  21:27:18,074 - #12 print
+INFO  21:27:18,074 - #7 (
+INFO  21:27:18,074 - #33 -
+INFO  21:27:18,074 - #20 6
+INFO  21:27:18,074 - #8 )
+INFO  21:27:18,074 - #5 ;
+INFO  21:27:18,074 - #22 else
+INFO  21:27:18,074 - #12 print
+INFO  21:27:18,074 - #7 (
+INFO  21:27:18,075 - #20 0
+INFO  21:27:18,075 - #8 )
+INFO  21:27:18,075 - #5 ;
+INFO  21:27:18,075 - #17 ibool
+INFO  21:27:18,075 - #15 =
+INFO  21:27:18,075 - #18 false
+INFO  21:27:18,075 - #5 ;
+INFO  21:27:18,075 - #17 i
+INFO  21:27:18,075 - #15 =
+INFO  21:27:18,075 - #20 0
+INFO  21:27:18,076 - #5 ;
+INFO  21:27:18,076 - #23 do
+INFO  21:27:18,076 - #3 {
+INFO  21:27:18,077 - #21 if
+INFO  21:27:18,077 - #7 (
+INFO  21:27:18,077 - #17 i
+INFO  21:27:18,077 - #38 ==
+INFO  21:27:18,077 - #20 2
+INFO  21:27:18,077 - #8 )
+INFO  21:27:18,077 - #17 ibool
+INFO  21:27:18,077 - #15 =
+INFO  21:27:18,077 - #18 true
+INFO  21:27:18,077 - #5 ;
+INFO  21:27:18,077 - #17 i
+INFO  21:27:18,077 - #30 ++
+INFO  21:27:18,078 - #5 ;
+INFO  21:27:18,078 - #4 }
+INFO  21:27:18,078 - #24 while
+INFO  21:27:18,078 - #7 (
+INFO  21:27:18,078 - #17 i
+INFO  21:27:18,078 - #42 <
+INFO  21:27:18,078 - #20 5
+INFO  21:27:18,079 - #8 )
+INFO  21:27:18,079 - #5 ;
+INFO  21:27:18,079 - #21 if
+INFO  21:27:18,079 - #7 (
+INFO  21:27:18,079 - #17 ibool
+INFO  21:27:18,079 - #8 )
+INFO  21:27:18,079 - #21 if
+INFO  21:27:18,079 - #7 (
+INFO  21:27:18,079 - #17 i
+INFO  21:27:18,079 - #38 ==
+INFO  21:27:18,079 - #20 5
+INFO  21:27:18,079 - #8 )
+INFO  21:27:18,079 - #12 print
+INFO  21:27:18,079 - #7 (
+INFO  21:27:18,079 - #20 1
+INFO  21:27:18,079 - #8 )
+INFO  21:27:18,080 - #5 ;
+INFO  21:27:18,080 - #22 else
+INFO  21:27:18,080 - #12 print
+INFO  21:27:18,081 - #7 (
+INFO  21:27:18,081 - #33 -
+INFO  21:27:18,081 - #20 1
+INFO  21:27:18,081 - #8 )
+INFO  21:27:18,081 - #5 ;
+INFO  21:27:18,082 - #17 niz
+INFO  21:27:18,082 - #15 =
+INFO  21:27:18,082 - #50 new
+INFO  21:27:18,082 - #17 int
+INFO  21:27:18,082 - #10 [
+INFO  21:27:18,082 - #20 3
+INFO  21:27:18,082 - #11 ]
+INFO  21:27:18,082 - #5 ;
+INFO  21:27:18,082 - #17 niz
+INFO  21:27:18,082 - #10 [
+INFO  21:27:18,082 - #20 0
+INFO  21:27:18,082 - #11 ]
+INFO  21:27:18,083 - #15 =
+INFO  21:27:18,083 - #20 1
+INFO  21:27:18,083 - #5 ;
+INFO  21:27:18,083 - #17 niz
+INFO  21:27:18,083 - #10 [
+INFO  21:27:18,083 - #20 1
+INFO  21:27:18,083 - #11 ]
+INFO  21:27:18,083 - #15 =
+INFO  21:27:18,083 - #20 2
+INFO  21:27:18,083 - #5 ;
+INFO  21:27:18,083 - #17 niz
+INFO  21:27:18,083 - #10 [
+INFO  21:27:18,083 - #20 2
+INFO  21:27:18,083 - #11 ]
+INFO  21:27:18,083 - #15 =
+INFO  21:27:18,084 - #17 sum
+INFO  21:27:18,084 - #7 (
+INFO  21:27:18,084 - #17 niz
+INFO  21:27:18,084 - #10 [
+INFO  21:27:18,084 - #20 1
+INFO  21:27:18,084 - #11 ]
+INFO  21:27:18,084 - #9 ,
+INFO  21:27:18,084 - #17 niz
+INFO  21:27:18,084 - #10 [
+INFO  21:27:18,084 - #20 0
+INFO  21:27:18,084 - #11 ]
+INFO  21:27:18,084 - #8 )
+INFO  21:27:18,084 - #32 +
+INFO  21:27:18,084 - #20 1
+INFO  21:27:18,085 - #5 ;
+INFO  21:27:18,085 - #21 if
+INFO  21:27:18,085 - #7 (
+INFO  21:27:18,085 - #17 verify
+INFO  21:27:18,085 - #7 (
+INFO  21:27:18,085 - #8 )
+INFO  21:27:18,086 - #48 ||
+INFO  21:27:18,086 - #17 niz
+INFO  21:27:18,086 - #10 [
+INFO  21:27:18,086 - #20 2
+INFO  21:27:18,086 - #11 ]
+INFO  21:27:18,086 - #38 ==
+INFO  21:27:18,086 - #20 4
+INFO  21:27:18,086 - #8 )
+INFO  21:27:18,086 - #12 print
+INFO  21:27:18,086 - #7 (
+INFO  21:27:18,086 - #17 ord
+INFO  21:27:18,086 - #7 (
+INFO  21:27:18,086 - #19 A
+INFO  21:27:18,086 - #8 )
+INFO  21:27:18,086 - #8 )
+INFO  21:27:18,086 - #5 ;
+INFO  21:27:18,086 - #22 else
+INFO  21:27:18,086 - #12 print
+INFO  21:27:18,086 - #7 (
+INFO  21:27:18,086 - #17 ord
+INFO  21:27:18,087 - #7 (
+INFO  21:27:18,087 - #19 a
+INFO  21:27:18,087 - #8 )
+INFO  21:27:18,087 - #8 )
+INFO  21:27:18,087 - #5 ;
+INFO  21:27:18,087 - #12 print
+INFO  21:27:18,087 - #7 (
+INFO  21:27:18,087 - #17 eol
+INFO  21:27:18,087 - #8 )
+INFO  21:27:18,087 - #5 ;
+INFO  21:27:18,087 - #17 i
+INFO  21:27:18,087 - #15 =
+INFO  21:27:18,087 - #20 0
+INFO  21:27:18,087 - #5 ;
+INFO  21:27:18,087 - #23 do
+INFO  21:27:18,087 - #3 {
+INFO  21:27:18,087 - #21 if
+INFO  21:27:18,087 - #7 (
+INFO  21:27:18,087 - #17 i
+INFO  21:27:18,088 - #38 ==
+INFO  21:27:18,088 - #20 3
+INFO  21:27:18,088 - #8 )
+INFO  21:27:18,088 - #3 {
+INFO  21:27:18,088 - #17 i
+INFO  21:27:18,088 - #30 ++
+INFO  21:27:18,088 - #5 ;
+INFO  21:27:18,088 - #28 continue
+INFO  21:27:18,088 - #5 ;
+INFO  21:27:18,088 - #4 }
+INFO  21:27:18,089 - #21 if
+INFO  21:27:18,089 - #7 (
+INFO  21:27:18,089 - #17 i
+INFO  21:27:18,089 - #38 ==
+INFO  21:27:18,089 - #20 4
+INFO  21:27:18,089 - #8 )
+INFO  21:27:18,090 - #29 break
+INFO  21:27:18,090 - #5 ;
+INFO  21:27:18,090 - #17 i
+INFO  21:27:18,090 - #15 =
+INFO  21:27:18,090 - #17 inkrement
+INFO  21:27:18,090 - #7 (
+INFO  21:27:18,090 - #17 i
+INFO  21:27:18,090 - #9 ,
+INFO  21:27:18,090 - #20 1
+INFO  21:27:18,090 - #8 )
+INFO  21:27:18,090 - #5 ;
+INFO  21:27:18,090 - #4 }
+INFO  21:27:18,091 - #24 while
+INFO  21:27:18,091 - #7 (
+INFO  21:27:18,091 - #17 i
+INFO  21:27:18,091 - #42 <
+INFO  21:27:18,091 - #20 10
+INFO  21:27:18,091 - #8 )
+INFO  21:27:18,091 - #5 ;
+INFO  21:27:18,091 - #21 if
+INFO  21:27:18,091 - #7 (
+INFO  21:27:18,091 - #17 i
+INFO  21:27:18,091 - #38 ==
+INFO  21:27:18,091 - #20 3
+INFO  21:27:18,091 - #49 &&
+INFO  21:27:18,091 - #17 verify
+INFO  21:27:18,091 - #7 (
+INFO  21:27:18,091 - #8 )
+INFO  21:27:18,091 - #8 )
+INFO  21:27:18,091 - #12 print
+INFO  21:27:18,091 - #7 (
+INFO  21:27:18,091 - #33 -
+INFO  21:27:18,091 - #20 4
+INFO  21:27:18,091 - #8 )
+INFO  21:27:18,091 - #5 ;
+INFO  21:27:18,091 - #22 else
+INFO  21:27:18,091 - #12 print
+INFO  21:27:18,091 - #7 (
+INFO  21:27:18,091 - #20 4
+INFO  21:27:18,091 - #8 )
+INFO  21:27:18,091 - #5 ;
+INFO  21:27:18,091 - #13 read
+INFO  21:27:18,091 - #7 (
+INFO  21:27:18,091 - #17 niz
+INFO  21:27:18,091 - #10 [
+INFO  21:27:18,091 - #20 0
+INFO  21:27:18,091 - #11 ]
+INFO  21:27:18,091 - #8 )
+INFO  21:27:18,091 - #5 ;
+INFO  21:27:18,092 - #13 read
+INFO  21:27:18,092 - #7 (
+INFO  21:27:18,092 - #17 niz
+INFO  21:27:18,092 - #10 [
+INFO  21:27:18,092 - #20 1
+INFO  21:27:18,092 - #11 ]
+INFO  21:27:18,092 - #8 )
+INFO  21:27:18,092 - #5 ;
+INFO  21:27:18,092 - #13 read
+INFO  21:27:18,092 - #7 (
+INFO  21:27:18,092 - #17 niz
+INFO  21:27:18,092 - #10 [
+INFO  21:27:18,092 - #20 2
+INFO  21:27:18,092 - #11 ]
+INFO  21:27:18,092 - #8 )
+INFO  21:27:18,092 - #5 ;
+INFO  21:27:18,092 - #12 print
+INFO  21:27:18,092 - #7 (
+INFO  21:27:18,092 - #17 eol
+INFO  21:27:18,092 - #8 )
+INFO  21:27:18,092 - #5 ;
+INFO  21:27:18,093 - #12 print
+INFO  21:27:18,093 - #7 (
+INFO  21:27:18,093 - #17 sum
+INFO  21:27:18,093 - #7 (
+INFO  21:27:18,093 - #17 sum
+INFO  21:27:18,093 - #7 (
+INFO  21:27:18,093 - #17 niz
+INFO  21:27:18,093 - #10 [
+INFO  21:27:18,093 - #20 0
+INFO  21:27:18,093 - #11 ]
+INFO  21:27:18,093 - #9 ,
+INFO  21:27:18,093 - #17 niz
+INFO  21:27:18,093 - #10 [
+INFO  21:27:18,093 - #20 1
+INFO  21:27:18,093 - #11 ]
+INFO  21:27:18,093 - #8 )
+INFO  21:27:18,093 - #9 ,
+INFO  21:27:18,094 - #17 niz
+INFO  21:27:18,094 - #10 [
+INFO  21:27:18,094 - #20 2
+INFO  21:27:18,094 - #11 ]
+INFO  21:27:18,094 - #8 )
+INFO  21:27:18,094 - #8 )
+INFO  21:27:18,094 - #5 ;
+INFO  21:27:18,094 - #12 print
+INFO  21:27:18,094 - #7 (
+INFO  21:27:18,094 - #17 eol
+INFO  21:27:18,094 - #8 )
+INFO  21:27:18,094 - #5 ;
+INFO  21:27:18,094 - #12 print
+INFO  21:27:18,094 - #7 (
+INFO  21:27:18,094 - #17 inkrement
+INFO  21:27:18,094 - #7 (
+INFO  21:27:18,094 - #17 niz
+INFO  21:27:18,094 - #10 [
+INFO  21:27:18,094 - #20 2
+INFO  21:27:18,094 - #11 ]
+INFO  21:27:18,094 - #9 ,
+INFO  21:27:18,094 - #20 2
+INFO  21:27:18,094 - #8 )
+INFO  21:27:18,094 - #8 )
+INFO  21:27:18,094 - #5 ;
+INFO  21:27:18,094 - #12 print
+INFO  21:27:18,094 - #7 (
+INFO  21:27:18,095 - #17 verify
+INFO  21:27:18,095 - #7 (
+INFO  21:27:18,095 - #8 )
+INFO  21:27:18,095 - #37 ?
+INFO  21:27:18,095 - #19 t
+INFO  21:27:18,095 - #26 :
+INFO  21:27:18,095 - #19 f
+INFO  21:27:18,095 - #8 )
+INFO  21:27:18,095 - #5 ;
+INFO  21:27:18,095 - #4 }
+INFO  21:27:18,095 - #4 }
+INFO  21:27:18,099 - Program(
+  ProgName(
+   test302
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          NoDeclarationList(
+          ) [NoDeclarationList]
+          ConstTypeDeclaration(
+            ConstDecl(
+              Type(
+               int
+              ) [Type]
+             jedan
+              NumberConst(
+               1
+              ) [NumberConst]
+              NoConstDeclAddition(
+              ) [NoConstDeclAddition]
+            ) [ConstDecl]
+          ) [ConstTypeDeclaration]
+        ) [DeclarationList]
+        VarTypeDeclaration(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VariableName(
+             i
+            ) [VariableName]
+            BoxNo(
+            ) [BoxNo]
+            NoVarDeclAdd(
+            ) [NoVarDeclAdd]
+          ) [VarDecl]
+        ) [VarTypeDeclaration]
+      ) [DeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           bool
+          ) [Type]
+          VariableName(
+           ibool
+          ) [VariableName]
+          BoxNo(
+          ) [BoxNo]
+          NoVarDeclAdd(
+          ) [NoVarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         int
+        ) [Type]
+        VariableName(
+         niz
+        ) [VariableName]
+        BoxYes(
+        ) [BoxYes]
+        NoVarDeclAdd(
+        ) [NoVarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        MethodDeclarations(
+          NoMethodDecl(
+          ) [NoMethodDecl]
+          MethodDeclaration(
+            MetTypeName(
+              Type(
+               int
+              ) [Type]
+             sum
+            ) [MetTypeName]
+            FormParams(
+              FormalParamDecls(
+                SingleFormalParamDecl(
+                  FormalParamDeclaration(
+                    Type(
+                     int
+                    ) [Type]
+                   z
+                    BoxNo(
+                    ) [BoxNo]
+                  ) [FormalParamDeclaration]
+                ) [SingleFormalParamDecl]
+                FormalParamDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 d
+                  BoxNo(
+                  ) [BoxNo]
+                ) [FormalParamDeclaration]
+              ) [FormalParamDecls]
+            ) [FormParams]
+            NoVarDecl(
+            ) [NoVarDecl]
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              ReturnExpr(
+                Expresion(
+                  AddExpr(
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          DesignatorIdent(
+                           z
+                          ) [DesignatorIdent]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                    Addop(
+                    ) [Addop]
+                    FactorTerm(
+                      Var(
+                        DesignatorIdent(
+                         d
+                        ) [DesignatorIdent]
+                      ) [Var]
+                    ) [FactorTerm]
+                  ) [AddExpr]
+                ) [Expresion]
+              ) [ReturnExpr]
+            ) [Statements]
+          ) [MethodDeclaration]
+        ) [MethodDeclarations]
+        MethodDeclaration(
+          MetTypeName(
+            Type(
+             int
+            ) [Type]
+           inkrement
+          ) [MetTypeName]
+          FormParams(
+            FormalParamDecls(
+              SingleFormalParamDecl(
+                FormalParamDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                 a
+                  BoxNo(
+                  ) [BoxNo]
+                ) [FormalParamDeclaration]
+              ) [SingleFormalParamDecl]
+              FormalParamDeclaration(
+                Type(
+                 int
+                ) [Type]
+               inc
+                BoxNo(
+                ) [BoxNo]
+              ) [FormalParamDeclaration]
+            ) [FormalParamDecls]
+          ) [FormParams]
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDecl(
+              Type(
+               int
+              ) [Type]
+              VariableName(
+               pom
+              ) [VariableName]
+              BoxNo(
+              ) [BoxNo]
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+            ) [VarDecl]
+          ) [VarDeclarations]
+          Statements(
+            Statements(
+              NoStmt(
+              ) [NoStmt]
+              IfStmt(
+                IfWithElseStatementExpression(
+                  IfGoodConditions(
+                    ConditionTerm(
+                      ConditionFact(
+                        CondFactRelop(
+                          TermExpr(
+                            FactorTerm(
+                              Var(
+                                DesignatorIdent(
+                                 inc
+                                ) [DesignatorIdent]
+                              ) [Var]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                          Equal(
+                          ) [Equal]
+                          TermExpr(
+                            FactorTerm(
+                              Var(
+                                DesignatorIdent(
+                                 jedan
+                                ) [DesignatorIdent]
+                              ) [Var]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [CondFactRelop]
+                      ) [ConditionFact]
+                    ) [ConditionTerm]
+                  ) [IfGoodConditions]
+                  Assignment(
+                    DesignatorExpression(
+                      DesignatorAssignExpression(
+                        DesignatorIdent(
+                         pom
+                        ) [DesignatorIdent]
+                        Assign(
+                        ) [Assign]
+                        Expresion(
+                          TermExpr(
+                            FactorTerm(
+                              Const(
+                                NumberConst(
+                                 1
+                                ) [NumberConst]
+                              ) [Const]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [Expresion]
+                      ) [DesignatorAssignExpression]
+                    ) [DesignatorExpression]
+                  ) [Assignment]
+                  IfStmt(
+                    IfWithoutElseStatementExpression(
+                      IfGoodConditions(
+                        ConditionTerm(
+                          ConditionFact(
+                            CondFactRelop(
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    DesignatorIdent(
+                                     inc
+                                    ) [DesignatorIdent]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                              Equal(
+                              ) [Equal]
+                              TermExpr(
+                                FactorTerm(
+                                  Const(
+                                    NumberConst(
+                                     2
+                                    ) [NumberConst]
+                                  ) [Const]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [CondFactRelop]
+                          ) [ConditionFact]
+                        ) [ConditionTerm]
+                      ) [IfGoodConditions]
+                      Assignment(
+                        DesignatorExpression(
+                          DesignatorAssignExpression(
+                            DesignatorIdent(
+                             pom
+                            ) [DesignatorIdent]
+                            Assign(
+                            ) [Assign]
+                            Expresion(
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    DesignatorIdent(
+                                     a
+                                    ) [DesignatorIdent]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [Expresion]
+                          ) [DesignatorAssignExpression]
+                        ) [DesignatorExpression]
+                      ) [Assignment]
+                    ) [IfWithoutElseStatementExpression]
+                  ) [IfStmt]
+                ) [IfWithElseStatementExpression]
+              ) [IfStmt]
+            ) [Statements]
+            ReturnExpr(
+              Expresion(
+                TermExpr(
+                  FactorTerm(
+                    FuncCall(
+                      DesignatorIdent(
+                       sum
+                      ) [DesignatorIdent]
+                      Actuals(
+                        ActualParams(
+                          ActualParam(
+                            Expresion(
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    DesignatorIdent(
+                                     a
+                                    ) [DesignatorIdent]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [Expresion]
+                          ) [ActualParam]
+                          Expresion(
+                            TermExpr(
+                              FactorTerm(
+                                Var(
+                                  DesignatorIdent(
+                                   pom
+                                  ) [DesignatorIdent]
+                                ) [Var]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [Expresion]
+                        ) [ActualParams]
+                      ) [Actuals]
+                    ) [FuncCall]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [Expresion]
+            ) [ReturnExpr]
+          ) [Statements]
+        ) [MethodDeclaration]
+      ) [MethodDeclarations]
+      MethodDeclaration(
+        MetTypeName(
+          Type(
+           bool
+          ) [Type]
+         verify
+        ) [MetTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            PrintStmt(
+              Expresion(
+                TermExpr(
+                  FactorTerm(
+                    Const(
+                      CharConst(
+                       v
+                      ) [CharConst]
+                    ) [Const]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [Expresion]
+            ) [PrintStmt]
+          ) [Statements]
+          ReturnExpr(
+            Expresion(
+              TermExpr(
+                FactorTerm(
+                  Const(
+                    BoolConst(
+                     false
+                    ) [BoolConst]
+                  ) [Const]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [Expresion]
+          ) [ReturnExpr]
+        ) [Statements]
+      ) [MethodDeclaration]
+    ) [MethodDeclarations]
+    MethodDeclaration(
+      MetVoidName(
+       main
+      ) [MetVoidName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  NoStmt(
+                                                  ) [NoStmt]
+                                                  IfStmt(
+                                                    IfWithElseStatementExpression(
+                                                      IfGoodConditions(
+                                                        ConditionTerm(
+                                                          ConditionFact(
+                                                            CondFactRelop(
+                                                              TermExpr(
+                                                                FactorTerm(
+                                                                  Const(
+                                                                    NumberConst(
+                                                                     1
+                                                                    ) [NumberConst]
+                                                                  ) [Const]
+                                                                ) [FactorTerm]
+                                                              ) [TermExpr]
+                                                              NotEqual(
+                                                              ) [NotEqual]
+                                                              TermExpr(
+                                                                FactorTerm(
+                                                                  Const(
+                                                                    NumberConst(
+                                                                     1
+                                                                    ) [NumberConst]
+                                                                  ) [Const]
+                                                                ) [FactorTerm]
+                                                              ) [TermExpr]
+                                                            ) [CondFactRelop]
+                                                          ) [ConditionFact]
+                                                        ) [ConditionTerm]
+                                                      ) [IfGoodConditions]
+                                                      PrintStmt(
+                                                        Expresion(
+                                                          NegTermExpr(
+                                                            FactorTerm(
+                                                              Const(
+                                                                NumberConst(
+                                                                 6
+                                                                ) [NumberConst]
+                                                              ) [Const]
+                                                            ) [FactorTerm]
+                                                          ) [NegTermExpr]
+                                                        ) [Expresion]
+                                                      ) [PrintStmt]
+                                                      PrintStmt(
+                                                        Expresion(
+                                                          TermExpr(
+                                                            FactorTerm(
+                                                              Const(
+                                                                NumberConst(
+                                                                 0
+                                                                ) [NumberConst]
+                                                              ) [Const]
+                                                            ) [FactorTerm]
+                                                          ) [TermExpr]
+                                                        ) [Expresion]
+                                                      ) [PrintStmt]
+                                                    ) [IfWithElseStatementExpression]
+                                                  ) [IfStmt]
+                                                ) [Statements]
+                                                Assignment(
+                                                  DesignatorExpression(
+                                                    DesignatorAssignExpression(
+                                                      DesignatorIdent(
+                                                       ibool
+                                                      ) [DesignatorIdent]
+                                                      Assign(
+                                                      ) [Assign]
+                                                      Expresion(
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            Const(
+                                                              BoolConst(
+                                                               false
+                                                              ) [BoolConst]
+                                                            ) [Const]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                      ) [Expresion]
+                                                    ) [DesignatorAssignExpression]
+                                                  ) [DesignatorExpression]
+                                                ) [Assignment]
+                                              ) [Statements]
+                                              Assignment(
+                                                DesignatorExpression(
+                                                  DesignatorAssignExpression(
+                                                    DesignatorIdent(
+                                                     i
+                                                    ) [DesignatorIdent]
+                                                    Assign(
+                                                    ) [Assign]
+                                                    Expresion(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          Const(
+                                                            NumberConst(
+                                                             0
+                                                            ) [NumberConst]
+                                                          ) [Const]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                    ) [Expresion]
+                                                  ) [DesignatorAssignExpression]
+                                                ) [DesignatorExpression]
+                                              ) [Assignment]
+                                            ) [Statements]
+                                            DoWhile(
+                                              DoWhileStart(
+                                              ) [DoWhileStart]
+                                              BracedStatement(
+                                                Statements(
+                                                  Statements(
+                                                    NoStmt(
+                                                    ) [NoStmt]
+                                                    IfStmt(
+                                                      IfWithoutElseStatementExpression(
+                                                        IfGoodConditions(
+                                                          ConditionTerm(
+                                                            ConditionFact(
+                                                              CondFactRelop(
+                                                                TermExpr(
+                                                                  FactorTerm(
+                                                                    Var(
+                                                                      DesignatorIdent(
+                                                                       i
+                                                                      ) [DesignatorIdent]
+                                                                    ) [Var]
+                                                                  ) [FactorTerm]
+                                                                ) [TermExpr]
+                                                                Equal(
+                                                                ) [Equal]
+                                                                TermExpr(
+                                                                  FactorTerm(
+                                                                    Const(
+                                                                      NumberConst(
+                                                                       2
+                                                                      ) [NumberConst]
+                                                                    ) [Const]
+                                                                  ) [FactorTerm]
+                                                                ) [TermExpr]
+                                                              ) [CondFactRelop]
+                                                            ) [ConditionFact]
+                                                          ) [ConditionTerm]
+                                                        ) [IfGoodConditions]
+                                                        Assignment(
+                                                          DesignatorExpression(
+                                                            DesignatorAssignExpression(
+                                                              DesignatorIdent(
+                                                               ibool
+                                                              ) [DesignatorIdent]
+                                                              Assign(
+                                                              ) [Assign]
+                                                              Expresion(
+                                                                TermExpr(
+                                                                  FactorTerm(
+                                                                    Const(
+                                                                      BoolConst(
+                                                                       true
+                                                                      ) [BoolConst]
+                                                                    ) [Const]
+                                                                  ) [FactorTerm]
+                                                                ) [TermExpr]
+                                                              ) [Expresion]
+                                                            ) [DesignatorAssignExpression]
+                                                          ) [DesignatorExpression]
+                                                        ) [Assignment]
+                                                      ) [IfWithoutElseStatementExpression]
+                                                    ) [IfStmt]
+                                                  ) [Statements]
+                                                  Assignment(
+                                                    DesignatorOther(
+                                                      DesignatorIncrement(
+                                                        DesignatorIdent(
+                                                         i
+                                                        ) [DesignatorIdent]
+                                                      ) [DesignatorIncrement]
+                                                    ) [DesignatorOther]
+                                                  ) [Assignment]
+                                                ) [Statements]
+                                              ) [BracedStatement]
+                                              ConditionTerm(
+                                                ConditionFact(
+                                                  CondFactRelop(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        Var(
+                                                          DesignatorIdent(
+                                                           i
+                                                          ) [DesignatorIdent]
+                                                        ) [Var]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                    Lower(
+                                                    ) [Lower]
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        Const(
+                                                          NumberConst(
+                                                           5
+                                                          ) [NumberConst]
+                                                        ) [Const]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [CondFactRelop]
+                                                ) [ConditionFact]
+                                              ) [ConditionTerm]
+                                            ) [DoWhile]
+                                          ) [Statements]
+                                          IfStmt(
+                                            IfWithoutElseStatementExpression(
+                                              IfGoodConditions(
+                                                ConditionTerm(
+                                                  ConditionFact(
+                                                    CondFactExpr(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          Var(
+                                                            DesignatorIdent(
+                                                             ibool
+                                                            ) [DesignatorIdent]
+                                                          ) [Var]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                    ) [CondFactExpr]
+                                                  ) [ConditionFact]
+                                                ) [ConditionTerm]
+                                              ) [IfGoodConditions]
+                                              IfStmt(
+                                                IfWithElseStatementExpression(
+                                                  IfGoodConditions(
+                                                    ConditionTerm(
+                                                      ConditionFact(
+                                                        CondFactRelop(
+                                                          TermExpr(
+                                                            FactorTerm(
+                                                              Var(
+                                                                DesignatorIdent(
+                                                                 i
+                                                                ) [DesignatorIdent]
+                                                              ) [Var]
+                                                            ) [FactorTerm]
+                                                          ) [TermExpr]
+                                                          Equal(
+                                                          ) [Equal]
+                                                          TermExpr(
+                                                            FactorTerm(
+                                                              Const(
+                                                                NumberConst(
+                                                                 5
+                                                                ) [NumberConst]
+                                                              ) [Const]
+                                                            ) [FactorTerm]
+                                                          ) [TermExpr]
+                                                        ) [CondFactRelop]
+                                                      ) [ConditionFact]
+                                                    ) [ConditionTerm]
+                                                  ) [IfGoodConditions]
+                                                  PrintStmt(
+                                                    Expresion(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          Const(
+                                                            NumberConst(
+                                                             1
+                                                            ) [NumberConst]
+                                                          ) [Const]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                    ) [Expresion]
+                                                  ) [PrintStmt]
+                                                  PrintStmt(
+                                                    Expresion(
+                                                      NegTermExpr(
+                                                        FactorTerm(
+                                                          Const(
+                                                            NumberConst(
+                                                             1
+                                                            ) [NumberConst]
+                                                          ) [Const]
+                                                        ) [FactorTerm]
+                                                      ) [NegTermExpr]
+                                                    ) [Expresion]
+                                                  ) [PrintStmt]
+                                                ) [IfWithElseStatementExpression]
+                                              ) [IfStmt]
+                                            ) [IfWithoutElseStatementExpression]
+                                          ) [IfStmt]
+                                        ) [Statements]
+                                        Assignment(
+                                          DesignatorExpression(
+                                            DesignatorAssignExpression(
+                                              DesignatorIdent(
+                                               niz
+                                              ) [DesignatorIdent]
+                                              Assign(
+                                              ) [Assign]
+                                              Expresion(
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    NewVar(
+                                                      Type(
+                                                       int
+                                                      ) [Type]
+                                                      Expresion(
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            Const(
+                                                              NumberConst(
+                                                               3
+                                                              ) [NumberConst]
+                                                            ) [Const]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                      ) [Expresion]
+                                                    ) [NewVar]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                              ) [Expresion]
+                                            ) [DesignatorAssignExpression]
+                                          ) [DesignatorExpression]
+                                        ) [Assignment]
+                                      ) [Statements]
+                                      Assignment(
+                                        DesignatorExpression(
+                                          DesignatorAssignExpression(
+                                            DesignatorExprList(
+                                              DesignatorIdent(
+                                               niz
+                                              ) [DesignatorIdent]
+                                              Expresion(
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    Const(
+                                                      NumberConst(
+                                                       0
+                                                      ) [NumberConst]
+                                                    ) [Const]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                              ) [Expresion]
+                                            ) [DesignatorExprList]
+                                            Assign(
+                                            ) [Assign]
+                                            Expresion(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  Const(
+                                                    NumberConst(
+                                                     1
+                                                    ) [NumberConst]
+                                                  ) [Const]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [Expresion]
+                                          ) [DesignatorAssignExpression]
+                                        ) [DesignatorExpression]
+                                      ) [Assignment]
+                                    ) [Statements]
+                                    Assignment(
+                                      DesignatorExpression(
+                                        DesignatorAssignExpression(
+                                          DesignatorExprList(
+                                            DesignatorIdent(
+                                             niz
+                                            ) [DesignatorIdent]
+                                            Expresion(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  Const(
+                                                    NumberConst(
+                                                     1
+                                                    ) [NumberConst]
+                                                  ) [Const]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [Expresion]
+                                          ) [DesignatorExprList]
+                                          Assign(
+                                          ) [Assign]
+                                          Expresion(
+                                            TermExpr(
+                                              FactorTerm(
+                                                Const(
+                                                  NumberConst(
+                                                   2
+                                                  ) [NumberConst]
+                                                ) [Const]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [Expresion]
+                                        ) [DesignatorAssignExpression]
+                                      ) [DesignatorExpression]
+                                    ) [Assignment]
+                                  ) [Statements]
+                                  Assignment(
+                                    DesignatorExpression(
+                                      DesignatorAssignExpression(
+                                        DesignatorExprList(
+                                          DesignatorIdent(
+                                           niz
+                                          ) [DesignatorIdent]
+                                          Expresion(
+                                            TermExpr(
+                                              FactorTerm(
+                                                Const(
+                                                  NumberConst(
+                                                   2
+                                                  ) [NumberConst]
+                                                ) [Const]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [Expresion]
+                                        ) [DesignatorExprList]
+                                        Assign(
+                                        ) [Assign]
+                                        Expresion(
+                                          AddExpr(
+                                            TermExpr(
+                                              FactorTerm(
+                                                FuncCall(
+                                                  DesignatorIdent(
+                                                   sum
+                                                  ) [DesignatorIdent]
+                                                  Actuals(
+                                                    ActualParams(
+                                                      ActualParam(
+                                                        Expresion(
+                                                          TermExpr(
+                                                            FactorTerm(
+                                                              Var(
+                                                                DesignatorExprList(
+                                                                  DesignatorIdent(
+                                                                   niz
+                                                                  ) [DesignatorIdent]
+                                                                  Expresion(
+                                                                    TermExpr(
+                                                                      FactorTerm(
+                                                                        Const(
+                                                                          NumberConst(
+                                                                           1
+                                                                          ) [NumberConst]
+                                                                        ) [Const]
+                                                                      ) [FactorTerm]
+                                                                    ) [TermExpr]
+                                                                  ) [Expresion]
+                                                                ) [DesignatorExprList]
+                                                              ) [Var]
+                                                            ) [FactorTerm]
+                                                          ) [TermExpr]
+                                                        ) [Expresion]
+                                                      ) [ActualParam]
+                                                      Expresion(
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            Var(
+                                                              DesignatorExprList(
+                                                                DesignatorIdent(
+                                                                 niz
+                                                                ) [DesignatorIdent]
+                                                                Expresion(
+                                                                  TermExpr(
+                                                                    FactorTerm(
+                                                                      Const(
+                                                                        NumberConst(
+                                                                         0
+                                                                        ) [NumberConst]
+                                                                      ) [Const]
+                                                                    ) [FactorTerm]
+                                                                  ) [TermExpr]
+                                                                ) [Expresion]
+                                                              ) [DesignatorExprList]
+                                                            ) [Var]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                      ) [Expresion]
+                                                    ) [ActualParams]
+                                                  ) [Actuals]
+                                                ) [FuncCall]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                            Addop(
+                                            ) [Addop]
+                                            FactorTerm(
+                                              Const(
+                                                NumberConst(
+                                                 1
+                                                ) [NumberConst]
+                                              ) [Const]
+                                            ) [FactorTerm]
+                                          ) [AddExpr]
+                                        ) [Expresion]
+                                      ) [DesignatorAssignExpression]
+                                    ) [DesignatorExpression]
+                                  ) [Assignment]
+                                ) [Statements]
+                                IfStmt(
+                                  IfWithElseStatementExpression(
+                                    IfGoodConditions(
+                                      ConditionOr(
+                                        ConditionTerm(
+                                          ConditionFact(
+                                            CondFactExpr(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  FuncCall(
+                                                    DesignatorIdent(
+                                                     verify
+                                                    ) [DesignatorIdent]
+                                                    NoActuals(
+                                                    ) [NoActuals]
+                                                  ) [FuncCall]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [CondFactExpr]
+                                          ) [ConditionFact]
+                                        ) [ConditionTerm]
+                                        ConditionFact(
+                                          CondFactRelop(
+                                            TermExpr(
+                                              FactorTerm(
+                                                Var(
+                                                  DesignatorExprList(
+                                                    DesignatorIdent(
+                                                     niz
+                                                    ) [DesignatorIdent]
+                                                    Expresion(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          Const(
+                                                            NumberConst(
+                                                             2
+                                                            ) [NumberConst]
+                                                          ) [Const]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                    ) [Expresion]
+                                                  ) [DesignatorExprList]
+                                                ) [Var]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                            Equal(
+                                            ) [Equal]
+                                            TermExpr(
+                                              FactorTerm(
+                                                Const(
+                                                  NumberConst(
+                                                   4
+                                                  ) [NumberConst]
+                                                ) [Const]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [CondFactRelop]
+                                        ) [ConditionFact]
+                                      ) [ConditionOr]
+                                    ) [IfGoodConditions]
+                                    PrintStmt(
+                                      Expresion(
+                                        TermExpr(
+                                          FactorTerm(
+                                            FuncCall(
+                                              DesignatorIdent(
+                                               ord
+                                              ) [DesignatorIdent]
+                                              Actuals(
+                                                ActualParam(
+                                                  Expresion(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        Const(
+                                                          CharConst(
+                                                           A
+                                                          ) [CharConst]
+                                                        ) [Const]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [Expresion]
+                                                ) [ActualParam]
+                                              ) [Actuals]
+                                            ) [FuncCall]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                      ) [Expresion]
+                                    ) [PrintStmt]
+                                    PrintStmt(
+                                      Expresion(
+                                        TermExpr(
+                                          FactorTerm(
+                                            FuncCall(
+                                              DesignatorIdent(
+                                               ord
+                                              ) [DesignatorIdent]
+                                              Actuals(
+                                                ActualParam(
+                                                  Expresion(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        Const(
+                                                          CharConst(
+                                                           a
+                                                          ) [CharConst]
+                                                        ) [Const]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [Expresion]
+                                                ) [ActualParam]
+                                              ) [Actuals]
+                                            ) [FuncCall]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                      ) [Expresion]
+                                    ) [PrintStmt]
+                                  ) [IfWithElseStatementExpression]
+                                ) [IfStmt]
+                              ) [Statements]
+                              PrintStmt(
+                                Expresion(
+                                  TermExpr(
+                                    FactorTerm(
+                                      Var(
+                                        DesignatorIdent(
+                                         eol
+                                        ) [DesignatorIdent]
+                                      ) [Var]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                ) [Expresion]
+                              ) [PrintStmt]
+                            ) [Statements]
+                            Assignment(
+                              DesignatorExpression(
+                                DesignatorAssignExpression(
+                                  DesignatorIdent(
+                                   i
+                                  ) [DesignatorIdent]
+                                  Assign(
+                                  ) [Assign]
+                                  Expresion(
+                                    TermExpr(
+                                      FactorTerm(
+                                        Const(
+                                          NumberConst(
+                                           0
+                                          ) [NumberConst]
+                                        ) [Const]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [Expresion]
+                                ) [DesignatorAssignExpression]
+                              ) [DesignatorExpression]
+                            ) [Assignment]
+                          ) [Statements]
+                          DoWhile(
+                            DoWhileStart(
+                            ) [DoWhileStart]
+                            BracedStatement(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    NoStmt(
+                                    ) [NoStmt]
+                                    IfStmt(
+                                      IfWithoutElseStatementExpression(
+                                        IfGoodConditions(
+                                          ConditionTerm(
+                                            ConditionFact(
+                                              CondFactRelop(
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    Var(
+                                                      DesignatorIdent(
+                                                       i
+                                                      ) [DesignatorIdent]
+                                                    ) [Var]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                                Equal(
+                                                ) [Equal]
+                                                TermExpr(
+                                                  FactorTerm(
+                                                    Const(
+                                                      NumberConst(
+                                                       3
+                                                      ) [NumberConst]
+                                                    ) [Const]
+                                                  ) [FactorTerm]
+                                                ) [TermExpr]
+                                              ) [CondFactRelop]
+                                            ) [ConditionFact]
+                                          ) [ConditionTerm]
+                                        ) [IfGoodConditions]
+                                        BracedStatement(
+                                          Statements(
+                                            Statements(
+                                              NoStmt(
+                                              ) [NoStmt]
+                                              Assignment(
+                                                DesignatorOther(
+                                                  DesignatorIncrement(
+                                                    DesignatorIdent(
+                                                     i
+                                                    ) [DesignatorIdent]
+                                                  ) [DesignatorIncrement]
+                                                ) [DesignatorOther]
+                                              ) [Assignment]
+                                            ) [Statements]
+                                            Continue(
+                                            ) [Continue]
+                                          ) [Statements]
+                                        ) [BracedStatement]
+                                      ) [IfWithoutElseStatementExpression]
+                                    ) [IfStmt]
+                                  ) [Statements]
+                                  IfStmt(
+                                    IfWithoutElseStatementExpression(
+                                      IfGoodConditions(
+                                        ConditionTerm(
+                                          ConditionFact(
+                                            CondFactRelop(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  Var(
+                                                    DesignatorIdent(
+                                                     i
+                                                    ) [DesignatorIdent]
+                                                  ) [Var]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                              Equal(
+                                              ) [Equal]
+                                              TermExpr(
+                                                FactorTerm(
+                                                  Const(
+                                                    NumberConst(
+                                                     4
+                                                    ) [NumberConst]
+                                                  ) [Const]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [CondFactRelop]
+                                          ) [ConditionFact]
+                                        ) [ConditionTerm]
+                                      ) [IfGoodConditions]
+                                      Break(
+                                      ) [Break]
+                                    ) [IfWithoutElseStatementExpression]
+                                  ) [IfStmt]
+                                ) [Statements]
+                                Assignment(
+                                  DesignatorExpression(
+                                    DesignatorAssignExpression(
+                                      DesignatorIdent(
+                                       i
+                                      ) [DesignatorIdent]
+                                      Assign(
+                                      ) [Assign]
+                                      Expresion(
+                                        TermExpr(
+                                          FactorTerm(
+                                            FuncCall(
+                                              DesignatorIdent(
+                                               inkrement
+                                              ) [DesignatorIdent]
+                                              Actuals(
+                                                ActualParams(
+                                                  ActualParam(
+                                                    Expresion(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          Var(
+                                                            DesignatorIdent(
+                                                             i
+                                                            ) [DesignatorIdent]
+                                                          ) [Var]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                    ) [Expresion]
+                                                  ) [ActualParam]
+                                                  Expresion(
+                                                    TermExpr(
+                                                      FactorTerm(
+                                                        Const(
+                                                          NumberConst(
+                                                           1
+                                                          ) [NumberConst]
+                                                        ) [Const]
+                                                      ) [FactorTerm]
+                                                    ) [TermExpr]
+                                                  ) [Expresion]
+                                                ) [ActualParams]
+                                              ) [Actuals]
+                                            ) [FuncCall]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                      ) [Expresion]
+                                    ) [DesignatorAssignExpression]
+                                  ) [DesignatorExpression]
+                                ) [Assignment]
+                              ) [Statements]
+                            ) [BracedStatement]
+                            ConditionTerm(
+                              ConditionFact(
+                                CondFactRelop(
+                                  TermExpr(
+                                    FactorTerm(
+                                      Var(
+                                        DesignatorIdent(
+                                         i
+                                        ) [DesignatorIdent]
+                                      ) [Var]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                  Lower(
+                                  ) [Lower]
+                                  TermExpr(
+                                    FactorTerm(
+                                      Const(
+                                        NumberConst(
+                                         10
+                                        ) [NumberConst]
+                                      ) [Const]
+                                    ) [FactorTerm]
+                                  ) [TermExpr]
+                                ) [CondFactRelop]
+                              ) [ConditionFact]
+                            ) [ConditionTerm]
+                          ) [DoWhile]
+                        ) [Statements]
+                        IfStmt(
+                          IfWithElseStatementExpression(
+                            IfGoodConditions(
+                              ConditionTerm(
+                                ConditionAnd(
+                                  ConditionFact(
+                                    CondFactRelop(
+                                      TermExpr(
+                                        FactorTerm(
+                                          Var(
+                                            DesignatorIdent(
+                                             i
+                                            ) [DesignatorIdent]
+                                          ) [Var]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                      Equal(
+                                      ) [Equal]
+                                      TermExpr(
+                                        FactorTerm(
+                                          Const(
+                                            NumberConst(
+                                             3
+                                            ) [NumberConst]
+                                          ) [Const]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [CondFactRelop]
+                                  ) [ConditionFact]
+                                  CondFactExpr(
+                                    TermExpr(
+                                      FactorTerm(
+                                        FuncCall(
+                                          DesignatorIdent(
+                                           verify
+                                          ) [DesignatorIdent]
+                                          NoActuals(
+                                          ) [NoActuals]
+                                        ) [FuncCall]
+                                      ) [FactorTerm]
+                                    ) [TermExpr]
+                                  ) [CondFactExpr]
+                                ) [ConditionAnd]
+                              ) [ConditionTerm]
+                            ) [IfGoodConditions]
+                            PrintStmt(
+                              Expresion(
+                                NegTermExpr(
+                                  FactorTerm(
+                                    Const(
+                                      NumberConst(
+                                       4
+                                      ) [NumberConst]
+                                    ) [Const]
+                                  ) [FactorTerm]
+                                ) [NegTermExpr]
+                              ) [Expresion]
+                            ) [PrintStmt]
+                            PrintStmt(
+                              Expresion(
+                                TermExpr(
+                                  FactorTerm(
+                                    Const(
+                                      NumberConst(
+                                       4
+                                      ) [NumberConst]
+                                    ) [Const]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [Expresion]
+                            ) [PrintStmt]
+                          ) [IfWithElseStatementExpression]
+                        ) [IfStmt]
+                      ) [Statements]
+                      ReadStmt(
+                        DesignatorExprList(
+                          DesignatorIdent(
+                           niz
+                          ) [DesignatorIdent]
+                          Expresion(
+                            TermExpr(
+                              FactorTerm(
+                                Const(
+                                  NumberConst(
+                                   0
+                                  ) [NumberConst]
+                                ) [Const]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [Expresion]
+                        ) [DesignatorExprList]
+                      ) [ReadStmt]
+                    ) [Statements]
+                    ReadStmt(
+                      DesignatorExprList(
+                        DesignatorIdent(
+                         niz
+                        ) [DesignatorIdent]
+                        Expresion(
+                          TermExpr(
+                            FactorTerm(
+                              Const(
+                                NumberConst(
+                                 1
+                                ) [NumberConst]
+                              ) [Const]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [Expresion]
+                      ) [DesignatorExprList]
+                    ) [ReadStmt]
+                  ) [Statements]
+                  ReadStmt(
+                    DesignatorExprList(
+                      DesignatorIdent(
+                       niz
+                      ) [DesignatorIdent]
+                      Expresion(
+                        TermExpr(
+                          FactorTerm(
+                            Const(
+                              NumberConst(
+                               2
+                              ) [NumberConst]
+                            ) [Const]
+                          ) [FactorTerm]
+                        ) [TermExpr]
+                      ) [Expresion]
+                    ) [DesignatorExprList]
+                  ) [ReadStmt]
+                ) [Statements]
+                PrintStmt(
+                  Expresion(
+                    TermExpr(
+                      FactorTerm(
+                        Var(
+                          DesignatorIdent(
+                           eol
+                          ) [DesignatorIdent]
+                        ) [Var]
+                      ) [FactorTerm]
+                    ) [TermExpr]
+                  ) [Expresion]
+                ) [PrintStmt]
+              ) [Statements]
+              PrintStmt(
+                Expresion(
+                  TermExpr(
+                    FactorTerm(
+                      FuncCall(
+                        DesignatorIdent(
+                         sum
+                        ) [DesignatorIdent]
+                        Actuals(
+                          ActualParams(
+                            ActualParam(
+                              Expresion(
+                                TermExpr(
+                                  FactorTerm(
+                                    FuncCall(
+                                      DesignatorIdent(
+                                       sum
+                                      ) [DesignatorIdent]
+                                      Actuals(
+                                        ActualParams(
+                                          ActualParam(
+                                            Expresion(
+                                              TermExpr(
+                                                FactorTerm(
+                                                  Var(
+                                                    DesignatorExprList(
+                                                      DesignatorIdent(
+                                                       niz
+                                                      ) [DesignatorIdent]
+                                                      Expresion(
+                                                        TermExpr(
+                                                          FactorTerm(
+                                                            Const(
+                                                              NumberConst(
+                                                               0
+                                                              ) [NumberConst]
+                                                            ) [Const]
+                                                          ) [FactorTerm]
+                                                        ) [TermExpr]
+                                                      ) [Expresion]
+                                                    ) [DesignatorExprList]
+                                                  ) [Var]
+                                                ) [FactorTerm]
+                                              ) [TermExpr]
+                                            ) [Expresion]
+                                          ) [ActualParam]
+                                          Expresion(
+                                            TermExpr(
+                                              FactorTerm(
+                                                Var(
+                                                  DesignatorExprList(
+                                                    DesignatorIdent(
+                                                     niz
+                                                    ) [DesignatorIdent]
+                                                    Expresion(
+                                                      TermExpr(
+                                                        FactorTerm(
+                                                          Const(
+                                                            NumberConst(
+                                                             1
+                                                            ) [NumberConst]
+                                                          ) [Const]
+                                                        ) [FactorTerm]
+                                                      ) [TermExpr]
+                                                    ) [Expresion]
+                                                  ) [DesignatorExprList]
+                                                ) [Var]
+                                              ) [FactorTerm]
+                                            ) [TermExpr]
+                                          ) [Expresion]
+                                        ) [ActualParams]
+                                      ) [Actuals]
+                                    ) [FuncCall]
+                                  ) [FactorTerm]
+                                ) [TermExpr]
+                              ) [Expresion]
+                            ) [ActualParam]
+                            Expresion(
+                              TermExpr(
+                                FactorTerm(
+                                  Var(
+                                    DesignatorExprList(
+                                      DesignatorIdent(
+                                       niz
+                                      ) [DesignatorIdent]
+                                      Expresion(
+                                        TermExpr(
+                                          FactorTerm(
+                                            Const(
+                                              NumberConst(
+                                               2
+                                              ) [NumberConst]
+                                            ) [Const]
+                                          ) [FactorTerm]
+                                        ) [TermExpr]
+                                      ) [Expresion]
+                                    ) [DesignatorExprList]
+                                  ) [Var]
+                                ) [FactorTerm]
+                              ) [TermExpr]
+                            ) [Expresion]
+                          ) [ActualParams]
+                        ) [Actuals]
+                      ) [FuncCall]
+                    ) [FactorTerm]
+                  ) [TermExpr]
+                ) [Expresion]
+              ) [PrintStmt]
+            ) [Statements]
+            PrintStmt(
+              Expresion(
+                TermExpr(
+                  FactorTerm(
+                    Var(
+                      DesignatorIdent(
+                       eol
+                      ) [DesignatorIdent]
+                    ) [Var]
+                  ) [FactorTerm]
+                ) [TermExpr]
+              ) [Expresion]
+            ) [PrintStmt]
+          ) [Statements]
+          PrintStmt(
+            Expresion(
+              TermExpr(
+                FactorTerm(
+                  FuncCall(
+                    DesignatorIdent(
+                     inkrement
+                    ) [DesignatorIdent]
+                    Actuals(
+                      ActualParams(
+                        ActualParam(
+                          Expresion(
+                            TermExpr(
+                              FactorTerm(
+                                Var(
+                                  DesignatorExprList(
+                                    DesignatorIdent(
+                                     niz
+                                    ) [DesignatorIdent]
+                                    Expresion(
+                                      TermExpr(
+                                        FactorTerm(
+                                          Const(
+                                            NumberConst(
+                                             2
+                                            ) [NumberConst]
+                                          ) [Const]
+                                        ) [FactorTerm]
+                                      ) [TermExpr]
+                                    ) [Expresion]
+                                  ) [DesignatorExprList]
+                                ) [Var]
+                              ) [FactorTerm]
+                            ) [TermExpr]
+                          ) [Expresion]
+                        ) [ActualParam]
+                        Expresion(
+                          TermExpr(
+                            FactorTerm(
+                              Const(
+                                NumberConst(
+                                 2
+                                ) [NumberConst]
+                              ) [Const]
+                            ) [FactorTerm]
+                          ) [TermExpr]
+                        ) [Expresion]
+                      ) [ActualParams]
+                    ) [Actuals]
+                  ) [FuncCall]
+                ) [FactorTerm]
+              ) [TermExpr]
+            ) [Expresion]
+          ) [PrintStmt]
+        ) [Statements]
+        PrintStmt(
+          ConditionExpr(
+            TermExpr(
+              FactorTerm(
+                FuncCall(
+                  DesignatorIdent(
+                   verify
+                  ) [DesignatorIdent]
+                  NoActuals(
+                  ) [NoActuals]
+                ) [FuncCall]
+              ) [FactorTerm]
+            ) [TermExpr]
+            TermExpr(
+              FactorTerm(
+                Const(
+                  CharConst(
+                   t
+                  ) [CharConst]
+                ) [Const]
+              ) [FactorTerm]
+            ) [TermExpr]
+            TermExpr(
+              FactorTerm(
+                Const(
+                  CharConst(
+                   f
+                  ) [CharConst]
+                ) [Const]
+              ) [FactorTerm]
+            ) [TermExpr]
+          ) [ConditionExpr]
+        ) [PrintStmt]
+      ) [Statements]
+    ) [MethodDeclaration]
+  ) [MethodDeclarations]
+) [Program]
+INFO  21:27:18,103 - ===================================
+INFO  21:27:18,128 - Deklarisana int konstantna jedan na liniji 5
+INFO  21:27:18,128 - Deklarisana promenljiva i na liniji 7
+INFO  21:27:18,128 - Deklarisana promenljiva ibool na liniji 8
+INFO  21:27:18,128 - Deklarisana promenljiva niz na liniji 10
+INFO  21:27:18,129 - Obradjuje se funkcija sum na liniji 14
+INFO  21:27:18,129 - Definisan fomralni parametar metode z na liniji 14
+INFO  21:27:18,129 - Definisan fomralni parametar metode d na liniji 14
+INFO  21:27:23,310 - Obradjuje se funkcija inkrement na liniji 19
+INFO  21:27:23,311 - Definisan fomralni parametar metode a na liniji 19
+INFO  21:27:23,311 - Definisan fomralni parametar metode inc na liniji 19
+INFO  21:27:23,311 - Deklarisana promenljiva pom na liniji 20
+INFO  21:27:31,126 - Pronadjen If statement na liniji 22
+INFO  21:27:31,127 - Pronadjen If statement na liniji 23
+INFO  21:27:31,127 - Obradjuje se funkcija verify na liniji 28
+INFO  21:27:31,127 - Poziv print funkcije na liniji 29
+INFO  21:27:31,127 - Obradjuje se funkcija main na liniji 33
+INFO  21:27:31,127 - Pronadjen If statement na liniji 35
+INFO  21:27:31,127 - Poziv print funkcije na liniji 35
+INFO  21:27:31,127 - Poziv print funkcije na liniji 36
+INFO  21:27:31,127 - Pronadjen If statement na liniji 41
+INFO  21:27:31,127 - Pronadjen Do While statement na liniji 40
+INFO  21:27:31,127 - Pronadjen If statement na liniji 45
+INFO  21:27:31,128 - Pronadjen If statement na liniji 46
+INFO  21:27:31,128 - Poziv print funkcije na liniji 46
+INFO  21:27:31,128 - Poziv print funkcije na liniji 47
+INFO  21:27:31,128 - Pristup elementu niza na liniji 50
+INFO  21:27:31,128 - Pristup elementu niza na liniji 51
+INFO  21:27:31,128 - Pristup elementu niza na liniji 52
+INFO  21:27:31,128 - Pristup elementu niza na liniji 52
+INFO  21:27:31,128 - Pristup elementu niza na liniji 52
+INFO  21:27:31,128 - Pristup elementu niza na liniji 53
+INFO  21:27:31,128 - Pronadjen If statement na liniji 53
+INFO  21:27:31,128 - Poziv print funkcije na liniji 53
+INFO  21:27:31,128 - Poziv print funkcije na liniji 54
+INFO  21:27:31,128 - Poziv print funkcije na liniji 56
+INFO  21:27:31,128 - Pronadjen If statement na liniji 59
+INFO  21:27:31,128 - Continue free
+INFO  21:27:31,128 - Pronadjen If statement na liniji 64
+INFO  21:27:31,128 - Break free
+INFO  21:27:31,129 - Pronadjen Do While statement na liniji 58
+INFO  21:27:31,129 - Pronadjen If statement na liniji 68
+INFO  21:27:31,129 - Poziv print funkcije na liniji 68
+INFO  21:27:31,129 - Poziv print funkcije na liniji 69
+INFO  21:27:31,129 - Pristup elementu niza na liniji 71
+INFO  21:27:31,129 - Poziv read funkcije na liniji 71
+INFO  21:27:31,129 - Pristup elementu niza na liniji 72
+INFO  21:27:31,129 - Poziv read funkcije na liniji 72
+INFO  21:27:31,129 - Pristup elementu niza na liniji 73
+INFO  21:27:31,129 - Poziv read funkcije na liniji 73
+INFO  21:27:31,129 - Poziv print funkcije na liniji 74
+INFO  21:27:31,130 - Pristup elementu niza na liniji 76
+INFO  21:27:31,130 - Pristup elementu niza na liniji 76
+INFO  21:27:31,130 - Pristup elementu niza na liniji 76
+ERROR 21:27:31,130 - Promenljiva nije funkcija  na liniji 76
+INFO  21:27:31,130 - Poziv print funkcije na liniji 76
+INFO  21:27:31,130 - Poziv print funkcije na liniji 78
+INFO  21:27:31,130 - Pristup elementu niza na liniji 79
+INFO  21:27:31,130 - Poziv print funkcije na liniji 79
+INFO  21:27:31,130 - Poziv print funkcije na liniji 81
+INFO  21:27:31,130 -  Print count calls = 0
+INFO  21:27:31,130 -  Deklarisanih promenljivih ima = 4
+INFO  21:27:31,131 - Uspesnost semantickog parsiranja: false

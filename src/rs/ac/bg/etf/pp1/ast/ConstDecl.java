@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 4/0/2021 0:48:14
+// 8/0/2021 19:52:44
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -10,14 +10,14 @@ public class ConstDecl implements SyntaxNode {
     private SyntaxNode parent;
     private int line;
     private Type Type;
-    private String I2;
+    private String constName;
     private ConstVar ConstVar;
     private ConstDeclAddition ConstDeclAddition;
 
-    public ConstDecl (Type Type, String I2, ConstVar ConstVar, ConstDeclAddition ConstDeclAddition) {
+    public ConstDecl (Type Type, String constName, ConstVar ConstVar, ConstDeclAddition ConstDeclAddition) {
         this.Type=Type;
         if(Type!=null) Type.setParent(this);
-        this.I2=I2;
+        this.constName=constName;
         this.ConstVar=ConstVar;
         if(ConstVar!=null) ConstVar.setParent(this);
         this.ConstDeclAddition=ConstDeclAddition;
@@ -32,12 +32,12 @@ public class ConstDecl implements SyntaxNode {
         this.Type=Type;
     }
 
-    public String getI2() {
-        return I2;
+    public String getConstName() {
+        return constName;
     }
 
-    public void setI2(String I2) {
-        this.I2=I2;
+    public void setConstName(String constName) {
+        this.constName=constName;
     }
 
     public ConstVar getConstVar() {
@@ -107,7 +107,7 @@ public class ConstDecl implements SyntaxNode {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        buffer.append(" "+tab+I2);
+        buffer.append(" "+tab+constName);
         buffer.append("\n");
 
         if(ConstVar!=null)

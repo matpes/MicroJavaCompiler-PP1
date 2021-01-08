@@ -1,0 +1,173 @@
+INFO  17:09:13,782 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\semantikaTest.mj
+INFO  17:09:13,860 - #2 program
+INFO  17:09:13,861 - #17 SemantikaMJ
+INFO  17:09:13,861 - #17 boolean
+INFO  17:09:13,863 - #17 x
+INFO  17:09:13,863 - #5 ;
+INFO  17:09:13,865 - #47 const
+INFO  17:09:13,867 - #17 int
+INFO  17:09:13,867 - #17 cc
+INFO  17:09:13,867 - #15 =
+INFO  17:09:13,867 - #20 5
+INFO  17:09:13,867 - #5 ;
+INFO  17:09:13,868 - #17 int
+INFO  17:09:13,869 - #17 y
+INFO  17:09:13,869 - #5 ;
+INFO  17:09:13,869 - #17 char
+INFO  17:09:13,870 - #17 z
+INFO  17:09:13,870 - #5 ;
+INFO  17:09:13,870 - #17 int
+INFO  17:09:13,870 - #17 a
+INFO  17:09:13,870 - #5 ;
+INFO  17:09:13,870 - #17 int
+INFO  17:09:13,872 - #17 b
+INFO  17:09:13,872 - #10 [
+INFO  17:09:13,872 - #11 ]
+INFO  17:09:13,872 - #9 ,
+INFO  17:09:13,873 - #17 c
+INFO  17:09:13,873 - #10 [
+INFO  17:09:13,873 - #11 ]
+INFO  17:09:13,873 - #9 ,
+INFO  17:09:13,873 - #17 d
+INFO  17:09:13,873 - #5 ;
+INFO  17:09:13,874 - #17 sad
+INFO  17:09:13,874 - #17 wtf
+INFO  17:09:13,874 - #5 ;
+INFO  17:09:13,874 - #3 {
+INFO  17:09:13,874 - #4 }
+INFO  17:09:13,876 - Program(
+  ProgName(
+   SemantikaMJ
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                NoDeclarationList(
+                ) [NoDeclarationList]
+                VarTypeDeclaration(
+                  VarDecl(
+                    Type(
+                     boolean
+                    ) [Type]
+                    VariableName(
+                     x
+                    ) [VariableName]
+                    BoxNo(
+                    ) [BoxNo]
+                    NoVarDeclAdd(
+                    ) [NoVarDeclAdd]
+                  ) [VarDecl]
+                ) [VarTypeDeclaration]
+              ) [DeclarationList]
+              ConstTypeDeclaration(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 cc
+                  NumberConst(
+                   5
+                  ) [NumberConst]
+                  NoConstDeclAddition(
+                  ) [NoConstDeclAddition]
+                ) [ConstDecl]
+              ) [ConstTypeDeclaration]
+            ) [DeclarationList]
+            VarTypeDeclaration(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VariableName(
+                 y
+                ) [VariableName]
+                BoxNo(
+                ) [BoxNo]
+                NoVarDeclAdd(
+                ) [NoVarDeclAdd]
+              ) [VarDecl]
+            ) [VarTypeDeclaration]
+          ) [DeclarationList]
+          VarTypeDeclaration(
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+              VariableName(
+               z
+              ) [VariableName]
+              BoxNo(
+              ) [BoxNo]
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+            ) [VarDecl]
+          ) [VarTypeDeclaration]
+        ) [DeclarationList]
+        VarTypeDeclaration(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VariableName(
+             a
+            ) [VariableName]
+            BoxNo(
+            ) [BoxNo]
+            NoVarDeclAdd(
+            ) [NoVarDeclAdd]
+          ) [VarDecl]
+        ) [VarTypeDeclaration]
+      ) [DeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VariableName(
+           b
+          ) [VariableName]
+          BoxYes(
+          ) [BoxYes]
+          VarDeclAdd(
+            VarDeclAdd(
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+              VariableName(
+               c
+              ) [VariableName]
+              BoxYes(
+              ) [BoxYes]
+            ) [VarDeclAdd]
+            VariableName(
+             d
+            ) [VariableName]
+            BoxNo(
+            ) [BoxNo]
+          ) [VarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         sad
+        ) [Type]
+        VariableName(
+         wtf
+        ) [VariableName]
+        BoxNo(
+        ) [BoxNo]
+        NoVarDeclAdd(
+        ) [NoVarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:09:13,877 - ===================================
+INFO  17:10:03,612 - Deklarisana promenljiva x na liniji 3

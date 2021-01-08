@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 4/0/2021 0:48:14
+// 8/0/2021 19:52:44
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -93,7 +93,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(DesignatorAssignExpression DesignatorAssignExpression) { visit(); }
     public void visit(DesignatorDecrement DesignatorDecrement) { visit(); }
     public void visit(DesignatorIncrement DesignatorIncrement) { visit(); }
-    public void visit(DesignatorArray DesignatorArray) { visit(); }
+    public void visit(DesignatorFuncCall DesignatorFuncCall) { visit(); }
     public void visit(DesignatorOther DesignatorOther) { visit(); }
     public void visit(DesignatorExpression DesignatorExpression) { visit(); }
     public void visit(EmptyCase EmptyCase) { visit(); }
@@ -102,6 +102,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(IfGoodConditions IfGoodConditions) { visit(); }
     public void visit(IfWithElseStatementExpression IfWithElseStatementExpression) { visit(); }
     public void visit(IfWithoutElseStatementExpression IfWithoutElseStatementExpression) { visit(); }
+    public void visit(DoWhileStart DoWhileStart) { visit(); }
     public void visit(DoWhile DoWhile) { visit(); }
     public void visit(IfStmt IfStmt) { visit(); }
     public void visit(Assignment Assignment) { visit(); }
@@ -130,6 +131,7 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(NoConstDeclAddition NoConstDeclAddition) { visit(); }
     public void visit(ConstDeclAdd ConstDeclAdd) { visit(); }
     public void visit(ConstDecl ConstDecl) { visit(); }
+    public void visit(ClassName ClassName) { visit(); }
     public void visit(ClassDeclExtendsMethods ClassDeclExtendsMethods) { visit(); }
     public void visit(ClassDeclExtends ClassDeclExtends) { visit(); }
     public void visit(ClassDeclMethods ClassDeclMethods) { visit(); }
@@ -140,10 +142,10 @@ public abstract class VisitorAdaptor implements Visitor {
     public void visit(NoMethodDecl NoMethodDecl) { visit(); }
     public void visit(MethodDeclarations MethodDeclarations) { visit(); }
     public void visit(Type Type) { visit(); }
-    public void visit(VaraibleNameError VaraibleNameError) { visit(); }
-    public void visit(VariableName VariableName) { visit(); }
     public void visit(NoVarDeclAdd NoVarDeclAdd) { visit(); }
     public void visit(VarDeclAdd VarDeclAdd) { visit(); }
+    public void visit(VaraibleNameError VaraibleNameError) { visit(); }
+    public void visit(VariableName VariableName) { visit(); }
     public void visit(VarDecl VarDecl) { visit(); }
     public void visit(NoVarDecl NoVarDecl) { visit(); }
     public void visit(VarDeclarations VarDeclarations) { visit(); }

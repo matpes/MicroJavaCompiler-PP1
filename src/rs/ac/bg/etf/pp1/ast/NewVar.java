@@ -1,6 +1,6 @@
 // generated with ast extension for cup
 // version 0.8
-// 4/0/2021 0:48:14
+// 8/0/2021 19:52:44
 
 
 package rs.ac.bg.etf.pp1.ast;
@@ -8,13 +8,13 @@ package rs.ac.bg.etf.pp1.ast;
 public class NewVar extends Factor {
 
     private Type Type;
-    private OptExpr OptExpr;
+    private Expr Expr;
 
-    public NewVar (Type Type, OptExpr OptExpr) {
+    public NewVar (Type Type, Expr Expr) {
         this.Type=Type;
         if(Type!=null) Type.setParent(this);
-        this.OptExpr=OptExpr;
-        if(OptExpr!=null) OptExpr.setParent(this);
+        this.Expr=Expr;
+        if(Expr!=null) Expr.setParent(this);
     }
 
     public Type getType() {
@@ -25,12 +25,12 @@ public class NewVar extends Factor {
         this.Type=Type;
     }
 
-    public OptExpr getOptExpr() {
-        return OptExpr;
+    public Expr getExpr() {
+        return Expr;
     }
 
-    public void setOptExpr(OptExpr OptExpr) {
-        this.OptExpr=OptExpr;
+    public void setExpr(Expr Expr) {
+        this.Expr=Expr;
     }
 
     public void accept(Visitor visitor) {
@@ -39,18 +39,18 @@ public class NewVar extends Factor {
 
     public void childrenAccept(Visitor visitor) {
         if(Type!=null) Type.accept(visitor);
-        if(OptExpr!=null) OptExpr.accept(visitor);
+        if(Expr!=null) Expr.accept(visitor);
     }
 
     public void traverseTopDown(Visitor visitor) {
         accept(visitor);
         if(Type!=null) Type.traverseTopDown(visitor);
-        if(OptExpr!=null) OptExpr.traverseTopDown(visitor);
+        if(Expr!=null) Expr.traverseTopDown(visitor);
     }
 
     public void traverseBottomUp(Visitor visitor) {
         if(Type!=null) Type.traverseBottomUp(visitor);
-        if(OptExpr!=null) OptExpr.traverseBottomUp(visitor);
+        if(Expr!=null) Expr.traverseBottomUp(visitor);
         accept(visitor);
     }
 
@@ -65,8 +65,8 @@ public class NewVar extends Factor {
             buffer.append(tab+"  null");
         buffer.append("\n");
 
-        if(OptExpr!=null)
-            buffer.append(OptExpr.toString("  "+tab));
+        if(Expr!=null)
+            buffer.append(Expr.toString("  "+tab));
         else
             buffer.append(tab+"  null");
         buffer.append("\n");

@@ -1,0 +1,85 @@
+program SemantikaMJ
+
+bool x;
+const int ci = 5, ci2 = 6, ci3 = 6;
+int y, br;
+char z;
+int a;
+int b[], c[], d[];
+char charArray[];
+bool boolArray[];
+{
+	bool k(int b, bool c, bool bulovi [])
+	int i;
+	int a;
+	{
+		print('A');
+		//boolArray = new char[10];
+		charArray = new char[10];
+		//boolArray = new char['c'];
+		boolArray = new bool[i];
+		return true;
+	}
+	
+	void eh()
+	int i;
+	int oo;{
+		k(i, x, boolArray);
+		//return 8;
+		return;
+	}
+	
+	void main(){
+		y = b[a];
+		x = k(y, x, boolArray);
+		//y = k(y, x, boolArray);
+		//x = x(y, y, boolArray);
+		//eh = 0;
+		b[0] = y;
+		y++;
+		y--;
+		//b++;
+		b[0]++;
+		b[a]++;
+		y = 8;
+		b[0] = 1;
+		//y = a = 1;
+		y = a;
+		if( 5 > 1 ){
+		
+		}
+		read(y);
+		//read(5);
+		//read(charArray);
+		read(boolArray[0]);
+		//y = 5 ? y : x;
+		y = true ? y : br;
+		y = 5 > 1 ? y : br;
+		//if('a' == z || y > 5 && charArray > charArray){
+		//if('a' == x || y > 5 && charArray > charArray){
+		//if('a' == z || y * 2 + 5 > 5 && charArray != charArray){
+		if('a' == z || y * 2 + 5 > 5 && charArray[0] > charArray[0]){
+		//if('a' == z || y * 2 + 5 > 5 && charArray[0] > charArray){
+			print(x);
+			print(x, 5);
+			//print(x - 4);
+			print(y - 4);
+			print(z);
+			print(z, 4);
+			print('a');
+			//print(boolArray);
+			print(boolArray[0]);
+			//break;
+		}
+		//if(y){
+			//print('B');
+		//}
+		//continue;
+		do{
+			break;
+			continue;
+		}while(x);
+		return;
+	}
+
+}

@@ -1,0 +1,184 @@
+INFO  17:03:41,436 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\semantikaTest.mj
+INFO  17:03:41,503 - #2 program
+INFO  17:03:41,504 - #17 SemantikaMJ
+INFO  17:03:41,504 - #17 boolean
+INFO  17:03:41,506 - #17 x
+INFO  17:03:41,507 - #5 ;
+INFO  17:03:41,509 - #47 const
+INFO  17:03:41,511 - #17 int
+INFO  17:03:41,511 - #17 cc
+INFO  17:03:41,511 - #15 =
+INFO  17:03:41,511 - #20 5
+INFO  17:03:41,511 - #5 ;
+INFO  17:03:41,512 - #17 int
+INFO  17:03:41,513 - #17 y
+INFO  17:03:41,514 - #5 ;
+INFO  17:03:41,514 - #17 char
+INFO  17:03:41,514 - #17 z
+INFO  17:03:41,514 - #5 ;
+INFO  17:03:41,514 - #17 int
+INFO  17:03:41,514 - #17 a
+INFO  17:03:41,514 - #5 ;
+INFO  17:03:41,514 - #17 int
+INFO  17:03:41,516 - #17 b
+INFO  17:03:41,517 - #10 [
+INFO  17:03:41,517 - #11 ]
+INFO  17:03:41,517 - #9 ,
+INFO  17:03:41,517 - #17 c
+INFO  17:03:41,517 - #10 [
+INFO  17:03:41,517 - #11 ]
+INFO  17:03:41,517 - #9 ,
+INFO  17:03:41,517 - #17 d
+INFO  17:03:41,518 - #5 ;
+INFO  17:03:41,518 - #17 sad
+INFO  17:03:41,518 - #17 wtf
+INFO  17:03:41,518 - #5 ;
+INFO  17:03:41,518 - #3 {
+INFO  17:03:41,518 - #4 }
+INFO  17:03:41,520 - Program(
+  ProgName(
+   SemantikaMJ
+  ) [ProgName]
+  DeclarationList(
+    DeclarationList(
+      DeclarationList(
+        DeclarationList(
+          DeclarationList(
+            DeclarationList(
+              DeclarationList(
+                NoDeclarationList(
+                ) [NoDeclarationList]
+                VarTypeDeclaration(
+                  VarDecl(
+                    Type(
+                     boolean
+                    ) [Type]
+                    VariableName(
+                     x
+                    ) [VariableName]
+                    BoxNo(
+                    ) [BoxNo]
+                    NoVarDeclAdd(
+                    ) [NoVarDeclAdd]
+                  ) [VarDecl]
+                ) [VarTypeDeclaration]
+              ) [DeclarationList]
+              ConstTypeDeclaration(
+                ConstDecl(
+                  Type(
+                   int
+                  ) [Type]
+                 cc
+                  NumberConst(
+                   5
+                  ) [NumberConst]
+                  NoConstDeclAddition(
+                  ) [NoConstDeclAddition]
+                ) [ConstDecl]
+              ) [ConstTypeDeclaration]
+            ) [DeclarationList]
+            VarTypeDeclaration(
+              VarDecl(
+                Type(
+                 int
+                ) [Type]
+                VariableName(
+                 y
+                ) [VariableName]
+                BoxNo(
+                ) [BoxNo]
+                NoVarDeclAdd(
+                ) [NoVarDeclAdd]
+              ) [VarDecl]
+            ) [VarTypeDeclaration]
+          ) [DeclarationList]
+          VarTypeDeclaration(
+            VarDecl(
+              Type(
+               char
+              ) [Type]
+              VariableName(
+               z
+              ) [VariableName]
+              BoxNo(
+              ) [BoxNo]
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+            ) [VarDecl]
+          ) [VarTypeDeclaration]
+        ) [DeclarationList]
+        VarTypeDeclaration(
+          VarDecl(
+            Type(
+             int
+            ) [Type]
+            VariableName(
+             a
+            ) [VariableName]
+            BoxNo(
+            ) [BoxNo]
+            NoVarDeclAdd(
+            ) [NoVarDeclAdd]
+          ) [VarDecl]
+        ) [VarTypeDeclaration]
+      ) [DeclarationList]
+      VarTypeDeclaration(
+        VarDecl(
+          Type(
+           int
+          ) [Type]
+          VariableName(
+           b
+          ) [VariableName]
+          BoxYes(
+          ) [BoxYes]
+          VarDeclAdd(
+            VarDeclAdd(
+              NoVarDeclAdd(
+              ) [NoVarDeclAdd]
+              VariableName(
+               c
+              ) [VariableName]
+              BoxYes(
+              ) [BoxYes]
+            ) [VarDeclAdd]
+            VariableName(
+             d
+            ) [VariableName]
+            BoxNo(
+            ) [BoxNo]
+          ) [VarDeclAdd]
+        ) [VarDecl]
+      ) [VarTypeDeclaration]
+    ) [DeclarationList]
+    VarTypeDeclaration(
+      VarDecl(
+        Type(
+         sad
+        ) [Type]
+        VariableName(
+         wtf
+        ) [VariableName]
+        BoxNo(
+        ) [BoxNo]
+        NoVarDeclAdd(
+        ) [NoVarDeclAdd]
+      ) [VarDecl]
+    ) [VarTypeDeclaration]
+  ) [DeclarationList]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:03:41,520 - ===================================
+INFO  17:03:41,527 - Deklarisana promenljiva x na liniji 3
+ERROR 17:03:41,527 - Greska pri deklarisanju konstantne. Razliciti su tipovi  na liniji 4
+INFO  17:03:41,527 - Deklarisana promenljiva y na liniji 5
+INFO  17:03:41,527 - Deklarisana promenljiva z na liniji 6
+INFO  17:03:41,527 - Deklarisana promenljiva a na liniji 7
+INFO  17:03:41,527 - Deklarisana promenljiva c na liniji 8
+INFO  17:03:41,527 - Deklarisana promenljiva d na liniji 8
+INFO  17:03:41,527 - Deklarisana promenljiva b na liniji 8
+ERROR 17:03:41,527 - Nije pronadjen tip sad u tabeli simbola! 
+ERROR 17:03:41,527 - Greska pri deklarisanju promenljive  na liniji 9
+INFO  17:03:41,528 -  Print count calls = 0
+INFO  17:03:41,528 -  Deklarisanih promenljivih ima = 7
