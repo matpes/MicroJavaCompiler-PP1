@@ -47,7 +47,7 @@ public class MJParserTest2 {
 			Tab.init(); // Universe scope
 			
 	        
-			SemanticPass v = new SemanticPass();
+			SemanticAnalyzer v = new SemanticAnalyzer();
 			prog.traverseBottomUp(v); 
 	      
 			log.info(" Print count calls = " + v.printCallCount);
