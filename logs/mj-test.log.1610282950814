@@ -1,0 +1,228 @@
+INFO  13:46:22,580 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:46:22,626 - #2 program
+INFO  13:46:22,626 - #17 MJProgram
+INFO  13:46:22,627 - #17 int
+INFO  13:46:22,628 - #17 x
+INFO  13:46:22,628 - #9 ,
+INFO  13:46:22,630 - #17 y
+INFO  13:46:22,631 - #9 ,
+INFO  13:46:22,631 - #17 b
+INFO  13:46:22,631 - #5 ;
+INFO  13:46:22,631 - #17 int
+INFO  13:46:22,631 - #17 y
+INFO  13:46:22,631 - #10 [
+INFO  13:46:22,631 - #11 ]
+INFO  13:46:22,631 - #9 ,
+INFO  13:46:22,632 - #17 u
+INFO  13:46:22,632 - #10 [
+INFO  13:46:22,632 - #11 ]
+INFO  13:46:22,632 - #9 ,
+INFO  13:46:22,632 - #17 d
+INFO  13:46:22,632 - #5 ;
+INFO  13:46:22,632 - #47 const
+INFO  13:46:22,632 - #17 int
+INFO  13:46:22,633 - #17 c
+INFO  13:46:22,633 - #15 =
+INFO  13:46:22,633 - #20 0
+INFO  13:46:22,633 - #5 ;
+INFO  13:46:22,634 - #17 int
+INFO  13:46:22,634 - #17 d
+INFO  13:46:22,634 - #5 ;
+INFO  13:46:22,634 - #17 int
+INFO  13:46:22,634 - #17 d
+INFO  13:46:22,634 - #5 ;
+INFO  13:46:22,634 - #17 int
+INFO  13:46:22,635 - #17 d
+INFO  13:46:22,635 - #5 ;
+INFO  13:46:22,635 - #17 int
+INFO  13:46:22,635 - #17 d
+INFO  13:46:22,635 - #5 ;
+INFO  13:46:22,635 - #45 class
+INFO  13:46:22,635 - #17 A
+INFO  13:46:22,635 - #3 {
+INFO  13:46:22,636 - #17 int
+INFO  13:46:22,636 - #17 d4
+INFO  13:46:22,637 - #9 ,
+INFO  13:46:22,637 - #17 b
+INFO  13:46:22,637 - #5 ;
+INFO  13:46:22,637 - #17 int
+INFO  13:46:22,637 - #17 a
+INFO  13:46:22,637 - #5 ;
+INFO  13:46:22,637 - #4 }
+INFO  13:46:22,637 - #3 {
+INFO  13:46:22,638 - #17 int
+INFO  13:46:22,638 - #17 main
+INFO  13:46:22,638 - #7 (
+INFO  13:46:22,639 - #17 int
+INFO  13:46:22,639 - #17 x
+INFO  13:46:22,639 - #9 ,
+INFO  13:46:22,640 - #4 }
+ERROR 13:46:22,640 - Sintaksna greska na liniji 17
+INFO  13:46:22,640 - #17 int
+INFO  13:46:22,640 - #17 y
+INFO  13:46:22,640 - #9 ,
+INFO  13:46:22,640 - #17 int
+INFO  13:46:22,641 - #17 z
+INFO  13:46:22,641 - #9 ,
+ERROR 13:46:22,641 - Oporavak greske kod formalnih parametara. Greska na liniji: 17
+INFO  13:46:22,642 - #17 int
+INFO  13:46:22,642 - #17 g
+INFO  13:46:22,642 - #9 ,
+INFO  13:46:22,642 - #17 int
+INFO  13:46:22,642 - #32 +
+ERROR 13:46:22,642 - Sintaksna greska na liniji 17
+INFO  13:46:22,643 - #8 )
+INFO  13:46:22,643 - #17 int
+INFO  13:46:22,643 - #17 haha
+INFO  13:46:22,643 - #5 ;
+ERROR 13:46:22,643 - Oporavak greske kod formalnih parametara. Greska na liniji: 17
+INFO  13:46:22,643 - #17 int
+INFO  13:46:22,643 - #17 OMojBoze
+INFO  13:46:22,643 - #5 ;
+INFO  13:46:22,643 - #17 char
+INFO  13:46:22,643 - #17 wtf
+INFO  13:46:22,643 - #5 ;
+INFO  13:46:22,643 - #3 {
+INFO  13:46:22,644 - #17 y
+INFO  13:46:22,644 - #15 =
+INFO  13:46:22,645 - #20 2
+INFO  13:46:22,646 - #5 ;
+INFO  13:46:22,647 - #17 x
+INFO  13:46:22,647 - #32 +
+ERROR 13:46:22,647 - Sintaksna greska na liniji 23
+INFO  13:46:22,647 - #15 =
+INFO  13:46:22,647 - #17 y
+INFO  13:46:22,647 - #32 +
+INFO  13:46:22,647 - #20 2
+INFO  13:46:22,648 - #5 ;
+INFO  13:46:22,648 - #17 y
+INFO  13:46:22,648 - #15 =
+INFO  13:46:22,648 - #17 k
+ERROR 13:46:22,648 - Oporavak od greske kod iskaza dodele na liniji 1
+INFO  13:46:22,650 - #7 (
+INFO  13:46:22,651 - #8 )
+INFO  13:46:22,651 - #32 +
+INFO  13:46:22,651 - #20 3
+INFO  13:46:22,652 - #5 ;
+INFO  13:46:22,652 - #29 break
+INFO  13:46:22,652 - #5 ;
+INFO  13:46:22,652 - #28 continue
+INFO  13:46:22,653 - #5 ;
+INFO  13:46:22,653 - #17 y
+INFO  13:46:22,654 - #15 =
+INFO  13:46:22,654 - #20 2
+INFO  13:46:22,654 - #5 ;
+INFO  13:46:22,654 - #12 print
+INFO  13:46:22,654 - #7 (
+INFO  13:46:22,654 - #17 dasd
+INFO  13:46:22,654 - #8 )
+INFO  13:46:22,655 - #5 ;
+INFO  13:46:22,655 - #13 read
+INFO  13:46:22,655 - #7 (
+INFO  13:46:22,655 - #17 y
+INFO  13:46:22,655 - #8 )
+INFO  13:46:22,655 - #5 ;
+INFO  13:46:22,655 - #13 read
+INFO  13:46:22,655 - #7 (
+INFO  13:46:22,655 - #17 x
+INFO  13:46:22,656 - #8 )
+INFO  13:46:22,656 - #5 ;
+INFO  13:46:22,656 - #25 switch
+INFO  13:46:22,656 - #7 (
+INFO  13:46:22,656 - #17 x
+INFO  13:46:22,656 - #8 )
+INFO  13:46:22,656 - #3 {
+INFO  13:46:22,656 - #27 case
+INFO  13:46:22,657 - #20 1
+INFO  13:46:22,657 - #26 :
+INFO  13:46:22,657 - #28 continue
+INFO  13:46:22,657 - #5 ;
+INFO  13:46:22,657 - #29 break
+INFO  13:46:22,657 - #5 ;
+INFO  13:46:22,657 - #27 case
+INFO  13:46:22,658 - #20 2
+INFO  13:46:22,658 - #26 :
+INFO  13:46:22,658 - #17 d
+INFO  13:46:22,658 - #15 =
+INFO  13:46:22,658 - #20 0
+INFO  13:46:22,658 - #5 ;
+INFO  13:46:22,658 - #29 break
+INFO  13:46:22,658 - #5 ;
+INFO  13:46:22,658 - #4 }
+INFO  13:46:22,658 - #12 print
+INFO  13:46:22,658 - #7 (
+INFO  13:46:22,658 - #17 y
+INFO  13:46:22,658 - #9 ,
+INFO  13:46:22,658 - #20 5
+INFO  13:46:22,658 - #8 )
+INFO  13:46:22,658 - #5 ;
+INFO  13:46:22,659 - #12 print
+INFO  13:46:22,659 - #7 (
+INFO  13:46:22,659 - #19 A
+INFO  13:46:22,659 - #8 )
+INFO  13:46:22,659 - #5 ;
+INFO  13:46:22,659 - #21 if
+INFO  13:46:22,659 - #7 (
+INFO  13:46:22,659 - #18 true
+INFO  13:46:22,659 - #4 }
+ERROR 13:46:22,659 - Sintaksna greska na liniji 40
+INFO  13:46:22,659 - #8 )
+INFO  13:46:22,659 - #3 {
+INFO  13:46:22,660 - #13 read
+INFO  13:46:22,660 - #7 (
+ERROR 13:46:22,660 - Greska pri parsiranju uslova if naredbe, oporavak od greske na liniji 40
+INFO  13:46:22,660 - #17 y
+INFO  13:46:22,660 - #8 )
+INFO  13:46:22,660 - #5 ;
+INFO  13:46:22,661 - #4 }
+INFO  13:46:22,661 - #21 if
+INFO  13:46:22,661 - #7 (
+INFO  13:46:22,661 - #32 +
+ERROR 13:46:22,661 - Sintaksna greska na liniji 43
+INFO  13:46:22,661 - #18 true
+INFO  13:46:22,661 - #8 )
+INFO  13:46:22,661 - #3 {
+INFO  13:46:22,661 - #4 }
+INFO  13:46:22,662 - #23 do
+ERROR 13:46:22,662 - Greska pri parsiranju uslova if naredbe, oporavak od greske na liniji 43
+INFO  13:46:22,662 - #3 {
+INFO  13:46:22,662 - #13 read
+INFO  13:46:22,662 - #7 (
+INFO  13:46:22,663 - #17 x
+INFO  13:46:22,663 - #8 )
+INFO  13:46:22,663 - #5 ;
+INFO  13:46:22,663 - #4 }
+INFO  13:46:22,663 - #24 while
+INFO  13:46:22,663 - #7 (
+INFO  13:46:22,663 - #18 true
+INFO  13:46:22,663 - #8 )
+INFO  13:46:22,663 - #5 ;
+INFO  13:46:22,663 - #14 return
+INFO  13:46:22,663 - #20 0
+INFO  13:46:22,663 - #5 ;
+INFO  13:46:22,663 - #4 }
+INFO  13:46:22,664 - #4 }
+INFO  13:46:22,669 - Deklarisana promenljiva y na liniji 2
+INFO  13:46:22,670 - Deklarisana promenljiva b na liniji 2
+INFO  13:46:22,670 - Deklarisana promenljiva x na liniji 2
+INFO  13:46:22,670 - Deklarisana promenljiva u na liniji 3
+INFO  13:46:22,670 - Deklarisana promenljiva d na liniji 3
+ERROR 13:46:22,670 - Deklarisana variabla y vec postoji. Greska  na liniji 3
+INFO  13:46:22,670 - Deklarisana int konstantna c na liniji 4
+ERROR 13:46:22,670 - Deklarisana variabla d vec postoji. Greska  na liniji 5
+ERROR 13:46:22,670 - Deklarisana variabla d vec postoji. Greska  na liniji 6
+ERROR 13:46:22,670 - Deklarisana variabla d vec postoji. Greska  na liniji 7
+ERROR 13:46:22,670 - Deklarisana variabla d vec postoji. Greska  na liniji 8
+ERROR 13:46:22,670 - Deklarisana variabla b vec postoji. Greska na liniji 11
+INFO  13:46:22,670 - Deklarisana promenljiva d4 na liniji 11
+INFO  13:46:22,670 - Deklarisana promenljiva a na liniji 12
+INFO  13:46:22,670 - Obradjuje se funkcija main na liniji 17
+INFO  13:46:22,670 - Definisan fomralni parametar metode x na liniji 17
+ERROR 13:46:22,670 - Greska pri deklarisanju formalnih parametara funkcije 
+INFO  13:46:22,670 - Definisan fomralni parametar metode z na liniji 17
+INFO  13:46:22,670 - Definisan fomralni parametar metode g na liniji 17
+ERROR 13:46:22,670 - Greska pri deklarisanju formalnih parametara funkcije 
+INFO  13:46:22,670 - Deklarisana promenljiva haha na liniji 18
+INFO  13:46:22,670 - Deklarisana promenljiva OMojBoze na liniji 19
+INFO  13:46:22,670 - Deklarisana promenljiva wtf na liniji 20
+ERROR 13:46:22,670 - Greska na liniji 24 : ime k nije deklarisano! 

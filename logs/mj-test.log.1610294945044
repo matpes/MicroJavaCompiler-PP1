@@ -1,0 +1,89 @@
+INFO  16:59:43,801 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  16:59:43,849 - #2 program
+INFO  16:59:43,849 - #17 MJCode
+INFO  16:59:43,849 - #17 int
+INFO  16:59:43,850 - #17 x
+INFO  16:59:43,850 - #9 ,
+INFO  16:59:43,851 - #17 y
+INFO  16:59:43,852 - #9 ,
+INFO  16:59:43,852 - #17 z
+INFO  16:59:43,852 - #5 ;
+INFO  16:59:43,852 - #17 char
+INFO  16:59:43,853 - #17 a
+INFO  16:59:43,853 - #9 ,
+INFO  16:59:43,853 - #17 b
+INFO  16:59:43,853 - #9 ,
+INFO  16:59:43,853 - #17 c
+INFO  16:59:43,853 - #5 ;
+INFO  16:59:43,853 - #47 const
+INFO  16:59:43,853 - #17 int
+INFO  16:59:43,853 - #17 co
+INFO  16:59:43,853 - #15 =
+INFO  16:59:43,853 - #20 5
+INFO  16:59:43,853 - #5 ;
+INFO  16:59:43,854 - #47 const
+INFO  16:59:43,855 - #17 bool
+INFO  16:59:43,855 - #17 bl
+INFO  16:59:43,855 - #15 =
+INFO  16:59:43,855 - #18 true
+INFO  16:59:43,855 - #5 ;
+INFO  16:59:43,855 - #17 bool
+INFO  16:59:43,855 - #17 tr
+INFO  16:59:43,855 - #9 ,
+INFO  16:59:43,856 - #17 fs
+INFO  16:59:43,856 - #5 ;
+INFO  16:59:43,856 - #17 int
+INFO  16:59:43,856 - #17 arr
+INFO  16:59:43,856 - #10 [
+INFO  16:59:43,856 - #11 ]
+INFO  16:59:43,856 - #5 ;
+INFO  16:59:43,857 - #3 {
+INFO  16:59:43,857 - #16 void
+INFO  16:59:43,857 - #17 main
+INFO  16:59:43,858 - #7 (
+INFO  16:59:43,858 - #8 )
+INFO  16:59:43,858 - #3 {
+INFO  16:59:43,859 - #12 print
+INFO  16:59:43,860 - #7 (
+INFO  16:59:43,860 - #17 arr
+INFO  16:59:43,860 - #9 ,
+INFO  16:59:43,860 - #20 3
+INFO  16:59:43,860 - #8 )
+INFO  16:59:43,860 - #5 ;
+INFO  16:59:43,860 - #12 print
+INFO  16:59:43,860 - #7 (
+INFO  16:59:43,860 - #18 true
+INFO  16:59:43,861 - #8 )
+INFO  16:59:43,861 - #5 ;
+INFO  16:59:43,861 - #12 print
+INFO  16:59:43,861 - #7 (
+INFO  16:59:43,861 - #18 false
+INFO  16:59:43,861 - #8 )
+INFO  16:59:43,861 - #5 ;
+INFO  16:59:43,861 - #12 print
+INFO  16:59:43,861 - #7 (
+INFO  16:59:43,862 - #19 a
+INFO  16:59:43,862 - #9 ,
+INFO  16:59:43,862 - #20 7
+INFO  16:59:43,862 - #8 )
+INFO  16:59:43,862 - #5 ;
+INFO  16:59:43,862 - #4 }
+INFO  16:59:43,862 - #4 }
+INFO  16:59:43,869 - Deklarisana promenljiva y na liniji 2
+INFO  16:59:43,869 - Deklarisana promenljiva z na liniji 2
+INFO  16:59:43,869 - Deklarisana promenljiva x na liniji 2
+INFO  16:59:43,869 - Deklarisana promenljiva b na liniji 3
+INFO  16:59:43,869 - Deklarisana promenljiva c na liniji 3
+INFO  16:59:43,869 - Deklarisana promenljiva a na liniji 3
+INFO  16:59:43,869 - Deklarisana int konstantna co na liniji 4
+INFO  16:59:43,869 - Deklarisana boolean konstantna bl na liniji 5
+INFO  16:59:43,869 - Deklarisana promenljiva fs na liniji 6
+INFO  16:59:43,869 - Deklarisana promenljiva tr na liniji 6
+INFO  16:59:43,869 - Deklarisana promenljiva arr na liniji 7
+INFO  16:59:43,869 - Obradjuje se funkcija main na liniji 9
+ERROR 16:59:43,869 - Argument prosledjen print funkciji mora biti int, char ili bool na liniji 11
+INFO  16:59:43,870 - Poziv print funkcije na liniji 12
+INFO  16:59:43,870 - Poziv print funkcije na liniji 13
+INFO  16:59:43,870 - Poziv print funkcije na liniji 14
+INFO  16:59:43,870 - Print calls = 0
+ERROR 16:59:43,870 - Parsiranje NIJE uspesno zavrseno!

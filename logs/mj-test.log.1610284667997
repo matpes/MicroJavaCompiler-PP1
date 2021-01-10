@@ -1,0 +1,55 @@
+INFO  14:03:39,759 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:03:39,806 - #2 program
+INFO  14:03:39,806 - #17 MJCode
+INFO  14:03:39,806 - #17 int
+INFO  14:03:39,807 - #17 x
+INFO  14:03:39,808 - #9 ,
+INFO  14:03:39,809 - #17 y
+INFO  14:03:39,809 - #9 ,
+INFO  14:03:39,809 - #17 z
+INFO  14:03:39,809 - #5 ;
+INFO  14:03:39,809 - #17 char
+INFO  14:03:39,810 - #17 a
+INFO  14:03:39,810 - #9 ,
+INFO  14:03:39,811 - #17 b
+INFO  14:03:39,811 - #9 ,
+INFO  14:03:39,811 - #17 c
+INFO  14:03:39,811 - #5 ;
+INFO  14:03:39,811 - #47 const
+INFO  14:03:39,811 - #17 int
+INFO  14:03:39,811 - #17 co
+INFO  14:03:39,811 - #15 =
+INFO  14:03:39,811 - #20 5
+INFO  14:03:39,812 - #5 ;
+INFO  14:03:39,814 - #17 bool
+INFO  14:03:39,815 - #17 tr
+INFO  14:03:39,815 - #9 ,
+INFO  14:03:39,815 - #17 fs
+INFO  14:03:39,816 - #5 ;
+INFO  14:03:39,816 - #3 {
+INFO  14:03:39,816 - #16 void
+INFO  14:03:39,816 - #17 main
+INFO  14:03:39,816 - #7 (
+INFO  14:03:39,816 - #8 )
+INFO  14:03:39,817 - #3 {
+INFO  14:03:39,817 - #12 print
+INFO  14:03:39,818 - #7 (
+INFO  14:03:39,818 - #20 5
+INFO  14:03:39,818 - #8 )
+INFO  14:03:39,818 - #5 ;
+INFO  14:03:39,818 - #4 }
+INFO  14:03:39,819 - #4 }
+INFO  14:03:39,825 - Deklarisana promenljiva y na liniji 2
+INFO  14:03:39,825 - Deklarisana promenljiva z na liniji 2
+INFO  14:03:39,825 - Deklarisana promenljiva x na liniji 2
+INFO  14:03:39,825 - Deklarisana promenljiva b na liniji 3
+INFO  14:03:39,825 - Deklarisana promenljiva c na liniji 3
+INFO  14:03:39,826 - Deklarisana promenljiva a na liniji 3
+INFO  14:03:39,826 - Deklarisana int konstantna co na liniji 4
+INFO  14:03:39,826 - Deklarisana promenljiva fs na liniji 5
+INFO  14:03:39,826 - Deklarisana promenljiva tr na liniji 5
+INFO  14:03:39,826 - Obradjuje se funkcija main na liniji 7
+INFO  14:03:39,826 - Poziv print funkcije na liniji 9
+INFO  14:03:39,826 - Print calls = 0
+INFO  14:03:39,827 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj
+INFO  14:03:39,828 - Parsiranje uspesno zavrseno!

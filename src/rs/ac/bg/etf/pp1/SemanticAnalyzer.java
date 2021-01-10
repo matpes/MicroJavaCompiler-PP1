@@ -37,6 +37,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	Struct intArrayType, charArrayType, boolArrayType;
 	Struct currType;
 	int currParam;
+	boolean mainFound = false;
 
 	public void report_error(String message, SyntaxNode info) {
 		errorDetected = true;
@@ -67,6 +68,12 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		nVars = Tab.currentScope.getnVars();
 		Tab.chainLocalSymbols(program.getProgName().obj);
 		Tab.closeScope();
+		if(nVars > 65536) {
+			report_error("Program ne sme imati vise od 65536 globalnih promenljivih!", program);
+		}
+		if(!mainFound) {
+			report_error("Program mora sadrzati void main() funkciju", program);
+		}
 	}
 
 	public void visit(ProgName progName) {
@@ -304,6 +311,9 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	}
 
 	public void visit(MetVoidName metTypeName) {
+		if("main".equals(metTypeName.getMethName())) {
+			mainFound = true;
+		}
 		currentMethod = Tab.insert(Obj.Meth, metTypeName.getMethName(), Tab.noType);
 		metTypeName.obj = currentMethod;
 		Tab.openScope();
@@ -316,6 +326,9 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 					+ currentMethod.getName() + " nema return iskaz!", null);
 		}
 		Tab.chainLocalSymbols(currentMethod);
+		if(currentMethod.getLocalSymbols().size()>256) {
+			report_error("Metoda ne sme imati vise od 256 lokalnih promenljivih!", methodDeclaration);
+		}
 		Tab.closeScope();
 		returnFound = false;
 		currentMethod = null;

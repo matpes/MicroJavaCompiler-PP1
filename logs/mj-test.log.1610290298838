@@ -1,0 +1,28 @@
+INFO  14:54:54,592 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  14:54:54,639 - #2 program
+INFO  14:54:54,640 - #17 MJCode
+INFO  14:54:54,640 - #47 const
+INFO  14:54:54,641 - #17 int
+INFO  14:54:54,641 - #17 co
+INFO  14:54:54,641 - #15 =
+INFO  14:54:54,641 - #20 5
+INFO  14:54:54,641 - #5 ;
+INFO  14:54:54,642 - #3 {
+INFO  14:54:54,643 - #16 void
+INFO  14:54:54,643 - #17 main
+INFO  14:54:54,643 - #7 (
+INFO  14:54:54,643 - #8 )
+INFO  14:54:54,644 - #3 {
+INFO  14:54:54,645 - #12 print
+INFO  14:54:54,646 - #7 (
+INFO  14:54:54,646 - #20 4
+INFO  14:54:54,646 - #8 )
+INFO  14:54:54,647 - #5 ;
+INFO  14:54:54,647 - #4 }
+INFO  14:54:54,647 - #4 }
+INFO  14:54:54,652 - Deklarisana int konstantna co na liniji 4
+INFO  14:54:54,655 - Obradjuje se funkcija main na liniji 7
+INFO  14:54:54,655 - Poziv print funkcije na liniji 9
+INFO  14:54:54,655 - Print calls = 0
+INFO  14:54:54,655 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj
+INFO  14:54:54,657 - Parsiranje uspesno zavrseno!

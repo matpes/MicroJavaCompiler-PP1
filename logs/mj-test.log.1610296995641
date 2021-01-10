@@ -1,0 +1,84 @@
+INFO  17:43:08,214 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  17:43:08,262 - #2 program
+INFO  17:43:08,262 - #17 MJCode
+INFO  17:43:08,262 - #17 int
+INFO  17:43:08,264 - #17 x
+INFO  17:43:08,265 - #9 ,
+INFO  17:43:08,268 - #17 y
+INFO  17:43:08,268 - #9 ,
+INFO  17:43:08,268 - #17 z
+INFO  17:43:08,268 - #5 ;
+INFO  17:43:08,268 - #17 char
+INFO  17:43:08,269 - #17 a
+INFO  17:43:08,269 - #9 ,
+INFO  17:43:08,269 - #17 b
+INFO  17:43:08,269 - #9 ,
+INFO  17:43:08,269 - #17 c
+INFO  17:43:08,269 - #5 ;
+INFO  17:43:08,270 - #47 const
+INFO  17:43:08,270 - #17 int
+INFO  17:43:08,270 - #17 co
+INFO  17:43:08,270 - #15 =
+INFO  17:43:08,270 - #20 5
+INFO  17:43:08,270 - #5 ;
+INFO  17:43:08,271 - #47 const
+INFO  17:43:08,271 - #17 bool
+INFO  17:43:08,272 - #17 bl
+INFO  17:43:08,272 - #15 =
+INFO  17:43:08,272 - #18 true
+INFO  17:43:08,272 - #5 ;
+INFO  17:43:08,272 - #17 bool
+INFO  17:43:08,272 - #17 tr
+INFO  17:43:08,272 - #9 ,
+INFO  17:43:08,272 - #17 fs
+INFO  17:43:08,272 - #5 ;
+INFO  17:43:08,272 - #17 int
+INFO  17:43:08,272 - #17 arr
+INFO  17:43:08,272 - #5 ;
+INFO  17:43:08,272 - #3 {
+INFO  17:43:08,272 - #16 void
+INFO  17:43:08,273 - #17 main
+INFO  17:43:08,273 - #7 (
+INFO  17:43:08,273 - #8 )
+INFO  17:43:08,274 - #17 int
+INFO  17:43:08,274 - #17 lok
+INFO  17:43:08,274 - #5 ;
+INFO  17:43:08,274 - #3 {
+INFO  17:43:08,275 - #17 x
+INFO  17:43:08,275 - #15 =
+INFO  17:43:08,275 - #20 2
+INFO  17:43:08,276 - #17 lok
+ERROR 17:43:08,276 - Sintaksna greska na liniji 13
+INFO  17:43:08,276 - #15 =
+INFO  17:43:08,276 - #20 11
+INFO  17:43:08,276 - #5 ;
+INFO  17:43:08,277 - #12 print
+INFO  17:43:08,277 - #7 (
+INFO  17:43:08,277 - #17 x
+ERROR 17:43:08,277 - Oporavak od greske kod iskaza dodele na liniji 1
+INFO  17:43:08,278 - #8 )
+INFO  17:43:08,278 - #5 ;
+INFO  17:43:08,278 - #12 print
+INFO  17:43:08,278 - #7 (
+INFO  17:43:08,279 - #17 lok
+INFO  17:43:08,279 - #8 )
+INFO  17:43:08,279 - #5 ;
+INFO  17:43:08,279 - #4 }
+INFO  17:43:08,279 - #4 }
+INFO  17:43:08,285 - Deklarisana promenljiva y na liniji 2
+INFO  17:43:08,285 - Deklarisana promenljiva z na liniji 2
+INFO  17:43:08,286 - Deklarisana promenljiva x na liniji 2
+INFO  17:43:08,286 - Deklarisana promenljiva b na liniji 3
+INFO  17:43:08,286 - Deklarisana promenljiva c na liniji 3
+INFO  17:43:08,286 - Deklarisana promenljiva a na liniji 3
+INFO  17:43:08,286 - Deklarisana int konstantna co na liniji 4
+INFO  17:43:08,286 - Deklarisana boolean konstantna bl na liniji 5
+INFO  17:43:08,286 - Deklarisana promenljiva fs na liniji 6
+INFO  17:43:08,286 - Deklarisana promenljiva tr na liniji 6
+INFO  17:43:08,286 - Deklarisana promenljiva arr na liniji 7
+INFO  17:43:08,286 - Obradjuje se funkcija main na liniji 9
+INFO  17:43:08,286 - Deklarisana promenljiva lok na liniji 10
+INFO  17:43:08,286 - Poziv print funkcije na liniji 20
+INFO  17:43:08,286 - Poziv print funkcije na liniji 21
+INFO  17:43:08,286 - Print calls = 0
+ERROR 17:43:08,287 - Parsiranje NIJE uspesno zavrseno!

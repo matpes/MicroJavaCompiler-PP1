@@ -1,0 +1,43 @@
+INFO  13:50:52,735 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  13:50:52,795 - #2 program
+INFO  13:50:52,795 - #17 MJCode
+INFO  13:50:52,796 - #17 int
+INFO  13:50:52,797 - #17 x
+INFO  13:50:52,797 - #9 ,
+INFO  13:50:52,800 - #17 y
+INFO  13:50:52,800 - #9 ,
+INFO  13:50:52,800 - #17 z
+INFO  13:50:52,800 - #5 ;
+INFO  13:50:52,800 - #17 char
+INFO  13:50:52,801 - #17 a
+INFO  13:50:52,801 - #9 ,
+INFO  13:50:52,802 - #17 b
+INFO  13:50:52,802 - #9 ,
+INFO  13:50:52,802 - #17 c
+INFO  13:50:52,802 - #5 ;
+INFO  13:50:52,802 - #47 const
+INFO  13:50:52,802 - #17 int
+INFO  13:50:52,802 - #17 co
+INFO  13:50:52,802 - #15 =
+INFO  13:50:52,802 - #20 5
+INFO  13:50:52,802 - #5 ;
+INFO  13:50:52,805 - #17 bool
+INFO  13:50:52,806 - #17 tr
+INFO  13:50:52,806 - #9 ,
+INFO  13:50:52,806 - #17 fs
+INFO  13:50:52,806 - #5 ;
+INFO  13:50:52,806 - #16 void
+ERROR 13:50:52,807 - Sintaksna greska na liniji 7
+INFO  13:50:52,807 - #17 main
+INFO  13:50:52,807 - #7 (
+INFO  13:50:52,807 - #8 )
+INFO  13:50:52,807 - #3 {
+INFO  13:50:52,808 - #12 print
+INFO  13:50:52,808 - #7 (
+INFO  13:50:52,808 - #20 5
+INFO  13:50:52,808 - #8 )
+INFO  13:50:52,808 - #5 ;
+INFO  13:50:52,808 - #4 }
+ERROR 13:50:52,808 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 7
+INFO  13:50:52,815 - Deklarisana promenljiva fs na liniji 5
+INFO  13:50:52,815 - Print calls = 0

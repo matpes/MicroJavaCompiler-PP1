@@ -1,0 +1,80 @@
+INFO  15:56:09,748 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:56:09,815 - #2 program
+INFO  15:56:09,815 - #17 MJCode
+INFO  15:56:09,815 - #17 int
+INFO  15:56:09,817 - #17 x
+INFO  15:56:09,817 - #9 ,
+INFO  15:56:09,820 - #17 y
+INFO  15:56:09,820 - #9 ,
+INFO  15:56:09,820 - #17 z
+INFO  15:56:09,820 - #5 ;
+INFO  15:56:09,820 - #17 char
+INFO  15:56:09,821 - #17 a
+INFO  15:56:09,821 - #9 ,
+INFO  15:56:09,822 - #17 b
+INFO  15:56:09,822 - #9 ,
+INFO  15:56:09,822 - #17 c
+INFO  15:56:09,822 - #5 ;
+INFO  15:56:09,822 - #47 const
+INFO  15:56:09,822 - #17 int
+INFO  15:56:09,822 - #17 co
+INFO  15:56:09,822 - #15 =
+INFO  15:56:09,822 - #20 5
+INFO  15:56:09,822 - #5 ;
+INFO  15:56:09,825 - #47 const
+INFO  15:56:09,826 - #17 bool
+INFO  15:56:09,826 - #17 bl
+INFO  15:56:09,826 - #15 =
+INFO  15:56:09,826 - #18 true
+INFO  15:56:09,826 - #5 ;
+INFO  15:56:09,826 - #17 bool
+INFO  15:56:09,826 - #17 tr
+INFO  15:56:09,826 - #9 ,
+INFO  15:56:09,826 - #17 fs
+INFO  15:56:09,827 - #5 ;
+INFO  15:56:09,827 - #3 {
+INFO  15:56:09,827 - #16 void
+INFO  15:56:09,828 - #17 main
+INFO  15:56:09,828 - #7 (
+INFO  15:56:09,828 - #8 )
+INFO  15:56:09,828 - #3 {
+INFO  15:56:09,829 - #12 print
+INFO  15:56:09,830 - #7 (
+INFO  15:56:09,830 - #20 4
+INFO  15:56:09,830 - #8 )
+INFO  15:56:09,830 - #5 ;
+INFO  15:56:09,830 - #12 print
+INFO  15:56:09,830 - #7 (
+INFO  15:56:09,831 - #18 true
+INFO  15:56:09,831 - #8 )
+INFO  15:56:09,831 - #5 ;
+INFO  15:56:09,831 - #12 print
+INFO  15:56:09,831 - #7 (
+INFO  15:56:09,831 - #18 false
+INFO  15:56:09,831 - #8 )
+INFO  15:56:09,831 - #5 ;
+INFO  15:56:09,831 - #12 print
+INFO  15:56:09,831 - #7 (
+INFO  15:56:09,832 - #19 a
+INFO  15:56:09,832 - #8 )
+INFO  15:56:09,832 - #5 ;
+INFO  15:56:09,832 - #4 }
+INFO  15:56:09,832 - #4 }
+INFO  15:56:09,842 - Deklarisana promenljiva y na liniji 2
+INFO  15:56:09,842 - Deklarisana promenljiva z na liniji 2
+INFO  15:56:09,842 - Deklarisana promenljiva x na liniji 2
+INFO  15:56:09,843 - Deklarisana promenljiva b na liniji 3
+INFO  15:56:09,843 - Deklarisana promenljiva c na liniji 3
+INFO  15:56:09,843 - Deklarisana promenljiva a na liniji 3
+INFO  15:56:09,843 - Deklarisana int konstantna co na liniji 4
+INFO  15:56:09,843 - Deklarisana boolean konstantna bl na liniji 5
+INFO  15:56:09,843 - Deklarisana promenljiva fs na liniji 6
+INFO  15:56:09,843 - Deklarisana promenljiva tr na liniji 6
+INFO  15:56:09,843 - Obradjuje se funkcija main na liniji 8
+INFO  15:56:09,844 - Poziv print funkcije na liniji 10
+INFO  15:56:09,844 - Poziv print funkcije na liniji 11
+INFO  15:56:09,844 - Poziv print funkcije na liniji 12
+INFO  15:56:09,844 - Poziv print funkcije na liniji 13
+INFO  15:56:09,844 - Print calls = 0
+INFO  15:56:09,845 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj
+INFO  15:56:09,851 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,134 @@
+INFO  18:39:57,854 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:39:57,905 - #2 program
+INFO  18:39:57,905 - #17 MJCode
+INFO  18:39:57,905 - #17 int
+INFO  18:39:57,907 - #17 x
+INFO  18:39:57,908 - #9 ,
+INFO  18:39:57,909 - #17 y
+INFO  18:39:57,909 - #9 ,
+INFO  18:39:57,909 - #17 z
+INFO  18:39:57,909 - #5 ;
+INFO  18:39:57,909 - #17 char
+INFO  18:39:57,910 - #17 a
+INFO  18:39:57,910 - #9 ,
+INFO  18:39:57,910 - #17 b
+INFO  18:39:57,910 - #9 ,
+INFO  18:39:57,911 - #17 c
+INFO  18:39:57,911 - #5 ;
+INFO  18:39:57,911 - #47 const
+INFO  18:39:57,911 - #17 int
+INFO  18:39:57,911 - #17 co
+INFO  18:39:57,911 - #15 =
+INFO  18:39:57,911 - #20 5
+INFO  18:39:57,911 - #5 ;
+INFO  18:39:57,913 - #47 const
+INFO  18:39:57,914 - #17 bool
+INFO  18:39:57,914 - #17 bl
+INFO  18:39:57,914 - #15 =
+INFO  18:39:57,914 - #18 true
+INFO  18:39:57,914 - #5 ;
+INFO  18:39:57,914 - #17 bool
+INFO  18:39:57,914 - #17 tr
+INFO  18:39:57,915 - #9 ,
+INFO  18:39:57,915 - #17 fs
+INFO  18:39:57,915 - #5 ;
+INFO  18:39:57,915 - #17 int
+INFO  18:39:57,915 - #17 arr
+INFO  18:39:57,915 - #5 ;
+INFO  18:39:57,915 - #3 {
+INFO  18:39:57,915 - #16 void
+INFO  18:39:57,916 - #17 main
+INFO  18:39:57,916 - #7 (
+INFO  18:39:57,916 - #8 )
+INFO  18:39:57,916 - #17 int
+INFO  18:39:57,917 - #17 lok
+INFO  18:39:57,917 - #5 ;
+INFO  18:39:57,917 - #3 {
+INFO  18:39:57,918 - #17 x
+INFO  18:39:57,918 - #15 =
+INFO  18:39:57,918 - #20 2
+INFO  18:39:57,919 - #5 ;
+INFO  18:39:57,920 - #17 x
+INFO  18:39:57,920 - #15 =
+INFO  18:39:57,920 - #20 1
+INFO  18:39:57,920 - #32 +
+INFO  18:39:57,920 - #20 5
+INFO  18:39:57,921 - #34 *
+INFO  18:39:57,921 - #20 2
+INFO  18:39:57,922 - #5 ;
+INFO  18:39:57,922 - #17 lok
+INFO  18:39:57,922 - #15 =
+INFO  18:39:57,922 - #20 11
+INFO  18:39:57,922 - #5 ;
+INFO  18:39:57,922 - #17 lok
+INFO  18:39:57,923 - #15 =
+INFO  18:39:57,923 - #17 lok
+INFO  18:39:57,923 - #33 -
+INFO  18:39:57,923 - #17 x
+INFO  18:39:57,923 - #32 +
+INFO  18:39:57,924 - #20 5
+INFO  18:39:57,924 - #5 ;
+INFO  18:39:57,924 - #17 lok
+INFO  18:39:57,924 - #15 =
+INFO  18:39:57,924 - #20 3
+INFO  18:39:57,924 - #34 *
+INFO  18:39:57,924 - #20 5
+INFO  18:39:57,924 - #5 ;
+INFO  18:39:57,924 - #17 lok
+INFO  18:39:57,924 - #15 =
+INFO  18:39:57,924 - #17 x
+INFO  18:39:57,924 - #34 *
+INFO  18:39:57,924 - #17 lok
+INFO  18:39:57,924 - #5 ;
+INFO  18:39:57,925 - #17 x
+INFO  18:39:57,925 - #30 ++
+INFO  18:39:57,925 - #5 ;
+INFO  18:39:57,925 - #17 lok
+INFO  18:39:57,925 - #31 --
+INFO  18:39:57,925 - #5 ;
+INFO  18:39:57,925 - #17 x
+INFO  18:39:57,925 - #15 =
+INFO  18:39:57,925 - #20 3
+INFO  18:39:57,925 - #5 ;
+INFO  18:39:57,926 - #17 y
+INFO  18:39:57,926 - #15 =
+INFO  18:39:57,926 - #20 2
+INFO  18:39:57,926 - #5 ;
+INFO  18:39:57,926 - #17 lok
+INFO  18:39:57,926 - #15 =
+INFO  18:39:57,926 - #17 x
+INFO  18:39:57,926 - #32 +
+INFO  18:39:57,926 - #17 y
+INFO  18:39:57,926 - #30 ++
+ERROR 18:39:57,926 - Sintaksna greska na liniji 28
+INFO  18:39:57,926 - #5 ;
+INFO  18:39:57,926 - #12 print
+INFO  18:39:57,926 - #7 (
+INFO  18:39:57,927 - #17 x
+ERROR 18:39:57,927 - Oporavak od greske kod iskaza dodele na liniji 1
+INFO  18:39:57,928 - #8 )
+INFO  18:39:57,928 - #5 ;
+INFO  18:39:57,928 - #12 print
+INFO  18:39:57,928 - #7 (
+INFO  18:39:57,928 - #17 lok
+INFO  18:39:57,928 - #8 )
+INFO  18:39:57,928 - #5 ;
+INFO  18:39:57,928 - #4 }
+INFO  18:39:57,928 - #4 }
+INFO  18:39:57,934 - Deklarisana promenljiva y na liniji 2
+INFO  18:39:57,934 - Deklarisana promenljiva z na liniji 2
+INFO  18:39:57,934 - Deklarisana promenljiva x na liniji 2
+INFO  18:39:57,934 - Deklarisana promenljiva b na liniji 3
+INFO  18:39:57,934 - Deklarisana promenljiva c na liniji 3
+INFO  18:39:57,934 - Deklarisana promenljiva a na liniji 3
+INFO  18:39:57,935 - Deklarisana int konstantna co na liniji 4
+INFO  18:39:57,935 - Deklarisana boolean konstantna bl na liniji 5
+INFO  18:39:57,935 - Deklarisana promenljiva fs na liniji 6
+INFO  18:39:57,935 - Deklarisana promenljiva tr na liniji 6
+INFO  18:39:57,935 - Deklarisana promenljiva arr na liniji 7
+INFO  18:39:57,935 - Obradjuje se funkcija main na liniji 9
+INFO  18:39:57,935 - Deklarisana promenljiva lok na liniji 10
+INFO  18:39:57,935 - Poziv print funkcije na liniji 29
+INFO  18:39:57,935 - Poziv print funkcije na liniji 30
+INFO  18:39:57,936 - Print calls = 0
+ERROR 18:39:57,936 - Parsiranje NIJE uspesno zavrseno!

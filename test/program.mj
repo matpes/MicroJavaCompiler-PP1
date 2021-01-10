@@ -1,51 +1,40 @@
-program MJProgram
-	int x, y, b; 
-	int y[], u[], d;
-	const int c = 0;
-	int d;
-	int d;
-	int d;
-	int d;
-	
-	class A{
-		int d4, b;
-		int a;
-	}
+program MJCode
+	int x, y, z;
+	char a, b, c;
+	const int co = 5;
+	const bool bl = true;
+	bool tr, fs;
+	int arr[];
 {
-	
-
-	int main(int x, }int y, int z, int g, int +)
-	int haha;
-	int OMojBoze;
-	char wtf;
+	void main()
+	int lok;
+	char charr[];
 	{
-		y = 2;
-		x += y + 2;
-		y = k() + 3;
-		break;
-		continue;
-		y = 2;
-		print('dasd');
-		read(y);
-		read(x);
-		switch(x){
-			case 1: continue;
-				break;
-			case 2:
-				d = 0;
-				break;
-		}
-		print(y, 5);
-		print('A');
-		if(true}){
-			read(y);
-		}
-		if(+true){
-		
-		}
-		do{
-			read(x);
-		}while(true);
-		return 0;
+		arr = new int[5];
+		x = arr[0];
+		print(x);
+		//charr = new char[4];
+		//x = 2;
+		//x = 1 + 5 * 2;
+		//lok = 11;
+		//lok = lok - x + 5;
+		//lok = 3 * 5;
+		//lok = x * lok;
+		//x = lok;	
+		//lok = x;
+		//print(arr, 3);
+		//print(true);
+		//print(false);
+		//print('a', 7);
+		//x++;
+		//lok--;
+		//x = 3;
+		//y = 2;
+		//y++;
+		//y++;
+		//x++;
+		//lok = x + y;
+		//print(x);
+		//print(lok);
 	}
 }

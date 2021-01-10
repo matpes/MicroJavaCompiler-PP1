@@ -1,0 +1,72 @@
+INFO  15:51:38,841 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:51:38,892 - #2 program
+INFO  15:51:38,892 - #17 MJCode
+INFO  15:51:38,892 - #17 int
+INFO  15:51:38,894 - #17 x
+INFO  15:51:38,895 - #9 ,
+INFO  15:51:38,896 - #17 y
+INFO  15:51:38,896 - #9 ,
+INFO  15:51:38,896 - #17 z
+INFO  15:51:38,896 - #5 ;
+INFO  15:51:38,897 - #17 char
+INFO  15:51:38,897 - #17 a
+INFO  15:51:38,897 - #9 ,
+INFO  15:51:38,898 - #17 b
+INFO  15:51:38,898 - #9 ,
+INFO  15:51:38,898 - #17 c
+INFO  15:51:38,898 - #5 ;
+INFO  15:51:38,898 - #47 const
+INFO  15:51:38,898 - #17 int
+INFO  15:51:38,898 - #17 co
+INFO  15:51:38,898 - #15 =
+INFO  15:51:38,898 - #20 5
+INFO  15:51:38,898 - #5 ;
+INFO  15:51:38,900 - #17 cont
+INFO  15:51:38,901 - #17 bool
+INFO  15:51:38,901 - #17 bl
+ERROR 15:51:38,901 - Sintaksna greska na liniji 5
+INFO  15:51:38,901 - #15 =
+INFO  15:51:38,901 - #18 true
+INFO  15:51:38,901 - #5 ;
+INFO  15:51:38,902 - #17 bool
+INFO  15:51:38,902 - #17 tr
+INFO  15:51:38,902 - #9 ,
+ERROR 15:51:38,902 - Oporavak od greske pri definiciji globalne promenljive na liniji 5
+INFO  15:51:38,903 - #17 fs
+INFO  15:51:38,903 - #5 ;
+INFO  15:51:38,903 - #3 {
+INFO  15:51:38,903 - #16 void
+INFO  15:51:38,903 - #17 main
+INFO  15:51:38,904 - #7 (
+INFO  15:51:38,904 - #8 )
+INFO  15:51:38,904 - #3 {
+INFO  15:51:38,905 - #12 print
+INFO  15:51:38,905 - #7 (
+INFO  15:51:38,905 - #20 4
+INFO  15:51:38,905 - #8 )
+INFO  15:51:38,906 - #5 ;
+INFO  15:51:38,906 - #12 print
+INFO  15:51:38,906 - #7 (
+INFO  15:51:38,906 - #18 true
+INFO  15:51:38,906 - #8 )
+INFO  15:51:38,906 - #5 ;
+INFO  15:51:38,906 - #12 print
+INFO  15:51:38,906 - #7 (
+INFO  15:51:38,906 - #18 false
+INFO  15:51:38,907 - #8 )
+INFO  15:51:38,907 - #5 ;
+INFO  15:51:38,907 - #12 print
+INFO  15:51:38,907 - #7 (
+INFO  15:51:38,907 - #19 a
+INFO  15:51:38,907 - #8 )
+INFO  15:51:38,907 - #5 ;
+INFO  15:51:38,907 - #4 }
+INFO  15:51:38,907 - #4 }
+INFO  15:51:38,914 - Deklarisana promenljiva y na liniji 2
+INFO  15:51:38,914 - Deklarisana promenljiva z na liniji 2
+INFO  15:51:38,914 - Deklarisana promenljiva x na liniji 2
+INFO  15:51:38,914 - Deklarisana promenljiva b na liniji 3
+INFO  15:51:38,915 - Deklarisana promenljiva c na liniji 3
+INFO  15:51:38,915 - Deklarisana promenljiva a na liniji 3
+INFO  15:51:38,915 - Deklarisana int konstantna co na liniji 4
+ERROR 15:51:38,915 - Nije pronadjen tip cont u tabeli simbola! 
