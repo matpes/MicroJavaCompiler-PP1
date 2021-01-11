@@ -1,0 +1,186 @@
+INFO  20:07:23,181 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  20:07:23,239 - #2 program
+INFO  20:07:23,239 - #17 MJCode
+INFO  20:07:23,239 - #17 int
+INFO  20:07:23,241 - #17 x
+INFO  20:07:23,242 - #9 ,
+INFO  20:07:23,244 - #17 y
+INFO  20:07:23,244 - #9 ,
+INFO  20:07:23,244 - #17 z
+INFO  20:07:23,245 - #5 ;
+INFO  20:07:23,245 - #17 bool
+INFO  20:07:23,246 - #17 f
+INFO  20:07:23,246 - #5 ;
+INFO  20:07:23,246 - #47 const
+INFO  20:07:23,246 - #17 int
+INFO  20:07:23,246 - #17 cst
+INFO  20:07:23,246 - #15 =
+INFO  20:07:23,247 - #20 5
+INFO  20:07:23,247 - #5 ;
+INFO  20:07:23,248 - #3 {
+INFO  20:07:23,249 - #17 int
+INFO  20:07:23,249 - #17 jedan
+INFO  20:07:23,249 - #7 (
+INFO  20:07:23,251 - #8 )
+INFO  20:07:23,252 - #3 {
+INFO  20:07:23,253 - #14 return
+INFO  20:07:23,254 - #20 1
+INFO  20:07:23,254 - #5 ;
+INFO  20:07:23,254 - #4 }
+INFO  20:07:23,254 - #16 void
+INFO  20:07:23,255 - #17 main
+INFO  20:07:23,255 - #7 (
+INFO  20:07:23,255 - #8 )
+INFO  20:07:23,255 - #17 int
+INFO  20:07:23,255 - #17 lok
+INFO  20:07:23,255 - #5 ;
+INFO  20:07:23,255 - #17 char
+INFO  20:07:23,255 - #17 c
+INFO  20:07:23,255 - #5 ;
+INFO  20:07:23,255 - #17 char
+INFO  20:07:23,255 - #17 charr
+INFO  20:07:23,256 - #10 [
+INFO  20:07:23,256 - #11 ]
+INFO  20:07:23,256 - #5 ;
+INFO  20:07:23,256 - #3 {
+INFO  20:07:23,256 - #17 x
+INFO  20:07:23,257 - #15 =
+INFO  20:07:23,257 - #20 4
+INFO  20:07:23,258 - #5 ;
+INFO  20:07:23,258 - #17 y
+INFO  20:07:23,259 - #15 =
+INFO  20:07:23,259 - #20 2
+INFO  20:07:23,259 - #5 ;
+INFO  20:07:23,259 - #17 f
+INFO  20:07:23,259 - #15 =
+INFO  20:07:23,259 - #18 false
+INFO  20:07:23,259 - #5 ;
+INFO  20:07:23,259 - #21 if
+INFO  20:07:23,259 - #7 (
+INFO  20:07:23,259 - #17 y
+INFO  20:07:23,260 - #40 >
+INFO  20:07:23,260 - #20 1
+INFO  20:07:23,260 - #49 &&
+INFO  20:07:23,261 - #17 x
+INFO  20:07:23,261 - #40 >
+INFO  20:07:23,261 - #20 3
+INFO  20:07:23,261 - #8 )
+INFO  20:07:23,262 - #3 {
+INFO  20:07:23,262 - #12 print
+INFO  20:07:23,262 - #7 (
+INFO  20:07:23,262 - #19 t
+INFO  20:07:23,262 - #8 )
+INFO  20:07:23,262 - #5 ;
+INFO  20:07:23,262 - #21 if
+INFO  20:07:23,262 - #7 (
+INFO  20:07:23,262 - #17 y
+INFO  20:07:23,262 - #40 >
+INFO  20:07:23,262 - #20 2
+INFO  20:07:23,263 - #48 ||
+INFO  20:07:23,263 - #17 x
+INFO  20:07:23,263 - #40 >
+INFO  20:07:23,263 - #20 3
+INFO  20:07:23,263 - #49 &&
+INFO  20:07:23,263 - #17 jedan
+INFO  20:07:23,264 - #7 (
+INFO  20:07:23,264 - #8 )
+INFO  20:07:23,264 - #38 ==
+INFO  20:07:23,264 - #20 1
+INFO  20:07:23,265 - #8 )
+INFO  20:07:23,265 - #3 {
+INFO  20:07:23,265 - #12 print
+INFO  20:07:23,265 - #7 (
+INFO  20:07:23,265 - #19 t
+INFO  20:07:23,265 - #8 )
+INFO  20:07:23,265 - #5 ;
+INFO  20:07:23,265 - #4 }
+INFO  20:07:23,265 - #22 else
+INFO  20:07:23,266 - #3 {
+INFO  20:07:23,266 - #12 print
+INFO  20:07:23,266 - #7 (
+INFO  20:07:23,266 - #19 r
+INFO  20:07:23,268 - #8 )
+INFO  20:07:23,268 - #5 ;
+INFO  20:07:23,268 - #4 }
+INFO  20:07:23,268 - #4 }
+INFO  20:07:23,269 - #22 else
+INFO  20:07:23,269 - #3 {
+INFO  20:07:23,269 - #12 print
+INFO  20:07:23,269 - #7 (
+INFO  20:07:23,269 - #19 e
+INFO  20:07:23,269 - #8 )
+INFO  20:07:23,269 - #5 ;
+INFO  20:07:23,269 - #4 }
+INFO  20:07:23,269 - #23 do
+INFO  20:07:23,269 - #3 {
+INFO  20:07:23,270 - #23 do
+INFO  20:07:23,270 - #3 {
+INFO  20:07:23,270 - #12 print
+INFO  20:07:23,270 - #7 (
+INFO  20:07:23,270 - #17 x
+INFO  20:07:23,270 - #8 )
+INFO  20:07:23,270 - #5 ;
+INFO  20:07:23,270 - #17 x
+INFO  20:07:23,270 - #31 --
+INFO  20:07:23,270 - #5 ;
+INFO  20:07:23,270 - #4 }
+INFO  20:07:23,270 - #24 while
+INFO  20:07:23,270 - #7 (
+INFO  20:07:23,270 - #17 x
+INFO  20:07:23,271 - #40 >
+INFO  20:07:23,271 - #20 0
+INFO  20:07:23,271 - #8 )
+INFO  20:07:23,271 - #5 ;
+INFO  20:07:23,271 - #17 y
+INFO  20:07:23,271 - #31 --
+INFO  20:07:23,271 - #5 ;
+INFO  20:07:23,271 - #4 }
+INFO  20:07:23,271 - #24 while
+INFO  20:07:23,271 - #7 (
+INFO  20:07:23,271 - #17 x
+INFO  20:07:23,271 - #40 >
+INFO  20:07:23,271 - #20 0
+INFO  20:07:23,271 - #8 )
+INFO  20:07:23,271 - #5 ;
+INFO  20:07:23,271 - #12 print
+INFO  20:07:23,271 - #7 (
+INFO  20:07:23,271 - #20 487
+INFO  20:07:23,271 - #8 )
+INFO  20:07:23,271 - #5 ;
+INFO  20:07:23,271 - #12 print
+INFO  20:07:23,271 - #7 (
+INFO  20:07:23,272 - #17 x
+INFO  20:07:23,272 - #8 )
+INFO  20:07:23,272 - #5 ;
+INFO  20:07:23,272 - #12 print
+INFO  20:07:23,272 - #7 (
+INFO  20:07:23,272 - #17 y
+INFO  20:07:23,272 - #8 )
+INFO  20:07:23,272 - #5 ;
+INFO  20:07:23,272 - #4 }
+INFO  20:07:23,272 - #4 }
+INFO  20:07:23,278 - Deklarisana promenljiva y na liniji 2
+INFO  20:07:23,278 - Deklarisana promenljiva z na liniji 2
+INFO  20:07:23,278 - Deklarisana promenljiva x na liniji 2
+INFO  20:07:23,278 - Deklarisana promenljiva f na liniji 3
+INFO  20:07:23,278 - Deklarisana int konstantna cst na liniji 4
+INFO  20:07:23,278 - Obradjuje se funkcija jedan na liniji 6
+INFO  20:07:23,278 - Obradjuje se funkcija main na liniji 9
+INFO  20:07:23,278 - Deklarisana promenljiva lok na liniji 10
+INFO  20:07:23,278 - Deklarisana promenljiva c na liniji 11
+INFO  20:07:23,278 - Deklarisana promenljiva charr na liniji 12
+INFO  20:07:23,279 - Pronadjen If statement na liniji 17
+INFO  20:07:23,279 - Poziv print funkcije na liniji 18
+INFO  20:07:23,279 - Pronadjen If statement na liniji 19
+INFO  20:07:23,279 - Poziv print funkcije na liniji 20
+INFO  20:07:23,279 - Poziv print funkcije na liniji 22
+INFO  20:07:23,279 - Poziv print funkcije na liniji 25
+INFO  20:07:23,279 - Poziv print funkcije na liniji 31
+INFO  20:07:23,279 - Pronadjen Do While statement na liniji 29
+INFO  20:07:23,279 - Pronadjen Do While statement na liniji 27
+INFO  20:07:23,279 - Poziv print funkcije na liniji 36
+INFO  20:07:23,279 - Poziv print funkcije na liniji 37
+INFO  20:07:23,279 - Poziv print funkcije na liniji 38
+INFO  20:07:23,279 - Print calls = 0
+INFO  20:07:23,280 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj
+INFO  20:07:23,283 - Parsiranje uspesno zavrseno!

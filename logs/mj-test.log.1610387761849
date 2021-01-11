@@ -1,0 +1,120 @@
+INFO  18:55:22,494 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:55:22,547 - #2 program
+INFO  18:55:22,547 - #17 MJCode
+INFO  18:55:22,547 - #17 int
+INFO  18:55:22,548 - #17 x
+INFO  18:55:22,548 - #9 ,
+INFO  18:55:22,550 - #17 y
+INFO  18:55:22,550 - #9 ,
+INFO  18:55:22,550 - #17 z
+INFO  18:55:22,550 - #5 ;
+INFO  18:55:22,550 - #17 bool
+INFO  18:55:22,551 - #17 f
+INFO  18:55:22,551 - #5 ;
+INFO  18:55:22,551 - #3 {
+INFO  18:55:22,551 - #16 void
+INFO  18:55:22,552 - #17 main
+INFO  18:55:22,552 - #7 (
+INFO  18:55:22,552 - #8 )
+INFO  18:55:22,553 - #17 int
+INFO  18:55:22,553 - #17 lok
+INFO  18:55:22,553 - #5 ;
+INFO  18:55:22,553 - #17 char
+INFO  18:55:22,554 - #17 c
+INFO  18:55:22,555 - #5 ;
+INFO  18:55:22,556 - #17 char
+INFO  18:55:22,556 - #17 charr
+INFO  18:55:22,556 - #10 [
+INFO  18:55:22,556 - #11 ]
+INFO  18:55:22,556 - #5 ;
+INFO  18:55:22,557 - #3 {
+INFO  18:55:22,557 - #17 x
+INFO  18:55:22,557 - #15 =
+INFO  18:55:22,557 - #20 4
+INFO  18:55:22,558 - #5 ;
+INFO  18:55:22,559 - #17 y
+INFO  18:55:22,559 - #15 =
+INFO  18:55:22,559 - #20 3
+INFO  18:55:22,559 - #5 ;
+INFO  18:55:22,560 - #17 f
+INFO  18:55:22,560 - #15 =
+INFO  18:55:22,560 - #18 false
+INFO  18:55:22,560 - #5 ;
+INFO  18:55:22,560 - #23 do
+INFO  18:55:22,560 - #3 {
+INFO  18:55:22,561 - #23 do
+INFO  18:55:22,561 - #3 {
+INFO  18:55:22,561 - #12 print
+INFO  18:55:22,561 - #7 (
+INFO  18:55:22,561 - #17 x
+INFO  18:55:22,561 - #8 )
+INFO  18:55:22,562 - #5 ;
+INFO  18:55:22,562 - #17 x
+INFO  18:55:22,562 - #31 --
+INFO  18:55:22,562 - #5 ;
+INFO  18:55:22,562 - #4 }
+INFO  18:55:22,562 - #24 while
+INFO  18:55:22,562 - #7 (
+INFO  18:55:22,562 - #17 x
+INFO  18:55:22,562 - #40 >
+INFO  18:55:22,563 - #20 0
+INFO  18:55:22,564 - #48 ||
+INFO  18:55:22,564 - #17 x
+INFO  18:55:22,565 - #40 >
+INFO  18:55:22,565 - #33 -
+INFO  18:55:22,565 - #20 2
+INFO  18:55:22,565 - #49 &&
+INFO  18:55:22,566 - #17 y
+INFO  18:55:22,567 - #40 >
+INFO  18:55:22,567 - #20 0
+INFO  18:55:22,567 - #8 )
+INFO  18:55:22,567 - #5 ;
+INFO  18:55:22,568 - #17 y
+INFO  18:55:22,568 - #31 --
+INFO  18:55:22,568 - #5 ;
+INFO  18:55:22,568 - #4 }
+INFO  18:55:22,568 - #24 while
+INFO  18:55:22,568 - #7 (
+INFO  18:55:22,568 - #17 y
+INFO  18:55:22,568 - #40 >
+INFO  18:55:22,568 - #20 0
+INFO  18:55:22,568 - #48 ||
+INFO  18:55:22,569 - #17 x
+INFO  18:55:22,569 - #40 >
+INFO  18:55:22,569 - #20 0
+INFO  18:55:22,569 - #8 )
+INFO  18:55:22,569 - #5 ;
+INFO  18:55:22,569 - #12 print
+INFO  18:55:22,569 - #7 (
+INFO  18:55:22,569 - #20 487
+INFO  18:55:22,569 - #8 )
+INFO  18:55:22,569 - #5 ;
+INFO  18:55:22,569 - #12 print
+INFO  18:55:22,569 - #7 (
+INFO  18:55:22,570 - #17 x
+INFO  18:55:22,570 - #8 )
+INFO  18:55:22,570 - #5 ;
+INFO  18:55:22,570 - #12 print
+INFO  18:55:22,570 - #7 (
+INFO  18:55:22,570 - #17 y
+INFO  18:55:22,570 - #8 )
+INFO  18:55:22,570 - #5 ;
+INFO  18:55:22,570 - #4 }
+INFO  18:55:22,570 - #4 }
+INFO  18:55:22,578 - Deklarisana promenljiva y na liniji 2
+INFO  18:55:22,578 - Deklarisana promenljiva z na liniji 2
+INFO  18:55:22,578 - Deklarisana promenljiva x na liniji 2
+INFO  18:55:22,578 - Deklarisana promenljiva f na liniji 3
+INFO  18:55:22,579 - Obradjuje se funkcija main na liniji 6
+INFO  18:55:22,579 - Deklarisana promenljiva lok na liniji 7
+INFO  18:55:22,579 - Deklarisana promenljiva c na liniji 8
+INFO  18:55:22,579 - Deklarisana promenljiva charr na liniji 9
+INFO  18:55:22,579 - Poziv print funkcije na liniji 18
+INFO  18:55:22,579 - Pronadjen Do While statement na liniji 16
+INFO  18:55:22,579 - Pronadjen Do While statement na liniji 14
+INFO  18:55:22,579 - Poziv print funkcije na liniji 23
+INFO  18:55:22,579 - Poziv print funkcije na liniji 24
+INFO  18:55:22,580 - Poziv print funkcije na liniji 25
+INFO  18:55:22,580 - Print calls = 0
+INFO  18:55:22,580 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj
+INFO  18:55:22,585 - Parsiranje uspesno zavrseno!

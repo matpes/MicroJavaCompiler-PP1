@@ -536,7 +536,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 					if(e.getKind() == Struct.Array && arrayFirst.pop() >= 1) {
 						e = e.getElemType();
 					}
-					if (!o.getType().compatibleWith(e)) {
+					if (!e.assignableTo(o.getType())) {
 						report_error("Argumenti na poziciji " + i + " moraju biti podudarajucih tipova ", funcCall);
 					}
 					i++;

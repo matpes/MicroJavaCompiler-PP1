@@ -1,0 +1,263 @@
+INFO  21:10:58,608 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  21:10:58,664 - #2 program
+INFO  21:10:58,664 - #17 MJCode
+INFO  21:10:58,665 - #17 int
+INFO  21:10:58,666 - #17 x
+INFO  21:10:58,667 - #9 ,
+INFO  21:10:58,668 - #17 y
+INFO  21:10:58,668 - #9 ,
+INFO  21:10:58,668 - #17 z
+INFO  21:10:58,669 - #5 ;
+INFO  21:10:58,669 - #17 bool
+INFO  21:10:58,669 - #17 f
+INFO  21:10:58,670 - #5 ;
+INFO  21:10:58,670 - #47 const
+INFO  21:10:58,670 - #17 int
+INFO  21:10:58,670 - #17 cst
+INFO  21:10:58,670 - #15 =
+INFO  21:10:58,670 - #20 5
+INFO  21:10:58,670 - #5 ;
+INFO  21:10:58,671 - #3 {
+INFO  21:10:58,672 - #17 int
+INFO  21:10:58,672 - #17 jedan
+INFO  21:10:58,673 - #7 (
+INFO  21:10:58,675 - #8 )
+INFO  21:10:58,675 - #3 {
+INFO  21:10:58,676 - #14 return
+INFO  21:10:58,676 - #20 1
+INFO  21:10:58,676 - #5 ;
+INFO  21:10:58,677 - #4 }
+INFO  21:10:58,677 - #16 void
+INFO  21:10:58,677 - #17 main
+INFO  21:10:58,677 - #7 (
+INFO  21:10:58,677 - #8 )
+INFO  21:10:58,677 - #17 int
+INFO  21:10:58,677 - #17 lok
+INFO  21:10:58,678 - #5 ;
+INFO  21:10:58,678 - #17 char
+INFO  21:10:58,678 - #17 c
+INFO  21:10:58,678 - #5 ;
+INFO  21:10:58,678 - #17 char
+INFO  21:10:58,678 - #17 charr
+INFO  21:10:58,678 - #10 [
+INFO  21:10:58,678 - #11 ]
+INFO  21:10:58,678 - #5 ;
+INFO  21:10:58,679 - #3 {
+INFO  21:10:58,679 - #17 x
+INFO  21:10:58,679 - #15 =
+INFO  21:10:58,679 - #20 4
+INFO  21:10:58,680 - #5 ;
+INFO  21:10:58,680 - #17 y
+INFO  21:10:58,681 - #15 =
+INFO  21:10:58,681 - #20 2
+INFO  21:10:58,681 - #5 ;
+INFO  21:10:58,681 - #17 f
+INFO  21:10:58,681 - #15 =
+INFO  21:10:58,681 - #18 false
+INFO  21:10:58,681 - #5 ;
+INFO  21:10:58,682 - #21 if
+INFO  21:10:58,682 - #7 (
+INFO  21:10:58,682 - #17 y
+INFO  21:10:58,682 - #40 >
+INFO  21:10:58,683 - #20 1
+INFO  21:10:58,684 - #49 &&
+INFO  21:10:58,684 - #17 x
+INFO  21:10:58,685 - #40 >
+INFO  21:10:58,685 - #20 3
+INFO  21:10:58,685 - #8 )
+INFO  21:10:58,685 - #3 {
+INFO  21:10:58,685 - #12 print
+INFO  21:10:58,685 - #7 (
+INFO  21:10:58,685 - #19 t
+INFO  21:10:58,686 - #8 )
+INFO  21:10:58,686 - #5 ;
+INFO  21:10:58,686 - #21 if
+INFO  21:10:58,686 - #7 (
+INFO  21:10:58,686 - #17 y
+INFO  21:10:58,686 - #40 >
+INFO  21:10:58,686 - #20 2
+INFO  21:10:58,686 - #48 ||
+INFO  21:10:58,686 - #17 x
+INFO  21:10:58,687 - #40 >
+INFO  21:10:58,687 - #20 3
+INFO  21:10:58,687 - #49 &&
+INFO  21:10:58,687 - #17 jedan
+INFO  21:10:58,687 - #7 (
+INFO  21:10:58,687 - #8 )
+INFO  21:10:58,688 - #38 ==
+INFO  21:10:58,688 - #20 1
+INFO  21:10:58,688 - #8 )
+INFO  21:10:58,689 - #3 {
+INFO  21:10:58,689 - #12 print
+INFO  21:10:58,689 - #7 (
+INFO  21:10:58,689 - #19 t
+INFO  21:10:58,689 - #8 )
+INFO  21:10:58,689 - #5 ;
+INFO  21:10:58,689 - #4 }
+INFO  21:10:58,689 - #22 else
+INFO  21:10:58,689 - #3 {
+INFO  21:10:58,690 - #12 print
+INFO  21:10:58,691 - #7 (
+INFO  21:10:58,691 - #19 r
+INFO  21:10:58,692 - #8 )
+INFO  21:10:58,692 - #5 ;
+INFO  21:10:58,692 - #4 }
+INFO  21:10:58,692 - #4 }
+INFO  21:10:58,693 - #22 else
+INFO  21:10:58,693 - #3 {
+INFO  21:10:58,693 - #12 print
+INFO  21:10:58,693 - #7 (
+INFO  21:10:58,693 - #19 e
+INFO  21:10:58,693 - #8 )
+INFO  21:10:58,693 - #5 ;
+INFO  21:10:58,693 - #4 }
+INFO  21:10:58,693 - #17 y
+INFO  21:10:58,693 - #15 =
+INFO  21:10:58,693 - #20 3
+INFO  21:10:58,693 - #5 ;
+INFO  21:10:58,693 - #23 do
+INFO  21:10:58,694 - #3 {
+INFO  21:10:58,694 - #23 do
+INFO  21:10:58,694 - #3 {
+INFO  21:10:58,694 - #21 if
+INFO  21:10:58,694 - #7 (
+INFO  21:10:58,694 - #17 y
+INFO  21:10:58,695 - #40 >
+INFO  21:10:58,695 - #20 2
+INFO  21:10:58,695 - #8 )
+INFO  21:10:58,695 - #3 {
+INFO  21:10:58,695 - #29 break
+INFO  21:10:58,695 - #5 ;
+INFO  21:10:58,695 - #4 }
+INFO  21:10:58,696 - #12 print
+INFO  21:10:58,696 - #7 (
+INFO  21:10:58,696 - #17 x
+INFO  21:10:58,696 - #8 )
+INFO  21:10:58,696 - #5 ;
+INFO  21:10:58,696 - #17 x
+INFO  21:10:58,696 - #31 --
+INFO  21:10:58,696 - #5 ;
+INFO  21:10:58,696 - #21 if
+INFO  21:10:58,696 - #7 (
+INFO  21:10:58,696 - #17 x
+INFO  21:10:58,697 - #38 ==
+INFO  21:10:58,697 - #20 0
+INFO  21:10:58,697 - #8 )
+INFO  21:10:58,697 - #3 {
+INFO  21:10:58,697 - #12 print
+INFO  21:10:58,697 - #7 (
+INFO  21:10:58,697 - #19 n
+INFO  21:10:58,697 - #8 )
+INFO  21:10:58,697 - #5 ;
+INFO  21:10:58,697 - #4 }
+INFO  21:10:58,697 - #22 else
+INFO  21:10:58,697 - #3 {
+INFO  21:10:58,697 - #12 print
+INFO  21:10:58,697 - #7 (
+INFO  21:10:58,697 - #19 v
+INFO  21:10:58,697 - #8 )
+INFO  21:10:58,697 - #5 ;
+INFO  21:10:58,697 - #21 if
+INFO  21:10:58,698 - #7 (
+INFO  21:10:58,698 - #17 y
+INFO  21:10:58,698 - #38 ==
+INFO  21:10:58,698 - #20 0
+INFO  21:10:58,698 - #8 )
+INFO  21:10:58,698 - #3 {
+INFO  21:10:58,698 - #12 print
+INFO  21:10:58,698 - #7 (
+INFO  21:10:58,698 - #19 y
+INFO  21:10:58,698 - #8 )
+INFO  21:10:58,698 - #5 ;
+INFO  21:10:58,698 - #4 }
+INFO  21:10:58,698 - #22 else
+INFO  21:10:58,698 - #3 {
+INFO  21:10:58,698 - #23 do
+INFO  21:10:58,698 - #3 {
+INFO  21:10:58,698 - #17 y
+INFO  21:10:58,698 - #31 --
+INFO  21:10:58,698 - #5 ;
+INFO  21:10:58,698 - #4 }
+INFO  21:10:58,698 - #24 while
+INFO  21:10:58,699 - #7 (
+INFO  21:10:58,700 - #17 y
+INFO  21:10:58,700 - #40 >
+INFO  21:10:58,700 - #20 0
+INFO  21:10:58,700 - #8 )
+INFO  21:10:58,700 - #5 ;
+INFO  21:10:58,700 - #4 }
+INFO  21:10:58,700 - #4 }
+INFO  21:10:58,700 - #4 }
+INFO  21:10:58,700 - #24 while
+INFO  21:10:58,700 - #7 (
+INFO  21:10:58,700 - #17 x
+INFO  21:10:58,700 - #40 >
+INFO  21:10:58,700 - #20 0
+INFO  21:10:58,700 - #8 )
+INFO  21:10:58,700 - #5 ;
+INFO  21:10:58,700 - #12 print
+INFO  21:10:58,700 - #7 (
+INFO  21:10:58,700 - #17 y
+INFO  21:10:58,700 - #8 )
+INFO  21:10:58,700 - #5 ;
+INFO  21:10:58,700 - #17 y
+INFO  21:10:58,701 - #31 --
+INFO  21:10:58,701 - #5 ;
+INFO  21:10:58,701 - #4 }
+INFO  21:10:58,701 - #24 while
+INFO  21:10:58,701 - #7 (
+INFO  21:10:58,701 - #17 y
+INFO  21:10:58,701 - #41 >=
+INFO  21:10:58,701 - #20 0
+INFO  21:10:58,701 - #8 )
+INFO  21:10:58,701 - #5 ;
+INFO  21:10:58,701 - #12 print
+INFO  21:10:58,701 - #7 (
+INFO  21:10:58,701 - #20 487
+INFO  21:10:58,702 - #8 )
+INFO  21:10:58,702 - #5 ;
+INFO  21:10:58,702 - #12 print
+INFO  21:10:58,702 - #7 (
+INFO  21:10:58,702 - #17 x
+INFO  21:10:58,702 - #8 )
+INFO  21:10:58,702 - #5 ;
+INFO  21:10:58,702 - #12 print
+INFO  21:10:58,702 - #7 (
+INFO  21:10:58,702 - #17 y
+INFO  21:10:58,702 - #8 )
+INFO  21:10:58,702 - #5 ;
+INFO  21:10:58,702 - #4 }
+INFO  21:10:58,702 - #4 }
+INFO  21:10:58,707 - Deklarisana promenljiva y na liniji 2
+INFO  21:10:58,707 - Deklarisana promenljiva z na liniji 2
+INFO  21:10:58,708 - Deklarisana promenljiva x na liniji 2
+INFO  21:10:58,708 - Deklarisana promenljiva f na liniji 3
+INFO  21:10:58,708 - Deklarisana int konstantna cst na liniji 4
+INFO  21:10:58,708 - Obradjuje se funkcija jedan na liniji 6
+INFO  21:10:58,708 - Obradjuje se funkcija main na liniji 9
+INFO  21:10:58,708 - Deklarisana promenljiva lok na liniji 10
+INFO  21:10:58,708 - Deklarisana promenljiva c na liniji 11
+INFO  21:10:58,708 - Deklarisana promenljiva charr na liniji 12
+INFO  21:10:58,708 - Pronadjen If statement na liniji 17
+INFO  21:10:58,708 - Poziv print funkcije na liniji 18
+INFO  21:10:58,708 - Pronadjen If statement na liniji 19
+INFO  21:10:58,708 - Poziv print funkcije na liniji 20
+INFO  21:10:58,708 - Poziv print funkcije na liniji 22
+INFO  21:10:58,708 - Poziv print funkcije na liniji 25
+INFO  21:10:58,708 - Pronadjen If statement na liniji 32
+INFO  21:10:58,708 - Break free
+INFO  21:10:58,708 - Poziv print funkcije na liniji 35
+INFO  21:10:58,708 - Pronadjen If statement na liniji 37
+INFO  21:10:58,708 - Poziv print funkcije na liniji 38
+INFO  21:10:58,708 - Poziv print funkcije na liniji 40
+INFO  21:10:58,708 - Pronadjen If statement na liniji 41
+INFO  21:10:58,708 - Poziv print funkcije na liniji 42
+INFO  21:10:58,708 - Pronadjen Do While statement na liniji 44
+INFO  21:10:58,708 - Pronadjen Do While statement na liniji 30
+INFO  21:10:58,708 - Poziv print funkcije na liniji 50
+INFO  21:10:58,708 - Pronadjen Do While statement na liniji 28
+INFO  21:10:58,708 - Poziv print funkcije na liniji 53
+INFO  21:10:58,708 - Poziv print funkcije na liniji 54
+INFO  21:10:58,708 - Poziv print funkcije na liniji 55
+INFO  21:10:58,708 - Print calls = 0
+INFO  21:10:58,709 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj

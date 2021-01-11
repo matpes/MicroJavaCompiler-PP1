@@ -1,0 +1,62 @@
+program MJProgram
+	int x;
+	char y;
+	bool bt;
+	bool bt2;
+	int niz[];
+{
+	void main(){
+		niz = new int[3];
+		niz[0] = 5;
+		niz[1] = 0;
+		niz[2] = 0;
+		bt = false;
+		bt2 = true;
+		
+		if(bt2){
+			if(bt2 && niz[0] > 0 || bt==true && niz[0] < 10){
+				do{
+					niz[0] = niz[0] - 1;
+					if(niz[0] % 2 == 0) {
+						print(true);
+						print(' ');	
+					} else {
+						print(false);
+						print(' ');	
+					}
+				} while(niz[0] != 0);
+			}
+		}
+		
+		do{
+			do{
+				niz[1] = niz[1] + 1;
+			}while(niz[1] < 4);
+			
+			do{
+				niz[2] = niz[2] + 1;
+				continue;
+				break;
+			}while(niz[2] < 3);
+			
+			niz[0] = niz[0] + 1;
+			continue;
+			break;
+		}while(niz[0] < 5);
+
+		y = bt ? 'a' : 'b';
+		x = bt2 ? 5+4 : 1;
+
+		print(eol);
+		print(chr(niz[0] + 64));
+		print(chr(niz[1] + 64));
+		print(chr(niz[2] + 64));
+		print(eol);
+		print(len(niz));
+		print(eol);
+		print(y);
+		print(x);
+		//len(niz);
+		
+	}
+}

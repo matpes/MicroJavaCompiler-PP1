@@ -68,7 +68,8 @@ nonterminal MethodDeclList, DeclList, VarDecList, ConstDeclList, ClassDeclList, 
 nonterminal FormalParamList, FormalParamDecl, FormPars, ActualPars, ActualParamList; 
 nonterminal StatementList, Statement, Addop, Mulop, Relop, Assignop;
 nonterminal Unmatched, Matched, OptBox, CaseList, DesignatorStatement;
-nonterminal OptExpr, TypeDecl, PrintStatement, IfStatement, IfCondition, And, Or, Colon, Question;
+nonterminal OptExpr, TypeDecl, PrintStatement, IfStatement, IfCondition;
+nonterminal  And, Or, Colon, Question, Else, If, While;
 
 nonterminal Statement2, VariableIdent, ExpressionStatement, ClassName, DoWhileStart; 
 
@@ -207,16 +208,21 @@ Statement ::= (Break) BREAK SEMI
 			  |
 			  (IfStmt) IfStatement
 			  |
-			  (DoWhile) DoWhileStart Statement WHILE LPAREN Condition RPAREN SEMI
+			  (DoWhile) DoWhileStart Statement While LPAREN Condition RPAREN SEMI
 			  ;
 			  
 DoWhileStart ::= (DoWhileStart) DO;
 			  
+While ::= (WhileCond) WHILE;
 			  
-IfStatement ::= (IfWithoutElseStatementExpression) IF LPAREN IfCondition RPAREN Statement   
+IfStatement ::= (IfWithoutElseStatementExpression) If LPAREN IfCondition RPAREN Statement   
 				|
-				(IfWithElseStatementExpression) IF LPAREN IfCondition RPAREN Statement ELSE Statement
+				(IfWithElseStatementExpression) If LPAREN IfCondition RPAREN Statement Else Statement
 				;
+				
+If ::= (If) IF;
+
+Else ::= (Else) ELSE;
 				
 IfCondition ::= (IfGoodConditions) Condition
 			|

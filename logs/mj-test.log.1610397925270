@@ -1,0 +1,378 @@
+INFO  21:42:27,683 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\marko_test2_faza4_B.txt
+INFO  21:42:27,751 - #2 program
+INFO  21:42:27,751 - #17 MJProgram
+INFO  21:42:27,751 - #17 int
+INFO  21:42:27,752 - #17 x
+INFO  21:42:27,752 - #5 ;
+INFO  21:42:27,754 - #17 char
+INFO  21:42:27,754 - #17 y
+INFO  21:42:27,755 - #5 ;
+INFO  21:42:27,755 - #17 bool
+INFO  21:42:27,755 - #17 bt
+INFO  21:42:27,755 - #5 ;
+INFO  21:42:27,755 - #17 bool
+INFO  21:42:27,755 - #17 bt2
+INFO  21:42:27,756 - #5 ;
+INFO  21:42:27,756 - #17 int
+INFO  21:42:27,756 - #17 niz
+INFO  21:42:27,756 - #10 [
+INFO  21:42:27,756 - #11 ]
+INFO  21:42:27,756 - #5 ;
+INFO  21:42:27,756 - #3 {
+INFO  21:42:27,757 - #16 void
+INFO  21:42:27,759 - #17 main
+INFO  21:42:27,759 - #7 (
+INFO  21:42:27,759 - #8 )
+INFO  21:42:27,759 - #3 {
+INFO  21:42:27,760 - #17 niz
+INFO  21:42:27,760 - #15 =
+INFO  21:42:27,760 - #50 new
+INFO  21:42:27,761 - #17 int
+INFO  21:42:27,761 - #10 [
+INFO  21:42:27,761 - #20 3
+INFO  21:42:27,761 - #11 ]
+INFO  21:42:27,761 - #5 ;
+INFO  21:42:27,762 - #17 niz
+INFO  21:42:27,762 - #10 [
+INFO  21:42:27,762 - #20 0
+INFO  21:42:27,762 - #11 ]
+INFO  21:42:27,762 - #15 =
+INFO  21:42:27,762 - #20 5
+INFO  21:42:27,762 - #5 ;
+INFO  21:42:27,762 - #17 niz
+INFO  21:42:27,762 - #10 [
+INFO  21:42:27,762 - #20 1
+INFO  21:42:27,762 - #11 ]
+INFO  21:42:27,762 - #15 =
+INFO  21:42:27,762 - #20 0
+INFO  21:42:27,762 - #5 ;
+INFO  21:42:27,762 - #17 niz
+INFO  21:42:27,762 - #10 [
+INFO  21:42:27,762 - #20 2
+INFO  21:42:27,762 - #11 ]
+INFO  21:42:27,762 - #15 =
+INFO  21:42:27,762 - #20 0
+INFO  21:42:27,763 - #5 ;
+INFO  21:42:27,763 - #17 bt
+INFO  21:42:27,763 - #15 =
+INFO  21:42:27,763 - #18 false
+INFO  21:42:27,763 - #5 ;
+INFO  21:42:27,763 - #17 bt2
+INFO  21:42:27,763 - #15 =
+INFO  21:42:27,763 - #18 true
+INFO  21:42:27,763 - #5 ;
+INFO  21:42:27,763 - #21 if
+INFO  21:42:27,764 - #7 (
+INFO  21:42:27,764 - #17 bt2
+INFO  21:42:27,764 - #38 ==
+INFO  21:42:27,764 - #18 true
+INFO  21:42:27,765 - #8 )
+INFO  21:42:27,765 - #3 {
+INFO  21:42:27,765 - #21 if
+INFO  21:42:27,765 - #7 (
+INFO  21:42:27,766 - #17 bt2
+INFO  21:42:27,766 - #38 ==
+INFO  21:42:27,766 - #18 true
+INFO  21:42:27,766 - #49 &&
+INFO  21:42:27,766 - #17 niz
+INFO  21:42:27,766 - #10 [
+INFO  21:42:27,766 - #20 0
+INFO  21:42:27,766 - #11 ]
+INFO  21:42:27,766 - #40 >
+INFO  21:42:27,767 - #20 0
+INFO  21:42:27,767 - #48 ||
+INFO  21:42:27,767 - #17 bt
+INFO  21:42:27,768 - #38 ==
+INFO  21:42:27,768 - #18 true
+INFO  21:42:27,768 - #49 &&
+INFO  21:42:27,768 - #17 niz
+INFO  21:42:27,768 - #10 [
+INFO  21:42:27,768 - #20 0
+INFO  21:42:27,768 - #11 ]
+INFO  21:42:27,768 - #42 <
+INFO  21:42:27,768 - #20 10
+INFO  21:42:27,769 - #8 )
+INFO  21:42:27,769 - #3 {
+INFO  21:42:27,769 - #23 do
+INFO  21:42:27,769 - #3 {
+INFO  21:42:27,770 - #17 niz
+INFO  21:42:27,770 - #10 [
+INFO  21:42:27,770 - #20 0
+INFO  21:42:27,770 - #11 ]
+INFO  21:42:27,771 - #15 =
+INFO  21:42:27,771 - #17 niz
+INFO  21:42:27,771 - #10 [
+INFO  21:42:27,772 - #20 0
+INFO  21:42:27,772 - #11 ]
+INFO  21:42:27,772 - #33 -
+INFO  21:42:27,772 - #20 1
+INFO  21:42:27,773 - #5 ;
+INFO  21:42:27,773 - #21 if
+INFO  21:42:27,773 - #7 (
+INFO  21:42:27,773 - #17 niz
+INFO  21:42:27,773 - #10 [
+INFO  21:42:27,773 - #20 0
+INFO  21:42:27,773 - #11 ]
+INFO  21:42:27,773 - #36 %
+INFO  21:42:27,773 - #20 2
+INFO  21:42:27,774 - #38 ==
+INFO  21:42:27,774 - #20 0
+INFO  21:42:27,774 - #8 )
+INFO  21:42:27,774 - #3 {
+INFO  21:42:27,774 - #12 print
+INFO  21:42:27,774 - #7 (
+INFO  21:42:27,775 - #18 true
+INFO  21:42:27,775 - #8 )
+INFO  21:42:27,775 - #5 ;
+INFO  21:42:27,775 - #12 print
+INFO  21:42:27,775 - #7 (
+INFO  21:42:27,775 - #19  
+INFO  21:42:27,775 - #8 )
+INFO  21:42:27,775 - #5 ;
+INFO  21:42:27,775 - #4 }
+INFO  21:42:27,775 - #22 else
+INFO  21:42:27,775 - #3 {
+INFO  21:42:27,776 - #12 print
+INFO  21:42:27,776 - #7 (
+INFO  21:42:27,776 - #18 false
+INFO  21:42:27,776 - #8 )
+INFO  21:42:27,776 - #5 ;
+INFO  21:42:27,776 - #12 print
+INFO  21:42:27,776 - #7 (
+INFO  21:42:27,776 - #19  
+INFO  21:42:27,776 - #8 )
+INFO  21:42:27,777 - #5 ;
+INFO  21:42:27,777 - #4 }
+INFO  21:42:27,777 - #4 }
+INFO  21:42:27,777 - #24 while
+INFO  21:42:27,777 - #7 (
+INFO  21:42:27,778 - #17 niz
+INFO  21:42:27,778 - #10 [
+INFO  21:42:27,778 - #20 0
+INFO  21:42:27,778 - #11 ]
+INFO  21:42:27,778 - #39 !=
+INFO  21:42:27,778 - #20 0
+INFO  21:42:27,778 - #8 )
+INFO  21:42:27,778 - #5 ;
+INFO  21:42:27,778 - #4 }
+INFO  21:42:27,779 - #4 }
+INFO  21:42:27,779 - #23 do
+INFO  21:42:27,779 - #3 {
+INFO  21:42:27,779 - #23 do
+INFO  21:42:27,779 - #3 {
+INFO  21:42:27,779 - #17 niz
+INFO  21:42:27,779 - #10 [
+INFO  21:42:27,779 - #20 1
+INFO  21:42:27,779 - #11 ]
+INFO  21:42:27,779 - #15 =
+INFO  21:42:27,779 - #17 niz
+INFO  21:42:27,779 - #10 [
+INFO  21:42:27,779 - #20 1
+INFO  21:42:27,779 - #11 ]
+INFO  21:42:27,779 - #32 +
+INFO  21:42:27,779 - #20 1
+INFO  21:42:27,779 - #5 ;
+INFO  21:42:27,779 - #4 }
+INFO  21:42:27,779 - #24 while
+INFO  21:42:27,779 - #7 (
+INFO  21:42:27,779 - #17 niz
+INFO  21:42:27,779 - #10 [
+INFO  21:42:27,780 - #20 1
+INFO  21:42:27,780 - #11 ]
+INFO  21:42:27,780 - #42 <
+INFO  21:42:27,780 - #20 4
+INFO  21:42:27,780 - #8 )
+INFO  21:42:27,780 - #5 ;
+INFO  21:42:27,780 - #23 do
+INFO  21:42:27,780 - #3 {
+INFO  21:42:27,780 - #17 niz
+INFO  21:42:27,780 - #10 [
+INFO  21:42:27,780 - #20 2
+INFO  21:42:27,780 - #11 ]
+INFO  21:42:27,780 - #15 =
+INFO  21:42:27,780 - #17 niz
+INFO  21:42:27,780 - #10 [
+INFO  21:42:27,780 - #20 2
+INFO  21:42:27,780 - #11 ]
+INFO  21:42:27,780 - #32 +
+INFO  21:42:27,780 - #20 1
+INFO  21:42:27,780 - #5 ;
+INFO  21:42:27,780 - #28 continue
+INFO  21:42:27,780 - #5 ;
+INFO  21:42:27,780 - #29 break
+INFO  21:42:27,781 - #5 ;
+INFO  21:42:27,781 - #4 }
+INFO  21:42:27,781 - #24 while
+INFO  21:42:27,781 - #7 (
+INFO  21:42:27,781 - #17 niz
+INFO  21:42:27,781 - #10 [
+INFO  21:42:27,781 - #20 2
+INFO  21:42:27,782 - #11 ]
+INFO  21:42:27,782 - #42 <
+INFO  21:42:27,782 - #20 3
+INFO  21:42:27,782 - #8 )
+INFO  21:42:27,782 - #5 ;
+INFO  21:42:27,782 - #17 niz
+INFO  21:42:27,782 - #10 [
+INFO  21:42:27,782 - #20 0
+INFO  21:42:27,782 - #11 ]
+INFO  21:42:27,782 - #15 =
+INFO  21:42:27,782 - #17 niz
+INFO  21:42:27,782 - #10 [
+INFO  21:42:27,782 - #20 0
+INFO  21:42:27,782 - #11 ]
+INFO  21:42:27,782 - #32 +
+INFO  21:42:27,782 - #20 1
+INFO  21:42:27,782 - #5 ;
+INFO  21:42:27,782 - #28 continue
+INFO  21:42:27,782 - #5 ;
+INFO  21:42:27,782 - #29 break
+INFO  21:42:27,782 - #5 ;
+INFO  21:42:27,782 - #4 }
+INFO  21:42:27,782 - #24 while
+INFO  21:42:27,782 - #7 (
+INFO  21:42:27,782 - #17 niz
+INFO  21:42:27,782 - #10 [
+INFO  21:42:27,782 - #20 0
+INFO  21:42:27,782 - #11 ]
+INFO  21:42:27,782 - #42 <
+INFO  21:42:27,782 - #20 5
+INFO  21:42:27,782 - #8 )
+INFO  21:42:27,783 - #5 ;
+INFO  21:42:27,783 - #17 y
+INFO  21:42:27,783 - #15 =
+INFO  21:42:27,783 - #17 bt
+INFO  21:42:27,783 - #37 ?
+INFO  21:42:27,783 - #19 a
+INFO  21:42:27,783 - #26 :
+INFO  21:42:27,783 - #19 b
+INFO  21:42:27,784 - #5 ;
+INFO  21:42:27,784 - #17 x
+INFO  21:42:27,784 - #15 =
+INFO  21:42:27,784 - #17 bt2
+INFO  21:42:27,784 - #37 ?
+INFO  21:42:27,784 - #20 5
+INFO  21:42:27,784 - #32 +
+INFO  21:42:27,784 - #20 4
+INFO  21:42:27,784 - #26 :
+INFO  21:42:27,785 - #20 1
+INFO  21:42:27,785 - #5 ;
+INFO  21:42:27,785 - #12 print
+INFO  21:42:27,785 - #7 (
+INFO  21:42:27,785 - #17 eol
+INFO  21:42:27,785 - #8 )
+INFO  21:42:27,785 - #5 ;
+INFO  21:42:27,785 - #12 print
+INFO  21:42:27,785 - #7 (
+INFO  21:42:27,785 - #17 chr
+INFO  21:42:27,785 - #7 (
+INFO  21:42:27,785 - #17 niz
+INFO  21:42:27,785 - #10 [
+INFO  21:42:27,785 - #20 0
+INFO  21:42:27,785 - #11 ]
+INFO  21:42:27,785 - #32 +
+INFO  21:42:27,786 - #20 64
+INFO  21:42:27,786 - #8 )
+INFO  21:42:27,786 - #8 )
+INFO  21:42:27,786 - #5 ;
+INFO  21:42:27,786 - #12 print
+INFO  21:42:27,786 - #7 (
+INFO  21:42:27,786 - #17 chr
+INFO  21:42:27,786 - #7 (
+INFO  21:42:27,786 - #17 niz
+INFO  21:42:27,786 - #10 [
+INFO  21:42:27,786 - #20 1
+INFO  21:42:27,786 - #11 ]
+INFO  21:42:27,786 - #32 +
+INFO  21:42:27,787 - #20 64
+INFO  21:42:27,787 - #8 )
+INFO  21:42:27,787 - #8 )
+INFO  21:42:27,787 - #5 ;
+INFO  21:42:27,787 - #12 print
+INFO  21:42:27,787 - #7 (
+INFO  21:42:27,787 - #17 chr
+INFO  21:42:27,787 - #7 (
+INFO  21:42:27,787 - #17 niz
+INFO  21:42:27,787 - #10 [
+INFO  21:42:27,787 - #20 2
+INFO  21:42:27,787 - #11 ]
+INFO  21:42:27,787 - #32 +
+INFO  21:42:27,787 - #20 64
+INFO  21:42:27,787 - #8 )
+INFO  21:42:27,787 - #8 )
+INFO  21:42:27,787 - #5 ;
+INFO  21:42:27,787 - #12 print
+INFO  21:42:27,787 - #7 (
+INFO  21:42:27,787 - #17 eol
+INFO  21:42:27,787 - #8 )
+INFO  21:42:27,787 - #5 ;
+INFO  21:42:27,787 - #12 print
+INFO  21:42:27,787 - #7 (
+INFO  21:42:27,787 - #17 eol
+INFO  21:42:27,787 - #8 )
+INFO  21:42:27,787 - #5 ;
+INFO  21:42:27,787 - #12 print
+INFO  21:42:27,787 - #7 (
+INFO  21:42:27,787 - #17 y
+INFO  21:42:27,787 - #8 )
+INFO  21:42:27,787 - #5 ;
+INFO  21:42:27,787 - #12 print
+INFO  21:42:27,787 - #7 (
+INFO  21:42:27,788 - #17 x
+INFO  21:42:27,788 - #8 )
+INFO  21:42:27,788 - #5 ;
+INFO  21:42:27,788 - #4 }
+INFO  21:42:27,788 - #4 }
+INFO  21:42:27,794 - Deklarisana promenljiva x na liniji 2
+INFO  21:42:27,794 - Deklarisana promenljiva y na liniji 3
+INFO  21:42:27,794 - Deklarisana promenljiva bt na liniji 4
+INFO  21:42:27,794 - Deklarisana promenljiva bt2 na liniji 5
+INFO  21:42:27,794 - Deklarisana promenljiva niz na liniji 6
+INFO  21:42:27,794 - Obradjuje se funkcija main na liniji 8
+INFO  21:42:27,794 - Pristup elementu niza na liniji 10
+INFO  21:42:27,794 - Pristup elementu niza na liniji 11
+INFO  21:42:27,794 - Pristup elementu niza na liniji 12
+INFO  21:42:27,794 - Pronadjen If statement na liniji 16
+INFO  21:42:27,794 - Pristup elementu niza na liniji 17
+INFO  21:42:27,794 - Pristup elementu niza na liniji 17
+INFO  21:42:27,794 - Pronadjen If statement na liniji 17
+INFO  21:42:27,794 - Pristup elementu niza na liniji 19
+INFO  21:42:27,794 - Pristup elementu niza na liniji 19
+INFO  21:42:27,794 - Pristup elementu niza na liniji 20
+INFO  21:42:27,794 - Pronadjen If statement na liniji 20
+INFO  21:42:27,794 - Poziv print funkcije na liniji 21
+INFO  21:42:27,794 - Poziv print funkcije na liniji 22
+INFO  21:42:27,794 - Poziv print funkcije na liniji 24
+INFO  21:42:27,794 - Poziv print funkcije na liniji 25
+INFO  21:42:27,795 - Pristup elementu niza na liniji 27
+INFO  21:42:27,795 - Pronadjen Do While statement na liniji 18
+INFO  21:42:27,795 - Pristup elementu niza na liniji 33
+INFO  21:42:27,795 - Pristup elementu niza na liniji 33
+INFO  21:42:27,795 - Pristup elementu niza na liniji 34
+INFO  21:42:27,795 - Pronadjen Do While statement na liniji 32
+INFO  21:42:27,795 - Pristup elementu niza na liniji 37
+INFO  21:42:27,795 - Pristup elementu niza na liniji 37
+INFO  21:42:27,795 - Continue free
+INFO  21:42:27,795 - Break free
+INFO  21:42:27,795 - Pristup elementu niza na liniji 40
+INFO  21:42:27,795 - Pronadjen Do While statement na liniji 36
+INFO  21:42:27,795 - Pristup elementu niza na liniji 42
+INFO  21:42:27,795 - Pristup elementu niza na liniji 42
+INFO  21:42:27,795 - Continue free
+INFO  21:42:27,795 - Break free
+INFO  21:42:27,795 - Pristup elementu niza na liniji 45
+INFO  21:42:27,795 - Pronadjen Do While statement na liniji 31
+INFO  21:42:27,795 - Poziv print funkcije na liniji 50
+INFO  21:42:27,795 - Pristup elementu niza na liniji 51
+INFO  21:42:27,795 - Poziv print funkcije na liniji 51
+INFO  21:42:27,795 - Pristup elementu niza na liniji 52
+INFO  21:42:27,795 - Poziv print funkcije na liniji 52
+INFO  21:42:27,795 - Pristup elementu niza na liniji 53
+INFO  21:42:27,795 - Poziv print funkcije na liniji 53
+INFO  21:42:27,795 - Poziv print funkcije na liniji 54
+INFO  21:42:27,795 - Poziv print funkcije na liniji 56
+INFO  21:42:27,795 - Poziv print funkcije na liniji 57
+INFO  21:42:27,795 - Poziv print funkcije na liniji 58
+INFO  21:42:27,795 - Print calls = 0
+INFO  21:42:27,796 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj
+INFO  21:42:27,800 - Parsiranje uspesno zavrseno!

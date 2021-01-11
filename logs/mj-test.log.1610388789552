@@ -1,0 +1,121 @@
+INFO  18:56:01,851 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  18:56:01,900 - #2 program
+INFO  18:56:01,900 - #17 MJCode
+INFO  18:56:01,900 - #17 int
+INFO  18:56:01,902 - #17 x
+INFO  18:56:01,902 - #9 ,
+INFO  18:56:01,903 - #17 y
+INFO  18:56:01,903 - #9 ,
+INFO  18:56:01,904 - #17 z
+INFO  18:56:01,904 - #5 ;
+INFO  18:56:01,904 - #17 bool
+INFO  18:56:01,904 - #17 f
+INFO  18:56:01,904 - #5 ;
+INFO  18:56:01,905 - #3 {
+INFO  18:56:01,905 - #16 void
+INFO  18:56:01,905 - #17 main
+INFO  18:56:01,905 - #7 (
+INFO  18:56:01,906 - #8 )
+INFO  18:56:01,907 - #17 int
+INFO  18:56:01,907 - #17 lok
+INFO  18:56:01,907 - #5 ;
+INFO  18:56:01,907 - #17 char
+INFO  18:56:01,907 - #17 c
+INFO  18:56:01,909 - #5 ;
+INFO  18:56:01,910 - #17 char
+INFO  18:56:01,910 - #17 charr
+INFO  18:56:01,910 - #10 [
+INFO  18:56:01,910 - #11 ]
+INFO  18:56:01,910 - #5 ;
+INFO  18:56:01,910 - #3 {
+INFO  18:56:01,910 - #17 x
+INFO  18:56:01,910 - #15 =
+INFO  18:56:01,912 - #20 4
+INFO  18:56:01,912 - #5 ;
+INFO  18:56:01,912 - #17 y
+INFO  18:56:01,912 - #15 =
+INFO  18:56:01,912 - #20 3
+INFO  18:56:01,912 - #5 ;
+INFO  18:56:01,912 - #17 f
+INFO  18:56:01,913 - #15 =
+INFO  18:56:01,913 - #18 false
+INFO  18:56:01,913 - #5 ;
+INFO  18:56:01,913 - #21 if
+INFO  18:56:01,913 - #7 (
+INFO  18:56:01,914 - #17 y
+INFO  18:56:01,914 - #40 >
+INFO  18:56:01,915 - #20 3
+INFO  18:56:01,915 - #8 )
+INFO  18:56:01,915 - #3 {
+INFO  18:56:01,915 - #12 print
+INFO  18:56:01,916 - #7 (
+INFO  18:56:01,916 - #17 y
+INFO  18:56:01,916 - #8 )
+INFO  18:56:01,916 - #5 ;
+INFO  18:56:01,916 - #4 }
+INFO  18:56:01,916 - #23 do
+INFO  18:56:01,916 - #3 {
+INFO  18:56:01,917 - #23 do
+INFO  18:56:01,917 - #3 {
+INFO  18:56:01,917 - #12 print
+INFO  18:56:01,917 - #7 (
+INFO  18:56:01,917 - #17 x
+INFO  18:56:01,917 - #8 )
+INFO  18:56:01,917 - #5 ;
+INFO  18:56:01,917 - #17 x
+INFO  18:56:01,918 - #31 --
+INFO  18:56:01,918 - #5 ;
+INFO  18:56:01,918 - #4 }
+INFO  18:56:01,918 - #24 while
+INFO  18:56:01,918 - #7 (
+INFO  18:56:01,918 - #17 x
+INFO  18:56:01,918 - #40 >
+INFO  18:56:01,918 - #20 0
+INFO  18:56:01,918 - #8 )
+INFO  18:56:01,918 - #5 ;
+INFO  18:56:01,918 - #17 y
+INFO  18:56:01,919 - #31 --
+INFO  18:56:01,919 - #5 ;
+INFO  18:56:01,919 - #4 }
+INFO  18:56:01,919 - #24 while
+INFO  18:56:01,919 - #7 (
+INFO  18:56:01,919 - #17 x
+INFO  18:56:01,919 - #40 >
+INFO  18:56:01,919 - #20 0
+INFO  18:56:01,919 - #8 )
+INFO  18:56:01,919 - #5 ;
+INFO  18:56:01,919 - #12 print
+INFO  18:56:01,919 - #7 (
+INFO  18:56:01,919 - #20 487
+INFO  18:56:01,919 - #8 )
+INFO  18:56:01,919 - #5 ;
+INFO  18:56:01,919 - #12 print
+INFO  18:56:01,919 - #7 (
+INFO  18:56:01,919 - #17 x
+INFO  18:56:01,919 - #8 )
+INFO  18:56:01,919 - #5 ;
+INFO  18:56:01,919 - #12 print
+INFO  18:56:01,920 - #7 (
+INFO  18:56:01,920 - #17 y
+INFO  18:56:01,920 - #8 )
+INFO  18:56:01,920 - #5 ;
+INFO  18:56:01,920 - #4 }
+INFO  18:56:01,920 - #4 }
+INFO  18:56:01,926 - Deklarisana promenljiva y na liniji 2
+INFO  18:56:01,926 - Deklarisana promenljiva z na liniji 2
+INFO  18:56:01,926 - Deklarisana promenljiva x na liniji 2
+INFO  18:56:01,926 - Deklarisana promenljiva f na liniji 3
+INFO  18:56:01,927 - Obradjuje se funkcija main na liniji 6
+INFO  18:56:01,927 - Deklarisana promenljiva lok na liniji 7
+INFO  18:56:01,927 - Deklarisana promenljiva c na liniji 8
+INFO  18:56:01,927 - Deklarisana promenljiva charr na liniji 9
+INFO  18:56:01,927 - Pronadjen If statement na liniji 14
+INFO  18:56:01,927 - Poziv print funkcije na liniji 15
+INFO  18:56:01,927 - Poziv print funkcije na liniji 21
+INFO  18:56:01,927 - Pronadjen Do While statement na liniji 19
+INFO  18:56:01,927 - Pronadjen Do While statement na liniji 17
+INFO  18:56:01,927 - Poziv print funkcije na liniji 26
+INFO  18:56:01,927 - Poziv print funkcije na liniji 27
+INFO  18:56:01,927 - Poziv print funkcije na liniji 28
+INFO  18:56:01,928 - Print calls = 0
+INFO  18:56:01,928 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj

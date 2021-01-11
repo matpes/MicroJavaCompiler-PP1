@@ -1,25 +1,57 @@
 program MJCode
 	int x, y, z;
 	bool f;
+	const int cst = 5;
 {
-	
+	int jedan(){
+		return 1;
+	}
 	void main()
 	int lok;
 	char c;
 	char charr[];
 	{
 		x = 4;
-		y = 3;
+		y = 2;
 		f = false;
+		if(y > 1 && x>3){
+			print('t');
+			if(y>2 || x>3 && jedan() == 1){
+				print('t');
+			}else{
+				print('r');
+			}
+		}else{
+			print('e');
+		}
+		y = 3;
 		do{
 			//print(x);
 			do
 			{
+				if(y>2){
+					break;
+				}
 				print(x);
 				x--;
-			}while(x > 0 || x > -2 && y > 0);
+				continue;
+				if(x == 0){
+					print('n');
+				}else{
+					print('v');
+					continue;
+					if(y == 0){
+						print('y');
+					}else{
+						do{
+							y--;
+						}while(y>0);
+					}
+				}
+			}while(x > 0);
+			print(y);
 			y--;
-		}while(y>0 || x>0);
+		}while(y>=0);
 		print(487);
 		print(x);
 		print(y);

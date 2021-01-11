@@ -1,0 +1,122 @@
+INFO  19:17:25,444 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  19:17:25,491 - #2 program
+INFO  19:17:25,492 - #17 MJCode
+INFO  19:17:25,492 - #17 int
+INFO  19:17:25,493 - #17 x
+INFO  19:17:25,494 - #9 ,
+INFO  19:17:25,495 - #17 y
+INFO  19:17:25,495 - #9 ,
+INFO  19:17:25,495 - #17 z
+INFO  19:17:25,496 - #5 ;
+INFO  19:17:25,496 - #17 bool
+INFO  19:17:25,497 - #17 f
+INFO  19:17:25,497 - #5 ;
+INFO  19:17:25,497 - #3 {
+INFO  19:17:25,497 - #16 void
+INFO  19:17:25,498 - #17 main
+INFO  19:17:25,498 - #7 (
+INFO  19:17:25,498 - #8 )
+INFO  19:17:25,498 - #17 int
+INFO  19:17:25,499 - #17 lok
+INFO  19:17:25,499 - #5 ;
+INFO  19:17:25,499 - #17 char
+INFO  19:17:25,499 - #17 c
+INFO  19:17:25,501 - #5 ;
+INFO  19:17:25,501 - #17 char
+INFO  19:17:25,501 - #17 charr
+INFO  19:17:25,501 - #10 [
+INFO  19:17:25,501 - #11 ]
+INFO  19:17:25,501 - #5 ;
+INFO  19:17:25,502 - #3 {
+INFO  19:17:25,502 - #17 x
+INFO  19:17:25,503 - #15 =
+INFO  19:17:25,503 - #20 4
+INFO  19:17:25,504 - #5 ;
+INFO  19:17:25,504 - #17 y
+INFO  19:17:25,504 - #15 =
+INFO  19:17:25,504 - #20 3
+INFO  19:17:25,505 - #5 ;
+INFO  19:17:25,505 - #17 f
+INFO  19:17:25,505 - #15 =
+INFO  19:17:25,505 - #18 false
+INFO  19:17:25,505 - #5 ;
+INFO  19:17:25,505 - #21 if
+INFO  19:17:25,505 - #7 (
+INFO  19:17:25,506 - #17 y
+INFO  19:17:25,506 - #40 >
+INFO  19:17:25,506 - #20 3
+INFO  19:17:25,507 - #8 )
+INFO  19:17:25,507 - #3 {
+INFO  19:17:25,507 - #12 print
+INFO  19:17:25,507 - #7 (
+INFO  19:17:25,507 - #17 y
+INFO  19:17:25,507 - #8 )
+INFO  19:17:25,507 - #5 ;
+INFO  19:17:25,507 - #4 }
+INFO  19:17:25,508 - #23 do
+INFO  19:17:25,508 - #3 {
+INFO  19:17:25,508 - #23 do
+INFO  19:17:25,509 - #3 {
+INFO  19:17:25,509 - #12 print
+INFO  19:17:25,509 - #7 (
+INFO  19:17:25,509 - #17 x
+INFO  19:17:25,509 - #8 )
+INFO  19:17:25,509 - #5 ;
+INFO  19:17:25,509 - #17 x
+INFO  19:17:25,509 - #31 --
+INFO  19:17:25,509 - #5 ;
+INFO  19:17:25,509 - #4 }
+INFO  19:17:25,510 - #24 while
+INFO  19:17:25,510 - #7 (
+INFO  19:17:25,510 - #17 x
+INFO  19:17:25,510 - #40 >
+INFO  19:17:25,510 - #20 0
+INFO  19:17:25,510 - #8 )
+INFO  19:17:25,510 - #5 ;
+INFO  19:17:25,510 - #17 y
+INFO  19:17:25,510 - #31 --
+INFO  19:17:25,510 - #5 ;
+INFO  19:17:25,510 - #4 }
+INFO  19:17:25,510 - #24 while
+INFO  19:17:25,510 - #7 (
+INFO  19:17:25,511 - #17 x
+INFO  19:17:25,511 - #40 >
+INFO  19:17:25,511 - #20 0
+INFO  19:17:25,511 - #8 )
+INFO  19:17:25,511 - #5 ;
+INFO  19:17:25,511 - #12 print
+INFO  19:17:25,511 - #7 (
+INFO  19:17:25,511 - #20 487
+INFO  19:17:25,511 - #8 )
+INFO  19:17:25,511 - #5 ;
+INFO  19:17:25,511 - #12 print
+INFO  19:17:25,511 - #7 (
+INFO  19:17:25,511 - #17 x
+INFO  19:17:25,511 - #8 )
+INFO  19:17:25,511 - #5 ;
+INFO  19:17:25,511 - #12 print
+INFO  19:17:25,512 - #7 (
+INFO  19:17:25,512 - #17 y
+INFO  19:17:25,512 - #8 )
+INFO  19:17:25,512 - #5 ;
+INFO  19:17:25,512 - #4 }
+INFO  19:17:25,512 - #4 }
+INFO  19:17:25,519 - Deklarisana promenljiva y na liniji 2
+INFO  19:17:25,519 - Deklarisana promenljiva z na liniji 2
+INFO  19:17:25,519 - Deklarisana promenljiva x na liniji 2
+INFO  19:17:25,519 - Deklarisana promenljiva f na liniji 3
+INFO  19:17:25,519 - Obradjuje se funkcija main na liniji 6
+INFO  19:17:25,519 - Deklarisana promenljiva lok na liniji 7
+INFO  19:17:25,519 - Deklarisana promenljiva c na liniji 8
+INFO  19:17:25,519 - Deklarisana promenljiva charr na liniji 9
+INFO  19:17:25,519 - Pronadjen If statement na liniji 14
+INFO  19:17:25,519 - Poziv print funkcije na liniji 15
+INFO  19:17:25,519 - Poziv print funkcije na liniji 21
+INFO  19:17:25,520 - Pronadjen Do While statement na liniji 19
+INFO  19:17:25,520 - Pronadjen Do While statement na liniji 17
+INFO  19:17:25,520 - Poziv print funkcije na liniji 26
+INFO  19:17:25,520 - Poziv print funkcije na liniji 27
+INFO  19:17:25,520 - Poziv print funkcije na liniji 28
+INFO  19:17:25,520 - Print calls = 0
+INFO  19:17:25,520 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj
+INFO  19:17:25,523 - Parsiranje uspesno zavrseno!
