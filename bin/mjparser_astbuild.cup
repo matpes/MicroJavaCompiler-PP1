@@ -94,6 +94,10 @@ nonterminal TypeDecl TypeDecl;
 nonterminal PrintStatement PrintStatement;
 nonterminal IfStatement IfStatement;
 nonterminal IfCondition IfCondition;
+nonterminal And And;
+nonterminal Or Or;
+nonterminal Colon Colon;
+nonterminal Question Question;
 
 nonterminal Statement2 Statement2;
 nonterminal VariableIdent VariableIdent;
@@ -279,13 +283,17 @@ ExpressionStatement ::= (DesignatorAssignExpression) Designator:D1 Assignop:A2 E
 			  
 Condition ::= (ConditionTerm) CondTerm:C1 {: RESULT=new ConditionTerm(C1); RESULT.setLine(C1left); :}
 			|
-			(ConditionOr) Condition:C1 OR CondTerm:C2 {: RESULT=new ConditionOr(C1, C2); RESULT.setLine(C1left); :}
+			(ConditionOr) Condition:C1 Or:O2 CondTerm:C3 {: RESULT=new ConditionOr(C1, O2, C3); RESULT.setLine(C1left); :}
 			;
 			
+Or ::=(Or) OR {: RESULT=new Or(); :};
+
 CondTerm ::= (ConditionFact) CondFact:C1 {: RESULT=new ConditionFact(C1); RESULT.setLine(C1left); :}
 			|
-			(ConditionAnd) CondTerm:C1 AND CondFact:C2 {: RESULT=new ConditionAnd(C1, C2); RESULT.setLine(C1left); :}
+			(ConditionAnd) CondTerm:C1 And:A2 CondFact:C3 {: RESULT=new ConditionAnd(C1, A2, C3); RESULT.setLine(C1left); :}
 			;
+			
+And ::=(And) AND {: RESULT=new And(); :};
 			
 CondFact ::= (CondFactExpr) Expr1:expr {: RESULT=new CondFactExpr(expr); RESULT.setLine(exprleft); :}
 			|
@@ -299,10 +307,14 @@ Expr1 ::= (AddExpr) Expr1:te Addop:A1 Term:t {: RESULT=new AddExpr(te, A1, t); R
 		 (NegTermExpr) MINUS Term:t {: RESULT=new NegTermExpr(t); RESULT.setLine(tleft); :}
 		 ;
 		 
-Expr ::= (ConditionExpr) Expr1:cond QUESTION Expr1:expr1 COLON Expr1:expr2 {: RESULT=new ConditionExpr(cond, expr1, expr2); RESULT.setLine(condleft); :}
+Expr ::= (ConditionExpr) Expr1:cond Question:Q1 Expr1:expr1 Colon:C2 Expr1:expr2 {: RESULT=new ConditionExpr(cond, Q1, expr1, C2, expr2); RESULT.setLine(condleft); :}
 		|
 		(Expresion) Expr1:expr {: RESULT=new Expresion(expr); RESULT.setLine(exprleft); :}
 		;
+		
+Question ::= (Question) QUESTION {: RESULT=new Question(); :};
+
+Colon ::= (Colon) COLON {: RESULT=new Colon(); :};
 
 Term ::= (FactorTerm) Factor:t {: RESULT=new FactorTerm(t); RESULT.setLine(tleft); :} 
 		|

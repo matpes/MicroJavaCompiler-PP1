@@ -1,78 +1,28 @@
 program MJCode
 	int x, y, z;
-	char a, b, c;
-	const int co = 5;
-	const bool bl = true;
-	bool tr, fs;
-	int arr[], arr2[];
+	bool f;
 {
-	int jedan(){
-		return 11 - 5;
-	}
-	
-	int dva(int dva){
-		dva = dva + 2;
-		return dva;
-	}
-	
-	int tri(int prvi[], int drugi, int treci){
-	
-		print(prvi[0]);
-		print(drugi);
-		print(treci);
-		return prvi[prvi[drugi]];
-	}
 	
 	void main()
 	int lok;
+	char c;
 	char charr[];
 	{
 		x = 4;
-		lok = 5;
-		y = x;
-		y = lok;
-		x = -7 + 5;
-		print(-x);
-		arr = new int[8];
-		arr2 = new int[1];
-		arr[0] = 7;
-		arr[1] = 0;
-		arr[arr[0]] = arr[arr[1]] + 5;
-		print(arr[7]); 
-		print(arr[arr[1]]);
-		//print(arr[arr[1]]);
-		arr[2] = arr2[0] + 2;
-		arr[2]++;
-		//print(arr[2]);
-		//print(jedan());
-		//print(dva(x));
-		//print(tri(1, 2, 3));
-		//print(tri(arr[0], arr[1], arr[2]));
-		x = 0;
-		print(tri(arr, 1, jedan()));
-		//charr = new char[4];
-		//x = 2;
-		//x = 1 + 5 * 2;
-		//lok = 11;
-		//lok = lok - x + 5;
-		//lok = 3 * 5;
-		//lok = x * lok;
-		//x = lok;	
-		//lok = x;
-		//print(arr, 3);
-		//print(true);
-		//print(false);
-		//print('a', 7);
-		//x++;
-		//lok--;
-		//x = 3;
-		//y = 2;
-		//y++;
-		//y++;
-		//x++;
-		//lok = x + y;
-		//print(x);
-		//print(lok);
+		y = 3;
+		f = false;
+		do{
+			//print(x);
+			do
+			{
+				print(x);
+				x--;
+			}while(x > 0 || x > -2 && y > 0);
+			y--;
+		}while(y>0 || x>0);
+		print(487);
+		print(x);
+		print(y);
 	}
 	
 	

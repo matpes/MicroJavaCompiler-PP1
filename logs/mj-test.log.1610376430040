@@ -1,0 +1,88 @@
+INFO  15:46:59,024 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  15:46:59,075 - #2 program
+INFO  15:46:59,075 - #17 MJCode
+INFO  15:46:59,075 - #17 int
+INFO  15:46:59,076 - #17 x
+INFO  15:46:59,077 - #9 ,
+INFO  15:46:59,079 - #17 y
+INFO  15:46:59,079 - #9 ,
+INFO  15:46:59,079 - #17 z
+INFO  15:46:59,079 - #5 ;
+INFO  15:46:59,079 - #3 {
+INFO  15:46:59,081 - #16 void
+INFO  15:46:59,082 - #17 main
+INFO  15:46:59,082 - #7 (
+INFO  15:46:59,082 - #8 )
+INFO  15:46:59,083 - #17 int
+INFO  15:46:59,084 - #17 lok
+INFO  15:46:59,084 - #5 ;
+INFO  15:46:59,084 - #17 char
+INFO  15:46:59,084 - #17 c
+INFO  15:46:59,084 - #5 ;
+INFO  15:46:59,084 - #17 char
+INFO  15:46:59,084 - #17 charr
+INFO  15:46:59,086 - #10 [
+INFO  15:46:59,086 - #11 ]
+INFO  15:46:59,086 - #5 ;
+INFO  15:46:59,087 - #3 {
+INFO  15:46:59,087 - #17 x
+INFO  15:46:59,088 - #15 =
+INFO  15:46:59,088 - #20 4
+INFO  15:46:59,089 - #5 ;
+INFO  15:46:59,090 - #17 y
+INFO  15:46:59,090 - #15 =
+INFO  15:46:59,090 - #20 3
+INFO  15:46:59,090 - #5 ;
+INFO  15:46:59,091 - #5 ;
+ERROR 15:46:59,091 - Sintaksna greska na liniji 11
+INFO  15:46:59,091 - #23 do
+INFO  15:46:59,091 - #3 {
+INFO  15:46:59,091 - #12 print
+ERROR 15:46:59,092 - Oporavak od greske kod iskaza dodele na liniji 1
+INFO  15:46:59,093 - #7 (
+INFO  15:46:59,093 - #17 x
+INFO  15:46:59,093 - #8 )
+INFO  15:46:59,093 - #5 ;
+INFO  15:46:59,093 - #12 print
+INFO  15:46:59,093 - #7 (
+INFO  15:46:59,093 - #17 y
+INFO  15:46:59,093 - #8 )
+INFO  15:46:59,094 - #5 ;
+INFO  15:46:59,094 - #17 x
+INFO  15:46:59,094 - #31 --
+INFO  15:46:59,094 - #5 ;
+INFO  15:46:59,094 - #17 y
+INFO  15:46:59,094 - #31 --
+INFO  15:46:59,094 - #5 ;
+INFO  15:46:59,094 - #4 }
+INFO  15:46:59,094 - #24 while
+INFO  15:46:59,094 - #7 (
+INFO  15:46:59,094 - #17 y
+INFO  15:46:59,095 - #40 >
+INFO  15:46:59,095 - #20 0
+INFO  15:46:59,096 - #49 &&
+INFO  15:46:59,096 - #17 x
+INFO  15:46:59,096 - #40 >
+INFO  15:46:59,096 - #20 0
+INFO  15:46:59,096 - #8 )
+INFO  15:46:59,097 - #5 ;
+INFO  15:46:59,097 - #12 print
+INFO  15:46:59,097 - #7 (
+INFO  15:46:59,097 - #20 487
+INFO  15:46:59,097 - #8 )
+INFO  15:46:59,097 - #5 ;
+INFO  15:46:59,097 - #4 }
+INFO  15:46:59,097 - #4 }
+INFO  15:46:59,103 - Deklarisana promenljiva y na liniji 2
+INFO  15:46:59,104 - Deklarisana promenljiva z na liniji 2
+INFO  15:46:59,104 - Deklarisana promenljiva x na liniji 2
+INFO  15:46:59,104 - Obradjuje se funkcija main na liniji 5
+INFO  15:46:59,104 - Deklarisana promenljiva lok na liniji 6
+INFO  15:46:59,104 - Deklarisana promenljiva c na liniji 7
+INFO  15:46:59,104 - Deklarisana promenljiva charr na liniji 8
+INFO  15:46:59,105 - Poziv print funkcije na liniji 13
+INFO  15:46:59,105 - Poziv print funkcije na liniji 14
+INFO  15:46:59,105 - Pronadjen Do While statement na liniji 12
+INFO  15:46:59,105 - Poziv print funkcije na liniji 18
+INFO  15:46:59,105 - Print calls = 0
+ERROR 15:46:59,105 - Parsiranje NIJE uspesno zavrseno!

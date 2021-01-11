@@ -1,6 +1,6 @@
 package rs.ac.bg.etf.pp1;
 
-import java.util.LinkedList;
+import java.util.*;
 
 import rs.ac.bg.etf.pp1.ast.*;
 import rs.etf.pp1.mj.runtime.*;
@@ -10,12 +10,17 @@ import rs.etf.pp1.symboltable.concepts.*;
 public class CodeGenerator extends VisitorAdaptor {
 
 	private int mainPc;
+	private int beginSecOp, endSecOp;
 	LinkedList<LinkedList<Expr>> actualParams = new LinkedList<>();
-	
+	Stack<Integer> doWhileAdr = new Stack<Integer>();
+	LinkedList<Integer> jumpForward = new LinkedList<>();
+	int inIf = 0;
 	public int getMainPc() {
 		return mainPc;
 	}
 
+	boolean terFlag = false;
+	int numOp = 0;
 	// ConstDecl
 
 	public void visit(ConstDecl constDecl) {
@@ -98,7 +103,85 @@ public class CodeGenerator extends VisitorAdaptor {
 		Code.put(Code.return_);
 	}
 
+	// TERNARNI
+	public void visit(ConditionExpr conditionExpr) {
+		Code.fixup(endSecOp);
+	}
+
+	public void visit(Question question) {
+		Code.loadConst(0);
+		Code.putFalseJump(Code.ne, 0);
+		beginSecOp = Code.pc - 2;
+
+	}
+
+	public void visit(Colon colon) {
+		Code.putJump(0);
+		endSecOp = Code.pc - 2;
+		Code.fixup(beginSecOp);
+	}
+
+	// USLOVI
+	public void visit(CondFactExpr condFactExpr) {
+		Code.loadConst(0);
+		Code.putFalseJump(Code.eq, doWhileAdr.pop());
+	}
+
+	public void visit(CondFactRelop condFactRelop) {
+		Relop relop = condFactRelop.getRelop();
+		if (relop.getClass() == Equal.class) {
+			Code.putFalseJump(Code.eq, 0);
+		} else if (relop.getClass() == NotEqual.class) {
+			Code.putFalseJump(Code.ne, 0);
+		} else if (relop.getClass() == Greater.class) {
+			Code.putFalseJump(Code.gt, 0);
+		} else if (relop.getClass() == GreaterOrEqual.class) {
+			Code.putFalseJump(Code.ge, 0);
+		} else if (relop.getClass() == Lower.class) {
+			Code.putFalseJump(Code.lt, 0);
+		} else if (relop.getClass() == LowerOrEqual.class) {
+			Code.putFalseJump(Code.le, 0);
+		}
+		jumpForward.add(Code.pc - 2);
+	}
+
+	public void visit(ConditionAnd conditionAnd) {
+
+	}
+
+	public void visit(And and) {
+
+	}
+
+	public void visit(Or or) {
+		
+		if(inIf == 0) {
+			Code.putJump(doWhileAdr.peek());
+		}
+		for(Integer i : jumpForward) {
+			Code.fixup(i);
+		}
+		jumpForward.clear();
+	}
+
 	// STATEMENTS
+
+	// DO WHILE
+
+	public void visit(DoWhileStart doWhileStart) {
+		doWhileAdr.push(Code.pc);
+	}
+
+	public void visit(DoWhile doWhile) {
+		if(doWhileAdr.size()>0) {
+			Code.putJump(doWhileAdr.peek());
+			doWhileAdr.pop();
+		}
+		for(Integer i : jumpForward) {
+			Code.fixup(i);
+		}
+		jumpForward.clear();
+	}
 
 	// PRINT
 	public void visit(PrintStmt printStmt) {
@@ -124,20 +207,31 @@ public class CodeGenerator extends VisitorAdaptor {
 		Code.put(Code.print);
 	}
 
-	// PODESAVANJE PARAMETARA ZA POZIV FUNKCIJE
-/*	public void visit(ActualParam param) {
-		actualParams.getFirst().add(param.getExpr());
+	// READ
+	public void visit(ReadStmt readStmt) {
+		Obj obj = readStmt.getDesignator().obj;
+		if (obj.getType() == Tab.charType) {
+			Code.put(Code.bread);
+		} else {
+			Code.put(Code.read);
+		}
+		Code.store(obj);
 	}
 
-	public void visit(ActualParams param) {
-		actualParams.getFirst().add(param.getExpr());
-	}*/
+	// PODESAVANJE PARAMETARA ZA POZIV FUNKCIJE
+	/*
+	 * public void visit(ActualParam param) {
+	 * actualParams.getFirst().add(param.getExpr()); }
+	 * 
+	 * public void visit(ActualParams param) {
+	 * actualParams.getFirst().add(param.getExpr()); }
+	 */
 
 	// POZIVI FJ-a
 	public void visit(FuncCall funcCall) {
 		Obj functionObj = funcCall.getDesignator().obj;
 		int offset = functionObj.getAdr() - Code.pc;
-		
+
 		Code.put(Code.call);
 
 		Code.put2(offset);
@@ -167,13 +261,16 @@ public class CodeGenerator extends VisitorAdaptor {
 	// DESIGNATOR
 	public void visit(DesignatorIdent designatorIdent) {
 		SyntaxNode parent = designatorIdent.getParent();
-		/*if (parent.getClass() == DesignatorExprList.class && designatorIdent.obj.getType().getKind() == Struct.Array) {
-			Code.load(designatorIdent.obj);
-		}*/
-		if (parent.getClass() != Var.class && parent.getClass() != DesignatorFuncCall.class && parent.getClass() != FuncCall.class && parent.getClass() != DesignatorAssignExpression.class) {
+		/*
+		 * if (parent.getClass() == DesignatorExprList.class &&
+		 * designatorIdent.obj.getType().getKind() == Struct.Array) {
+		 * Code.load(designatorIdent.obj); }
+		 */
+		if (parent.getClass() != Var.class && parent.getClass() != DesignatorFuncCall.class
+				&& parent.getClass() != FuncCall.class && parent.getClass() != DesignatorAssignExpression.class) {
 			Code.load(designatorIdent.obj);
 		}
-		
+
 		if (designatorIdent.obj.getKind() == Obj.Meth) {
 			actualParams.push(new LinkedList<>());
 		}
@@ -222,8 +319,8 @@ public class CodeGenerator extends VisitorAdaptor {
 		Obj des = designatorIncrement.getDesignator().obj;
 		if (des.getKind() == Obj.Elem) {
 			Code.put(Code.dup2);
+			Code.load(designatorIncrement.getDesignator().obj);
 		}
-		Code.load(designatorIncrement.getDesignator().obj);
 		Code.loadConst(1);
 		Code.put(Code.add);
 
@@ -235,8 +332,8 @@ public class CodeGenerator extends VisitorAdaptor {
 		Obj des = designatorDecrement.getDesignator().obj;
 		if (des.getKind() == Obj.Elem) {
 			Code.put(Code.dup2);
+			Code.load(designatorDecrement.getDesignator().obj);
 		}
-		Code.load(designatorDecrement.getDesignator().obj);
 		Code.loadConst(-1);
 		Code.put(Code.add);
 		Code.store(designatorDecrement.getDesignator().obj);
@@ -244,9 +341,9 @@ public class CodeGenerator extends VisitorAdaptor {
 
 	public void visit(NegTermExpr termExpr) {
 		Code.put(Code.neg);
-	
+
 	}
-	
+
 	// ALOKACIJA
 	public void visit(NewVar newVar) {
 		if (newVar.getType().struct == Tab.charType) {

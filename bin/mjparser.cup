@@ -68,7 +68,7 @@ nonterminal MethodDeclList, DeclList, VarDecList, ConstDeclList, ClassDeclList, 
 nonterminal FormalParamList, FormalParamDecl, FormPars, ActualPars, ActualParamList; 
 nonterminal StatementList, Statement, Addop, Mulop, Relop, Assignop;
 nonterminal Unmatched, Matched, OptBox, CaseList, DesignatorStatement;
-nonterminal OptExpr, TypeDecl, PrintStatement, IfStatement, IfCondition;
+nonterminal OptExpr, TypeDecl, PrintStatement, IfStatement, IfCondition, And, Or, Colon, Question;
 
 nonterminal Statement2, VariableIdent, ExpressionStatement, ClassName, DoWhileStart; 
 
@@ -250,13 +250,17 @@ ExpressionStatement ::= (DesignatorAssignExpression) Designator Assignop Expr SE
 			  
 Condition ::= (ConditionTerm) CondTerm
 			|
-			(ConditionOr) Condition OR CondTerm
+			(ConditionOr) Condition Or CondTerm
 			;
 			
+Or ::=(Or) OR;
+
 CondTerm ::= (ConditionFact) CondFact
 			|
-			(ConditionAnd) CondTerm AND CondFact
+			(ConditionAnd) CondTerm And CondFact
 			;
+			
+And ::=(And) AND;
 			
 CondFact ::= (CondFactExpr) Expr1:expr
 			|
@@ -270,10 +274,14 @@ Expr1 ::= (AddExpr) Expr1:te Addop Term:t
 		 (NegTermExpr) MINUS Term:t
 		 ;
 		 
-Expr ::= (ConditionExpr) Expr1:cond QUESTION Expr1:expr1 COLON Expr1:expr2
+Expr ::= (ConditionExpr) Expr1:cond Question Expr1:expr1 Colon Expr1:expr2
 		|
 		(Expresion) Expr1:expr
 		;
+		
+Question ::= (Question) QUESTION;
+
+Colon ::= (Colon) COLON;
 
 Term ::= (FactorTerm) Factor:t 
 		|
