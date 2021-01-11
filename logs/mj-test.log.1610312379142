@@ -1,0 +1,129 @@
+INFO  21:56:44,497 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  21:56:44,558 - #2 program
+INFO  21:56:44,558 - #17 MJCode
+INFO  21:56:44,558 - #17 int
+INFO  21:56:44,560 - #17 x
+INFO  21:56:44,560 - #9 ,
+INFO  21:56:44,562 - #17 y
+INFO  21:56:44,563 - #9 ,
+INFO  21:56:44,563 - #17 z
+INFO  21:56:44,563 - #5 ;
+INFO  21:56:44,563 - #17 char
+INFO  21:56:44,564 - #17 a
+INFO  21:56:44,564 - #9 ,
+INFO  21:56:44,564 - #17 b
+INFO  21:56:44,564 - #9 ,
+INFO  21:56:44,564 - #17 c
+INFO  21:56:44,564 - #5 ;
+INFO  21:56:44,564 - #47 const
+INFO  21:56:44,564 - #17 int
+INFO  21:56:44,564 - #17 co
+INFO  21:56:44,565 - #15 =
+INFO  21:56:44,565 - #20 5
+INFO  21:56:44,565 - #5 ;
+INFO  21:56:44,567 - #47 const
+INFO  21:56:44,568 - #17 bool
+INFO  21:56:44,568 - #17 bl
+INFO  21:56:44,568 - #15 =
+INFO  21:56:44,568 - #18 true
+INFO  21:56:44,568 - #5 ;
+INFO  21:56:44,568 - #17 bool
+INFO  21:56:44,568 - #17 tr
+INFO  21:56:44,568 - #9 ,
+INFO  21:56:44,568 - #17 fs
+INFO  21:56:44,568 - #5 ;
+INFO  21:56:44,568 - #17 int
+INFO  21:56:44,568 - #17 arr
+INFO  21:56:44,569 - #10 [
+INFO  21:56:44,569 - #11 ]
+INFO  21:56:44,569 - #9 ,
+INFO  21:56:44,569 - #17 arr2
+INFO  21:56:44,570 - #10 [
+INFO  21:56:44,570 - #11 ]
+INFO  21:56:44,570 - #5 ;
+INFO  21:56:44,570 - #3 {
+INFO  21:56:44,570 - #16 void
+INFO  21:56:44,571 - #17 main
+INFO  21:56:44,571 - #7 (
+INFO  21:56:44,571 - #8 )
+INFO  21:56:44,571 - #17 int
+INFO  21:56:44,572 - #17 lok
+INFO  21:56:44,572 - #5 ;
+INFO  21:56:44,572 - #17 char
+INFO  21:56:44,572 - #17 charr
+INFO  21:56:44,572 - #10 [
+INFO  21:56:44,572 - #11 ]
+INFO  21:56:44,572 - #5 ;
+INFO  21:56:44,572 - #3 {
+INFO  21:56:44,572 - #17 arr
+INFO  21:56:44,573 - #15 =
+INFO  21:56:44,573 - #50 new
+INFO  21:56:44,574 - #17 int
+INFO  21:56:44,574 - #10 [
+INFO  21:56:44,574 - #20 5
+INFO  21:56:44,574 - #11 ]
+INFO  21:56:44,575 - #5 ;
+INFO  21:56:44,575 - #17 arr
+INFO  21:56:44,575 - #10 [
+INFO  21:56:44,575 - #20 0
+INFO  21:56:44,575 - #11 ]
+INFO  21:56:44,575 - #15 =
+INFO  21:56:44,576 - #20 7
+INFO  21:56:44,576 - #5 ;
+INFO  21:56:44,576 - #17 x
+INFO  21:56:44,576 - #15 =
+INFO  21:56:44,576 - #17 arr
+INFO  21:56:44,576 - #10 [
+INFO  21:56:44,576 - #20 0
+INFO  21:56:44,576 - #11 ]
+INFO  21:56:44,576 - #5 ;
+INFO  21:56:44,576 - #17 arr2
+INFO  21:56:44,576 - #10 [
+INFO  21:56:44,576 - #20 0
+INFO  21:56:44,577 - #11 ]
+INFO  21:56:44,577 - #15 =
+INFO  21:56:44,577 - #20 1
+INFO  21:56:44,577 - #5 ;
+INFO  21:56:44,577 - #17 arr
+INFO  21:56:44,577 - #15 =
+INFO  21:56:44,577 - #17 arr2
+INFO  21:56:44,577 - #5 ;
+INFO  21:56:44,578 - #12 print
+INFO  21:56:44,578 - #7 (
+INFO  21:56:44,578 - #17 arr
+INFO  21:56:44,578 - #10 [
+INFO  21:56:44,578 - #20 0
+INFO  21:56:44,578 - #11 ]
+INFO  21:56:44,578 - #8 )
+INFO  21:56:44,578 - #5 ;
+INFO  21:56:44,578 - #12 print
+INFO  21:56:44,579 - #7 (
+INFO  21:56:44,579 - #17 x
+INFO  21:56:44,579 - #8 )
+INFO  21:56:44,579 - #5 ;
+INFO  21:56:44,579 - #4 }
+INFO  21:56:44,579 - #4 }
+INFO  21:56:44,586 - Deklarisana promenljiva y na liniji 2
+INFO  21:56:44,586 - Deklarisana promenljiva z na liniji 2
+INFO  21:56:44,586 - Deklarisana promenljiva x na liniji 2
+INFO  21:56:44,586 - Deklarisana promenljiva b na liniji 3
+INFO  21:56:44,586 - Deklarisana promenljiva c na liniji 3
+INFO  21:56:44,586 - Deklarisana promenljiva a na liniji 3
+INFO  21:56:44,586 - Deklarisana int konstantna co na liniji 4
+INFO  21:56:44,586 - Deklarisana boolean konstantna bl na liniji 5
+INFO  21:56:44,586 - Deklarisana promenljiva fs na liniji 6
+INFO  21:56:44,587 - Deklarisana promenljiva tr na liniji 6
+INFO  21:56:44,587 - Deklarisana promenljiva arr2 na liniji 7
+INFO  21:56:44,587 - Deklarisana promenljiva arr na liniji 7
+INFO  21:56:44,587 - Obradjuje se funkcija main na liniji 9
+INFO  21:56:44,587 - Deklarisana promenljiva lok na liniji 10
+INFO  21:56:44,587 - Deklarisana promenljiva charr na liniji 11
+INFO  21:56:44,588 - Pristup elementu niza na liniji 14
+INFO  21:56:44,588 - Pristup elementu niza na liniji 15
+INFO  21:56:44,588 - Pristup elementu niza na liniji 16
+INFO  21:56:44,588 - Pristup elementu niza na liniji 18
+INFO  21:56:44,588 - Poziv print funkcije na liniji 18
+INFO  21:56:44,588 - Poziv print funkcije na liniji 19
+INFO  21:56:44,588 - Print calls = 0
+INFO  21:56:44,589 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj
+INFO  21:56:44,593 - Parsiranje uspesno zavrseno!

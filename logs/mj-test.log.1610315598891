@@ -1,0 +1,122 @@
+INFO  22:45:26,033 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:45:26,079 - #2 program
+INFO  22:45:26,080 - #17 MJCode
+INFO  22:45:26,080 - #17 int
+INFO  22:45:26,081 - #17 x
+INFO  22:45:26,081 - #9 ,
+INFO  22:45:26,082 - #17 y
+INFO  22:45:26,082 - #9 ,
+INFO  22:45:26,082 - #17 z
+INFO  22:45:26,082 - #5 ;
+INFO  22:45:26,083 - #17 char
+INFO  22:45:26,083 - #17 a
+INFO  22:45:26,083 - #9 ,
+INFO  22:45:26,083 - #17 b
+INFO  22:45:26,084 - #9 ,
+INFO  22:45:26,084 - #17 c
+INFO  22:45:26,084 - #5 ;
+INFO  22:45:26,084 - #47 const
+INFO  22:45:26,084 - #17 int
+INFO  22:45:26,084 - #17 co
+INFO  22:45:26,084 - #15 =
+INFO  22:45:26,084 - #20 5
+INFO  22:45:26,084 - #5 ;
+INFO  22:45:26,087 - #47 const
+INFO  22:45:26,088 - #17 bool
+INFO  22:45:26,088 - #17 bl
+INFO  22:45:26,088 - #15 =
+INFO  22:45:26,088 - #18 true
+INFO  22:45:26,089 - #5 ;
+INFO  22:45:26,089 - #17 bool
+INFO  22:45:26,089 - #17 tr
+INFO  22:45:26,089 - #9 ,
+INFO  22:45:26,089 - #17 fs
+INFO  22:45:26,089 - #5 ;
+INFO  22:45:26,089 - #17 int
+INFO  22:45:26,089 - #17 arr
+INFO  22:45:26,089 - #10 [
+INFO  22:45:26,089 - #11 ]
+INFO  22:45:26,089 - #9 ,
+INFO  22:45:26,090 - #17 arr2
+INFO  22:45:26,090 - #10 [
+INFO  22:45:26,090 - #11 ]
+INFO  22:45:26,090 - #5 ;
+INFO  22:45:26,090 - #3 {
+INFO  22:45:26,090 - #16 void
+INFO  22:45:26,090 - #17 main
+INFO  22:45:26,090 - #7 (
+INFO  22:45:26,090 - #8 )
+INFO  22:45:26,091 - #17 int
+INFO  22:45:26,091 - #17 lok
+INFO  22:45:26,091 - #5 ;
+INFO  22:45:26,091 - #17 char
+INFO  22:45:26,091 - #17 charr
+INFO  22:45:26,091 - #10 [
+INFO  22:45:26,091 - #11 ]
+INFO  22:45:26,091 - #5 ;
+INFO  22:45:26,092 - #3 {
+INFO  22:45:26,092 - #17 arr
+INFO  22:45:26,092 - #15 =
+INFO  22:45:26,092 - #50 new
+INFO  22:45:26,093 - #17 int
+INFO  22:45:26,093 - #10 [
+INFO  22:45:26,093 - #20 5
+INFO  22:45:26,093 - #11 ]
+INFO  22:45:26,094 - #5 ;
+INFO  22:45:26,094 - #17 arr2
+INFO  22:45:26,094 - #15 =
+INFO  22:45:26,094 - #50 new
+INFO  22:45:26,094 - #17 int
+INFO  22:45:26,094 - #10 [
+INFO  22:45:26,094 - #20 1
+INFO  22:45:26,094 - #11 ]
+INFO  22:45:26,094 - #5 ;
+INFO  22:45:26,094 - #17 arr
+INFO  22:45:26,094 - #10 [
+INFO  22:45:26,094 - #20 0
+INFO  22:45:26,094 - #11 ]
+INFO  22:45:26,095 - #15 =
+INFO  22:45:26,095 - #20 7
+INFO  22:45:26,095 - #5 ;
+INFO  22:45:26,095 - #17 arr
+INFO  22:45:26,095 - #10 [
+INFO  22:45:26,095 - #20 1
+INFO  22:45:26,095 - #11 ]
+INFO  22:45:26,095 - #15 =
+INFO  22:45:26,095 - #20 0
+INFO  22:45:26,095 - #5 ;
+INFO  22:45:26,095 - #12 print
+INFO  22:45:26,095 - #7 (
+INFO  22:45:26,096 - #17 arr
+INFO  22:45:26,096 - #10 [
+INFO  22:45:26,096 - #17 arr
+INFO  22:45:26,096 - #10 [
+INFO  22:45:26,096 - #20 1
+INFO  22:45:26,096 - #11 ]
+INFO  22:45:26,097 - #11 ]
+INFO  22:45:26,097 - #8 )
+INFO  22:45:26,097 - #5 ;
+INFO  22:45:26,097 - #4 }
+INFO  22:45:26,098 - #4 }
+INFO  22:45:26,103 - Deklarisana promenljiva y na liniji 2
+INFO  22:45:26,105 - Deklarisana promenljiva z na liniji 2
+INFO  22:45:26,105 - Deklarisana promenljiva x na liniji 2
+INFO  22:45:26,105 - Deklarisana promenljiva b na liniji 3
+INFO  22:45:26,105 - Deklarisana promenljiva c na liniji 3
+INFO  22:45:26,105 - Deklarisana promenljiva a na liniji 3
+INFO  22:45:26,105 - Deklarisana int konstantna co na liniji 4
+INFO  22:45:26,105 - Deklarisana boolean konstantna bl na liniji 5
+INFO  22:45:26,105 - Deklarisana promenljiva fs na liniji 6
+INFO  22:45:26,105 - Deklarisana promenljiva tr na liniji 6
+INFO  22:45:26,105 - Deklarisana promenljiva arr2 na liniji 7
+INFO  22:45:26,105 - Deklarisana promenljiva arr na liniji 7
+INFO  22:45:26,105 - Obradjuje se funkcija main na liniji 9
+INFO  22:45:26,105 - Deklarisana promenljiva lok na liniji 10
+INFO  22:45:26,105 - Deklarisana promenljiva charr na liniji 11
+INFO  22:45:26,106 - Pristup elementu niza na liniji 15
+INFO  22:45:26,106 - Pristup elementu niza na liniji 16
+INFO  22:45:26,106 - Pristup elementu niza na liniji 18
+INFO  22:45:26,106 - Pristup elementu niza na liniji 18
+ERROR 22:45:26,106 - Argument prosledjen print funkciji mora biti int, char ili bool na liniji 18
+INFO  22:45:26,106 - Print calls = 0
+ERROR 22:45:26,106 - Parsiranje NIJE uspesno zavrseno!

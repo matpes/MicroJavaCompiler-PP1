@@ -1,0 +1,122 @@
+INFO  22:42:07,690 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  22:42:07,739 - #2 program
+INFO  22:42:07,739 - #17 MJCode
+INFO  22:42:07,739 - #17 int
+INFO  22:42:07,740 - #17 x
+INFO  22:42:07,740 - #9 ,
+INFO  22:42:07,742 - #17 y
+INFO  22:42:07,742 - #9 ,
+INFO  22:42:07,742 - #17 z
+INFO  22:42:07,742 - #5 ;
+INFO  22:42:07,742 - #17 char
+INFO  22:42:07,744 - #17 a
+INFO  22:42:07,745 - #9 ,
+INFO  22:42:07,745 - #17 b
+INFO  22:42:07,745 - #9 ,
+INFO  22:42:07,745 - #17 c
+INFO  22:42:07,745 - #5 ;
+INFO  22:42:07,745 - #47 const
+INFO  22:42:07,745 - #17 int
+INFO  22:42:07,745 - #17 co
+INFO  22:42:07,745 - #15 =
+INFO  22:42:07,746 - #20 5
+INFO  22:42:07,746 - #5 ;
+INFO  22:42:07,748 - #47 const
+INFO  22:42:07,749 - #17 bool
+INFO  22:42:07,749 - #17 bl
+INFO  22:42:07,749 - #15 =
+INFO  22:42:07,749 - #18 true
+INFO  22:42:07,749 - #5 ;
+INFO  22:42:07,749 - #17 bool
+INFO  22:42:07,749 - #17 tr
+INFO  22:42:07,749 - #9 ,
+INFO  22:42:07,749 - #17 fs
+INFO  22:42:07,749 - #5 ;
+INFO  22:42:07,749 - #17 int
+INFO  22:42:07,749 - #17 arr
+INFO  22:42:07,750 - #10 [
+INFO  22:42:07,750 - #11 ]
+INFO  22:42:07,750 - #9 ,
+INFO  22:42:07,750 - #17 arr2
+INFO  22:42:07,750 - #10 [
+INFO  22:42:07,750 - #11 ]
+INFO  22:42:07,750 - #5 ;
+INFO  22:42:07,751 - #3 {
+INFO  22:42:07,751 - #16 void
+INFO  22:42:07,751 - #17 main
+INFO  22:42:07,751 - #7 (
+INFO  22:42:07,751 - #8 )
+INFO  22:42:07,752 - #17 int
+INFO  22:42:07,752 - #17 lok
+INFO  22:42:07,752 - #5 ;
+INFO  22:42:07,752 - #17 char
+INFO  22:42:07,753 - #17 charr
+INFO  22:42:07,753 - #10 [
+INFO  22:42:07,753 - #11 ]
+INFO  22:42:07,753 - #5 ;
+INFO  22:42:07,753 - #3 {
+INFO  22:42:07,753 - #17 arr
+INFO  22:42:07,753 - #15 =
+INFO  22:42:07,754 - #50 new
+INFO  22:42:07,754 - #17 int
+INFO  22:42:07,754 - #10 [
+INFO  22:42:07,755 - #20 5
+INFO  22:42:07,755 - #11 ]
+INFO  22:42:07,755 - #5 ;
+INFO  22:42:07,755 - #17 arr2
+INFO  22:42:07,755 - #15 =
+INFO  22:42:07,755 - #50 new
+INFO  22:42:07,755 - #17 int
+INFO  22:42:07,756 - #10 [
+INFO  22:42:07,756 - #20 1
+INFO  22:42:07,756 - #11 ]
+INFO  22:42:07,756 - #5 ;
+INFO  22:42:07,756 - #17 arr
+INFO  22:42:07,756 - #10 [
+INFO  22:42:07,756 - #20 0
+INFO  22:42:07,756 - #11 ]
+INFO  22:42:07,756 - #15 =
+INFO  22:42:07,756 - #20 7
+INFO  22:42:07,756 - #5 ;
+INFO  22:42:07,756 - #17 arr
+INFO  22:42:07,756 - #10 [
+INFO  22:42:07,756 - #20 1
+INFO  22:42:07,756 - #11 ]
+INFO  22:42:07,756 - #15 =
+INFO  22:42:07,756 - #20 0
+INFO  22:42:07,756 - #5 ;
+INFO  22:42:07,756 - #12 print
+INFO  22:42:07,757 - #7 (
+INFO  22:42:07,757 - #17 arr
+INFO  22:42:07,757 - #10 [
+INFO  22:42:07,757 - #17 arr
+INFO  22:42:07,757 - #10 [
+INFO  22:42:07,757 - #20 0
+INFO  22:42:07,757 - #11 ]
+INFO  22:42:07,757 - #11 ]
+INFO  22:42:07,757 - #8 )
+INFO  22:42:07,757 - #5 ;
+INFO  22:42:07,757 - #4 }
+INFO  22:42:07,757 - #4 }
+INFO  22:42:07,764 - Deklarisana promenljiva y na liniji 2
+INFO  22:42:07,765 - Deklarisana promenljiva z na liniji 2
+INFO  22:42:07,765 - Deklarisana promenljiva x na liniji 2
+INFO  22:42:07,765 - Deklarisana promenljiva b na liniji 3
+INFO  22:42:07,765 - Deklarisana promenljiva c na liniji 3
+INFO  22:42:07,765 - Deklarisana promenljiva a na liniji 3
+INFO  22:42:07,765 - Deklarisana int konstantna co na liniji 4
+INFO  22:42:07,765 - Deklarisana boolean konstantna bl na liniji 5
+INFO  22:42:07,766 - Deklarisana promenljiva fs na liniji 6
+INFO  22:42:07,766 - Deklarisana promenljiva tr na liniji 6
+INFO  22:42:07,766 - Deklarisana promenljiva arr2 na liniji 7
+INFO  22:42:07,766 - Deklarisana promenljiva arr na liniji 7
+INFO  22:42:07,766 - Obradjuje se funkcija main na liniji 9
+INFO  22:42:07,766 - Deklarisana promenljiva lok na liniji 10
+INFO  22:42:07,766 - Deklarisana promenljiva charr na liniji 11
+INFO  22:42:07,766 - Pristup elementu niza na liniji 15
+INFO  22:42:07,766 - Pristup elementu niza na liniji 16
+INFO  22:42:07,766 - Pristup elementu niza na liniji 17
+INFO  22:42:07,767 - Pristup elementu niza na liniji 17
+ERROR 22:42:07,767 - Argument prosledjen print funkciji mora biti int, char ili bool na liniji 17
+INFO  22:42:07,767 - Print calls = 0
+ERROR 22:42:07,767 - Parsiranje NIJE uspesno zavrseno!

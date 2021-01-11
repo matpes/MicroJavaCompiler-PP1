@@ -533,7 +533,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 						break;
 					}
 					Struct e = actualParams.peek().remove().struct;
-					if(e.getKind() == Struct.Array && arrayFirst.pop() == 1) {
+					if(e.getKind() == Struct.Array && arrayFirst.pop() >= 1) {
 						e = e.getElemType();
 					}
 					if (!o.getType().compatibleWith(e)) {
@@ -610,7 +610,8 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		} else {
 			returnFound = true;
 			Struct currMethType = currentMethod.getType();
-			if (!currMethType.compatibleWith(returnExpr.getExpr().struct)) {
+			if (!currMethType.compatibleWith(returnExpr.getExpr().struct) 
+					&& (currMethType.getKind() == Struct.Array && !currMethType.getElemType().compatibleWith(returnExpr.getExpr().struct))) {
 				report_error("Greska na liniji " + returnExpr.getLine() + " : "
 						+ "tip izraza u return naredbi ne slaze se sa tipom povratne vrednosti funkcije "
 						+ currentMethod.getName(), null);
@@ -657,7 +658,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
 	public void visit(DesignatorIncrement designatorIncrement) {
 		Struct des = designatorIncrement.getDesignator().obj.getType();
-		if (des.getKind() == Struct.Array && arrayFirst.pop() == 1) {
+		if (des.getKind() == Struct.Array && arrayFirst.pop() >= 1) {
 			des = des.getElemType();
 		}
 		if (!(des.equals(Tab.intType))) {
@@ -668,7 +669,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
 	public void visit(DesignatorDecrement designatorDecrement) {
 		Struct des = designatorDecrement.getDesignator().obj.getType();
-		if (des.getKind() == Struct.Array && arrayFirst.pop() == 1) {
+		if (des.getKind() == Struct.Array && arrayFirst.pop() >= 1) {
 			des = des.getElemType();
 		}
 		if (!(des.equals(Tab.intType))) {
@@ -742,12 +743,12 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		condFactRelop.struct = boolType;
 		Expr1 ex1 = condFactRelop.getExpr1();
 		Struct s1 = ex1.struct;
-		if (ex1.struct.getKind() == Struct.Array && arrayFirst.pop() == 1) {
+		if (ex1.struct.getKind() == Struct.Array && arrayFirst.pop() >= 1) {
 			s1 = ex1.struct.getElemType();
 		}
 		Expr1 ex2 = condFactRelop.getExpr11();
 		Struct s2 = ex2.struct;
-		if (ex2.struct.getKind() == Struct.Array && arrayFirst.pop() == 1) {
+		if (ex2.struct.getKind() == Struct.Array && arrayFirst.pop() >= 1) {
 			s2 = ex2.struct.getElemType();
 		}
 		if (relops.pop() > 0) {
@@ -800,7 +801,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 		if (des.obj.getKind() == Obj.Var) {
 			Struct s = des.obj.getType();
 
-			if (des.obj.getType().getKind() == Struct.Array && arrayFirst.pop() == 1) {
+			if (des.obj.getType().getKind() == Struct.Array && arrayFirst.pop() >= 1) {
 				s = des.obj.getType().getElemType();
 			}
 			if (s == Tab.intType || s == Tab.charType || s == boolType) {
@@ -817,7 +818,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	//PRINT STMT
 	public void visit(PrintStmt printStmt) {
 		Struct s1 = printStmt.getExpr().struct;
-		if (s1.getKind() == Struct.Array && arrayFirst.pop() == 1) {
+		if (s1.getKind() == Struct.Array && arrayFirst.pop() >= 1) {
 			s1 = s1.getElemType();
 		}
 		if (s1 == Tab.intType || s1 == Tab.charType || s1 == boolType) {
@@ -830,7 +831,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 
 	public void visit(PrintStmtAndNumber printStmt) {
 		Struct s1 = printStmt.getExpr().struct;
-		if (s1.getKind() == Struct.Array && arrayFirst.pop() == 1) {
+		if (s1.getKind() == Struct.Array && arrayFirst.pop() >= 1) {
 			s1 = s1.getElemType();
 		}
 		if (s1 == Tab.intType || s1 == Tab.charType || s1 == boolType) {

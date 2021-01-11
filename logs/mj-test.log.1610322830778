@@ -1,0 +1,239 @@
+INFO  00:52:14,850 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.mj
+INFO  00:52:14,899 - #2 program
+INFO  00:52:14,900 - #17 MJCode
+INFO  00:52:14,900 - #17 int
+INFO  00:52:14,901 - #17 x
+INFO  00:52:14,903 - #9 ,
+INFO  00:52:14,906 - #17 y
+INFO  00:52:14,906 - #9 ,
+INFO  00:52:14,906 - #17 z
+INFO  00:52:14,907 - #5 ;
+INFO  00:52:14,907 - #17 char
+INFO  00:52:14,908 - #17 a
+INFO  00:52:14,908 - #9 ,
+INFO  00:52:14,908 - #17 b
+INFO  00:52:14,908 - #9 ,
+INFO  00:52:14,908 - #17 c
+INFO  00:52:14,908 - #5 ;
+INFO  00:52:14,909 - #47 const
+INFO  00:52:14,909 - #17 int
+INFO  00:52:14,909 - #17 co
+INFO  00:52:14,909 - #15 =
+INFO  00:52:14,909 - #20 5
+INFO  00:52:14,909 - #5 ;
+INFO  00:52:14,912 - #47 const
+INFO  00:52:14,913 - #17 bool
+INFO  00:52:14,913 - #17 bl
+INFO  00:52:14,913 - #15 =
+INFO  00:52:14,913 - #18 true
+INFO  00:52:14,913 - #5 ;
+INFO  00:52:14,914 - #17 bool
+INFO  00:52:14,914 - #17 tr
+INFO  00:52:14,914 - #9 ,
+INFO  00:52:14,914 - #17 fs
+INFO  00:52:14,914 - #5 ;
+INFO  00:52:14,914 - #17 int
+INFO  00:52:14,915 - #17 arr
+INFO  00:52:14,915 - #10 [
+INFO  00:52:14,915 - #11 ]
+INFO  00:52:14,915 - #9 ,
+INFO  00:52:14,916 - #17 arr2
+INFO  00:52:14,916 - #10 [
+INFO  00:52:14,916 - #11 ]
+INFO  00:52:14,916 - #5 ;
+INFO  00:52:14,916 - #3 {
+INFO  00:52:14,916 - #17 int
+INFO  00:52:14,917 - #17 jedan
+INFO  00:52:14,917 - #7 (
+INFO  00:52:14,917 - #8 )
+INFO  00:52:14,918 - #3 {
+INFO  00:52:14,918 - #14 return
+INFO  00:52:14,919 - #20 11
+INFO  00:52:14,919 - #33 -
+INFO  00:52:14,919 - #20 5
+INFO  00:52:14,921 - #5 ;
+INFO  00:52:14,922 - #4 }
+INFO  00:52:14,922 - #17 int
+INFO  00:52:14,923 - #17 dva
+INFO  00:52:14,923 - #7 (
+INFO  00:52:14,923 - #17 int
+INFO  00:52:14,923 - #17 dva
+INFO  00:52:14,923 - #8 )
+INFO  00:52:14,923 - #3 {
+INFO  00:52:14,923 - #17 dva
+INFO  00:52:14,923 - #15 =
+INFO  00:52:14,923 - #17 dva
+INFO  00:52:14,925 - #32 +
+INFO  00:52:14,925 - #20 2
+INFO  00:52:14,925 - #5 ;
+INFO  00:52:14,925 - #14 return
+INFO  00:52:14,925 - #17 dva
+INFO  00:52:14,925 - #5 ;
+INFO  00:52:14,925 - #4 }
+INFO  00:52:14,925 - #17 int
+INFO  00:52:14,925 - #17 tri
+INFO  00:52:14,925 - #7 (
+INFO  00:52:14,925 - #17 int
+INFO  00:52:14,925 - #17 prvi
+INFO  00:52:14,925 - #9 ,
+INFO  00:52:14,926 - #17 int
+INFO  00:52:14,926 - #17 drugi
+INFO  00:52:14,926 - #9 ,
+INFO  00:52:14,926 - #17 int
+INFO  00:52:14,926 - #17 treci
+INFO  00:52:14,926 - #8 )
+INFO  00:52:14,926 - #3 {
+INFO  00:52:14,926 - #12 print
+INFO  00:52:14,926 - #7 (
+INFO  00:52:14,926 - #17 prvi
+INFO  00:52:14,926 - #8 )
+INFO  00:52:14,926 - #5 ;
+INFO  00:52:14,926 - #12 print
+INFO  00:52:14,926 - #7 (
+INFO  00:52:14,926 - #17 drugi
+INFO  00:52:14,926 - #8 )
+INFO  00:52:14,927 - #5 ;
+INFO  00:52:14,927 - #12 print
+INFO  00:52:14,927 - #7 (
+INFO  00:52:14,927 - #17 treci
+INFO  00:52:14,927 - #8 )
+INFO  00:52:14,927 - #5 ;
+INFO  00:52:14,928 - #14 return
+INFO  00:52:14,928 - #17 prvi
+INFO  00:52:14,928 - #32 +
+INFO  00:52:14,928 - #17 drugi
+INFO  00:52:14,928 - #32 +
+INFO  00:52:14,929 - #17 treci
+INFO  00:52:14,929 - #5 ;
+INFO  00:52:14,929 - #4 }
+INFO  00:52:14,929 - #16 void
+INFO  00:52:14,929 - #17 main
+INFO  00:52:14,929 - #7 (
+INFO  00:52:14,929 - #8 )
+INFO  00:52:14,929 - #17 int
+INFO  00:52:14,930 - #17 lok
+INFO  00:52:14,930 - #5 ;
+INFO  00:52:14,930 - #17 char
+INFO  00:52:14,930 - #17 charr
+INFO  00:52:14,930 - #10 [
+INFO  00:52:14,930 - #11 ]
+INFO  00:52:14,930 - #5 ;
+INFO  00:52:14,930 - #3 {
+INFO  00:52:14,930 - #17 x
+INFO  00:52:14,930 - #15 =
+INFO  00:52:14,930 - #20 4
+INFO  00:52:14,930 - #5 ;
+INFO  00:52:14,930 - #17 lok
+INFO  00:52:14,930 - #15 =
+INFO  00:52:14,931 - #20 5
+INFO  00:52:14,931 - #5 ;
+INFO  00:52:14,931 - #17 y
+INFO  00:52:14,931 - #15 =
+INFO  00:52:14,931 - #17 x
+INFO  00:52:14,931 - #5 ;
+INFO  00:52:14,931 - #17 y
+INFO  00:52:14,931 - #15 =
+INFO  00:52:14,931 - #17 lok
+INFO  00:52:14,931 - #5 ;
+INFO  00:52:14,931 - #12 print
+INFO  00:52:14,931 - #7 (
+INFO  00:52:14,931 - #17 y
+INFO  00:52:14,931 - #8 )
+INFO  00:52:14,931 - #5 ;
+INFO  00:52:14,931 - #17 arr
+INFO  00:52:14,931 - #15 =
+INFO  00:52:14,931 - #50 new
+INFO  00:52:14,932 - #17 int
+INFO  00:52:14,932 - #10 [
+INFO  00:52:14,932 - #20 5
+INFO  00:52:14,932 - #11 ]
+INFO  00:52:14,932 - #5 ;
+INFO  00:52:14,932 - #17 arr2
+INFO  00:52:14,932 - #15 =
+INFO  00:52:14,932 - #50 new
+INFO  00:52:14,932 - #17 int
+INFO  00:52:14,932 - #10 [
+INFO  00:52:14,932 - #20 1
+INFO  00:52:14,932 - #11 ]
+INFO  00:52:14,932 - #5 ;
+INFO  00:52:14,932 - #17 arr
+INFO  00:52:14,932 - #10 [
+INFO  00:52:14,932 - #20 0
+INFO  00:52:14,932 - #11 ]
+INFO  00:52:14,932 - #15 =
+INFO  00:52:14,933 - #20 7
+INFO  00:52:14,933 - #5 ;
+INFO  00:52:14,934 - #17 arr
+INFO  00:52:14,934 - #10 [
+INFO  00:52:14,934 - #20 1
+INFO  00:52:14,934 - #11 ]
+INFO  00:52:14,934 - #15 =
+INFO  00:52:14,934 - #20 0
+INFO  00:52:14,934 - #5 ;
+INFO  00:52:14,934 - #17 arr
+INFO  00:52:14,934 - #10 [
+INFO  00:52:14,934 - #20 2
+INFO  00:52:14,934 - #11 ]
+INFO  00:52:14,934 - #15 =
+INFO  00:52:14,934 - #17 arr2
+INFO  00:52:14,935 - #10 [
+INFO  00:52:14,935 - #20 0
+INFO  00:52:14,935 - #11 ]
+INFO  00:52:14,935 - #32 +
+INFO  00:52:14,935 - #20 2
+INFO  00:52:14,935 - #5 ;
+INFO  00:52:14,935 - #17 arr
+INFO  00:52:14,935 - #10 [
+INFO  00:52:14,935 - #20 2
+INFO  00:52:14,935 - #11 ]
+INFO  00:52:14,935 - #30 ++
+INFO  00:52:14,935 - #5 ;
+INFO  00:52:14,935 - #12 print
+INFO  00:52:14,935 - #7 (
+INFO  00:52:14,936 - #17 tri
+INFO  00:52:14,936 - #7 (
+INFO  00:52:14,936 - #20 1
+INFO  00:52:14,936 - #9 ,
+INFO  00:52:14,936 - #20 2
+INFO  00:52:14,936 - #9 ,
+INFO  00:52:14,936 - #20 3
+INFO  00:52:14,936 - #8 )
+INFO  00:52:14,936 - #8 )
+INFO  00:52:14,936 - #5 ;
+INFO  00:52:14,937 - #4 }
+INFO  00:52:14,937 - #4 }
+INFO  00:52:14,943 - Deklarisana promenljiva y na liniji 2
+INFO  00:52:14,943 - Deklarisana promenljiva z na liniji 2
+INFO  00:52:14,943 - Deklarisana promenljiva x na liniji 2
+INFO  00:52:14,943 - Deklarisana promenljiva b na liniji 3
+INFO  00:52:14,943 - Deklarisana promenljiva c na liniji 3
+INFO  00:52:14,943 - Deklarisana promenljiva a na liniji 3
+INFO  00:52:14,943 - Deklarisana int konstantna co na liniji 4
+INFO  00:52:14,943 - Deklarisana boolean konstantna bl na liniji 5
+INFO  00:52:14,943 - Deklarisana promenljiva fs na liniji 6
+INFO  00:52:14,943 - Deklarisana promenljiva tr na liniji 6
+INFO  00:52:14,943 - Deklarisana promenljiva arr2 na liniji 7
+INFO  00:52:14,943 - Deklarisana promenljiva arr na liniji 7
+INFO  00:52:14,943 - Obradjuje se funkcija jedan na liniji 9
+INFO  00:52:14,944 - Obradjuje se funkcija dva na liniji 13
+INFO  00:52:14,944 - Definisan fomralni parametar metode dva na liniji 13
+INFO  00:52:14,944 - Obradjuje se funkcija tri na liniji 18
+INFO  00:52:14,944 - Definisan fomralni parametar metode prvi na liniji 18
+INFO  00:52:14,944 - Definisan fomralni parametar metode drugi na liniji 18
+INFO  00:52:14,944 - Definisan fomralni parametar metode treci na liniji 18
+INFO  00:52:14,944 - Poziv print funkcije na liniji 20
+INFO  00:52:14,944 - Poziv print funkcije na liniji 21
+INFO  00:52:14,944 - Poziv print funkcije na liniji 22
+INFO  00:52:14,944 - Obradjuje se funkcija main na liniji 26
+INFO  00:52:14,944 - Deklarisana promenljiva lok na liniji 27
+INFO  00:52:14,944 - Deklarisana promenljiva charr na liniji 28
+INFO  00:52:14,944 - Poziv print funkcije na liniji 34
+INFO  00:52:14,945 - Pristup elementu niza na liniji 37
+INFO  00:52:14,945 - Pristup elementu niza na liniji 38
+INFO  00:52:14,945 - Pristup elementu niza na liniji 39
+INFO  00:52:14,945 - Pristup elementu niza na liniji 39
+INFO  00:52:14,945 - Pristup elementu niza na liniji 40
+INFO  00:52:14,945 - Poziv print funkcije na liniji 44
+INFO  00:52:14,945 - Print calls = 0
+INFO  00:52:14,945 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\program.obj
+INFO  00:52:14,948 - Parsiranje uspesno zavrseno!
