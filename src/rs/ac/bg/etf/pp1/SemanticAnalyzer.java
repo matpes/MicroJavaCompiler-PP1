@@ -16,7 +16,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	// MOZDA TREBA ODVOJITI METODU KOJA SE DEFINISE I POZIVA METODE
 	Obj currentMethod = null;
 	Stack<Obj> calledMethod = new Stack<>();
-	boolean returnFound = false;
+	boolean returnFound = true; //BILO JE FALSE, ALI POSTO IZBACUJEMO IZ SEMANTICKE PROVERE TREBA IGNORISATI
 	boolean errorDetected = false;
 	int flagConst = -1;
 	int nVars;
@@ -119,7 +119,7 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	}
 
 	public void visit(VaraibleNameError varaibleNameError) {
-		varName = null;
+		varName.add(null);
 	}
 
 	public void visit(BoxYes boxYes) {
@@ -133,6 +133,10 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 	public void visit(VarDeclAdd varDeclAdd) {
 
 		String variableName = varName.removeLast();
+		if(variableName == null) {
+			varDeclAdd.obj = Tab.noObj;
+			return;
+		}
 		Obj cc = Tab.currentScope.findSymbol(variableName);
 		if (cc != null) {
 			report_error("Deklarisana variabla " + variableName + " vec postoji. Greska na liniji "
@@ -330,7 +334,8 @@ public class SemanticAnalyzer extends VisitorAdaptor {
 			report_error("Metoda ne sme imati vise od 256 lokalnih promenljivih!", methodDeclaration);
 		}
 		Tab.closeScope();
-		returnFound = false;
+		methodDeclaration.obj = methodDeclaration.getMethodTypeName().obj;
+		//returnFound = false; DA BI OSTAO TRUE I IZAZVAO RUN TIME ERROR
 		currentMethod = null;
 	}
 

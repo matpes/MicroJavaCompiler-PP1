@@ -1,0 +1,131 @@
+INFO  21:12:02,829 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\prikaz_oporavka.txt
+INFO  21:12:02,880 - #2 program
+INFO  21:12:02,880 - #17 test301
+INFO  21:12:02,880 - #47 const
+INFO  21:12:02,881 - #17 int
+INFO  21:12:02,881 - #17 a
+INFO  21:12:02,882 - #15 =
+INFO  21:12:02,882 - #20 3
+INFO  21:12:02,882 - #5 ;
+INFO  21:12:02,883 - #17 char
+INFO  21:12:02,884 - #17 b
+INFO  21:12:02,884 - #9 ,
+INFO  21:12:02,886 - #33 -
+ERROR 21:12:02,886 - Sintaksna greska na liniji 5
+INFO  21:12:02,886 - #32 +
+INFO  21:12:02,886 - #9 ,
+INFO  21:12:02,886 - #17 c
+INFO  21:12:02,886 - #5 ;
+INFO  21:12:02,886 - #17 int
+ERROR 21:12:02,887 - Oporavak od greske pri definiciji globalne promenljive na liniji 5
+INFO  21:12:02,889 - #17 k
+INFO  21:12:02,890 - #5 ;
+INFO  21:12:02,890 - #17 int
+INFO  21:12:02,890 - #17 x
+INFO  21:12:02,890 - #32 +
+ERROR 21:12:02,890 - Sintaksna greska na liniji 7
+INFO  21:12:02,890 - #9 ,
+INFO  21:12:02,890 - #33 -
+INFO  21:12:02,890 - #17 i
+INFO  21:12:02,890 - #5 ;
+INFO  21:12:02,890 - #3 {
+INFO  21:12:02,890 - #16 void
+INFO  21:12:02,890 - #17 calc
+ERROR 21:12:02,890 - Oporavak od greske pri definiciji globalne promenljive na liniji 7
+INFO  21:12:02,891 - #7 (
+INFO  21:12:02,891 - #17 int
+INFO  21:12:02,891 - #33 -
+ERROR 21:12:02,891 - Sintaksna greska na liniji 9
+INFO  21:12:02,891 - #17 x
+INFO  21:12:02,891 - #9 ,
+INFO  21:12:02,891 - #17 int
+INFO  21:12:02,891 - #17 x
+INFO  21:12:02,891 - #9 ,
+ERROR 21:12:02,892 - Oporavak greske kod formalnih parametara. Greska na liniji: 9
+INFO  21:12:02,893 - #17 int
+INFO  21:12:02,893 - #17 y
+INFO  21:12:02,893 - #30 ++
+ERROR 21:12:02,893 - Sintaksna greska na liniji 9
+INFO  21:12:02,893 - #9 ,
+INFO  21:12:02,893 - #17 bool
+INFO  21:12:02,893 - #17 y
+INFO  21:12:02,893 - #8 )
+ERROR 21:12:02,893 - Oporavak greske kod formalnih parametara. Greska na liniji: 9
+INFO  21:12:02,894 - #3 {
+INFO  21:12:02,894 - #4 }
+INFO  21:12:02,895 - #16 void
+INFO  21:12:02,895 - #17 main
+INFO  21:12:02,895 - #7 (
+INFO  21:12:02,895 - #8 )
+INFO  21:12:02,896 - #17 int
+INFO  21:12:02,896 - #17 i
+INFO  21:12:02,896 - #5 ;
+INFO  21:12:02,896 - #17 bool
+INFO  21:12:02,897 - #17 p
+INFO  21:12:02,897 - #5 ;
+INFO  21:12:02,897 - #17 char
+INFO  21:12:02,897 - #17 ch
+INFO  21:12:02,897 - #9 ,
+INFO  21:12:02,897 - #17 ch2
+INFO  21:12:02,897 - #5 ;
+INFO  21:12:02,897 - #3 {
+INFO  21:12:02,897 - #17 i
+INFO  21:12:02,897 - #15 =
+INFO  21:12:02,897 - #20 5
+INFO  21:12:02,899 - #5 ;
+INFO  21:12:02,899 - #17 i
+INFO  21:12:02,899 - #32 +
+ERROR 21:12:02,899 - Sintaksna greska na liniji 14
+INFO  21:12:02,900 - #15 =
+INFO  21:12:02,900 - #17 i
+INFO  21:12:02,900 - #5 ;
+INFO  21:12:02,900 - #17 c
+INFO  21:12:02,900 - #15 =
+INFO  21:12:02,900 - #19 a
+ERROR 21:12:02,900 - Oporavak od greske kod iskaza dodele na liniji 1
+INFO  21:12:02,901 - #5 ;
+INFO  21:12:02,901 - #17 calc
+INFO  21:12:02,902 - #7 (
+INFO  21:12:02,902 - #20 1
+INFO  21:12:02,902 - #9 ,
+INFO  21:12:02,902 - #18 true
+INFO  21:12:02,902 - #8 )
+INFO  21:12:02,902 - #5 ;
+INFO  21:12:02,902 - #21 if
+INFO  21:12:02,903 - #7 (
+INFO  21:12:02,903 - #30 ++
+ERROR 21:12:02,903 - Sintaksna greska na liniji 18
+INFO  21:12:02,904 - #17 a
+INFO  21:12:02,904 - #32 +
+INFO  21:12:02,904 - #40 >
+INFO  21:12:02,904 - #20 3
+INFO  21:12:02,904 - #49 &&
+INFO  21:12:02,904 - #17 i
+INFO  21:12:02,904 - #42 <
+INFO  21:12:02,904 - #20 3
+INFO  21:12:02,904 - #8 )
+INFO  21:12:02,904 - #3 {
+INFO  21:12:02,904 - #17 i
+INFO  21:12:02,904 - #30 ++
+ERROR 21:12:02,904 - Greska pri parsiranju uslova if naredbe, oporavak od greske na liniji 18
+INFO  21:12:02,905 - #5 ;
+INFO  21:12:02,905 - #4 }
+INFO  21:12:02,905 - #22 else
+INFO  21:12:02,905 - #3 {
+INFO  21:12:02,906 - #17 i
+INFO  21:12:02,906 - #31 --
+INFO  21:12:02,906 - #5 ;
+INFO  21:12:02,906 - #4 }
+INFO  21:12:02,906 - #21 if
+INFO  21:12:02,906 - #7 (
+INFO  21:12:02,906 - #17 c
+INFO  21:12:02,906 - #38 ==
+INFO  21:12:02,907 - #19 a
+INFO  21:12:02,907 - #8 )
+INFO  21:12:02,908 - #17 i
+INFO  21:12:02,908 - #15 =
+INFO  21:12:02,908 - #20 10
+INFO  21:12:02,908 - #5 ;
+INFO  21:12:02,908 - #4 }
+INFO  21:12:02,908 - #4 }
+INFO  21:12:02,914 - Deklarisana int konstantna a na liniji 4

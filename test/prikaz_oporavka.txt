@@ -1,0 +1,28 @@
+// Test301
+
+program test301
+	const int a = 3;
+	char b, -+, c;
+	int k;
+	int x+, -i;
+{
+	void calc(int -x, int x, int y++, bool y){
+	}
+	void main()	int i; bool p; char ch, ch2;
+	{	
+		i = 5;
+		i += i;				
+		c = 'a';
+		calc(1,true);		//radi provere da li je dobro ucitao da ima 2 formpar
+		
+		if( ++a+>3 && i<3){
+			i++;
+		} else {
+			i--;
+		}
+		
+		if(c == 'a') i = 10; 		//samo da bi se prikazalo da radi
+	}
+}
+
+

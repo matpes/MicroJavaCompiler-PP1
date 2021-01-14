@@ -1,0 +1,31 @@
+// Test301
+
+program test301
+{
+
+	int get(){
+		
+	}
+	void main()	int i; bool p; char ch, ch2;
+	{	
+		//get();
+		i = 5;
+		ch = 'a';
+		read(ch);
+		read(p);
+		read(i);
+		read(ch2);
+		print(ch2, 3);
+		print(i, 1);
+		print(i);
+		print('a', 1);
+		print('a', 5);
+		print('a', 20);
+		print(false, 5);
+		print(eol);
+		print(p);
+		print(ch, 5);
+	}
+}
+
+

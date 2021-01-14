@@ -125,8 +125,13 @@ public class CodeGenerator extends VisitorAdaptor {
 	}
 
 	public void visit(MethodDeclaration methodDecl) {
-		Code.put(Code.exit);
-		Code.put(Code.return_);
+		if (methodDecl.obj.getType() == Tab.noType) {//VOID, OK da nema return
+			Code.put(Code.exit);
+			Code.put(Code.return_);
+		} else {//Run time error, jer fali return
+			Code.put(Code.trap);
+			Code.put(1);
+		}
 	}
 
 	// TERNARNI

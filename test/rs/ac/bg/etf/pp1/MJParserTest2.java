@@ -23,6 +23,10 @@ public class MJParserTest2 {
 		Log4JUtils.instance().prepareLogFile(Logger.getRootLogger());
 	}
 	
+	public void tsdump() {
+		
+	}
+	
 	public static void main(String[] args) throws Exception {
 		
 		Logger log = Logger.getLogger(MJParserTest2.class);
@@ -53,7 +57,6 @@ public class MJParserTest2 {
 			log.info(" Print count calls = " + v.printCallCount);
 
 			log.info(" Deklarisanih promenljivih ima = " + v.varDeclCount);
-			Tab.dump();
 			log.info("Uspesnost semantickog parsiranja: " + v.passed());
 		} 
 		finally {

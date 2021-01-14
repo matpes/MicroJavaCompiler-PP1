@@ -1,0 +1,149 @@
+INFO  21:20:36,248 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\prikaz_oporavka.txt
+INFO  21:20:36,300 - #2 program
+INFO  21:20:36,300 - #17 test301
+INFO  21:20:36,300 - #47 const
+INFO  21:20:36,302 - #17 int
+INFO  21:20:36,302 - #17 a
+INFO  21:20:36,302 - #15 =
+INFO  21:20:36,302 - #20 3
+INFO  21:20:36,303 - #5 ;
+INFO  21:20:36,303 - #17 char
+INFO  21:20:36,304 - #17 b
+INFO  21:20:36,304 - #9 ,
+INFO  21:20:36,305 - #33 -
+ERROR 21:20:36,305 - Sintaksna greska na liniji 5
+INFO  21:20:36,305 - #32 +
+INFO  21:20:36,305 - #9 ,
+INFO  21:20:36,306 - #17 c
+INFO  21:20:36,306 - #5 ;
+INFO  21:20:36,306 - #17 int
+ERROR 21:20:36,306 - Oporavak od greske pri definiciji globalne promenljive na liniji 5
+INFO  21:20:36,309 - #17 k
+INFO  21:20:36,309 - #5 ;
+INFO  21:20:36,309 - #17 int
+INFO  21:20:36,309 - #17 x
+INFO  21:20:36,309 - #32 +
+ERROR 21:20:36,309 - Sintaksna greska na liniji 7
+INFO  21:20:36,309 - #9 ,
+INFO  21:20:36,309 - #33 -
+INFO  21:20:36,309 - #17 i
+INFO  21:20:36,309 - #5 ;
+INFO  21:20:36,309 - #3 {
+INFO  21:20:36,309 - #16 void
+INFO  21:20:36,309 - #17 calc
+ERROR 21:20:36,310 - Oporavak od greske pri definiciji globalne promenljive na liniji 7
+INFO  21:20:36,310 - #7 (
+INFO  21:20:36,310 - #17 int
+INFO  21:20:36,310 - #33 -
+ERROR 21:20:36,310 - Sintaksna greska na liniji 9
+INFO  21:20:36,310 - #17 x
+INFO  21:20:36,310 - #9 ,
+INFO  21:20:36,310 - #17 int
+INFO  21:20:36,311 - #17 x
+INFO  21:20:36,311 - #9 ,
+ERROR 21:20:36,311 - Oporavak greske kod formalnih parametara. Greska na liniji: 9
+INFO  21:20:36,311 - #17 int
+INFO  21:20:36,311 - #17 y
+INFO  21:20:36,311 - #30 ++
+ERROR 21:20:36,311 - Sintaksna greska na liniji 9
+INFO  21:20:36,312 - #9 ,
+INFO  21:20:36,312 - #17 bool
+INFO  21:20:36,312 - #17 y
+INFO  21:20:36,312 - #8 )
+ERROR 21:20:36,312 - Oporavak greske kod formalnih parametara. Greska na liniji: 9
+INFO  21:20:36,312 - #3 {
+INFO  21:20:36,313 - #4 }
+INFO  21:20:36,314 - #16 void
+INFO  21:20:36,314 - #17 main
+INFO  21:20:36,314 - #7 (
+INFO  21:20:36,314 - #8 )
+INFO  21:20:36,315 - #17 int
+INFO  21:20:36,315 - #17 i
+INFO  21:20:36,315 - #5 ;
+INFO  21:20:36,315 - #17 bool
+INFO  21:20:36,315 - #17 p
+INFO  21:20:36,315 - #5 ;
+INFO  21:20:36,315 - #17 char
+INFO  21:20:36,315 - #17 ch
+INFO  21:20:36,315 - #9 ,
+INFO  21:20:36,315 - #17 ch2
+INFO  21:20:36,315 - #5 ;
+INFO  21:20:36,315 - #3 {
+INFO  21:20:36,315 - #17 i
+INFO  21:20:36,315 - #15 =
+INFO  21:20:36,315 - #20 5
+INFO  21:20:36,316 - #5 ;
+INFO  21:20:36,317 - #17 i
+INFO  21:20:36,317 - #32 +
+ERROR 21:20:36,317 - Sintaksna greska na liniji 14
+INFO  21:20:36,317 - #15 =
+INFO  21:20:36,317 - #17 i
+INFO  21:20:36,317 - #5 ;
+INFO  21:20:36,317 - #17 c
+INFO  21:20:36,317 - #15 =
+INFO  21:20:36,317 - #19 a
+ERROR 21:20:36,317 - Oporavak od greske kod iskaza dodele na liniji 1
+INFO  21:20:36,318 - #5 ;
+INFO  21:20:36,318 - #17 calc
+INFO  21:20:36,318 - #7 (
+INFO  21:20:36,318 - #20 1
+INFO  21:20:36,318 - #9 ,
+INFO  21:20:36,319 - #18 true
+INFO  21:20:36,319 - #8 )
+INFO  21:20:36,319 - #5 ;
+INFO  21:20:36,319 - #21 if
+INFO  21:20:36,319 - #7 (
+INFO  21:20:36,320 - #30 ++
+ERROR 21:20:36,320 - Sintaksna greska na liniji 18
+INFO  21:20:36,320 - #17 a
+INFO  21:20:36,320 - #32 +
+INFO  21:20:36,320 - #40 >
+INFO  21:20:36,320 - #20 3
+INFO  21:20:36,320 - #49 &&
+INFO  21:20:36,320 - #17 i
+INFO  21:20:36,320 - #42 <
+INFO  21:20:36,320 - #20 3
+INFO  21:20:36,320 - #8 )
+INFO  21:20:36,320 - #3 {
+INFO  21:20:36,320 - #17 i
+INFO  21:20:36,320 - #30 ++
+ERROR 21:20:36,320 - Greska pri parsiranju uslova if naredbe, oporavak od greske na liniji 18
+INFO  21:20:36,321 - #5 ;
+INFO  21:20:36,321 - #4 }
+INFO  21:20:36,321 - #22 else
+INFO  21:20:36,321 - #3 {
+INFO  21:20:36,321 - #17 i
+INFO  21:20:36,322 - #31 --
+INFO  21:20:36,322 - #5 ;
+INFO  21:20:36,322 - #4 }
+INFO  21:20:36,322 - #21 if
+INFO  21:20:36,322 - #7 (
+INFO  21:20:36,322 - #17 c
+INFO  21:20:36,322 - #38 ==
+INFO  21:20:36,322 - #19 a
+INFO  21:20:36,323 - #8 )
+INFO  21:20:36,323 - #17 i
+INFO  21:20:36,323 - #15 =
+INFO  21:20:36,323 - #20 10
+INFO  21:20:36,323 - #5 ;
+INFO  21:20:36,323 - #4 }
+INFO  21:20:36,323 - #4 }
+INFO  21:20:36,332 - Deklarisana int konstantna a na liniji 4
+INFO  21:20:36,332 - Deklarisana promenljiva c na liniji 5
+INFO  21:20:36,332 - Deklarisana promenljiva b na liniji 5
+INFO  21:20:36,332 - Deklarisana promenljiva k na liniji 6
+ERROR 21:20:36,332 - Greska pri deklarisanju promenljive  na liniji 7
+INFO  21:20:36,332 - Obradjuje se funkcija calc na liniji 9
+ERROR 21:20:36,332 - Greska pri deklarisanju formalnih parametara funkcije 
+INFO  21:20:36,332 - Definisan fomralni parametar metode x na liniji 9
+ERROR 21:20:36,332 - Greska pri deklarisanju formalnih parametara funkcije 
+INFO  21:20:36,333 - Definisan fomralni parametar metode y na liniji 9
+INFO  21:20:36,333 - Obradjuje se funkcija main na liniji 11
+INFO  21:20:36,333 - Deklarisana promenljiva i na liniji 11
+INFO  21:20:36,333 - Deklarisana promenljiva p na liniji 11
+INFO  21:20:36,333 - Deklarisana promenljiva ch2 na liniji 11
+INFO  21:20:36,333 - Deklarisana promenljiva ch na liniji 11
+INFO  21:20:36,333 - Pronadjen poziv funkcije calc na liniji 16
+INFO  21:20:36,333 - Pronadjen If statement na liniji 24
+INFO  21:20:36,334 - Print calls = 0
+ERROR 21:20:36,334 - Parsiranje NIJE uspesno zavrseno!
