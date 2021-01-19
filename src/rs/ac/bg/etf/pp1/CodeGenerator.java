@@ -320,11 +320,12 @@ public class CodeGenerator extends VisitorAdaptor {
 	public void visit(PrintStmtAndNumber printStmtAndNumber) {
 		if (printStmtAndNumber.getExpr().struct.equals(Tab.charType)
 				|| Tab.charType.equals(printStmtAndNumber.getExpr().struct.getElemType())) {
-			Code.loadConst(1);
+			Code.loadConst(printStmtAndNumber.getN2());
 			Code.put(Code.bprint);
 		} else if(printStmtAndNumber.getExpr().struct.equals(Tab.intType)
 				|| Tab.intType.equals(printStmtAndNumber.getExpr().struct.getElemType())){
-			Code.loadConst(5);
+			//Code.loadConst(5);
+			Code.loadConst(printStmtAndNumber.getN2());
 			Code.put(Code.print);
 		}else {
 			Code.loadConst(0);
@@ -362,9 +363,9 @@ public class CodeGenerator extends VisitorAdaptor {
 			Code.put(Code.bprint);
 			Code.fixup(add2);
 		}
-		Code.loadConst(printStmtAndNumber.getN2());
-		Code.loadConst(5);
-		Code.put(Code.print);
+		//Code.loadConst(printStmtAndNumber.getN2());
+		//Code.loadConst(5);
+		//Code.put(Code.print);
 	}
 
 	// READ

@@ -100,7 +100,7 @@ import java_cup.runtime.Symbol;
 
 "'"."'" { return new_symbol(sym.CHAR_CONST, new Character(yytext().charAt(1)));}
 
-. { System.err.println("Leksicka greska ("+yytext()+") u liniji "+(yyline+1)); }
+. { System.err.println("Leksicka greska ("+yytext()+") u liniji "+(yyline+1) + " u koloni " + (yycolumn+1)); }
 
 
 

@@ -1,343 +1,343 @@
-INFO  01:12:19,306 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\sort_test.txt
-INFO  01:12:19,357 - #2 program
-INFO  01:12:19,357 - #17 testSort
-INFO  01:12:19,357 - #17 char
-INFO  01:12:19,359 - #17 nizch
-INFO  01:12:19,360 - #10 [
-INFO  01:12:19,361 - #11 ]
-INFO  01:12:19,361 - #5 ;
-INFO  01:12:19,362 - #3 {
-INFO  01:12:19,362 - #16 void
-INFO  01:12:19,363 - #17 printArrayChar
-INFO  01:12:19,363 - #7 (
-INFO  01:12:19,363 - #17 char
-INFO  01:12:19,363 - #17 arrch
-INFO  01:12:19,363 - #10 [
-INFO  01:12:19,363 - #11 ]
-INFO  01:12:19,364 - #8 )
-INFO  01:12:19,364 - #17 int
-INFO  01:12:19,364 - #17 i
-INFO  01:12:19,364 - #5 ;
-INFO  01:12:19,365 - #3 {
-INFO  01:12:19,365 - #17 i
-INFO  01:12:19,367 - #15 =
-INFO  01:12:19,368 - #20 0
-INFO  01:12:19,369 - #5 ;
-INFO  01:12:19,370 - #21 if
-INFO  01:12:19,370 - #7 (
-INFO  01:12:19,372 - #17 len
-INFO  01:12:19,373 - #7 (
-INFO  01:12:19,373 - #17 arrch
-INFO  01:12:19,373 - #8 )
-INFO  01:12:19,373 - #38 ==
-INFO  01:12:19,373 - #20 0
-INFO  01:12:19,374 - #8 )
-INFO  01:12:19,374 - #14 return
-INFO  01:12:19,375 - #5 ;
-INFO  01:12:19,375 - #23 do
-INFO  01:12:19,375 - #3 {
-INFO  01:12:19,376 - #12 print
-INFO  01:12:19,376 - #7 (
-INFO  01:12:19,376 - #17 arrch
-INFO  01:12:19,376 - #10 [
-INFO  01:12:19,376 - #17 i
-INFO  01:12:19,376 - #11 ]
-INFO  01:12:19,376 - #9 ,
-INFO  01:12:19,377 - #20 2
-INFO  01:12:19,377 - #8 )
-INFO  01:12:19,377 - #5 ;
-INFO  01:12:19,377 - #17 i
-INFO  01:12:19,377 - #30 ++
-INFO  01:12:19,377 - #5 ;
-INFO  01:12:19,377 - #4 }
-INFO  01:12:19,378 - #24 while
-INFO  01:12:19,378 - #7 (
-INFO  01:12:19,379 - #17 i
-INFO  01:12:19,379 - #42 <
-INFO  01:12:19,379 - #17 len
-INFO  01:12:19,380 - #7 (
-INFO  01:12:19,380 - #17 arrch
-INFO  01:12:19,380 - #8 )
-INFO  01:12:19,380 - #8 )
-INFO  01:12:19,380 - #5 ;
-INFO  01:12:19,380 - #4 }
-INFO  01:12:19,380 - #16 void
-INFO  01:12:19,380 - #17 main
-INFO  01:12:19,380 - #7 (
-INFO  01:12:19,381 - #8 )
-INFO  01:12:19,381 - #17 int
-INFO  01:12:19,381 - #17 i
-INFO  01:12:19,381 - #9 ,
-INFO  01:12:19,381 - #17 n
-INFO  01:12:19,381 - #9 ,
-INFO  01:12:19,381 - #17 j
-INFO  01:12:19,381 - #9 ,
-INFO  01:12:19,382 - #17 min
-INFO  01:12:19,382 - #5 ;
-INFO  01:12:19,382 - #3 {
-INFO  01:12:19,382 - #17 i
-INFO  01:12:19,382 - #15 =
-INFO  01:12:19,382 - #20 0
-INFO  01:12:19,382 - #5 ;
-INFO  01:12:19,382 - #17 n
-INFO  01:12:19,382 - #15 =
-INFO  01:12:19,382 - #20 10
-INFO  01:12:19,382 - #5 ;
-INFO  01:12:19,382 - #17 nizch
-INFO  01:12:19,382 - #15 =
-INFO  01:12:19,382 - #50 new
-INFO  01:12:19,382 - #17 char
-INFO  01:12:19,382 - #10 [
-INFO  01:12:19,382 - #17 n
-INFO  01:12:19,383 - #11 ]
-INFO  01:12:19,383 - #5 ;
-INFO  01:12:19,383 - #23 do
-INFO  01:12:19,383 - #3 {
-INFO  01:12:19,383 - #21 if
-INFO  01:12:19,383 - #7 (
-INFO  01:12:19,383 - #17 i
-INFO  01:12:19,383 - #36 %
-INFO  01:12:19,383 - #20 2
-INFO  01:12:19,384 - #38 ==
-INFO  01:12:19,386 - #20 1
-INFO  01:12:19,386 - #8 )
-INFO  01:12:19,386 - #3 {
-INFO  01:12:19,386 - #17 nizch
-INFO  01:12:19,386 - #10 [
-INFO  01:12:19,387 - #17 i
-INFO  01:12:19,387 - #11 ]
-INFO  01:12:19,387 - #15 =
-INFO  01:12:19,387 - #17 chr
-INFO  01:12:19,387 - #7 (
-INFO  01:12:19,387 - #20 65
-INFO  01:12:19,387 - #32 +
-INFO  01:12:19,388 - #17 i
-INFO  01:12:19,389 - #33 -
-INFO  01:12:19,389 - #20 1
-INFO  01:12:19,389 - #8 )
-INFO  01:12:19,389 - #5 ;
-INFO  01:12:19,390 - #4 }
-INFO  01:12:19,390 - #22 else
-INFO  01:12:19,390 - #3 {
-INFO  01:12:19,390 - #17 nizch
-INFO  01:12:19,390 - #10 [
-INFO  01:12:19,390 - #17 i
-INFO  01:12:19,390 - #11 ]
-INFO  01:12:19,390 - #15 =
-INFO  01:12:19,391 - #17 chr
-INFO  01:12:19,391 - #7 (
-INFO  01:12:19,391 - #20 65
-INFO  01:12:19,391 - #32 +
-INFO  01:12:19,391 - #17 i
-INFO  01:12:19,391 - #32 +
-INFO  01:12:19,391 - #20 2
-INFO  01:12:19,391 - #8 )
-INFO  01:12:19,391 - #5 ;
-INFO  01:12:19,391 - #4 }
-INFO  01:12:19,391 - #17 i
-INFO  01:12:19,391 - #30 ++
-INFO  01:12:19,392 - #5 ;
-INFO  01:12:19,392 - #4 }
-INFO  01:12:19,392 - #24 while
-INFO  01:12:19,392 - #7 (
-INFO  01:12:19,392 - #17 i
-INFO  01:12:19,392 - #42 <
-INFO  01:12:19,392 - #17 n
-INFO  01:12:19,392 - #8 )
-INFO  01:12:19,392 - #5 ;
-INFO  01:12:19,392 - #17 printArrayChar
-INFO  01:12:19,392 - #7 (
-INFO  01:12:19,392 - #17 nizch
-INFO  01:12:19,392 - #8 )
-INFO  01:12:19,393 - #5 ;
-INFO  01:12:19,393 - #17 i
-INFO  01:12:19,393 - #15 =
-INFO  01:12:19,393 - #20 0
-INFO  01:12:19,393 - #5 ;
-INFO  01:12:19,393 - #23 do
-INFO  01:12:19,393 - #3 {
-INFO  01:12:19,393 - #17 j
-INFO  01:12:19,393 - #15 =
-INFO  01:12:19,393 - #17 i
-INFO  01:12:19,393 - #5 ;
-INFO  01:12:19,393 - #17 min
-INFO  01:12:19,393 - #15 =
-INFO  01:12:19,393 - #33 -
-INFO  01:12:19,393 - #20 1
-INFO  01:12:19,394 - #5 ;
-INFO  01:12:19,394 - #23 do
-INFO  01:12:19,394 - #3 {
-INFO  01:12:19,394 - #21 if
-INFO  01:12:19,394 - #7 (
-INFO  01:12:19,394 - #17 min
-INFO  01:12:19,394 - #38 ==
-INFO  01:12:19,394 - #33 -
-INFO  01:12:19,394 - #20 1
-INFO  01:12:19,394 - #8 )
-INFO  01:12:19,394 - #3 {
-INFO  01:12:19,394 - #17 min
-INFO  01:12:19,394 - #15 =
-INFO  01:12:19,394 - #17 ord
-INFO  01:12:19,394 - #7 (
-INFO  01:12:19,394 - #17 nizch
-INFO  01:12:19,394 - #10 [
-INFO  01:12:19,394 - #17 j
-INFO  01:12:19,394 - #11 ]
-INFO  01:12:19,394 - #8 )
-INFO  01:12:19,394 - #5 ;
-INFO  01:12:19,394 - #17 nizch
-INFO  01:12:19,394 - #10 [
-INFO  01:12:19,394 - #17 j
-INFO  01:12:19,395 - #11 ]
-INFO  01:12:19,395 - #15 =
-INFO  01:12:19,395 - #17 nizch
-INFO  01:12:19,395 - #10 [
-INFO  01:12:19,395 - #17 i
-INFO  01:12:19,395 - #11 ]
-INFO  01:12:19,395 - #5 ;
-INFO  01:12:19,395 - #17 nizch
-INFO  01:12:19,395 - #10 [
-INFO  01:12:19,395 - #17 i
-INFO  01:12:19,395 - #11 ]
-INFO  01:12:19,395 - #15 =
-INFO  01:12:19,395 - #17 chr
-INFO  01:12:19,395 - #7 (
-INFO  01:12:19,395 - #17 min
-INFO  01:12:19,395 - #8 )
-INFO  01:12:19,395 - #5 ;
-INFO  01:12:19,395 - #4 }
-INFO  01:12:19,395 - #22 else
-INFO  01:12:19,395 - #21 if
-INFO  01:12:19,395 - #7 (
-INFO  01:12:19,396 - #17 ord
-INFO  01:12:19,396 - #7 (
-INFO  01:12:19,396 - #17 nizch
-INFO  01:12:19,396 - #10 [
-INFO  01:12:19,396 - #17 j
-INFO  01:12:19,396 - #11 ]
-INFO  01:12:19,396 - #8 )
-INFO  01:12:19,396 - #42 <
-INFO  01:12:19,396 - #17 min
-INFO  01:12:19,396 - #8 )
-INFO  01:12:19,396 - #3 {
-INFO  01:12:19,396 - #17 min
-INFO  01:12:19,396 - #15 =
-INFO  01:12:19,396 - #17 ord
-INFO  01:12:19,396 - #7 (
-INFO  01:12:19,396 - #17 nizch
-INFO  01:12:19,396 - #10 [
-INFO  01:12:19,396 - #17 j
-INFO  01:12:19,396 - #11 ]
-INFO  01:12:19,396 - #8 )
-INFO  01:12:19,396 - #5 ;
-INFO  01:12:19,396 - #17 nizch
-INFO  01:12:19,396 - #10 [
-INFO  01:12:19,396 - #17 j
-INFO  01:12:19,396 - #11 ]
-INFO  01:12:19,396 - #15 =
-INFO  01:12:19,396 - #17 nizch
-INFO  01:12:19,396 - #10 [
-INFO  01:12:19,396 - #17 i
-INFO  01:12:19,396 - #11 ]
-INFO  01:12:19,396 - #5 ;
-INFO  01:12:19,397 - #17 nizch
-INFO  01:12:19,397 - #10 [
-INFO  01:12:19,397 - #17 i
-INFO  01:12:19,397 - #11 ]
-INFO  01:12:19,397 - #15 =
-INFO  01:12:19,397 - #17 chr
-INFO  01:12:19,397 - #7 (
-INFO  01:12:19,397 - #17 min
-INFO  01:12:19,397 - #8 )
-INFO  01:12:19,397 - #5 ;
-INFO  01:12:19,397 - #4 }
-INFO  01:12:19,399 - #17 j
-INFO  01:12:19,399 - #30 ++
-INFO  01:12:19,399 - #5 ;
-INFO  01:12:19,399 - #4 }
-INFO  01:12:19,399 - #24 while
-INFO  01:12:19,399 - #7 (
-INFO  01:12:19,399 - #17 j
-INFO  01:12:19,399 - #42 <
-INFO  01:12:19,399 - #17 n
-INFO  01:12:19,399 - #8 )
-INFO  01:12:19,399 - #5 ;
-INFO  01:12:19,399 - #17 i
-INFO  01:12:19,399 - #30 ++
-INFO  01:12:19,400 - #5 ;
-INFO  01:12:19,400 - #4 }
-INFO  01:12:19,400 - #24 while
-INFO  01:12:19,400 - #7 (
-INFO  01:12:19,400 - #17 i
-INFO  01:12:19,400 - #42 <
-INFO  01:12:19,400 - #17 n
-INFO  01:12:19,400 - #8 )
-INFO  01:12:19,400 - #5 ;
-INFO  01:12:19,400 - #12 print
-INFO  01:12:19,400 - #7 (
-INFO  01:12:19,400 - #17 eol
-INFO  01:12:19,400 - #8 )
-INFO  01:12:19,400 - #5 ;
-INFO  01:12:19,400 - #17 printArrayChar
-INFO  01:12:19,400 - #7 (
-INFO  01:12:19,401 - #17 nizch
-INFO  01:12:19,401 - #8 )
-INFO  01:12:19,401 - #5 ;
-INFO  01:12:19,401 - #17 nizch
-INFO  01:12:19,401 - #15 =
-INFO  01:12:19,401 - #50 new
-INFO  01:12:19,401 - #17 char
-INFO  01:12:19,401 - #10 [
-INFO  01:12:19,401 - #20 0
-INFO  01:12:19,401 - #11 ]
-INFO  01:12:19,401 - #5 ;
-INFO  01:12:19,402 - #17 printArrayChar
-INFO  01:12:19,402 - #7 (
-INFO  01:12:19,402 - #17 nizch
-INFO  01:12:19,402 - #8 )
-INFO  01:12:19,402 - #5 ;
-INFO  01:12:19,402 - #12 print
-INFO  01:12:19,402 - #7 (
-INFO  01:12:19,402 - #17 eol
-INFO  01:12:19,402 - #8 )
-INFO  01:12:19,402 - #5 ;
-INFO  01:12:19,402 - #17 nizch
-INFO  01:12:19,402 - #15 =
-INFO  01:12:19,402 - #50 new
-INFO  01:12:19,402 - #17 char
-INFO  01:12:19,402 - #10 [
-INFO  01:12:19,402 - #20 3
-INFO  01:12:19,402 - #11 ]
-INFO  01:12:19,402 - #5 ;
-INFO  01:12:19,402 - #17 nizch
-INFO  01:12:19,402 - #10 [
-INFO  01:12:19,402 - #20 0
-INFO  01:12:19,402 - #11 ]
-INFO  01:12:19,402 - #15 =
-INFO  01:12:19,402 - #19 a
-INFO  01:12:19,403 - #5 ;
-INFO  01:12:19,403 - #17 nizch
-INFO  01:12:19,403 - #10 [
-INFO  01:12:19,403 - #20 1
-INFO  01:12:19,403 - #11 ]
-INFO  01:12:19,403 - #15 =
-INFO  01:12:19,403 - #19 b
-INFO  01:12:19,403 - #5 ;
-INFO  01:12:19,403 - #17 nizch
-INFO  01:12:19,403 - #10 [
-INFO  01:12:19,403 - #20 2
-INFO  01:12:19,403 - #11 ]
-INFO  01:12:19,403 - #15 =
-INFO  01:12:19,404 - #19 c
-INFO  01:12:19,404 - #5 ;
-INFO  01:12:19,404 - #17 printArrayChar
-INFO  01:12:19,404 - #7 (
-INFO  01:12:19,404 - #17 nizch
-INFO  01:12:19,404 - #8 )
-INFO  01:12:19,404 - #5 ;
-INFO  01:12:19,404 - #4 }
-INFO  01:12:19,405 - #4 }
-INFO  01:12:19,421 - Program(
+INFO  01:11:04,598 - Compiling source file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\sort_test.txt
+INFO  01:11:04,652 - #2 program
+INFO  01:11:04,653 - #17 testSort
+INFO  01:11:04,653 - #17 char
+INFO  01:11:04,654 - #17 nizch
+INFO  01:11:04,655 - #10 [
+INFO  01:11:04,655 - #11 ]
+INFO  01:11:04,655 - #5 ;
+INFO  01:11:04,657 - #3 {
+INFO  01:11:04,657 - #16 void
+INFO  01:11:04,657 - #17 printArrayChar
+INFO  01:11:04,657 - #7 (
+INFO  01:11:04,658 - #17 char
+INFO  01:11:04,658 - #17 arrch
+INFO  01:11:04,658 - #10 [
+INFO  01:11:04,658 - #11 ]
+INFO  01:11:04,658 - #8 )
+INFO  01:11:04,658 - #17 int
+INFO  01:11:04,659 - #17 i
+INFO  01:11:04,659 - #5 ;
+INFO  01:11:04,659 - #3 {
+INFO  01:11:04,660 - #17 i
+INFO  01:11:04,662 - #15 =
+INFO  01:11:04,662 - #20 0
+INFO  01:11:04,663 - #5 ;
+INFO  01:11:04,664 - #21 if
+INFO  01:11:04,664 - #7 (
+INFO  01:11:04,666 - #17 len
+INFO  01:11:04,666 - #7 (
+INFO  01:11:04,666 - #17 arrch
+INFO  01:11:04,666 - #8 )
+INFO  01:11:04,666 - #38 ==
+INFO  01:11:04,667 - #20 0
+INFO  01:11:04,667 - #8 )
+INFO  01:11:04,668 - #14 return
+INFO  01:11:04,668 - #5 ;
+INFO  01:11:04,668 - #23 do
+INFO  01:11:04,669 - #3 {
+INFO  01:11:04,669 - #12 print
+INFO  01:11:04,670 - #7 (
+INFO  01:11:04,670 - #17 arrch
+INFO  01:11:04,670 - #10 [
+INFO  01:11:04,670 - #17 i
+INFO  01:11:04,670 - #11 ]
+INFO  01:11:04,671 - #9 ,
+INFO  01:11:04,671 - #20 2
+INFO  01:11:04,671 - #8 )
+INFO  01:11:04,671 - #5 ;
+INFO  01:11:04,671 - #17 i
+INFO  01:11:04,671 - #30 ++
+INFO  01:11:04,671 - #5 ;
+INFO  01:11:04,673 - #4 }
+INFO  01:11:04,673 - #24 while
+INFO  01:11:04,673 - #7 (
+INFO  01:11:04,673 - #17 i
+INFO  01:11:04,673 - #42 <
+INFO  01:11:04,673 - #17 len
+INFO  01:11:04,674 - #7 (
+INFO  01:11:04,674 - #17 arrch
+INFO  01:11:04,674 - #8 )
+INFO  01:11:04,674 - #8 )
+INFO  01:11:04,675 - #5 ;
+INFO  01:11:04,675 - #4 }
+INFO  01:11:04,675 - #16 void
+INFO  01:11:04,675 - #17 main
+INFO  01:11:04,675 - #7 (
+INFO  01:11:04,675 - #8 )
+INFO  01:11:04,676 - #17 int
+INFO  01:11:04,676 - #17 i
+INFO  01:11:04,676 - #9 ,
+INFO  01:11:04,676 - #17 n
+INFO  01:11:04,676 - #9 ,
+INFO  01:11:04,676 - #17 j
+INFO  01:11:04,676 - #9 ,
+INFO  01:11:04,676 - #17 min
+INFO  01:11:04,676 - #5 ;
+INFO  01:11:04,676 - #3 {
+INFO  01:11:04,677 - #17 i
+INFO  01:11:04,677 - #15 =
+INFO  01:11:04,677 - #20 0
+INFO  01:11:04,677 - #5 ;
+INFO  01:11:04,677 - #17 n
+INFO  01:11:04,677 - #15 =
+INFO  01:11:04,678 - #20 10
+INFO  01:11:04,678 - #5 ;
+INFO  01:11:04,678 - #17 nizch
+INFO  01:11:04,678 - #15 =
+INFO  01:11:04,678 - #50 new
+INFO  01:11:04,678 - #17 char
+INFO  01:11:04,678 - #10 [
+INFO  01:11:04,679 - #17 n
+INFO  01:11:04,679 - #11 ]
+INFO  01:11:04,679 - #5 ;
+INFO  01:11:04,679 - #23 do
+INFO  01:11:04,679 - #3 {
+INFO  01:11:04,679 - #21 if
+INFO  01:11:04,679 - #7 (
+INFO  01:11:04,679 - #17 i
+INFO  01:11:04,679 - #36 %
+INFO  01:11:04,679 - #20 2
+INFO  01:11:04,680 - #38 ==
+INFO  01:11:04,682 - #20 1
+INFO  01:11:04,683 - #8 )
+INFO  01:11:04,683 - #3 {
+INFO  01:11:04,683 - #17 nizch
+INFO  01:11:04,683 - #10 [
+INFO  01:11:04,683 - #17 i
+INFO  01:11:04,683 - #11 ]
+INFO  01:11:04,683 - #15 =
+INFO  01:11:04,683 - #17 chr
+INFO  01:11:04,683 - #7 (
+INFO  01:11:04,683 - #20 65
+INFO  01:11:04,683 - #32 +
+INFO  01:11:04,683 - #17 i
+INFO  01:11:04,684 - #33 -
+INFO  01:11:04,684 - #20 1
+INFO  01:11:04,685 - #8 )
+INFO  01:11:04,685 - #5 ;
+INFO  01:11:04,685 - #4 }
+INFO  01:11:04,685 - #22 else
+INFO  01:11:04,685 - #3 {
+INFO  01:11:04,686 - #17 nizch
+INFO  01:11:04,686 - #10 [
+INFO  01:11:04,686 - #17 i
+INFO  01:11:04,686 - #11 ]
+INFO  01:11:04,686 - #15 =
+INFO  01:11:04,686 - #17 chr
+INFO  01:11:04,686 - #7 (
+INFO  01:11:04,687 - #20 65
+INFO  01:11:04,687 - #32 +
+INFO  01:11:04,688 - #17 i
+INFO  01:11:04,688 - #32 +
+INFO  01:11:04,688 - #20 2
+INFO  01:11:04,688 - #8 )
+INFO  01:11:04,688 - #5 ;
+INFO  01:11:04,688 - #4 }
+INFO  01:11:04,688 - #17 i
+INFO  01:11:04,688 - #30 ++
+INFO  01:11:04,688 - #5 ;
+INFO  01:11:04,688 - #4 }
+INFO  01:11:04,688 - #24 while
+INFO  01:11:04,688 - #7 (
+INFO  01:11:04,689 - #17 i
+INFO  01:11:04,689 - #42 <
+INFO  01:11:04,689 - #17 n
+INFO  01:11:04,689 - #8 )
+INFO  01:11:04,689 - #5 ;
+INFO  01:11:04,689 - #17 printArrayChar
+INFO  01:11:04,689 - #7 (
+INFO  01:11:04,689 - #17 nizch
+INFO  01:11:04,689 - #8 )
+INFO  01:11:04,689 - #5 ;
+INFO  01:11:04,689 - #17 i
+INFO  01:11:04,689 - #15 =
+INFO  01:11:04,689 - #20 0
+INFO  01:11:04,689 - #5 ;
+INFO  01:11:04,689 - #23 do
+INFO  01:11:04,689 - #3 {
+INFO  01:11:04,689 - #17 j
+INFO  01:11:04,690 - #15 =
+INFO  01:11:04,690 - #17 i
+INFO  01:11:04,690 - #5 ;
+INFO  01:11:04,690 - #17 min
+INFO  01:11:04,690 - #15 =
+INFO  01:11:04,690 - #33 -
+INFO  01:11:04,690 - #20 1
+INFO  01:11:04,690 - #5 ;
+INFO  01:11:04,690 - #23 do
+INFO  01:11:04,690 - #3 {
+INFO  01:11:04,690 - #21 if
+INFO  01:11:04,690 - #7 (
+INFO  01:11:04,690 - #17 min
+INFO  01:11:04,690 - #38 ==
+INFO  01:11:04,690 - #33 -
+INFO  01:11:04,690 - #20 1
+INFO  01:11:04,690 - #8 )
+INFO  01:11:04,690 - #3 {
+INFO  01:11:04,690 - #17 min
+INFO  01:11:04,690 - #15 =
+INFO  01:11:04,690 - #17 ord
+INFO  01:11:04,690 - #7 (
+INFO  01:11:04,690 - #17 nizch
+INFO  01:11:04,690 - #10 [
+INFO  01:11:04,690 - #17 j
+INFO  01:11:04,690 - #11 ]
+INFO  01:11:04,691 - #8 )
+INFO  01:11:04,691 - #5 ;
+INFO  01:11:04,691 - #17 nizch
+INFO  01:11:04,691 - #10 [
+INFO  01:11:04,691 - #17 j
+INFO  01:11:04,691 - #11 ]
+INFO  01:11:04,691 - #15 =
+INFO  01:11:04,691 - #17 nizch
+INFO  01:11:04,691 - #10 [
+INFO  01:11:04,691 - #17 i
+INFO  01:11:04,691 - #11 ]
+INFO  01:11:04,691 - #5 ;
+INFO  01:11:04,691 - #17 nizch
+INFO  01:11:04,691 - #10 [
+INFO  01:11:04,691 - #17 i
+INFO  01:11:04,691 - #11 ]
+INFO  01:11:04,691 - #15 =
+INFO  01:11:04,691 - #17 chr
+INFO  01:11:04,692 - #7 (
+INFO  01:11:04,692 - #17 min
+INFO  01:11:04,692 - #8 )
+INFO  01:11:04,692 - #5 ;
+INFO  01:11:04,692 - #4 }
+INFO  01:11:04,692 - #22 else
+INFO  01:11:04,692 - #21 if
+INFO  01:11:04,692 - #7 (
+INFO  01:11:04,692 - #17 ord
+INFO  01:11:04,692 - #7 (
+INFO  01:11:04,692 - #17 nizch
+INFO  01:11:04,692 - #10 [
+INFO  01:11:04,692 - #17 j
+INFO  01:11:04,692 - #11 ]
+INFO  01:11:04,692 - #8 )
+INFO  01:11:04,692 - #42 <
+INFO  01:11:04,692 - #17 min
+INFO  01:11:04,692 - #8 )
+INFO  01:11:04,692 - #3 {
+INFO  01:11:04,692 - #17 min
+INFO  01:11:04,692 - #15 =
+INFO  01:11:04,692 - #17 ord
+INFO  01:11:04,692 - #7 (
+INFO  01:11:04,692 - #17 nizch
+INFO  01:11:04,692 - #10 [
+INFO  01:11:04,692 - #17 j
+INFO  01:11:04,693 - #11 ]
+INFO  01:11:04,693 - #8 )
+INFO  01:11:04,693 - #5 ;
+INFO  01:11:04,693 - #17 nizch
+INFO  01:11:04,693 - #10 [
+INFO  01:11:04,693 - #17 j
+INFO  01:11:04,693 - #11 ]
+INFO  01:11:04,693 - #15 =
+INFO  01:11:04,693 - #17 nizch
+INFO  01:11:04,693 - #10 [
+INFO  01:11:04,693 - #17 i
+INFO  01:11:04,693 - #11 ]
+INFO  01:11:04,693 - #5 ;
+INFO  01:11:04,693 - #17 nizch
+INFO  01:11:04,693 - #10 [
+INFO  01:11:04,693 - #17 i
+INFO  01:11:04,694 - #11 ]
+INFO  01:11:04,694 - #15 =
+INFO  01:11:04,694 - #17 chr
+INFO  01:11:04,694 - #7 (
+INFO  01:11:04,695 - #17 min
+INFO  01:11:04,695 - #8 )
+INFO  01:11:04,695 - #5 ;
+INFO  01:11:04,695 - #4 }
+INFO  01:11:04,695 - #17 j
+INFO  01:11:04,695 - #30 ++
+INFO  01:11:04,695 - #5 ;
+INFO  01:11:04,695 - #4 }
+INFO  01:11:04,695 - #24 while
+INFO  01:11:04,695 - #7 (
+INFO  01:11:04,695 - #17 j
+INFO  01:11:04,695 - #42 <
+INFO  01:11:04,695 - #17 n
+INFO  01:11:04,695 - #8 )
+INFO  01:11:04,695 - #5 ;
+INFO  01:11:04,696 - #17 i
+INFO  01:11:04,696 - #30 ++
+INFO  01:11:04,696 - #5 ;
+INFO  01:11:04,696 - #4 }
+INFO  01:11:04,696 - #24 while
+INFO  01:11:04,696 - #7 (
+INFO  01:11:04,696 - #17 i
+INFO  01:11:04,696 - #42 <
+INFO  01:11:04,696 - #17 n
+INFO  01:11:04,696 - #8 )
+INFO  01:11:04,696 - #5 ;
+INFO  01:11:04,696 - #12 print
+INFO  01:11:04,696 - #7 (
+INFO  01:11:04,696 - #17 eol
+INFO  01:11:04,696 - #8 )
+INFO  01:11:04,696 - #5 ;
+INFO  01:11:04,696 - #17 printArrayChar
+INFO  01:11:04,696 - #7 (
+INFO  01:11:04,697 - #17 nizch
+INFO  01:11:04,697 - #8 )
+INFO  01:11:04,697 - #5 ;
+INFO  01:11:04,697 - #17 nizch
+INFO  01:11:04,697 - #15 =
+INFO  01:11:04,697 - #50 new
+INFO  01:11:04,697 - #17 char
+INFO  01:11:04,697 - #10 [
+INFO  01:11:04,697 - #20 0
+INFO  01:11:04,697 - #11 ]
+INFO  01:11:04,697 - #5 ;
+INFO  01:11:04,697 - #17 printArrayChar
+INFO  01:11:04,697 - #7 (
+INFO  01:11:04,697 - #17 nizch
+INFO  01:11:04,697 - #8 )
+INFO  01:11:04,697 - #5 ;
+INFO  01:11:04,698 - #12 print
+INFO  01:11:04,698 - #7 (
+INFO  01:11:04,698 - #17 eol
+INFO  01:11:04,698 - #8 )
+INFO  01:11:04,698 - #5 ;
+INFO  01:11:04,698 - #17 nizch
+INFO  01:11:04,698 - #15 =
+INFO  01:11:04,698 - #50 new
+INFO  01:11:04,698 - #17 char
+INFO  01:11:04,698 - #10 [
+INFO  01:11:04,698 - #20 3
+INFO  01:11:04,698 - #11 ]
+INFO  01:11:04,698 - #5 ;
+INFO  01:11:04,698 - #17 nizch
+INFO  01:11:04,698 - #10 [
+INFO  01:11:04,698 - #20 0
+INFO  01:11:04,698 - #11 ]
+INFO  01:11:04,698 - #15 =
+INFO  01:11:04,699 - #19 a
+INFO  01:11:04,699 - #5 ;
+INFO  01:11:04,699 - #17 nizch
+INFO  01:11:04,699 - #10 [
+INFO  01:11:04,699 - #20 1
+INFO  01:11:04,699 - #11 ]
+INFO  01:11:04,699 - #15 =
+INFO  01:11:04,699 - #19 b
+INFO  01:11:04,699 - #5 ;
+INFO  01:11:04,699 - #17 nizch
+INFO  01:11:04,699 - #10 [
+INFO  01:11:04,699 - #20 2
+INFO  01:11:04,699 - #11 ]
+INFO  01:11:04,699 - #15 =
+INFO  01:11:04,699 - #19 c
+INFO  01:11:04,700 - #5 ;
+INFO  01:11:04,700 - #17 printArrayChar
+INFO  01:11:04,700 - #7 (
+INFO  01:11:04,700 - #17 nizch
+INFO  01:11:04,700 - #8 )
+INFO  01:11:04,700 - #5 ;
+INFO  01:11:04,700 - #4 }
+INFO  01:11:04,700 - #4 }
+INFO  01:11:04,716 - Program(
   ProgName(
    testSort
   ) [ProgName]
@@ -1853,45 +1853,45 @@ INFO  01:12:19,421 - Program(
     ) [MethodDeclaration]
   ) [MethodDeclarations]
 ) [Program]
-INFO  01:12:19,431 - ===================================
-INFO  01:12:19,444 - Deklarisana promenljiva nizch na liniji 2
-INFO  01:12:19,444 - Obradjuje se funkcija printArrayChar na liniji 4
-INFO  01:12:19,444 - Definisan fomralni parametar metode arrch na liniji 4
-INFO  01:12:19,444 - Deklarisana promenljiva i na liniji 4
-INFO  01:12:19,445 - Pronadjen If statement na liniji 6
-INFO  01:12:19,445 - Pristup elementu niza na liniji 8
-INFO  01:12:19,445 - Poziv print funkcije na liniji 8
-INFO  01:12:19,445 - Pronadjen Do While statement na liniji 7
-INFO  01:12:19,445 - Obradjuje se funkcija main na liniji 13
-INFO  01:12:19,445 - Deklarisana promenljiva n na liniji 13
-INFO  01:12:19,445 - Deklarisana promenljiva j na liniji 13
-INFO  01:12:19,445 - Deklarisana promenljiva min na liniji 13
-INFO  01:12:19,445 - Deklarisana promenljiva i na liniji 13
-INFO  01:12:19,445 - Pronadjen If statement na liniji 19
-INFO  01:12:19,445 - Pristup elementu niza na liniji 20
-INFO  01:12:19,445 - Pristup elementu niza na liniji 22
-INFO  01:12:19,445 - Pronadjen Do While statement na liniji 18
-INFO  01:12:19,446 - Pronadjen poziv funkcije printArrayChar na liniji 27
-INFO  01:12:19,446 - Pronadjen If statement na liniji 34
-INFO  01:12:19,446 - Pristup elementu niza na liniji 35
-INFO  01:12:19,446 - Pristup elementu niza na liniji 36
-INFO  01:12:19,446 - Pristup elementu niza na liniji 36
-INFO  01:12:19,446 - Pristup elementu niza na liniji 37
-INFO  01:12:19,446 - Pristup elementu niza na liniji 38
-INFO  01:12:19,446 - Pronadjen If statement na liniji 38
-INFO  01:12:19,446 - Pristup elementu niza na liniji 39
-INFO  01:12:19,446 - Pristup elementu niza na liniji 40
-INFO  01:12:19,446 - Pristup elementu niza na liniji 40
-INFO  01:12:19,446 - Pristup elementu niza na liniji 41
-INFO  01:12:19,446 - Pronadjen Do While statement na liniji 33
-INFO  01:12:19,446 - Pronadjen Do While statement na liniji 30
-INFO  01:12:19,446 - Poziv print funkcije na liniji 48
-INFO  01:12:19,446 - Pronadjen poziv funkcije printArrayChar na liniji 49
-INFO  01:12:19,447 - Pronadjen poziv funkcije printArrayChar na liniji 52
-INFO  01:12:19,447 - Poziv print funkcije na liniji 53
-INFO  01:12:19,447 - Pristup elementu niza na liniji 56
-INFO  01:12:19,447 - Pristup elementu niza na liniji 57
-INFO  01:12:19,447 - Pristup elementu niza na liniji 58
-INFO  01:12:19,447 - Pronadjen poziv funkcije printArrayChar na liniji 59
-INFO  01:12:19,448 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\sort_test.obj
-INFO  01:12:19,457 - Parsiranje uspesno zavrseno!
+INFO  01:11:04,719 - ===================================
+INFO  01:11:04,724 - Deklarisana promenljiva nizch na liniji 2
+INFO  01:11:04,725 - Obradjuje se funkcija printArrayChar na liniji 4
+INFO  01:11:04,725 - Definisan fomralni parametar metode arrch na liniji 4
+INFO  01:11:04,725 - Deklarisana promenljiva i na liniji 4
+INFO  01:11:04,725 - Pronadjen If statement na liniji 6
+INFO  01:11:04,725 - Pristup elementu niza na liniji 8
+INFO  01:11:04,725 - Poziv print funkcije na liniji 8
+INFO  01:11:04,725 - Pronadjen Do While statement na liniji 7
+INFO  01:11:04,725 - Obradjuje se funkcija main na liniji 13
+INFO  01:11:04,725 - Deklarisana promenljiva n na liniji 13
+INFO  01:11:04,725 - Deklarisana promenljiva j na liniji 13
+INFO  01:11:04,725 - Deklarisana promenljiva min na liniji 13
+INFO  01:11:04,725 - Deklarisana promenljiva i na liniji 13
+INFO  01:11:04,726 - Pronadjen If statement na liniji 19
+INFO  01:11:04,726 - Pristup elementu niza na liniji 20
+INFO  01:11:04,726 - Pristup elementu niza na liniji 22
+INFO  01:11:04,726 - Pronadjen Do While statement na liniji 18
+INFO  01:11:04,726 - Pronadjen poziv funkcije printArrayChar na liniji 27
+INFO  01:11:04,727 - Pronadjen If statement na liniji 34
+INFO  01:11:04,727 - Pristup elementu niza na liniji 35
+INFO  01:11:04,727 - Pristup elementu niza na liniji 36
+INFO  01:11:04,728 - Pristup elementu niza na liniji 36
+INFO  01:11:04,728 - Pristup elementu niza na liniji 37
+INFO  01:11:04,728 - Pristup elementu niza na liniji 38
+INFO  01:11:04,728 - Pronadjen If statement na liniji 38
+INFO  01:11:04,728 - Pristup elementu niza na liniji 39
+INFO  01:11:04,728 - Pristup elementu niza na liniji 40
+INFO  01:11:04,728 - Pristup elementu niza na liniji 40
+INFO  01:11:04,728 - Pristup elementu niza na liniji 41
+INFO  01:11:04,728 - Pronadjen Do While statement na liniji 33
+INFO  01:11:04,728 - Pronadjen Do While statement na liniji 30
+INFO  01:11:04,728 - Poziv print funkcije na liniji 48
+INFO  01:11:04,728 - Pronadjen poziv funkcije printArrayChar na liniji 49
+INFO  01:11:04,728 - Pronadjen poziv funkcije printArrayChar na liniji 52
+INFO  01:11:04,728 - Poziv print funkcije na liniji 53
+INFO  01:11:04,728 - Pristup elementu niza na liniji 56
+INFO  01:11:04,728 - Pristup elementu niza na liniji 57
+INFO  01:11:04,728 - Pristup elementu niza na liniji 58
+INFO  01:11:04,728 - Pronadjen poziv funkcije printArrayChar na liniji 59
+INFO  01:11:04,729 - Generating bytecode file: E:\7_semestar\PP1\Projekat\workspace\MJCompiler\test\sort_test.obj
+INFO  01:11:04,734 - Parsiranje uspesno zavrseno!

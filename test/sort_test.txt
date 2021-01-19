@@ -1,0 +1,64 @@
+program testSort
+	char nizch[];
+{
+	void printArrayChar(char arrch[]) int i;{
+		i = 0;
+		if(len(arrch) == 0) return;
+		do{
+			print(arrch[i], 2);
+			i++;
+		}while(i < len(arrch));
+	}
+	
+	void main()	int i, n, j, min;{
+		i = 0;
+		n = 10;
+		nizch = new char[n];
+		
+		do{		//pokusaj nekog random haha 
+			if(i % 2 == 1 ){
+				nizch[i] = chr(65 + i - 1);				
+			} else {
+				nizch[i] = chr(65 + i + 2);
+			}
+			i++;
+		}while(i < n);
+		
+		printArrayChar(nizch);
+		
+		i = 0;
+		do{		//insertion sort
+			j = i;
+			min = -1;
+			do{		//insertion sort
+				if(min == -1) {
+					min = ord(nizch[j]);
+					nizch[j] = nizch[i];
+					nizch[i] = chr(min);
+				}else if(ord(nizch[j]) < min) {
+					min = ord(nizch[j]);
+					nizch[j] = nizch[i];
+					nizch[i] = chr(min);
+				}
+				j++;
+			}while(j < n);
+			i++;
+		}while(i < n);
+		
+		print(eol);
+		printArrayChar(nizch);
+		
+		nizch = new char[0];
+		printArrayChar(nizch);
+		print(eol);
+		
+		nizch = new char[3];
+		nizch[0] = 'a';
+		nizch[1] = 'b';
+		nizch[2] = 'c';
+		printArrayChar(nizch);
+	}
+}
+
+
+
